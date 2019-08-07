@@ -13,18 +13,19 @@ Protokol 17.08.19
 	- Gitlab: https://gitlab.cl.uni-heidelberg.de/users/sign_in
 	- https://gitlab.cl.uni-heidelberg.de/nwarslan/srl.git
 
-Clonen:
+	- Zuerst immer:
+		git pull
 
-git clone https://gitlab.cl.uni-heidelberg.de/nwarslan/srl.git
-git status
-git add Protokol
-git commit -m 'Protokol hinzugefügt'
-git push
+	- Clonen:
+		git clone https://gitlab.cl.uni-heidelberg.de/nwarslan/srl.git
 
-git pull
+	- Dateien hinzufügen:
+		git status
+		git add Protokol
+		git commit -m 'Protokol hinzugefügt'
+		git push
 
-
-- Aufgabe: 
+- Aufgaben: 
 	- welche Semantic Types sind von Interesse?
 	- welche Frames sind von Interesse?
 	- welche Lexical Units sind von Interesse?
