@@ -1,0 +1,23 @@
+
+
+Protokol 17.08.19
+=================
+
+- Framenet in NLTK installiert
+- Framenet-How-To durchgelesen: http://www.nltk.org/howto/framenet.html
+- mehr Infos zur Benutzung in Python: 
+	from nltk.corpus import framenet as fn
+	fn.help()
+
+- gitlab einrichten
+	- Gitlab: https://gitlab.cl.uni-heidelberg.de/users/sign_in
+	- https://gitlab.cl.uni-heidelberg.de/nwarslan/srl.git
+
+Clonen:
+
+git clone https://gitlab.cl.uni-heidelberg.de/nwarslan/srl.git
+
+- Aufgabe: 
+	- welche Semantic Types sind von Interesse?
+	- welche Frames sind von Interesse?
+	- welche Lexical Units sind von Interesse?
