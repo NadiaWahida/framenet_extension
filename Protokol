@@ -16,6 +16,13 @@ Protokol 17.08.19
 Clonen:
 
 git clone https://gitlab.cl.uni-heidelberg.de/nwarslan/srl.git
+git status
+git add Protokol
+git commit -m 'Protokol hinzugefügt'
+git push
+
+git pull
+
 
 - Aufgabe: 
 	- welche Semantic Types sind von Interesse?
