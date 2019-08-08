@@ -1,8 +1,3 @@
-
-
-Adjektive
-=========
-
 ridiculous
 good
 lucky
@@ -20,19 +15,10 @@ angry
 ugly
 beautiful
 scared
-
-Nomen
-=====
-
 fear
 love
 anger
 happiness
-
-
-Verben
-======
-
 laugh
 love
 hate
@@ -40,4 +26,4 @@ offend
 complement
 brag
 fear
-trick sb
+trick
