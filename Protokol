@@ -1,3 +1,48 @@
+Protokol 08.08.19
+=================
+
+zwei Skripte geschrieben:
+
+- search_lu.py:
+	INPUT: ein File ('beispielwörter.txt'), in dem je ein Wort pro Zeile gespeichert ist
+	OUTPUT: ein File ('lexUnits.txt'), in dem Informationen zu allen LexicalUnits der gesuchten Wörter stehen
+
+	Informationen sind: Name und ID der LU, Framename und ID der LU, SemanticTypes der LU
+
+- get_frames_by_semType.py:
+	filtert Frames, die genannte SemanticTypes haben
+
+Aufgaben:
+=========
+
+1) Liste von Beispielwörtern erweitern
+
+	a)	- schaue in FrameNet welche Wörter bestimmte Semanische Typen haben
+		- durch 'search_lus.py' haben wir schon einige semantische Typen gefunden
+		- z.B.: 
+			[<semtype ID=98 name=End_of_scale>]
+			[<semtype ID=13 name=Positive_judgment>]
+			[<semtype ID=99 name=Negative>]
+			[<semtype ID=13 name=Negative_judgment>]
+		- speichern in einer neuen Liste z.B.: 'lus_with_semType.txt'
+
+		TO DO: 
+			- iteriere über alle Frames
+			- iteriere über alle LexicalUnits
+			- check ob gewollter semType
+			- wenn ja -> speichern in file
+		OUTPUT: file
+			lexicalUnit.name	lexicalUnit.ID		semType
+
+	b) 	- neue ausgedachte Wörter zur Liste hinzufügen
+
+
+2) Interessante Frames finden
+
+
+3) Projektvorhaben schreiben
+
+
 
 Protokol 07.08.19
 =================
@@ -27,4 +72,4 @@ Protokol 07.08.19
 - Aufgaben: 
 	- welche Semantic Types sind von Interesse?
 	- welche Frames sind von Interesse?
-	- welche Lexical Units sind von Interesse?
+	- welche Lexical Units sind von Interesse
