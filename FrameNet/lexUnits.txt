@@ -1,0 +1,528 @@
+ridiculous.a	416
+Mental_property	29
+[]
+
+a good.a	14274
+Proportional_quantity	1923
+[]
+
+good idea.n	11823
+Desirable_event	1383
+[]
+
+good-humored.a	13864
+Social_interaction_evaluation	372
+[]
+
+good-natured.a	13830
+Social_interaction_evaluation	372
+[]
+
+good.a	6287
+Desirability	354
+[]
+
+good.a	6645
+Morality_evaluation	370
+[]
+
+good.a	6770
+Social_interaction_evaluation	372
+[]
+
+good.a	9110
+Usefulness	726
+[]
+
+good.a	9259
+Expertise	136
+[]
+
+goods.n	2899
+Commerce_scenario	82
+[]
+
+possession [of goods].n	5301
+Possession	118
+[]
+
+lucky.a	13627
+Luck	1811
+[]
+
+great-granddaughter.n	2180
+Kinship	104
+[]
+
+great-grandson.n	2179
+Kinship	104
+[]
+
+great.a	6316
+Desirability	354
+[<semtype ID=98 name=End_of_scale>]
+
+great.a	9258
+Expertise	136
+[]
+
+great.a	9286
+Usefulness	726
+[]
+
+great.a	16282
+Size	2282
+[]
+
+great.a	16311
+Degree	2001
+[<semtype ID=224 name=Bound_dependent_LU>, <semtype ID=98 name=End_of_scale>]
+
+great.a	16312
+Notability	2542
+[<semtype ID=13 name=Positive_judgment>]
+
+greatcoat.n	2911
+Clothing	134
+[]
+
+lovely.a	10207
+Aesthetics	1016
+[]
+
+amazing.a	7652
+Desirability	354
+[<semtype ID=98 name=End_of_scale>]
+
+amazing.a	7653
+Stimulus_focus	364
+[]
+
+confine.v	4506
+Inhibit_movement	245
+[]
+
+confinement.n	7655
+Inhibit_movement	245
+[]
+
+define.v	9808
+Communicate_categorization	796
+[]
+
+define.v	11114
+Categorization	21
+[]
+
+fine.a	6312
+Desirability	354
+[]
+
+fine.a	9280
+Usefulness	726
+[]
+
+fine.a	17689
+Emotion_directed	46
+[]
+
+fine.n	3883
+Fining	223
+[<semtype ID=226 name=Participating_entity>]
+
+fine.v	3882
+Fining	223
+[]
+
+finery.n	2937
+Clothing	134
+[]
+
+redefine.v	9812
+Communicate_categorization	796
+[]
+
+bejewelled.a	7022
+Abounding_with	262
+[]
+
+dwell (on).v	8904
+Topic	373
+[]
+
+dwell.v	212
+Cogitation	22
+[]
+
+dwell.v	2215
+Residence	110
+[]
+
+dweller.n	2366
+Residence	110
+[]
+
+dwelling.n	3010
+Buildings	173
+[]
+
+jewellery.n	3362
+Accoutrements	158
+[]
+
+swell.v	1662
+Cause_expansion	77
+[]
+
+swell.v	9502
+Cause_change_of_position_on_a_scale	96
+[]
+
+swell.v	12581
+Change_position_on_a_scale	91
+[]
+
+swell.v	12582
+Expansion	725
+[]
+
+unwell.a	13090
+Medical_conditions	239
+[]
+
+well known.a	13890
+Fame	1880
+[]
+
+well-off.a	1804
+Wealthiness	85
+[]
+
+well-versed.a	2706
+Expertise	136
+[]
+
+well.adv	18721
+Desirability	354
+[]
+
+wellington.n	3551
+Clothing	134
+[]
+
+welly.n	3550
+Clothing	134
+[]
+
+wonderful.a	6142
+Desirability	354
+[<semtype ID=98 name=End_of_scale>]
+
+wonderful.a	9251
+Expertise	136
+[]
+
+wonderful.a	9278
+Usefulness	726
+[]
+
+bad apple.n	10504
+People_by_morality	1102
+[]
+
+bad idea.n	11822
+Desirable_event	1383
+[]
+
+bad.a	6288
+Desirability	354
+[<semtype ID=99 name=Negative>]
+
+bad.a	6630
+Morality_evaluation	370
+[]
+
+bad.a	9121
+Expertise	136
+[]
+
+badge.n	3616
+Accoutrements	158
+[]
+
+badger.v	1898
+Manipulate_into_doing	92
+[]
+
+badinage.n	9965
+Chatting	910
+[]
+
+horrible.a	6272
+Desirability	354
+[<semtype ID=98 name=End_of_scale>, <semtype ID=99 name=Negative>]
+
+horrible.a	6733
+Social_interaction_evaluation	372
+[]
+
+evil.a	6514
+Morality_evaluation	370
+[]
+
+evildoer.n	10507
+People_by_morality	1102
+[]
+
+dreadful.a	6280
+Desirability	354
+[<semtype ID=98 name=End_of_scale>, <semtype ID=99 name=Negative>]
+
+dreadful.a	6664
+Stimulus_focus	364
+[]
+
+dreadful.a	9262
+Expertise	136
+[]
+
+angry.a	769
+Emotion_directed	46
+[]
+
+ugly.a	11628
+Aesthetics	1016
+[]
+
+beautiful.a	10206
+Aesthetics	1016
+[]
+
+scared.a	14949
+Fear	2052
+[]
+
+fear.n	14947
+Fear	2052
+[]
+
+fear.v	872
+Experiencer_focus	48
+[]
+
+live in fear.v	16357
+Fear	2052
+[]
+
+glove.n	3142
+Clothing	134
+[]
+
+gloved.a	3973
+Wearing	160
+[]
+
+gloveless.a	3974
+Wearing	160
+[]
+
+love bite.n	7098
+Body_mark	393
+[]
+
+love.v	880
+Experiencer_focus	48
+[]
+
+lovely.a	10207
+Aesthetics	1016
+[]
+
+lover.n	2050
+Personal_relationship	102
+[]
+
+make love.v	17947
+Sex	2913
+[]
+
+pullover.n	2995
+Clothing	134
+[]
+
+anger.n	7254
+Emotion_directed	46
+[]
+
+anger.v	783
+Experiencer_obj	47
+[]
+
+danger.n	13401
+Risky_situation	1762
+[]
+
+danger.n	13506
+Being_at_risk	1560
+[]
+
+dangerous.a	13379
+Risky_situation	1762
+[]
+
+endanger.v	8504
+Endangering	631
+[]
+
+endangered.a	6670
+Run_risk	378
+[]
+
+endangerment.n	8505
+Endangering	631
+[]
+
+stranger.n	14357
+Indigenous_origin	1552
+[]
+
+laugh.v	8720
+Make_noise	69
+[]
+
+manslaughter.n	7844
+Offenses	432
+[]
+
+onslaught.n	7763
+Attack	424
+[]
+
+slaughter.n	9053
+Killing	590
+[]
+
+slaughter.v	9048
+Killing	590
+[]
+
+slaughterer.n	9088
+Killing	590
+[<semtype ID=102 name=Agentive_noun>]
+
+glove.n	3142
+Clothing	134
+[]
+
+gloved.a	3973
+Wearing	160
+[]
+
+gloveless.a	3974
+Wearing	160
+[]
+
+love bite.n	7098
+Body_mark	393
+[]
+
+love.v	880
+Experiencer_focus	48
+[]
+
+lovely.a	10207
+Aesthetics	1016
+[]
+
+lover.n	2050
+Personal_relationship	102
+[]
+
+make love.v	17947
+Sex	2913
+[]
+
+pullover.n	2995
+Clothing	134
+[]
+
+chateau.n	3095
+Buildings	173
+[]
+
+hate.v	875
+Experiencer_focus	48
+[]
+
+offend.v	6480
+Experiencer_obj	47
+[]
+
+offend.v	14865
+Cause_emotion	2041
+[]
+
+offended.a	8874
+Emotion_directed	46
+[]
+
+complement.n	10173
+Rest	1000
+[]
+
+complement.v	10686
+Rest	1000
+[]
+
+brag.v	12749
+Bragging	1624
+[]
+
+braggart.n	13215
+Bragging	1624
+[<semtype ID=102 name=Agentive_noun>]
+
+fear.n	14947
+Fear	2052
+[]
+
+fear.v	872
+Experiencer_focus	48
+[]
+
+live in fear.v	16357
+Fear	2052
+[]
+
+do the trick.v	11835
+Successful_action	1389
+[]
+
+grief-stricken.a	8833
+Emotion_directed	46
+[]
+
+terror-stricken.a	6952
+Emotion_directed	46
+[]
+
+trick.v	1899
+Manipulate_into_doing	92
+[]
+
+trick.v	16394
+Intentional_deception	2570
+[]
+
+trickle.n	3840
+Quantified_mass	189
+[<semtype ID=9 name=Transparent Noun>]
+
+trickle.v	6018
+Fluidic_motion	345
+[]
+
+tricky.a	6572
+Difficulty	375
+[<semtype ID=99 name=Negative>]
+
