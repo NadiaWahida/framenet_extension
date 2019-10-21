@@ -1,0 +1,4 @@
+Positive_judgment
+Negative_judgment
+Negative
+End_of_scale
