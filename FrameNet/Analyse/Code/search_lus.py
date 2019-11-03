@@ -7,7 +7,7 @@ Created on Wed Aug 8 16:29 2019
 """
 from nltk.corpus import framenet as fn
 
-INPUT = 'beispielwörter.txt'
+INPUT = '../Data/beispielwörter.txt'
 OUTPUT = 'lexUnits.txt'
 
 def open_file(filename):
@@ -29,7 +29,7 @@ def get_lus(word):
     lus = fn.lu_ids_and_names(word)
     return lus
 
-def get_lu_info(lu_id):
+def get_lu_info(lu_id, sem_types_dict):
     name = fn.lu(lu_id).name + '\t' + str(lu_id)
     frame = fn.lu(lu_id).frame.name + '\t' + str(fn.lu(lu_id).frame.ID)
     semTypes = fn.lu(lu_id).semTypes
@@ -41,15 +41,16 @@ def get_lu_info(lu_id):
 if __name__=='__main__':
     
     words = open_file(INPUT)
-    #words = []
+
+    sem_types_dict = {}
     for word in words:
         print(word)
         lus = get_lus(word)
         for lu_id in lus.keys():
             print(lu_id)
-            info = get_lu_info(lu_id)
+            info = get_lu_info(lu_id, sem_types_dict)
             print(info)
-            write_file(OUTPUT, info)
+            #write_file(OUTPUT, info)
 
 
 
