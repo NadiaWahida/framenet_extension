@@ -1,0 +1,10 @@
+Sanaz To Do:
+
+- Mehr Wörter für /FrameNet/Data/beispielwörter.txt finden
+
+- Code kommentieren:
+	- /FrameNet/Code/get_lus_by_semtypes.py
+	- /FrameNet/Code/get_frames_by_semType.py
+
+
+
