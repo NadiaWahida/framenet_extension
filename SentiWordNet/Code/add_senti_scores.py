@@ -30,9 +30,6 @@ def add_senti_score(lu_dict):
         senti_dict[sem_type] = []
         for lu in lu_dict[sem_type]:
             lu_name = lu['lu'].split('.')
-            print('#'*10)
-            print(lu_name)
-            print('-'*10)
             if lu_name[1] not in ['a','v','n','r']:
                 continue
             scores = []
@@ -48,7 +45,6 @@ def add_senti_score(lu_dict):
                     neg += score[1]
                 pos = round((pos / len(scores)),4)
                 neg = round(neg / len(scores),4)
-                print(lu_name,lu['lu_id'], pos, neg)
                 lu['senti_score'] = [pos,neg]
                 senti_dict[sem_type].append(lu)
     return senti_dict
