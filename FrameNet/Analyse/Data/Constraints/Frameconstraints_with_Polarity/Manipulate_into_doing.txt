@@ -1,0 +1,4 @@
+Manipulate_into_doing	Victim
+<Source=Manipulate_into_doing.Victim -- Polarity=neg -> Target=Manipulate_into_doing>
+<Source=Manipulate_into_doing.Victim -- Polarity=neg -> Target=?_t>
+<Source=?_x -- Polarity=neg -> Target=Manipulate_into_doing>

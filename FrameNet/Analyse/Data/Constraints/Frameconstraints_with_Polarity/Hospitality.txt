@@ -1,0 +1,11 @@
+Hospitality	Host	Judge	Behavior	Topic
+<Source=Hospitality.Host -- Polarity=pos -> Target=Hospitality.Judge>
+<Source=Hospitality.Host -- Polarity=pos -> Target=?_t>
+<Source=Hospitality.Judge -- Polarity=pos -> Target=Hospitality.Host>
+<Source=Hospitality.Judge -- Polarity=pos -> Target=Hospitality.Behavior>
+<Source=Hospitality.Judge -- Polarity=pos -> Target=Hospitality.Topic>
+<Source=Hospitality.Judge -- Polarity=pos -> Target=?_t>
+<Source=?_s -- Polarity=pos -> Target=Hospitality.Host>
+<Source=?_s -- Polarity=pos -> Target=Hospitality.Behavior>
+<Source=?_s -- Polarity=pos -> Target=Hospitality.Topic>
+<Source=?_x -- Polarity=pos -> Target=Hospitality>

@@ -1,0 +1,13 @@
+<Source=Social_interaction_evaluation.Evaluee -- Polarity=?_p -> Target=Social_interaction_evaluation.Affected_party>
+<Source=Social_interaction_evaluation.Evaluee -- Polarity=?_p -> Target=Social_interaction_evaluation.Judge>
+<Source=Social_interaction_evaluation.Evaluee -- Polarity=?_p -> Target=Social_interaction_evaluation.Evaluee>
+<Source=Social_interaction_evaluation.Evaluee -- Polarity=?_p -> Target=Social_interaction_evaluation.Behavior>
+<Source=Social_interaction_evaluation.Evaluee -- Polarity=?_p -> Target=Social_interaction_evaluation.Topic>
+<Source=Social_interaction_evaluation.Affected_party -- Polarity=?_lu -> Target=Social_interaction_evaluation.Evaluee>
+<Source=Social_interaction_evaluation.Affected_party -- Polarity=?_p -> Target=Social_interaction_evaluation.Judge>
+<Source=Social_interaction_evaluation.Affected_party -- Polarity=?_lu -> Target=Social_interaction_evaluation.Behavior>
+<Source=Social_interaction_evaluation.Affected_party -- Polarity=?_lu -> Target=Social_interaction_evaluation.Topic>
+<Source=Social_interaction_evaluation.Judge -- Polarity=?_lu -> Target=Social_interaction_evaluation.Evaluee>
+<Source=Social_interaction_evaluation.Judge -- Polarity=?_p -> Target=Social_interaction_evaluation.Affected_party>
+<Source=Social_interaction_evaluation.Judge -- Polarity=?_lu -> Target=Social_interaction_evaluation.Behavior>
+<Source=Social_interaction_evaluation.Judge -- Polarity=?_lu -> Target=Social_interaction_evaluation.Topic>

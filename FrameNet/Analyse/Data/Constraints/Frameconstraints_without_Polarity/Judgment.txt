@@ -1,0 +1,2 @@
+<Source=Judgment.Cognizer -- Polarity=?_lu -> Target=Judgment.Evaluee>
+<Source=Judgment.Cognizer -- Polarity=?_lu -> Target=Judgment.Topic>

@@ -1,0 +1,3 @@
+Protecting	Asset
+<Source=?_s -- Polarity=pos -> Target=Protecting.Asset>
+<Source=?_x -- Polarity=pos -> Target=Protecting>

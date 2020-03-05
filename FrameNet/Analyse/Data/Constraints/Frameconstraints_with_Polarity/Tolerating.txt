@@ -1,0 +1,8 @@
+Tolerating	Experiencer	Content	Topic	Event
+<Source=Tolerating.Experiencer -- Polarity=neg -> Target=Tolerating.Content>
+<Source=Tolerating.Experiencer -- Polarity=neg -> Target=Tolerating.Topic>
+<Source=Tolerating.Experiencer -- Polarity=neg -> Target=Tolerating.Event>
+<Source=Tolerating.Experiencer -- Polarity=neg -> Target=?_t>
+<Source=?_s -- Polarity=neg -> Target=Tolerating.Content>
+<Source=?_s -- Polarity=neg -> Target=Tolerating.Topic>
+<Source=?_s -- Polarity=neg -> Target=Tolerating.Event>

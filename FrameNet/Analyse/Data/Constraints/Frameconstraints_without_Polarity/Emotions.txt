@@ -1,0 +1,2 @@
+<Source=Emotions.Experiencer -- Polarity=?_lu -> Target=Emotions.Topic>
+<Source=Emotions.Experiencer -- Polarity=?_lu -> Target=Emotions.Event>

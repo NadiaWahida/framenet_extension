@@ -1,0 +1,1 @@
+<Source=Luck.Protagonist -- Polarity=?_lu -> Target=Luck.State_of_affairs>

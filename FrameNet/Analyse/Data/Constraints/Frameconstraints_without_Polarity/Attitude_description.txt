@@ -1,0 +1,1 @@
+<Source=Attitude_description.Cognizer -- Polarity=?_lu -> Target=Attitude_description.State_of_affairs>
