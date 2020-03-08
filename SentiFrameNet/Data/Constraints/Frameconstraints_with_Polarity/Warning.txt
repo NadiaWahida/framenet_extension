@@ -1,0 +1,13 @@
+Warning	Speaker	Addressee	Message	Topic
+<Source=?_x -- Polarity=pos -> Target=Warning>
+<Source=Warning.Speaker -- Polarity=pos -> Target=Warning.Addressee>
+<Source=Warning.Speaker -- Polarity=pos -> Target=?_t>
+<Source=Warning.Speaker -- Polarity=neg -> Target=Warning.Message>
+<Source=Warning.Speaker -- Polarity=neg -> Target=Warning.Topic>
+<Source=Warning.Speaker -- Polarity=neg -> Target=?_t>
+<Source=Warning.Addressee -- Polarity=neg -> Target=Warning.Message>
+<Source=Warning.Addressee -- Polarity=neg -> Target=Warning.Topic>
+<Source=Warning.Addressee -- Polarity=neg -> Target=?_t>
+<Source=?_s -- Polarity=pos -> Target=Warning.Addressee>
+<Source=?_s -- Polarity=neg -> Target=Warning.Message>
+<Source=?_s -- Polarity=neg -> Target=Warning.Topic>

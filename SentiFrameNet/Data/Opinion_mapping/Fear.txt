@@ -1,0 +1,120 @@
+########################################################################################################################
+lu:    afraid.a
+frame:    Fear
+text:    The gossip among the servants is that their master is terribly afraid of something .
+Target:    afraid 
+FE:    {'Experiencer': 'their master', 'Degree': 'terribly', 'Topic': 'of something'}
+FE_unexpr:    {}
+====================================================================================================
+Fear.Experiencer neg Fear.Topic
+their master     -- negative ->    of something
+----------------------------------------------------------------------------------------------------
+Fear.Experiencer neg ?_t
+their master     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Fear.Topic
+_SOMEONE     -- negative ->    of something
+----------------------------------------------------------------------------------------------------
+?_x neg Fear
+_GENERAL     -- negative ->    Fear
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    afraid.a
+frame:    Fear
+text:    Morrissey could n't understand why people ( men in particular ) were terribly afraid of emotionalism . 
+Target:    afraid 
+FE:    {'Experiencer': 'people ( men in particular )', 'Degree': 'terribly', 'Stimulus': 'of emotionalism'}
+FE_unexpr:    {}
+====================================================================================================
+Fear.Experiencer neg Fear.Stimulus
+people ( men in particular )     -- negative ->    of emotionalism
+----------------------------------------------------------------------------------------------------
+Fear.Experiencer neg ?_t
+people ( men in particular )     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Fear.Stimulus
+_SOMEONE     -- negative ->    of emotionalism
+----------------------------------------------------------------------------------------------------
+?_x neg Fear
+_GENERAL     -- negative ->    Fear
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    afraid.a
+frame:    Fear
+text:    The gossip among the servants is that their master is terribly afraid of something .
+Target:    afraid 
+FE:    {'Experiencer': 'their master', 'Degree': 'terribly', 'Topic': 'of something'}
+FE_unexpr:    {}
+====================================================================================================
+Fear.Experiencer neg Fear.Topic
+their master     -- negative ->    of something
+----------------------------------------------------------------------------------------------------
+Fear.Experiencer neg ?_t
+their master     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Fear.Topic
+_SOMEONE     -- negative ->    of something
+----------------------------------------------------------------------------------------------------
+?_x neg Fear
+_GENERAL     -- negative ->    Fear
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    afraid.a
+frame:    Fear
+text:    Morrissey could n't understand why people ( men in particular ) were terribly afraid of emotionalism . 
+Target:    afraid 
+FE:    {'Experiencer': 'people ( men in particular )', 'Degree': 'terribly', 'Stimulus': 'of emotionalism'}
+FE_unexpr:    {}
+====================================================================================================
+Fear.Experiencer neg Fear.Stimulus
+people ( men in particular )     -- negative ->    of emotionalism
+----------------------------------------------------------------------------------------------------
+Fear.Experiencer neg ?_t
+people ( men in particular )     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Fear.Stimulus
+_SOMEONE     -- negative ->    of emotionalism
+----------------------------------------------------------------------------------------------------
+?_x neg Fear
+_GENERAL     -- negative ->    Fear
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    afraid.a
+frame:    Fear
+text:    The gossip among the servants is that their master is terribly afraid of something .
+Target:    afraid 
+FE:    {'Experiencer': 'their master', 'Degree': 'terribly', 'Topic': 'of something'}
+FE_unexpr:    {}
+====================================================================================================
+Fear.Experiencer neg Fear.Topic
+their master     -- negative ->    of something
+----------------------------------------------------------------------------------------------------
+Fear.Experiencer neg ?_t
+their master     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Fear.Topic
+_SOMEONE     -- negative ->    of something
+----------------------------------------------------------------------------------------------------
+?_x neg Fear
+_GENERAL     -- negative ->    Fear
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    afraid.a
+frame:    Fear
+text:    Morrissey could n't understand why people ( men in particular ) were terribly afraid of emotionalism . 
+Target:    afraid 
+FE:    {'Experiencer': 'people ( men in particular )', 'Degree': 'terribly', 'Stimulus': 'of emotionalism'}
+FE_unexpr:    {}
+====================================================================================================
+Fear.Experiencer neg Fear.Stimulus
+people ( men in particular )     -- negative ->    of emotionalism
+----------------------------------------------------------------------------------------------------
+Fear.Experiencer neg ?_t
+people ( men in particular )     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Fear.Stimulus
+_SOMEONE     -- negative ->    of emotionalism
+----------------------------------------------------------------------------------------------------
+?_x neg Fear
+_GENERAL     -- negative ->    Fear
+----------------------------------------------------------------------------------------------------

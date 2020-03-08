@@ -1,2 +1,0 @@
-<Source=Praiseworthiness.Judge -- Polarity=?_lu -> Target=Praiseworthiness.Evaluee>
-<Source=Praiseworthiness.Judge -- Polarity=?_lu -> Target=Praiseworthiness.Behavior>

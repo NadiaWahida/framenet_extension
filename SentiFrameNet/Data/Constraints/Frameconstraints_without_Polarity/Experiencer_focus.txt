@@ -1,0 +1,9 @@
+Experiencer_focus	Experiencer	Content	Topic	Event
+<Source=?_x -- Polarity=?_p -> Target=Experiencer_focus.?_lu>
+<Source=Experiencer_focus.Experiencer -- Polarity=?_p -> Target=Experiencer_focus.Content>
+<Source=Experiencer_focus.Experiencer -- Polarity=?_p -> Target=Experiencer_focus.Topic>
+<Source=Experiencer_focus.Experiencer -- Polarity=?_p -> Target=Experiencer_focus.Event>
+<Source=Experiencer_focus.Experiencer -- Polarity=?_p -> Target=?_t>
+<Source=?_s -- Polarity=?_p -> Target=Experiencer_focus.Content>
+<Source=?_s -- Polarity=?_p -> Target=Experiencer_focus.Topic>
+<Source=?_s -- Polarity=?_p -> Target=Experiencer_focus.Event>

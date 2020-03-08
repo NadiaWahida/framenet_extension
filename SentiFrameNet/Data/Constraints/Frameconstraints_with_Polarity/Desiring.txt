@@ -1,0 +1,4 @@
+Desiring	Experiencer	Event
+<Source=Desiring.Experiencer -- Polarity=pos -> Target=Desiring.Event>
+<Source=Desiring.Experiencer -- Polarity=pos -> Target=?_t>
+<Source=?_s -- Polarity=pos -> Target=Desiring.Event>

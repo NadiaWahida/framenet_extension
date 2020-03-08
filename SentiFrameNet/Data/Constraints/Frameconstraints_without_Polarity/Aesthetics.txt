@@ -1,0 +1,5 @@
+Aesthetics	Viewpoint	Entity
+<Source=?_x -- Polarity=?_p -> Target=Aesthetics.?_lu>
+<Source=Aesthetics.Viewpoint -- Polarity=?_p -> Target=Aesthetics.Entity>
+<Source=Aesthetics.Viewpoint -- Polarity=?_p -> Target=?_t>
+<Source=?_s -- Polarity=?_p -> Target=Aesthetics.Entity>

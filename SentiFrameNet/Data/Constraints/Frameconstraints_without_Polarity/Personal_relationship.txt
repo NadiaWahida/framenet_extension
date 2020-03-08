@@ -1,0 +1,8 @@
+Personal_relationship	Partner_1	Partner_2	Partners	
+<Source=?_x -- Polarity=?_p -> Target=Personal_relationship.?_lu>
+<Source=Personal_relationship.Partner_1 -- Polarity=?_p -> Target=Personal_relationship.Partner_2>
+<Source=Personal_relationship.Partner_1 -- Polarity=?_p -> Target=?_t>
+<Source=Personal_relationship.Partner_2 -- Polarity=?_p -> Target=Personal_relationship.Partner_1>
+<Source=Personal_relationship.Partner_2 -- Polarity=?_p -> Target=?_t>
+<Source=?_s -- Polarity=?_p -> Target=Personal_relationship.Partner_1>
+<Source=?_s -- Polarity=?_p -> Target=Personal_relationship.Partner_2>

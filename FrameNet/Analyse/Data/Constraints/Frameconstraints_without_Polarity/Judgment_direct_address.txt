@@ -1,4 +1,0 @@
-<Source=Judgment_direct_address.Communicator -- Polarity=?_p -> Target=Judgment_direct_address.Addressee>
-<Source=Judgment_direct_address.Communicator -- Polarity=?_lu -> Target=Judgment_direct_address.Topic>
-<Source=Judgment_direct_address.Addressee -- Polarity=?_p -> Target=Judgment_direct_address.Communicator>
-<Source=Judgment_direct_address.Addressee -- Polarity=?_p -> Target=Judgment_direct_address.Topic>

@@ -1,0 +1,1707 @@
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    Mr Stringer now appears relatively safe , but he could have been the victim of his own success .
+Target:    safe 
+FE:    {'Asset': 'Mr Stringer', 'Time': 'now', 'Degree': 'relatively'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Mr Stringer
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    He 'll be quite safe now .
+Target:    safe 
+FE:    {'Asset': 'He', 'Degree': 'quite', 'Time': 'now'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     He
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    The Rokermen still need a point to be mathematically safe from relegation and Rogan said : ` If it was up to me I would rather be here helping make certain we are safe .
+Target:    safe 
+FE:    {'Asset': 'The Rokermen', 'Domain': 'mathematically', 'Harmful_event': 'from relegation'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from relegation
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     The Rokermen
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    You were never entirely safe from prying fingers in Chinatown , but I had to give it my best shot .
+Target:    safe 
+FE:    {'Dangerous_entity': 'You', 'Frequency': 'never', 'Degree': 'entirely', 'Harmful_event': 'from prying fingers', 'Place': 'in Chinatown'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from prying fingers
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    You
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    They were almost certainly safe now until after the holiday .
+Target:    safe 
+FE:    {'Asset': 'They', 'Time': 'now', 'Duration': 'until after the holiday'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     They
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    These are the groups most at risk from developing secondary complications .
+Target:    risk 
+FE:    {'Asset': 'the groups', 'Degree': 'most', 'Harmful_event': 'from developing secondary complications'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from developing secondary complications
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the groups
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    David Hinchliffe thinks individuals are more at risk in the privacy of their own homes .
+Target:    risk 
+FE:    {'Asset': 'individuals', 'Degree': 'more', 'Place': 'in the privacy of their own homes'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     individuals
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    If tamoxifen exerts antioestrogenic effects on bone women receiving long term treatment may be at greater risk of osteoporotic fracture .
+Target:    risk 
+FE:    {'Asset': 'women receiving long term treatment', 'Degree': 'greater', 'Harmful_event': 'of osteoporotic fracture'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    of osteoporotic fracture
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     women receiving long term treatment
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    Soft flabby growth in plants is as much at risk to disease attack and structural collapse as it is with ourselves and other animals .
+Target:    risk 
+FE:    {'Asset': 'Soft flabby growth in plants', 'Degree': 'as it is with ourselves and other animals', 'Harmful_event': 'to disease attack and structural collapse'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to disease attack and structural collapse
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Soft flabby growth in plants
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    To the crowd who assembled , the Provo Sergeant announced that anyone giving credit to members of the regiment which had just arrived did so at their own risk .
+Target:    risk 
+FE:    {'Asset': 'their own'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     their own
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    threat.n
+frame:    Being_at_risk
+text:    For a short time , at least 100 hikers were trapped in the mountains and a boy scout camp was also threatened by the blaze .
+Target:    threatened 
+FE:    {'Duration': 'For a short time', 'Asset': 'a boy scout camp', 'Dangerous_entity': 'by the blaze'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     a boy scout camp
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    by the blaze
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    So secure is this home that once the female spider has built it , she never leaves it .
+Target:    secure 
+FE:    {'Degree': 'that once the female spider has built it , she never leaves it', 'Asset': 'this home'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     this home
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    In the past , firms not authorised for investment business could feel fairly secure in the knowledge that if they did stray into it they would only be investigated in the event of a complaint .
+Target:    secure 
+FE:    {'Time': 'In the past', 'Asset': 'firms not authorised for investment business', 'Degree': 'fairly', 'Situation': 'in the knowledge that if they did stray into it they would only be investigated in the event of a complaint'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     firms not authorised for investment business
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    Actually , they were feeling quite secure at the time for the Museum building was hurricane proof , one of the strongest around .
+Target:    secure 
+FE:    {'Asset': 'they', 'Degree': 'quite', 'Time': 'at the time', 'Explanation': 'for the Museum building was hurricane proof , one of the strongest around'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    She felt suddenly more secure despite the fact that she was flanked by men with knives .
+Target:    secure 
+FE:    {'Asset': 'She', 'Time': 'suddenly', 'Degree': 'more'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     She
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    You might feel more secure on a hired platform tower .
+Target:    secure 
+FE:    {'Asset': 'You', 'Degree': 'more', 'Situation': 'on a hired platform tower'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     You
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    By the summer of 1322 Edward felt secure enough at home to embark on a final solution of the Scottish problem .
+Target:    secure 
+FE:    {'Time': 'By the summer of 1322', 'Asset': 'Edward', 'Degree': 'enough', 'Place': 'at home', 'Situation': 'to embark on a final solution of the Scottish problem'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Edward
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    security.n
+frame:    Being_at_risk
+text:    Third , the theory suggests why legislators who pay too much attention to national policy making relative to local benefit-seeking have lower security in office .
+Target:    security 
+FE:    {'Asset': 'legislators who pay too much attention to national policy making relative to local benefit-seeking', 'Degree': 'lower', 'Domain': 'in office'}
+FE_unexpr:    {'Harmful_event': 'INI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     legislators who pay too much attention to national policy making relative to local benefit-seeking
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    Mr Stringer now appears relatively safe , but he could have been the victim of his own success .
+Target:    safe 
+FE:    {'Asset': 'Mr Stringer', 'Time': 'now', 'Degree': 'relatively'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Mr Stringer
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    He 'll be quite safe now .
+Target:    safe 
+FE:    {'Asset': 'He', 'Degree': 'quite', 'Time': 'now'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     He
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    The Rokermen still need a point to be mathematically safe from relegation and Rogan said : ` If it was up to me I would rather be here helping make certain we are safe .
+Target:    safe 
+FE:    {'Asset': 'The Rokermen', 'Domain': 'mathematically', 'Harmful_event': 'from relegation'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from relegation
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     The Rokermen
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    You were never entirely safe from prying fingers in Chinatown , but I had to give it my best shot .
+Target:    safe 
+FE:    {'Dangerous_entity': 'You', 'Frequency': 'never', 'Degree': 'entirely', 'Harmful_event': 'from prying fingers', 'Place': 'in Chinatown'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from prying fingers
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    You
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    They were almost certainly safe now until after the holiday .
+Target:    safe 
+FE:    {'Asset': 'They', 'Time': 'now', 'Duration': 'until after the holiday'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     They
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    These are the groups most at risk from developing secondary complications .
+Target:    risk 
+FE:    {'Asset': 'the groups', 'Degree': 'most', 'Harmful_event': 'from developing secondary complications'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from developing secondary complications
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the groups
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    David Hinchliffe thinks individuals are more at risk in the privacy of their own homes .
+Target:    risk 
+FE:    {'Asset': 'individuals', 'Degree': 'more', 'Place': 'in the privacy of their own homes'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     individuals
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    If tamoxifen exerts antioestrogenic effects on bone women receiving long term treatment may be at greater risk of osteoporotic fracture .
+Target:    risk 
+FE:    {'Asset': 'women receiving long term treatment', 'Degree': 'greater', 'Harmful_event': 'of osteoporotic fracture'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    of osteoporotic fracture
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     women receiving long term treatment
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    Soft flabby growth in plants is as much at risk to disease attack and structural collapse as it is with ourselves and other animals .
+Target:    risk 
+FE:    {'Asset': 'Soft flabby growth in plants', 'Degree': 'as it is with ourselves and other animals', 'Harmful_event': 'to disease attack and structural collapse'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to disease attack and structural collapse
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Soft flabby growth in plants
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    To the crowd who assembled , the Provo Sergeant announced that anyone giving credit to members of the regiment which had just arrived did so at their own risk .
+Target:    risk 
+FE:    {'Asset': 'their own'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     their own
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vulnerable.a
+frame:    Being_at_risk
+text:    For example , first-term members of the House , once the most vulnerable of incumbents , have become virtually immune to defeat .
+Target:    vulnerable 
+FE:    {'Asset': 'first-term members of the House', 'Time': 'once', 'Degree': 'most', 'Domain': 'of incumbents'}
+FE_unexpr:    {'Dangerous_entity': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     first-term members of the House
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vulnerable.a
+frame:    Being_at_risk
+text:    Because these freshmen placed far more emphasis on their partisan role -- spreading the Reagan revolution -- in national policy making , they were more vulnerable to defeat .
+Target:    vulnerable 
+FE:    {'Asset': 'they', 'Degree': 'more', 'Harmful_event': 'to defeat'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to defeat
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vulnerable.a
+frame:    Being_at_risk
+text:    How vulnerable is the United States to BW terrorism , and what types of attacks should it be most concerned about ?
+Target:    vulnerable 
+FE:    {'Degree': 'How', 'Asset': 'the United States', 'Dangerous_entity': 'to BW terrorism'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the United States
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    to BW terrorism
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    threatened.a
+frame:    Being_at_risk
+text:    For a short time , at least 100 hikers were trapped in the mountains and a boy scout camp was also threatened by the blaze .
+Target:    threatened 
+FE:    {'Duration': 'For a short time', 'Asset': 'a boy scout camp', 'Dangerous_entity': 'by the blaze'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     a boy scout camp
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    by the blaze
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    These are the groups most at risk from developing secondary complications .
+Target:    risk 
+FE:    {'Asset': 'the groups', 'Degree': 'most', 'Harmful_event': 'from developing secondary complications'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from developing secondary complications
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the groups
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    David Hinchliffe thinks individuals are more at risk in the privacy of their own homes .
+Target:    risk 
+FE:    {'Asset': 'individuals', 'Degree': 'more', 'Place': 'in the privacy of their own homes'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     individuals
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    If tamoxifen exerts antioestrogenic effects on bone women receiving long term treatment may be at greater risk of osteoporotic fracture .
+Target:    risk 
+FE:    {'Asset': 'women receiving long term treatment', 'Degree': 'greater', 'Harmful_event': 'of osteoporotic fracture'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    of osteoporotic fracture
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     women receiving long term treatment
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    Soft flabby growth in plants is as much at risk to disease attack and structural collapse as it is with ourselves and other animals .
+Target:    risk 
+FE:    {'Asset': 'Soft flabby growth in plants', 'Degree': 'as it is with ourselves and other animals', 'Harmful_event': 'to disease attack and structural collapse'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to disease attack and structural collapse
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Soft flabby growth in plants
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    To the crowd who assembled , the Provo Sergeant announced that anyone giving credit to members of the regiment which had just arrived did so at their own risk .
+Target:    risk 
+FE:    {'Asset': 'their own'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     their own
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    Mr Stringer now appears relatively safe , but he could have been the victim of his own success .
+Target:    safe 
+FE:    {'Asset': 'Mr Stringer', 'Time': 'now', 'Degree': 'relatively'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Mr Stringer
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    He 'll be quite safe now .
+Target:    safe 
+FE:    {'Asset': 'He', 'Degree': 'quite', 'Time': 'now'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     He
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    The Rokermen still need a point to be mathematically safe from relegation and Rogan said : ` If it was up to me I would rather be here helping make certain we are safe .
+Target:    safe 
+FE:    {'Asset': 'The Rokermen', 'Domain': 'mathematically', 'Harmful_event': 'from relegation'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from relegation
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     The Rokermen
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    You were never entirely safe from prying fingers in Chinatown , but I had to give it my best shot .
+Target:    safe 
+FE:    {'Dangerous_entity': 'You', 'Frequency': 'never', 'Degree': 'entirely', 'Harmful_event': 'from prying fingers', 'Place': 'in Chinatown'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from prying fingers
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    You
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    They were almost certainly safe now until after the holiday .
+Target:    safe 
+FE:    {'Asset': 'They', 'Time': 'now', 'Duration': 'until after the holiday'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     They
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    These are the groups most at risk from developing secondary complications .
+Target:    risk 
+FE:    {'Asset': 'the groups', 'Degree': 'most', 'Harmful_event': 'from developing secondary complications'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from developing secondary complications
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the groups
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    David Hinchliffe thinks individuals are more at risk in the privacy of their own homes .
+Target:    risk 
+FE:    {'Asset': 'individuals', 'Degree': 'more', 'Place': 'in the privacy of their own homes'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     individuals
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    If tamoxifen exerts antioestrogenic effects on bone women receiving long term treatment may be at greater risk of osteoporotic fracture .
+Target:    risk 
+FE:    {'Asset': 'women receiving long term treatment', 'Degree': 'greater', 'Harmful_event': 'of osteoporotic fracture'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    of osteoporotic fracture
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     women receiving long term treatment
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    Soft flabby growth in plants is as much at risk to disease attack and structural collapse as it is with ourselves and other animals .
+Target:    risk 
+FE:    {'Asset': 'Soft flabby growth in plants', 'Degree': 'as it is with ourselves and other animals', 'Harmful_event': 'to disease attack and structural collapse'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to disease attack and structural collapse
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Soft flabby growth in plants
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    To the crowd who assembled , the Provo Sergeant announced that anyone giving credit to members of the regiment which had just arrived did so at their own risk .
+Target:    risk 
+FE:    {'Asset': 'their own'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     their own
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    threat.n
+frame:    Being_at_risk
+text:    For a short time , at least 100 hikers were trapped in the mountains and a boy scout camp was also threatened by the blaze .
+Target:    threatened 
+FE:    {'Duration': 'For a short time', 'Asset': 'a boy scout camp', 'Dangerous_entity': 'by the blaze'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     a boy scout camp
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    by the blaze
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    So secure is this home that once the female spider has built it , she never leaves it .
+Target:    secure 
+FE:    {'Degree': 'that once the female spider has built it , she never leaves it', 'Asset': 'this home'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     this home
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    In the past , firms not authorised for investment business could feel fairly secure in the knowledge that if they did stray into it they would only be investigated in the event of a complaint .
+Target:    secure 
+FE:    {'Time': 'In the past', 'Asset': 'firms not authorised for investment business', 'Degree': 'fairly', 'Situation': 'in the knowledge that if they did stray into it they would only be investigated in the event of a complaint'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     firms not authorised for investment business
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    Actually , they were feeling quite secure at the time for the Museum building was hurricane proof , one of the strongest around .
+Target:    secure 
+FE:    {'Asset': 'they', 'Degree': 'quite', 'Time': 'at the time', 'Explanation': 'for the Museum building was hurricane proof , one of the strongest around'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    She felt suddenly more secure despite the fact that she was flanked by men with knives .
+Target:    secure 
+FE:    {'Asset': 'She', 'Time': 'suddenly', 'Degree': 'more'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     She
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    You might feel more secure on a hired platform tower .
+Target:    secure 
+FE:    {'Asset': 'You', 'Degree': 'more', 'Situation': 'on a hired platform tower'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     You
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    By the summer of 1322 Edward felt secure enough at home to embark on a final solution of the Scottish problem .
+Target:    secure 
+FE:    {'Time': 'By the summer of 1322', 'Asset': 'Edward', 'Degree': 'enough', 'Place': 'at home', 'Situation': 'to embark on a final solution of the Scottish problem'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Edward
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    security.n
+frame:    Being_at_risk
+text:    Third , the theory suggests why legislators who pay too much attention to national policy making relative to local benefit-seeking have lower security in office .
+Target:    security 
+FE:    {'Asset': 'legislators who pay too much attention to national policy making relative to local benefit-seeking', 'Degree': 'lower', 'Domain': 'in office'}
+FE_unexpr:    {'Harmful_event': 'INI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     legislators who pay too much attention to national policy making relative to local benefit-seeking
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    Mr Stringer now appears relatively safe , but he could have been the victim of his own success .
+Target:    safe 
+FE:    {'Asset': 'Mr Stringer', 'Time': 'now', 'Degree': 'relatively'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Mr Stringer
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    He 'll be quite safe now .
+Target:    safe 
+FE:    {'Asset': 'He', 'Degree': 'quite', 'Time': 'now'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     He
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    The Rokermen still need a point to be mathematically safe from relegation and Rogan said : ` If it was up to me I would rather be here helping make certain we are safe .
+Target:    safe 
+FE:    {'Asset': 'The Rokermen', 'Domain': 'mathematically', 'Harmful_event': 'from relegation'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from relegation
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     The Rokermen
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    You were never entirely safe from prying fingers in Chinatown , but I had to give it my best shot .
+Target:    safe 
+FE:    {'Dangerous_entity': 'You', 'Frequency': 'never', 'Degree': 'entirely', 'Harmful_event': 'from prying fingers', 'Place': 'in Chinatown'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from prying fingers
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    You
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    They were almost certainly safe now until after the holiday .
+Target:    safe 
+FE:    {'Asset': 'They', 'Time': 'now', 'Duration': 'until after the holiday'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     They
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    These are the groups most at risk from developing secondary complications .
+Target:    risk 
+FE:    {'Asset': 'the groups', 'Degree': 'most', 'Harmful_event': 'from developing secondary complications'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from developing secondary complications
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the groups
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    David Hinchliffe thinks individuals are more at risk in the privacy of their own homes .
+Target:    risk 
+FE:    {'Asset': 'individuals', 'Degree': 'more', 'Place': 'in the privacy of their own homes'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     individuals
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    If tamoxifen exerts antioestrogenic effects on bone women receiving long term treatment may be at greater risk of osteoporotic fracture .
+Target:    risk 
+FE:    {'Asset': 'women receiving long term treatment', 'Degree': 'greater', 'Harmful_event': 'of osteoporotic fracture'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    of osteoporotic fracture
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     women receiving long term treatment
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    Soft flabby growth in plants is as much at risk to disease attack and structural collapse as it is with ourselves and other animals .
+Target:    risk 
+FE:    {'Asset': 'Soft flabby growth in plants', 'Degree': 'as it is with ourselves and other animals', 'Harmful_event': 'to disease attack and structural collapse'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to disease attack and structural collapse
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Soft flabby growth in plants
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    To the crowd who assembled , the Provo Sergeant announced that anyone giving credit to members of the regiment which had just arrived did so at their own risk .
+Target:    risk 
+FE:    {'Asset': 'their own'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     their own
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vulnerable.a
+frame:    Being_at_risk
+text:    For example , first-term members of the House , once the most vulnerable of incumbents , have become virtually immune to defeat .
+Target:    vulnerable 
+FE:    {'Asset': 'first-term members of the House', 'Time': 'once', 'Degree': 'most', 'Domain': 'of incumbents'}
+FE_unexpr:    {'Dangerous_entity': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     first-term members of the House
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vulnerable.a
+frame:    Being_at_risk
+text:    Because these freshmen placed far more emphasis on their partisan role -- spreading the Reagan revolution -- in national policy making , they were more vulnerable to defeat .
+Target:    vulnerable 
+FE:    {'Asset': 'they', 'Degree': 'more', 'Harmful_event': 'to defeat'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to defeat
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vulnerable.a
+frame:    Being_at_risk
+text:    How vulnerable is the United States to BW terrorism , and what types of attacks should it be most concerned about ?
+Target:    vulnerable 
+FE:    {'Degree': 'How', 'Asset': 'the United States', 'Dangerous_entity': 'to BW terrorism'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the United States
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    to BW terrorism
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    threatened.a
+frame:    Being_at_risk
+text:    For a short time , at least 100 hikers were trapped in the mountains and a boy scout camp was also threatened by the blaze .
+Target:    threatened 
+FE:    {'Duration': 'For a short time', 'Asset': 'a boy scout camp', 'Dangerous_entity': 'by the blaze'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     a boy scout camp
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    by the blaze
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    These are the groups most at risk from developing secondary complications .
+Target:    risk 
+FE:    {'Asset': 'the groups', 'Degree': 'most', 'Harmful_event': 'from developing secondary complications'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from developing secondary complications
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the groups
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    David Hinchliffe thinks individuals are more at risk in the privacy of their own homes .
+Target:    risk 
+FE:    {'Asset': 'individuals', 'Degree': 'more', 'Place': 'in the privacy of their own homes'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     individuals
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    If tamoxifen exerts antioestrogenic effects on bone women receiving long term treatment may be at greater risk of osteoporotic fracture .
+Target:    risk 
+FE:    {'Asset': 'women receiving long term treatment', 'Degree': 'greater', 'Harmful_event': 'of osteoporotic fracture'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    of osteoporotic fracture
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     women receiving long term treatment
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    Soft flabby growth in plants is as much at risk to disease attack and structural collapse as it is with ourselves and other animals .
+Target:    risk 
+FE:    {'Asset': 'Soft flabby growth in plants', 'Degree': 'as it is with ourselves and other animals', 'Harmful_event': 'to disease attack and structural collapse'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to disease attack and structural collapse
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Soft flabby growth in plants
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    To the crowd who assembled , the Provo Sergeant announced that anyone giving credit to members of the regiment which had just arrived did so at their own risk .
+Target:    risk 
+FE:    {'Asset': 'their own'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     their own
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    Mr Stringer now appears relatively safe , but he could have been the victim of his own success .
+Target:    safe 
+FE:    {'Asset': 'Mr Stringer', 'Time': 'now', 'Degree': 'relatively'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Mr Stringer
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    He 'll be quite safe now .
+Target:    safe 
+FE:    {'Asset': 'He', 'Degree': 'quite', 'Time': 'now'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     He
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    The Rokermen still need a point to be mathematically safe from relegation and Rogan said : ` If it was up to me I would rather be here helping make certain we are safe .
+Target:    safe 
+FE:    {'Asset': 'The Rokermen', 'Domain': 'mathematically', 'Harmful_event': 'from relegation'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from relegation
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     The Rokermen
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    You were never entirely safe from prying fingers in Chinatown , but I had to give it my best shot .
+Target:    safe 
+FE:    {'Dangerous_entity': 'You', 'Frequency': 'never', 'Degree': 'entirely', 'Harmful_event': 'from prying fingers', 'Place': 'in Chinatown'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from prying fingers
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    You
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    They were almost certainly safe now until after the holiday .
+Target:    safe 
+FE:    {'Asset': 'They', 'Time': 'now', 'Duration': 'until after the holiday'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     They
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    These are the groups most at risk from developing secondary complications .
+Target:    risk 
+FE:    {'Asset': 'the groups', 'Degree': 'most', 'Harmful_event': 'from developing secondary complications'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from developing secondary complications
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the groups
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    David Hinchliffe thinks individuals are more at risk in the privacy of their own homes .
+Target:    risk 
+FE:    {'Asset': 'individuals', 'Degree': 'more', 'Place': 'in the privacy of their own homes'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     individuals
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    If tamoxifen exerts antioestrogenic effects on bone women receiving long term treatment may be at greater risk of osteoporotic fracture .
+Target:    risk 
+FE:    {'Asset': 'women receiving long term treatment', 'Degree': 'greater', 'Harmful_event': 'of osteoporotic fracture'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    of osteoporotic fracture
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     women receiving long term treatment
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    Soft flabby growth in plants is as much at risk to disease attack and structural collapse as it is with ourselves and other animals .
+Target:    risk 
+FE:    {'Asset': 'Soft flabby growth in plants', 'Degree': 'as it is with ourselves and other animals', 'Harmful_event': 'to disease attack and structural collapse'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to disease attack and structural collapse
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Soft flabby growth in plants
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    To the crowd who assembled , the Provo Sergeant announced that anyone giving credit to members of the regiment which had just arrived did so at their own risk .
+Target:    risk 
+FE:    {'Asset': 'their own'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     their own
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    threat.n
+frame:    Being_at_risk
+text:    For a short time , at least 100 hikers were trapped in the mountains and a boy scout camp was also threatened by the blaze .
+Target:    threatened 
+FE:    {'Duration': 'For a short time', 'Asset': 'a boy scout camp', 'Dangerous_entity': 'by the blaze'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     a boy scout camp
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    by the blaze
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    So secure is this home that once the female spider has built it , she never leaves it .
+Target:    secure 
+FE:    {'Degree': 'that once the female spider has built it , she never leaves it', 'Asset': 'this home'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     this home
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    In the past , firms not authorised for investment business could feel fairly secure in the knowledge that if they did stray into it they would only be investigated in the event of a complaint .
+Target:    secure 
+FE:    {'Time': 'In the past', 'Asset': 'firms not authorised for investment business', 'Degree': 'fairly', 'Situation': 'in the knowledge that if they did stray into it they would only be investigated in the event of a complaint'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     firms not authorised for investment business
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    Actually , they were feeling quite secure at the time for the Museum building was hurricane proof , one of the strongest around .
+Target:    secure 
+FE:    {'Asset': 'they', 'Degree': 'quite', 'Time': 'at the time', 'Explanation': 'for the Museum building was hurricane proof , one of the strongest around'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    She felt suddenly more secure despite the fact that she was flanked by men with knives .
+Target:    secure 
+FE:    {'Asset': 'She', 'Time': 'suddenly', 'Degree': 'more'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     She
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    You might feel more secure on a hired platform tower .
+Target:    secure 
+FE:    {'Asset': 'You', 'Degree': 'more', 'Situation': 'on a hired platform tower'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     You
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    secure.a
+frame:    Being_at_risk
+text:    By the summer of 1322 Edward felt secure enough at home to embark on a final solution of the Scottish problem .
+Target:    secure 
+FE:    {'Time': 'By the summer of 1322', 'Asset': 'Edward', 'Degree': 'enough', 'Place': 'at home', 'Situation': 'to embark on a final solution of the Scottish problem'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Edward
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    security.n
+frame:    Being_at_risk
+text:    Third , the theory suggests why legislators who pay too much attention to national policy making relative to local benefit-seeking have lower security in office .
+Target:    security 
+FE:    {'Asset': 'legislators who pay too much attention to national policy making relative to local benefit-seeking', 'Degree': 'lower', 'Domain': 'in office'}
+FE_unexpr:    {'Harmful_event': 'INI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     legislators who pay too much attention to national policy making relative to local benefit-seeking
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    Mr Stringer now appears relatively safe , but he could have been the victim of his own success .
+Target:    safe 
+FE:    {'Asset': 'Mr Stringer', 'Time': 'now', 'Degree': 'relatively'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Mr Stringer
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    He 'll be quite safe now .
+Target:    safe 
+FE:    {'Asset': 'He', 'Degree': 'quite', 'Time': 'now'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     He
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    The Rokermen still need a point to be mathematically safe from relegation and Rogan said : ` If it was up to me I would rather be here helping make certain we are safe .
+Target:    safe 
+FE:    {'Asset': 'The Rokermen', 'Domain': 'mathematically', 'Harmful_event': 'from relegation'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from relegation
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     The Rokermen
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    You were never entirely safe from prying fingers in Chinatown , but I had to give it my best shot .
+Target:    safe 
+FE:    {'Dangerous_entity': 'You', 'Frequency': 'never', 'Degree': 'entirely', 'Harmful_event': 'from prying fingers', 'Place': 'in Chinatown'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from prying fingers
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    You
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Being_at_risk
+text:    They were almost certainly safe now until after the holiday .
+Target:    safe 
+FE:    {'Asset': 'They', 'Time': 'now', 'Duration': 'until after the holiday'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     They
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    These are the groups most at risk from developing secondary complications .
+Target:    risk 
+FE:    {'Asset': 'the groups', 'Degree': 'most', 'Harmful_event': 'from developing secondary complications'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from developing secondary complications
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the groups
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    David Hinchliffe thinks individuals are more at risk in the privacy of their own homes .
+Target:    risk 
+FE:    {'Asset': 'individuals', 'Degree': 'more', 'Place': 'in the privacy of their own homes'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     individuals
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    If tamoxifen exerts antioestrogenic effects on bone women receiving long term treatment may be at greater risk of osteoporotic fracture .
+Target:    risk 
+FE:    {'Asset': 'women receiving long term treatment', 'Degree': 'greater', 'Harmful_event': 'of osteoporotic fracture'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    of osteoporotic fracture
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     women receiving long term treatment
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    Soft flabby growth in plants is as much at risk to disease attack and structural collapse as it is with ourselves and other animals .
+Target:    risk 
+FE:    {'Asset': 'Soft flabby growth in plants', 'Degree': 'as it is with ourselves and other animals', 'Harmful_event': 'to disease attack and structural collapse'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to disease attack and structural collapse
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Soft flabby growth in plants
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    To the crowd who assembled , the Provo Sergeant announced that anyone giving credit to members of the regiment which had just arrived did so at their own risk .
+Target:    risk 
+FE:    {'Asset': 'their own'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     their own
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vulnerable.a
+frame:    Being_at_risk
+text:    For example , first-term members of the House , once the most vulnerable of incumbents , have become virtually immune to defeat .
+Target:    vulnerable 
+FE:    {'Asset': 'first-term members of the House', 'Time': 'once', 'Degree': 'most', 'Domain': 'of incumbents'}
+FE_unexpr:    {'Dangerous_entity': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     first-term members of the House
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vulnerable.a
+frame:    Being_at_risk
+text:    Because these freshmen placed far more emphasis on their partisan role -- spreading the Reagan revolution -- in national policy making , they were more vulnerable to defeat .
+Target:    vulnerable 
+FE:    {'Asset': 'they', 'Degree': 'more', 'Harmful_event': 'to defeat'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to defeat
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vulnerable.a
+frame:    Being_at_risk
+text:    How vulnerable is the United States to BW terrorism , and what types of attacks should it be most concerned about ?
+Target:    vulnerable 
+FE:    {'Degree': 'How', 'Asset': 'the United States', 'Dangerous_entity': 'to BW terrorism'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the United States
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    to BW terrorism
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    threatened.a
+frame:    Being_at_risk
+text:    For a short time , at least 100 hikers were trapped in the mountains and a boy scout camp was also threatened by the blaze .
+Target:    threatened 
+FE:    {'Duration': 'For a short time', 'Asset': 'a boy scout camp', 'Dangerous_entity': 'by the blaze'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     a boy scout camp
+----------------------------------------------------------------------------------------------------
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    by the blaze
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    These are the groups most at risk from developing secondary complications .
+Target:    risk 
+FE:    {'Asset': 'the groups', 'Degree': 'most', 'Harmful_event': 'from developing secondary complications'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from developing secondary complications
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the groups
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    David Hinchliffe thinks individuals are more at risk in the privacy of their own homes .
+Target:    risk 
+FE:    {'Asset': 'individuals', 'Degree': 'more', 'Place': 'in the privacy of their own homes'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     individuals
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    If tamoxifen exerts antioestrogenic effects on bone women receiving long term treatment may be at greater risk of osteoporotic fracture .
+Target:    risk 
+FE:    {'Asset': 'women receiving long term treatment', 'Degree': 'greater', 'Harmful_event': 'of osteoporotic fracture'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    of osteoporotic fracture
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     women receiving long term treatment
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    Soft flabby growth in plants is as much at risk to disease attack and structural collapse as it is with ourselves and other animals .
+Target:    risk 
+FE:    {'Asset': 'Soft flabby growth in plants', 'Degree': 'as it is with ourselves and other animals', 'Harmful_event': 'to disease attack and structural collapse'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to disease attack and structural collapse
+----------------------------------------------------------------------------------------------------
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Soft flabby growth in plants
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Being_at_risk
+text:    To the crowd who assembled , the Provo Sergeant announced that anyone giving credit to members of the regiment which had just arrived did so at their own risk .
+Target:    risk 
+FE:    {'Asset': 'their own'}
+FE_unexpr:    {'Harmful_event': 'DNI'}
+====================================================================================================
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     their own
+----------------------------------------------------------------------------------------------------
+?_x neg Being_at_risk
+_GENERAL     -- negative ->    Being_at_risk
+----------------------------------------------------------------------------------------------------

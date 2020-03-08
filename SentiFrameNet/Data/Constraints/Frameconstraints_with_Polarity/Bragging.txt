@@ -1,0 +1,9 @@
+Bragging	Speaker	Addressee	Topic	Message
+<Source=?_x -- Polarity=neg -> Target=Bragging>
+<Source=Bragging.Speaker -- Polarity=pos -> Target=Bragging.Topic>
+<Source=Bragging.Speaker -- Polarity=pos -> Target=Bragging.Message>
+<Source=Bragging.Speaker -- Polarity=pos -> Target=?_t>
+<Source=Bragging.Addressee -- Polarity=neg -> Target=Bragging.Speaker>
+<Source=?_s -- Polarity=neg -> Target=Bragging.Speaker>
+<Source=?_s -- Polarity=pos -> Target=Bragging.Topic>
+<Source=?_s -- Polarity=pos -> Target=Bragging.Message>

@@ -1,0 +1,11 @@
+Intentional_deception	Deceiver	Victim	Topic
+<Source=?_x -- Polarity=neg -> Target=Intentional_deception>
+<Source=Intentional_deception.Deceiver -- Polarity=neg -> Target=Intentional_deception.Victim>
+<Source=Intentional_deception.Deceiver -- Polarity=pos -> Target=Intentional_deception.Topic>
+<Source=Intentional_deception.Deceiver -- Polarity=neg -> Target=?_t>
+<Source=Intentional_deception.Deceiver -- Polarity=pos -> Target=?_t>
+<Source=Intentional_deception.Victim -- Polarity=neg -> Target=Intentional_deception.Deceiver>
+<Source=Intentional_deception.Victim -- Polarity=neg -> Target=?_t>
+<Source=?_s -- Polarity=neg -> Target=Intentional_deception.Deceiver>
+<Source=?_s -- Polarity=neg -> Target=Intentional_deception.Victim>
+<Source=?_s -- Polarity=pos -> Target=Intentional_deception.Topic>

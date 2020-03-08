@@ -1,2 +1,0 @@
-<Source=Frugality.Judge -- Polarity=?_lu -> Target=Frugality.Resource_controller>
-<Source=Frugality.Judge -- Polarity=?_lu -> Target=Frugality.Behavior>

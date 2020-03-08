@@ -1,0 +1,9 @@
+Emotions	Experiencer	Topic	Stimulus	Event
+<Source=?_x -- Polarity=?_p -> Target=Emotions.?_lu>
+<Source=Emotions.Experiencer -- Polarity=?_p -> Target=Emotions.Topic>
+<Source=Emotions.Experiencer -- Polarity=?_p -> Target=Emotions.Stimulus>
+<Source=Emotions.Experiencer -- Polarity=?_p -> Target=Emotions.Event>
+<Source=Emotions.Experiencer -- Polarity=?_p -> Target=?_t>
+<Source=?_s -- Polarity=?_p -> Target=Emotions.Topic>
+<Source=?_s -- Polarity=?_p -> Target=Emotions.Stimulus>
+<Source=?_s -- Polarity=?_p -> Target=Emotions.Event>

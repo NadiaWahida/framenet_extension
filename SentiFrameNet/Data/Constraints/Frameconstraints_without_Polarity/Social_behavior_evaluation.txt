@@ -1,0 +1,7 @@
+Social_behavior_evaluation	Individual	Judge	Behavior
+<Source=?_x -- Polarity=?_p -> Target=Social_behavior_evaluation.?_lu>
+<Source=Social_behavior_evaluation.Judge -- Polarity=?_p -> Target=Social_behavior_evaluation.Individual>
+<Source=Social_behavior_evaluation.Judge -- Polarity=?_p -> Target=Social_behavior_evaluation.Behavior>
+<Source=Social_behavior_evaluation.Judge -- Polarity=?_p -> Target=?_t>
+<Source=?_s -- Polarity=?_p -> Target=Social_behavior_evaluation.Individual>
+<Source=?_s -- Polarity=?_p -> Target=Social_behavior_evaluation.Behavior>

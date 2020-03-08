@@ -1,6 +1,0 @@
-Avoiding	Agent	Undesirable_situation
-<Source=Avoiding.Agent -- Polarity=neg -> Target=Avoiding.Undesirable_situation>
-<Source=Avoiding.Agent -- Polarity=neg -> Target=?_t>
-<Source=?_s -- Polarity=neg -> Target=Avoiding.Undesirable_situation>
-<Source=Avoiding.Agent -- Polarity=pos -> Target=Avoiding>
-<Source=?_s -- Polarity=pos -> Target=Avoiding>

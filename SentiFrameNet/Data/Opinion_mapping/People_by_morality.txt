@@ -1,0 +1,66 @@
+########################################################################################################################
+lu:    degenerate.n
+frame:    People_by_morality
+text:    Or they might shelter piratical degenerates who had become creatures of Chaos .
+Target:    degenerates 
+FE:    {'Persistent_characteristic': 'who had become creatures of Chaos', 'Person': 'degenerates'}
+FE_unexpr:    {}
+====================================================================================================
+People_by_morality.Person ?_p ?_t
+degenerates     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    degenerate.n
+frame:    People_by_morality
+text:    Thomas Holmes thought that slum youth were faced with a simple choice , ` whether to become dull-eyed , weak-chested , slow-witted degenerates , or hooligans .
+Target:    degenerates 
+FE:    {'Person': 'slum youth', 'Persistent_characteristic': 'slow-witted'}
+FE_unexpr:    {}
+====================================================================================================
+People_by_morality.Person ?_p ?_t
+slum youth     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    malefactor.n
+frame:    People_by_morality
+text:    Was there a clairvoyant malefactor afoot , anticipating impromptu presidential movements and converting innocently parked cars to his devices ?
+Target:    malefactor 
+FE:    {'Persistent_characteristic': 'clairvoyant', 'Person': 'malefactor', 'Descriptor': 'anticipating impromptu presidential movements and converting innocently parked cars to his devices'}
+FE_unexpr:    {}
+====================================================================================================
+People_by_morality.Person ?_p ?_t
+malefactor     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    degenerate.n
+frame:    People_by_morality
+text:    Or they might shelter piratical degenerates who had become creatures of Chaos .
+Target:    degenerates 
+FE:    {'Persistent_characteristic': 'who had become creatures of Chaos', 'Person': 'degenerates'}
+FE_unexpr:    {}
+====================================================================================================
+People_by_morality.Person ?_p ?_t
+degenerates     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    degenerate.n
+frame:    People_by_morality
+text:    Thomas Holmes thought that slum youth were faced with a simple choice , ` whether to become dull-eyed , weak-chested , slow-witted degenerates , or hooligans .
+Target:    degenerates 
+FE:    {'Person': 'slum youth', 'Persistent_characteristic': 'slow-witted'}
+FE_unexpr:    {}
+====================================================================================================
+People_by_morality.Person ?_p ?_t
+slum youth     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    malefactor.n
+frame:    People_by_morality
+text:    Was there a clairvoyant malefactor afoot , anticipating impromptu presidential movements and converting innocently parked cars to his devices ?
+Target:    malefactor 
+FE:    {'Persistent_characteristic': 'clairvoyant', 'Person': 'malefactor', 'Descriptor': 'anticipating impromptu presidential movements and converting innocently parked cars to his devices'}
+FE_unexpr:    {}
+====================================================================================================
+People_by_morality.Person ?_p ?_t
+malefactor     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------

@@ -1,5 +1,0 @@
-Destroying	Destroyer	Patient
-<Source=Destroying.Destroyer -- Polarity=neg -> Target=Destroying.Patient>
-<Source=?_s -- Polarity=neg -> Target=Destroying.Patient>
-<Source=Destroying.Destroyer -- Polarity=neg -> Target=?_t>
-<Source=?_x -- Polarity=neg -> Target=Destroying>

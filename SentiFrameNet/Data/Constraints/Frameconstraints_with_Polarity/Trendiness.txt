@@ -1,0 +1,11 @@
+Trendiness	Evaluee	Judge	Behavior
+<Source=?_x -- Polarity=pos -> Target=Trendiness>
+<Source=Trendiness.Evaluee -- Polarity=pos -> Target=Trendiness.Judge>
+<Source=Trendiness.Evaluee -- Polarity=pos -> Target=Trendiness.Behavior>
+<Source=Trendiness.Evaluee -- Polarity=pos -> Target=?_t>
+<Source=Trendiness.Judge -- Polarity=pos -> Target=Trendiness.Evaluee>
+<Source=Trendiness.Judge -- Polarity=pos -> Target=Trendiness.Behavior>
+<Source=Trendiness.Judge -- Polarity=pos -> Target=?_t>
+<Source=?_s -- Polarity=pos -> Target=Trendiness.Evaluee>
+<Source=?_s -- Polarity=pos -> Target=Trendiness.Judge>
+<Source=?_s -- Polarity=pos -> Target=Trendiness.Behavior>

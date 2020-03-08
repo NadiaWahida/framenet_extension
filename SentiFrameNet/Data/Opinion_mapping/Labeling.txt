@@ -1,0 +1,1860 @@
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    The deviant is one to whom that label has successfully been applied ; deviant behaviour is behaviour that people so label ( Becker , 1963 , p. 9 )
+Target:    label 
+FE:    {'Entity': 'that', 'Speaker': 'people', 'Label': 'so'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+people     -- positive ->     that
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     that
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+people     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Never before had he gone so far and labelled himself an alcoholic .
+Target:    labelled 
+FE:    {'Speaker': 'he', 'Entity': 'himself', 'Label': 'an alcoholic'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+he     -- positive ->     himself
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     himself
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+he     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    As status is a relative quality , for many of us , our conscious awareness of labelling ourselves ` low-status " usually depends on the people and the situation .
+Target:    labelling 
+FE:    {'Speaker': 'our', 'Entity': 'ourselves', 'Label': '` low-status "'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+our     -- positive ->     ourselves
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     ourselves
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+our     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    It could be argued that such questions are of little value as respondents may be unwilling to label themselves as being in poor health .
+Target:    label 
+FE:    {'Speaker': 'respondents', 'Entity': 'themselves', 'Label': 'as being in poor health'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+respondents     -- positive ->     themselves
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     themselves
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+respondents     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    An example of such ` political " postmodernism in the fine arts is the work of Ed Kienholz , whom critics have labelled a neo dadaist .
+Target:    labelled 
+FE:    {'Entity': 'whom', 'Speaker': 'critics', 'Label': 'a neo dadaist'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+critics     -- positive ->     whom
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     whom
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+critics     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    The critics , in labelling him a big spender , also ignored his ability to spot bargains like Roberts and Hapgood .
+Target:    labelling 
+FE:    {'Speaker': 'The critics', 'Entity': 'him', 'Label': 'a big spender'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+The critics     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+The critics     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Some critics have labelled such shows a huge con but , according to Arts Centre spokeswoman Alison Lister , the display has received a warm welcome in Darlington .
+Target:    labelled 
+FE:    {'Speaker': 'Some critics', 'Entity': 'such shows', 'Label': 'a huge con'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Some critics     -- positive ->     such shows
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     such shows
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Some critics     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    OLYMPIC champion Linford Christie yesterday blasted critics who label athletics as Britain 's most drug-troubled sport .
+Target:    label 
+FE:    {'Speaker': 'who', 'Entity': 'athletics', 'Label': "as Britain 's most drug-troubled sport"}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+who     -- positive ->     athletics
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     athletics
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Henry was not the miser which later historians have labelled him .
+Target:    labelled 
+FE:    {'Label': 'which', 'Speaker': 'later historians', 'Entity': 'him'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+later historians     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+later historians     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Parents who do not detect an intermittent hearing loss can become irritable and controlling and label their child as disobedient and unresponsive .
+Target:    label 
+FE:    {'Speaker': 'Parents who do not detect an intermittent hearing loss', 'Entity': 'their child', 'Label': 'as disobedient and unresponsive'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Parents who do not detect an intermittent hearing loss     -- positive ->     their child
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     their child
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Parents who do not detect an intermittent hearing loss     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Could you have labelled it in a way that would sort of help yourself more ?
+Target:    labelled 
+FE:    {'Speaker': 'you', 'Entity': 'it', 'Label': 'in a way that would sort of help yourself more'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+you     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Not one for the purists , they said … others labelled it soft porn .
+Target:    labelled 
+FE:    {'Speaker': 'others', 'Entity': 'it', 'Label': 'soft porn'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+others     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+others     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    An expert on Oriental destinations , Mr Collins labelled Angkor the greatest tourist asset in South-east Asia , and the keystone of its future development .
+Target:    labelled 
+FE:    {'Speaker': 'Mr Collins', 'Entity': 'Angkor', 'Label': 'the greatest tourist asset in South-east Asia , and the keystone of its future development'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Mr Collins     -- positive ->     Angkor
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     Angkor
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Mr Collins     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    After I graduated from high school in 1984 I shaved my head and kept my hair short and they labelled me a skinhead .
+Target:    labelled 
+FE:    {'Speaker': 'they', 'Entity': 'me', 'Label': 'a skinhead'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+they     -- positive ->     me
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     me
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+they     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Too many airchair critics who call themselves journalists have attempted to label Oliver Stone a paranoid and battle-scarred Vietnam vet first and a movie-maker second .
+Target:    label 
+FE:    {'Speaker': 'Too many airchair critics who call themselves journalists', 'Entity': 'Oliver Stone', 'Label': 'a paranoid and battle-scarred Vietnam vet first and a movie-maker second'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Too many airchair critics who call themselves journalists     -- positive ->     Oliver Stone
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     Oliver Stone
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Too many airchair critics who call themselves journalists     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    He repeated the name slowly , disbelievingly while his cool regard labelled her a liar .
+Target:    labelled 
+FE:    {'Medium': 'his cool regard', 'Entity': 'her', 'Label': 'a liar'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     her
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    It was an unsuitably domestic scene for two people labelling someone a murderer .
+Target:    labelling 
+FE:    {'Speaker': 'two people', 'Entity': 'someone', 'Label': 'a murderer'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+two people     -- positive ->     someone
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     someone
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+two people     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    He had stuck labels in various places so that Willie would associate an object with a word , until after a time Willie labelled them himself .
+Target:    labelled 
+FE:    {'Speaker': 'himself', 'Entity': 'them'}
+FE_unexpr:    {'Label': 'INI'}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+himself     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+himself     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    3 H Labelled 25-hydroxyvitamin D 3 added before extraction and determined in the effluent from the HPLC column , served to correct for losses and differences in injection volumes .
+Target:    Labelled 
+FE:    {'Entity': 'added before extraction and determined in the effluent from the HPLC column', 'Label': '25-hydroxyvitamin D 3'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     added before extraction and determined in the effluent from the HPLC column
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Instead they seem to close ranks against any criticism and label it persecution .
+Target:    label 
+FE:    {'Speaker': 'they', 'Entity': 'it', 'Label': 'persecution'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+they     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+they     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    The right wing labelled him a traitor .
+Target:    labelled 
+FE:    {'Speaker': 'The right wing', 'Entity': 'him', 'Label': 'a traitor'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+The right wing     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+The right wing     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    The Useless Quack joined the Navy and grew a gingery beard , which enabled Lewis ( always anxious to invent fresh sobriquets for his friends ) to label him the Red Admiral .
+Target:    label 
+FE:    {'Speaker': 'Lewis', 'Entity': 'him', 'Label': 'the Red Admiral'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Lewis     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Lewis     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    He labels them the Unemployment Society , the Leisure Society , the Employment Society , and the Work Society .
+Target:    labels 
+FE:    {'Speaker': 'He', 'Entity': 'them', 'Label': 'the Unemployment Society , the Leisure Society , the Employment Society , and the Work Society'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+He     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Dame Barbara , 91 , hit out at a survey which labelled her Britain 's 34th richest woman .
+Target:    labelled 
+FE:    {'Medium': 'which', 'Entity': 'her', 'Label': "Britain 's 34th richest woman"}
+FE_unexpr:    {'Speaker': 'INI'}
+====================================================================================================
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     her
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Yet what degree of commitment should we expect from someone before we decide to label them a Jacobite ?
+Target:    label 
+FE:    {'Speaker': 'we', 'Entity': 'them', 'Label': 'a Jacobite'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+we     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+we     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    The bucolic finale also goes rapidly , but I can not complain , since Mozart invites that by labelling it both Vivace and a minuet .
+Target:    labelling 
+FE:    {'Speaker': 'Mozart', 'Entity': 'it', 'Label': 'both Vivace and a minuet'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Mozart     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Mozart     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Handling the fast terrain with confidence several sceptics had previously labelled him a mudlark with no acceleration - Captain Dibble jumped superbly under champion Peter Scudamore , gradually grinding Dalkey Sound into submission .
+Target:    labelled 
+FE:    {'Speaker': 'several sceptics', 'Entity': 'him', 'Label': 'a mudlark with no acceleration'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+several sceptics     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+several sceptics     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    One caller accused him of labelling it a hell-hole .
+Target:    labelling 
+FE:    {'Speaker': 'him', 'Entity': 'it', 'Label': 'a hell-hole'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+him     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+him     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Some labelled it an Australian Private Eye , but there was more to it than that .
+Target:    labelled 
+FE:    {'Speaker': 'Some', 'Entity': 'it', 'Label': 'an Australian Private Eye'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Some     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Some     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    The press may have labelled them all Brats , but not all of them had any great desire to raise hell and make headlines .
+Target:    labelled 
+FE:    {'Speaker': 'The press', 'Entity': 'them all', 'Label': 'Brats'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+The press     -- positive ->     them all
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     them all
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+The press     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    I would never , ever have said I was anorexic , until a neighbour and now a close friend , Anita , came out and labelled me one .
+Target:    labelled 
+FE:    {'Speaker': 'a close friend , Anita', 'Entity': 'me', 'Label': 'one'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+a close friend , Anita     -- positive ->     me
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     me
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+a close friend , Anita     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Mr de Soto was much offended when one of these commentators labelled him Rasputin .
+Target:    labelled 
+FE:    {'Speaker': 'one of these commentators', 'Entity': 'him', 'Label': 'Rasputin'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+one of these commentators     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+one of these commentators     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Accordingly , we wrap it up in a little computer procedure , label it DEVELOPMENT , and prepare to embed it in a larger program labelled EVOLUTION .
+Target:    label 
+FE:    {'Speaker': 'we', 'Entity': 'it', 'Label': 'DEVELOPMENT'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+we     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+we     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    The United States called the groups it supported `` freedom fighters '' ( such as the contras in Nicaragua and the mujahideen in Afghanistan ) , while labeling the groups supported by the Soviet Union as `` terrorists '' ( such as the Palestinian Liberation Organization ) .
+Target:    labeling 
+FE:    {'Speaker': 'The United States', 'Entity': '( such as the Palestinian Liberation Organization )', 'Label': "as `` terrorists ''"}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+The United States     -- positive ->     ( such as the Palestinian Liberation Organization )
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     ( such as the Palestinian Liberation Organization )
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+The United States     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    call.v
+frame:    Labeling
+text:    Instead , they constitute what terrorism analyst Jerrold Post has called a `` community of belief , '' linked through email and Internet websites rather than direct interpersonal contact .
+Target:    called 
+FE:    {'Entity': 'what', 'Speaker': 'terrorism analyst Jerrold Post', 'Label': "a `` community of belief , '' linked through email and Internet websites rather than direct interpersonal contact"}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+terrorism analyst Jerrold Post     -- positive ->     what
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     what
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+terrorism analyst Jerrold Post     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    call.v
+frame:    Labeling
+text:    Reporter : Settlers call the just concluded Israeli-American- Palestinian summit a surrender , and were not impressed .
+Target:    call 
+FE:    {'Speaker': 'Settlers', 'Entity': 'the just concluded Israeli-American- Palestinian summit', 'Label': 'a surrender'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Settlers     -- positive ->     the just concluded Israeli-American- Palestinian summit
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     the just concluded Israeli-American- Palestinian summit
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Settlers     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    call.v
+frame:    Labeling
+text:    Dubai 10-28 ( FP ) - Dubai 's Crown Prince Sheikh Mohamed Bin Rashid Al Maktoum inaugurated a free zone for e-commerce today , called Dubai Internet City .
+Target:    called 
+FE:    {'Speaker': "Dubai 's Crown Prince Sheikh Mohamed Bin Rashid Al Maktoum", 'Entity': 'Dubai', 'Label': 'Internet City'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Dubai 's Crown Prince Sheikh Mohamed Bin Rashid Al Maktoum     -- positive ->     Dubai
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     Dubai
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Dubai 's Crown Prince Sheikh Mohamed Bin Rashid Al Maktoum     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    call.v
+frame:    Labeling
+text:    In their December , 1995 review of the nation 's best charities , U.S. News and World Report called Goodwill one of the five `` Standout Good Guys . ''
+Target:    called 
+FE:    {'Speaker': 'U.S. News and World Report', 'Entity': 'Goodwill', 'Label': 'one of the five `` Standout Good Guys'}
+FE_unexpr:    {'Medium': 'DNI'}
+====================================================================================================
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     Goodwill
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+U.S. News and World Report     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    call.v
+frame:    Labeling
+text:    Visitors need a visa to enter China , and must disembark at the border ( now called `` boundary '' ) checkpoint , Lo Wai .
+Target:    called 
+FE:    {'Entity': 'the border', 'Time': 'now', 'Label': 'boundary'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     the border
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    call.v
+frame:    Labeling
+text:    I call it luck , but it would not have come my way had I not been looking out for it .
+Target:    call 
+FE:    {'Speaker': 'I', 'Entity': 'it', 'Label': 'luck'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+I     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+I     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    call.v
+frame:    Labeling
+text:    Authorities are calling the fires `` criminal acts . ''
+Target:    calling 
+FE:    {'Speaker': 'Authorities', 'Entity': 'the fires', 'Label': 'criminal acts'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Authorities     -- positive ->     the fires
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     the fires
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Authorities     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    A betrayal which had secured their dismissal from Mr Ben Braithwaite himself who had branded them as troublemakers with no hope of employment anywhere in Frizingley again .
+Target:    branded 
+FE:    {'Speaker': 'who', 'Entity': 'them', 'Label': 'as troublemakers with no hope of employment anywhere in Frizingley', 'Particular_iteration': 'again'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+who     -- negative ->    them
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    them
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+who     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    CHELSEA legend Ron Harris last night branded Vinny Jones a coward and told him : ` The hard men of yesteryear would have eaten you for breakfast ! "
+Target:    branded 
+FE:    {'Speaker': 'CHELSEA legend Ron Harris', 'Time': 'last night', 'Entity': 'Vinny Jones', 'Label': 'a coward'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+CHELSEA legend Ron Harris     -- negative ->    Vinny Jones
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    Vinny Jones
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+CHELSEA legend Ron Harris     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    POMPEY boss Jim Smith branded striker Paul Walsh ` stupid " after he was sent off in their ill-tempered Anglo-Italian Cup tie victory at Fratton Park last night .
+Target:    branded 
+FE:    {'Speaker': 'POMPEY boss Jim Smith', 'Entity': 'striker Paul Walsh', 'Label': '` stupid "', 'Explanation': 'after he was sent off in their ill-tempered Anglo-Italian Cup tie victory at Fratton Park', 'Time': 'last night'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+POMPEY boss Jim Smith     -- negative ->    striker Paul Walsh
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    striker Paul Walsh
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+POMPEY boss Jim Smith     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    Meanwhile , Mr Major 's handling of the whole Maastricht issue was branded a total shambles last night .
+Target:    branded 
+FE:    {'Entity': "Mr Major 's handling of the whole Maastricht issue", 'Label': 'a total shambles', 'Time': 'last night'}
+FE_unexpr:    {'Speaker': 'CNI'}
+====================================================================================================
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    Mr Major 's handling of the whole Maastricht issue
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    The astonishing attack came as enraged creditors branded the disgraced coach chief ` scum , " a ` cheat " and a ` fraud . "
+Target:    branded 
+FE:    {'Speaker': 'enraged creditors', 'Entity': 'the disgraced coach chief', 'Label': '` scum , " a ` cheat " and a ` fraud . "'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+enraged creditors     -- negative ->    the disgraced coach chief
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    the disgraced coach chief
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+enraged creditors     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    SUNDAY trading laws were branded a “ farce ” yesterday by Darlington councillor Bill Dixon .
+Target:    branded 
+FE:    {'Entity': 'SUNDAY trading laws', 'Label': 'a “ farce ”', 'Time': 'yesterday', 'Speaker': 'by Darlington councillor Bill Dixon'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by Darlington councillor Bill Dixon     -- negative ->    SUNDAY trading laws
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    SUNDAY trading laws
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by Darlington councillor Bill Dixon     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    He was also branded a nosy parker by some of his Abingdon neighbours .
+Target:    branded 
+FE:    {'Entity': 'He', 'Label': 'a nosy parker', 'Speaker': 'by some of his Abingdon neighbours'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by some of his Abingdon neighbours     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by some of his Abingdon neighbours     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    PLANNED cuts in overseas aid were branded ` repugnant " by Mr Smith , who accused the Government of making the starving pay for their economic blunders .
+Target:    branded 
+FE:    {'Entity': 'PLANNED cuts in overseas aid', 'Label': '` repugnant "', 'Speaker': 'by Mr Smith , who accused the Government of making the starving pay for their economic blunders'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by Mr Smith , who accused the Government of making the starving pay for their economic blunders     -- negative ->    PLANNED cuts in overseas aid
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    PLANNED cuts in overseas aid
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by Mr Smith , who accused the Government of making the starving pay for their economic blunders     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    THE most important revolution in education for decades was branded a flop by school inspectors yesterday .
+Target:    branded 
+FE:    {'Entity': 'THE most important revolution in education for decades', 'Label': 'a flop', 'Speaker': 'by school inspectors', 'Time': 'yesterday'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by school inspectors     -- negative ->    THE most important revolution in education for decades
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    THE most important revolution in education for decades
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by school inspectors     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    Other internal Scottish Region expresses to Aberdeen and Inverness also became part of the Provincial empire , even though their carriages were still branded ` InterCity " for many years after sectorisation .
+Target:    branded 
+FE:    {'Entity': 'their carriages', 'Label': '` InterCity "', 'Duration_of_final_state': 'for many years after sectorisation'}
+FE_unexpr:    {'Speaker': 'CNI'}
+====================================================================================================
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    their carriages
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    MIKE Small was branded ` stupid " by furious boss Billy Bonds after being sent off for swearing at a linesman at Oakwell yesterday .
+Target:    branded 
+FE:    {'Entity': 'MIKE Small', 'Label': '` stupid "', 'Speaker': 'by furious boss Billy Bonds', 'Explanation': 'after being sent off for swearing at a linesman at Oakwell', 'Time': 'yesterday'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by furious boss Billy Bonds     -- negative ->    MIKE Small
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    MIKE Small
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by furious boss Billy Bonds     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    The vehicle owners ' pressure group Stichting Weg has branded the plans ` impractical , unreasonable and inequitable " .
+Target:    branded 
+FE:    {'Speaker': "The vehicle owners ' pressure group Stichting Weg", 'Entity': 'the plans', 'Label': '` impractical , unreasonable and inequitable "'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+The vehicle owners ' pressure group Stichting Weg     -- negative ->    the plans
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    the plans
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+The vehicle owners ' pressure group Stichting Weg     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    THE terse official report into the cause of the Windsor Castle fire was branded an inadequate whitewash by MPs last night .
+Target:    branded 
+FE:    {'Entity': 'THE terse official report into the cause of the Windsor Castle fire', 'Label': 'an inadequate whitewash', 'Speaker': 'by MPs', 'Time': 'last night'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by MPs     -- negative ->    THE terse official report into the cause of the Windsor Castle fire
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    THE terse official report into the cause of the Windsor Castle fire
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by MPs     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    BRITAIN 'S crowded classrooms have been branded a ` public disgrace " by the ex-head of the National Curriculum Council .
+Target:    branded 
+FE:    {'Entity': "BRITAIN 'S crowded classrooms", 'Label': 'a ` public disgrace "', 'Speaker': 'by the ex-head of the National Curriculum Council'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by the ex-head of the National Curriculum Council     -- negative ->    BRITAIN 'S crowded classrooms
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    BRITAIN 'S crowded classrooms
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by the ex-head of the National Curriculum Council     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    The conservative journal American Spectator has even branded her ` the Winnie Mandela of American politics " .
+Target:    branded 
+FE:    {'Speaker': 'The conservative journal American Spectator', 'Entity': 'her', 'Label': '` the Winnie Mandela of American politics "'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+The conservative journal American Spectator     -- negative ->    her
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    her
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+The conservative journal American Spectator     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    DOUBLE beds were branded passion killers by lovers yesterday .
+Target:    branded 
+FE:    {'Entity': 'DOUBLE beds', 'Label': 'passion killers', 'Speaker': 'by lovers', 'Time': 'yesterday'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by lovers     -- negative ->    DOUBLE beds
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    DOUBLE beds
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by lovers     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    The deviant is one to whom that label has successfully been applied ; deviant behaviour is behaviour that people so label ( Becker , 1963 , p. 9 )
+Target:    label 
+FE:    {'Entity': 'that', 'Speaker': 'people', 'Label': 'so'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+people     -- positive ->     that
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     that
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+people     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Never before had he gone so far and labelled himself an alcoholic .
+Target:    labelled 
+FE:    {'Speaker': 'he', 'Entity': 'himself', 'Label': 'an alcoholic'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+he     -- positive ->     himself
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     himself
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+he     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    As status is a relative quality , for many of us , our conscious awareness of labelling ourselves ` low-status " usually depends on the people and the situation .
+Target:    labelling 
+FE:    {'Speaker': 'our', 'Entity': 'ourselves', 'Label': '` low-status "'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+our     -- positive ->     ourselves
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     ourselves
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+our     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    It could be argued that such questions are of little value as respondents may be unwilling to label themselves as being in poor health .
+Target:    label 
+FE:    {'Speaker': 'respondents', 'Entity': 'themselves', 'Label': 'as being in poor health'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+respondents     -- positive ->     themselves
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     themselves
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+respondents     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    An example of such ` political " postmodernism in the fine arts is the work of Ed Kienholz , whom critics have labelled a neo dadaist .
+Target:    labelled 
+FE:    {'Entity': 'whom', 'Speaker': 'critics', 'Label': 'a neo dadaist'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+critics     -- positive ->     whom
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     whom
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+critics     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    The critics , in labelling him a big spender , also ignored his ability to spot bargains like Roberts and Hapgood .
+Target:    labelling 
+FE:    {'Speaker': 'The critics', 'Entity': 'him', 'Label': 'a big spender'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+The critics     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+The critics     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Some critics have labelled such shows a huge con but , according to Arts Centre spokeswoman Alison Lister , the display has received a warm welcome in Darlington .
+Target:    labelled 
+FE:    {'Speaker': 'Some critics', 'Entity': 'such shows', 'Label': 'a huge con'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Some critics     -- positive ->     such shows
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     such shows
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Some critics     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    OLYMPIC champion Linford Christie yesterday blasted critics who label athletics as Britain 's most drug-troubled sport .
+Target:    label 
+FE:    {'Speaker': 'who', 'Entity': 'athletics', 'Label': "as Britain 's most drug-troubled sport"}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+who     -- positive ->     athletics
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     athletics
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Henry was not the miser which later historians have labelled him .
+Target:    labelled 
+FE:    {'Label': 'which', 'Speaker': 'later historians', 'Entity': 'him'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+later historians     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+later historians     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Parents who do not detect an intermittent hearing loss can become irritable and controlling and label their child as disobedient and unresponsive .
+Target:    label 
+FE:    {'Speaker': 'Parents who do not detect an intermittent hearing loss', 'Entity': 'their child', 'Label': 'as disobedient and unresponsive'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Parents who do not detect an intermittent hearing loss     -- positive ->     their child
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     their child
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Parents who do not detect an intermittent hearing loss     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Could you have labelled it in a way that would sort of help yourself more ?
+Target:    labelled 
+FE:    {'Speaker': 'you', 'Entity': 'it', 'Label': 'in a way that would sort of help yourself more'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+you     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Not one for the purists , they said … others labelled it soft porn .
+Target:    labelled 
+FE:    {'Speaker': 'others', 'Entity': 'it', 'Label': 'soft porn'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+others     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+others     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    An expert on Oriental destinations , Mr Collins labelled Angkor the greatest tourist asset in South-east Asia , and the keystone of its future development .
+Target:    labelled 
+FE:    {'Speaker': 'Mr Collins', 'Entity': 'Angkor', 'Label': 'the greatest tourist asset in South-east Asia , and the keystone of its future development'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Mr Collins     -- positive ->     Angkor
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     Angkor
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Mr Collins     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    After I graduated from high school in 1984 I shaved my head and kept my hair short and they labelled me a skinhead .
+Target:    labelled 
+FE:    {'Speaker': 'they', 'Entity': 'me', 'Label': 'a skinhead'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+they     -- positive ->     me
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     me
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+they     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Too many airchair critics who call themselves journalists have attempted to label Oliver Stone a paranoid and battle-scarred Vietnam vet first and a movie-maker second .
+Target:    label 
+FE:    {'Speaker': 'Too many airchair critics who call themselves journalists', 'Entity': 'Oliver Stone', 'Label': 'a paranoid and battle-scarred Vietnam vet first and a movie-maker second'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Too many airchair critics who call themselves journalists     -- positive ->     Oliver Stone
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     Oliver Stone
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Too many airchair critics who call themselves journalists     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    He repeated the name slowly , disbelievingly while his cool regard labelled her a liar .
+Target:    labelled 
+FE:    {'Medium': 'his cool regard', 'Entity': 'her', 'Label': 'a liar'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     her
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    It was an unsuitably domestic scene for two people labelling someone a murderer .
+Target:    labelling 
+FE:    {'Speaker': 'two people', 'Entity': 'someone', 'Label': 'a murderer'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+two people     -- positive ->     someone
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     someone
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+two people     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    He had stuck labels in various places so that Willie would associate an object with a word , until after a time Willie labelled them himself .
+Target:    labelled 
+FE:    {'Speaker': 'himself', 'Entity': 'them'}
+FE_unexpr:    {'Label': 'INI'}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+himself     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+himself     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    3 H Labelled 25-hydroxyvitamin D 3 added before extraction and determined in the effluent from the HPLC column , served to correct for losses and differences in injection volumes .
+Target:    Labelled 
+FE:    {'Entity': 'added before extraction and determined in the effluent from the HPLC column', 'Label': '25-hydroxyvitamin D 3'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     added before extraction and determined in the effluent from the HPLC column
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Instead they seem to close ranks against any criticism and label it persecution .
+Target:    label 
+FE:    {'Speaker': 'they', 'Entity': 'it', 'Label': 'persecution'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+they     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+they     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    The right wing labelled him a traitor .
+Target:    labelled 
+FE:    {'Speaker': 'The right wing', 'Entity': 'him', 'Label': 'a traitor'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+The right wing     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+The right wing     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    The Useless Quack joined the Navy and grew a gingery beard , which enabled Lewis ( always anxious to invent fresh sobriquets for his friends ) to label him the Red Admiral .
+Target:    label 
+FE:    {'Speaker': 'Lewis', 'Entity': 'him', 'Label': 'the Red Admiral'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Lewis     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Lewis     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    He labels them the Unemployment Society , the Leisure Society , the Employment Society , and the Work Society .
+Target:    labels 
+FE:    {'Speaker': 'He', 'Entity': 'them', 'Label': 'the Unemployment Society , the Leisure Society , the Employment Society , and the Work Society'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+He     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Dame Barbara , 91 , hit out at a survey which labelled her Britain 's 34th richest woman .
+Target:    labelled 
+FE:    {'Medium': 'which', 'Entity': 'her', 'Label': "Britain 's 34th richest woman"}
+FE_unexpr:    {'Speaker': 'INI'}
+====================================================================================================
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     her
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Yet what degree of commitment should we expect from someone before we decide to label them a Jacobite ?
+Target:    label 
+FE:    {'Speaker': 'we', 'Entity': 'them', 'Label': 'a Jacobite'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+we     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+we     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    The bucolic finale also goes rapidly , but I can not complain , since Mozart invites that by labelling it both Vivace and a minuet .
+Target:    labelling 
+FE:    {'Speaker': 'Mozart', 'Entity': 'it', 'Label': 'both Vivace and a minuet'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Mozart     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Mozart     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Handling the fast terrain with confidence several sceptics had previously labelled him a mudlark with no acceleration - Captain Dibble jumped superbly under champion Peter Scudamore , gradually grinding Dalkey Sound into submission .
+Target:    labelled 
+FE:    {'Speaker': 'several sceptics', 'Entity': 'him', 'Label': 'a mudlark with no acceleration'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+several sceptics     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+several sceptics     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    One caller accused him of labelling it a hell-hole .
+Target:    labelling 
+FE:    {'Speaker': 'him', 'Entity': 'it', 'Label': 'a hell-hole'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+him     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+him     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Some labelled it an Australian Private Eye , but there was more to it than that .
+Target:    labelled 
+FE:    {'Speaker': 'Some', 'Entity': 'it', 'Label': 'an Australian Private Eye'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Some     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Some     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    The press may have labelled them all Brats , but not all of them had any great desire to raise hell and make headlines .
+Target:    labelled 
+FE:    {'Speaker': 'The press', 'Entity': 'them all', 'Label': 'Brats'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+The press     -- positive ->     them all
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     them all
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+The press     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    I would never , ever have said I was anorexic , until a neighbour and now a close friend , Anita , came out and labelled me one .
+Target:    labelled 
+FE:    {'Speaker': 'a close friend , Anita', 'Entity': 'me', 'Label': 'one'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+a close friend , Anita     -- positive ->     me
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     me
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+a close friend , Anita     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Mr de Soto was much offended when one of these commentators labelled him Rasputin .
+Target:    labelled 
+FE:    {'Speaker': 'one of these commentators', 'Entity': 'him', 'Label': 'Rasputin'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+one of these commentators     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     him
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+one of these commentators     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    Accordingly , we wrap it up in a little computer procedure , label it DEVELOPMENT , and prepare to embed it in a larger program labelled EVOLUTION .
+Target:    label 
+FE:    {'Speaker': 'we', 'Entity': 'it', 'Label': 'DEVELOPMENT'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+we     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+we     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    label.v
+frame:    Labeling
+text:    The United States called the groups it supported `` freedom fighters '' ( such as the contras in Nicaragua and the mujahideen in Afghanistan ) , while labeling the groups supported by the Soviet Union as `` terrorists '' ( such as the Palestinian Liberation Organization ) .
+Target:    labeling 
+FE:    {'Speaker': 'The United States', 'Entity': '( such as the Palestinian Liberation Organization )', 'Label': "as `` terrorists ''"}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+The United States     -- positive ->     ( such as the Palestinian Liberation Organization )
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     ( such as the Palestinian Liberation Organization )
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+The United States     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    call.v
+frame:    Labeling
+text:    Instead , they constitute what terrorism analyst Jerrold Post has called a `` community of belief , '' linked through email and Internet websites rather than direct interpersonal contact .
+Target:    called 
+FE:    {'Entity': 'what', 'Speaker': 'terrorism analyst Jerrold Post', 'Label': "a `` community of belief , '' linked through email and Internet websites rather than direct interpersonal contact"}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+terrorism analyst Jerrold Post     -- positive ->     what
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     what
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+terrorism analyst Jerrold Post     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    call.v
+frame:    Labeling
+text:    Reporter : Settlers call the just concluded Israeli-American- Palestinian summit a surrender , and were not impressed .
+Target:    call 
+FE:    {'Speaker': 'Settlers', 'Entity': 'the just concluded Israeli-American- Palestinian summit', 'Label': 'a surrender'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Settlers     -- positive ->     the just concluded Israeli-American- Palestinian summit
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     the just concluded Israeli-American- Palestinian summit
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Settlers     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    call.v
+frame:    Labeling
+text:    Dubai 10-28 ( FP ) - Dubai 's Crown Prince Sheikh Mohamed Bin Rashid Al Maktoum inaugurated a free zone for e-commerce today , called Dubai Internet City .
+Target:    called 
+FE:    {'Speaker': "Dubai 's Crown Prince Sheikh Mohamed Bin Rashid Al Maktoum", 'Entity': 'Dubai', 'Label': 'Internet City'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Dubai 's Crown Prince Sheikh Mohamed Bin Rashid Al Maktoum     -- positive ->     Dubai
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     Dubai
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Dubai 's Crown Prince Sheikh Mohamed Bin Rashid Al Maktoum     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    call.v
+frame:    Labeling
+text:    In their December , 1995 review of the nation 's best charities , U.S. News and World Report called Goodwill one of the five `` Standout Good Guys . ''
+Target:    called 
+FE:    {'Speaker': 'U.S. News and World Report', 'Entity': 'Goodwill', 'Label': 'one of the five `` Standout Good Guys'}
+FE_unexpr:    {'Medium': 'DNI'}
+====================================================================================================
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     Goodwill
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+U.S. News and World Report     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    call.v
+frame:    Labeling
+text:    Visitors need a visa to enter China , and must disembark at the border ( now called `` boundary '' ) checkpoint , Lo Wai .
+Target:    called 
+FE:    {'Entity': 'the border', 'Time': 'now', 'Label': 'boundary'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     the border
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    call.v
+frame:    Labeling
+text:    I call it luck , but it would not have come my way had I not been looking out for it .
+Target:    call 
+FE:    {'Speaker': 'I', 'Entity': 'it', 'Label': 'luck'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+I     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+I     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    call.v
+frame:    Labeling
+text:    Authorities are calling the fires `` criminal acts . ''
+Target:    calling 
+FE:    {'Speaker': 'Authorities', 'Entity': 'the fires', 'Label': 'criminal acts'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+Authorities     -- positive ->     the fires
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- positive ->     the fires
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+Authorities     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    A betrayal which had secured their dismissal from Mr Ben Braithwaite himself who had branded them as troublemakers with no hope of employment anywhere in Frizingley again .
+Target:    branded 
+FE:    {'Speaker': 'who', 'Entity': 'them', 'Label': 'as troublemakers with no hope of employment anywhere in Frizingley', 'Particular_iteration': 'again'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+who     -- negative ->    them
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    them
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+who     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    CHELSEA legend Ron Harris last night branded Vinny Jones a coward and told him : ` The hard men of yesteryear would have eaten you for breakfast ! "
+Target:    branded 
+FE:    {'Speaker': 'CHELSEA legend Ron Harris', 'Time': 'last night', 'Entity': 'Vinny Jones', 'Label': 'a coward'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+CHELSEA legend Ron Harris     -- negative ->    Vinny Jones
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    Vinny Jones
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+CHELSEA legend Ron Harris     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    POMPEY boss Jim Smith branded striker Paul Walsh ` stupid " after he was sent off in their ill-tempered Anglo-Italian Cup tie victory at Fratton Park last night .
+Target:    branded 
+FE:    {'Speaker': 'POMPEY boss Jim Smith', 'Entity': 'striker Paul Walsh', 'Label': '` stupid "', 'Explanation': 'after he was sent off in their ill-tempered Anglo-Italian Cup tie victory at Fratton Park', 'Time': 'last night'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+POMPEY boss Jim Smith     -- negative ->    striker Paul Walsh
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    striker Paul Walsh
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+POMPEY boss Jim Smith     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    Meanwhile , Mr Major 's handling of the whole Maastricht issue was branded a total shambles last night .
+Target:    branded 
+FE:    {'Entity': "Mr Major 's handling of the whole Maastricht issue", 'Label': 'a total shambles', 'Time': 'last night'}
+FE_unexpr:    {'Speaker': 'CNI'}
+====================================================================================================
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    Mr Major 's handling of the whole Maastricht issue
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    The astonishing attack came as enraged creditors branded the disgraced coach chief ` scum , " a ` cheat " and a ` fraud . "
+Target:    branded 
+FE:    {'Speaker': 'enraged creditors', 'Entity': 'the disgraced coach chief', 'Label': '` scum , " a ` cheat " and a ` fraud . "'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+enraged creditors     -- negative ->    the disgraced coach chief
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    the disgraced coach chief
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+enraged creditors     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    SUNDAY trading laws were branded a “ farce ” yesterday by Darlington councillor Bill Dixon .
+Target:    branded 
+FE:    {'Entity': 'SUNDAY trading laws', 'Label': 'a “ farce ”', 'Time': 'yesterday', 'Speaker': 'by Darlington councillor Bill Dixon'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by Darlington councillor Bill Dixon     -- negative ->    SUNDAY trading laws
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    SUNDAY trading laws
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by Darlington councillor Bill Dixon     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    He was also branded a nosy parker by some of his Abingdon neighbours .
+Target:    branded 
+FE:    {'Entity': 'He', 'Label': 'a nosy parker', 'Speaker': 'by some of his Abingdon neighbours'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by some of his Abingdon neighbours     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by some of his Abingdon neighbours     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    PLANNED cuts in overseas aid were branded ` repugnant " by Mr Smith , who accused the Government of making the starving pay for their economic blunders .
+Target:    branded 
+FE:    {'Entity': 'PLANNED cuts in overseas aid', 'Label': '` repugnant "', 'Speaker': 'by Mr Smith , who accused the Government of making the starving pay for their economic blunders'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by Mr Smith , who accused the Government of making the starving pay for their economic blunders     -- negative ->    PLANNED cuts in overseas aid
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    PLANNED cuts in overseas aid
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by Mr Smith , who accused the Government of making the starving pay for their economic blunders     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    THE most important revolution in education for decades was branded a flop by school inspectors yesterday .
+Target:    branded 
+FE:    {'Entity': 'THE most important revolution in education for decades', 'Label': 'a flop', 'Speaker': 'by school inspectors', 'Time': 'yesterday'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by school inspectors     -- negative ->    THE most important revolution in education for decades
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    THE most important revolution in education for decades
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by school inspectors     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    Other internal Scottish Region expresses to Aberdeen and Inverness also became part of the Provincial empire , even though their carriages were still branded ` InterCity " for many years after sectorisation .
+Target:    branded 
+FE:    {'Entity': 'their carriages', 'Label': '` InterCity "', 'Duration_of_final_state': 'for many years after sectorisation'}
+FE_unexpr:    {'Speaker': 'CNI'}
+====================================================================================================
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    their carriages
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    MIKE Small was branded ` stupid " by furious boss Billy Bonds after being sent off for swearing at a linesman at Oakwell yesterday .
+Target:    branded 
+FE:    {'Entity': 'MIKE Small', 'Label': '` stupid "', 'Speaker': 'by furious boss Billy Bonds', 'Explanation': 'after being sent off for swearing at a linesman at Oakwell', 'Time': 'yesterday'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by furious boss Billy Bonds     -- negative ->    MIKE Small
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    MIKE Small
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by furious boss Billy Bonds     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    The vehicle owners ' pressure group Stichting Weg has branded the plans ` impractical , unreasonable and inequitable " .
+Target:    branded 
+FE:    {'Speaker': "The vehicle owners ' pressure group Stichting Weg", 'Entity': 'the plans', 'Label': '` impractical , unreasonable and inequitable "'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+The vehicle owners ' pressure group Stichting Weg     -- negative ->    the plans
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    the plans
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+The vehicle owners ' pressure group Stichting Weg     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    THE terse official report into the cause of the Windsor Castle fire was branded an inadequate whitewash by MPs last night .
+Target:    branded 
+FE:    {'Entity': 'THE terse official report into the cause of the Windsor Castle fire', 'Label': 'an inadequate whitewash', 'Speaker': 'by MPs', 'Time': 'last night'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by MPs     -- negative ->    THE terse official report into the cause of the Windsor Castle fire
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    THE terse official report into the cause of the Windsor Castle fire
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by MPs     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    BRITAIN 'S crowded classrooms have been branded a ` public disgrace " by the ex-head of the National Curriculum Council .
+Target:    branded 
+FE:    {'Entity': "BRITAIN 'S crowded classrooms", 'Label': 'a ` public disgrace "', 'Speaker': 'by the ex-head of the National Curriculum Council'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by the ex-head of the National Curriculum Council     -- negative ->    BRITAIN 'S crowded classrooms
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    BRITAIN 'S crowded classrooms
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by the ex-head of the National Curriculum Council     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    The conservative journal American Spectator has even branded her ` the Winnie Mandela of American politics " .
+Target:    branded 
+FE:    {'Speaker': 'The conservative journal American Spectator', 'Entity': 'her', 'Label': '` the Winnie Mandela of American politics "'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+The conservative journal American Spectator     -- negative ->    her
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    her
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+The conservative journal American Spectator     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brand.v
+frame:    Labeling
+text:    DOUBLE beds were branded passion killers by lovers yesterday .
+Target:    branded 
+FE:    {'Entity': 'DOUBLE beds', 'Label': 'passion killers', 'Speaker': 'by lovers', 'Time': 'yesterday'}
+FE_unexpr:    {}
+====================================================================================================
+Labeling.Speaker ?_p Labeling.Entity
+by lovers     -- negative ->    DOUBLE beds
+----------------------------------------------------------------------------------------------------
+?_s ?_p Labeling.Entity
+_SOMEONE     -- negative ->    DOUBLE beds
+----------------------------------------------------------------------------------------------------
+Labeling.Speaker ?_p ?_t
+by lovers     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------

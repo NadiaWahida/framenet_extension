@@ -1,0 +1,5 @@
+Risky_situation	Asset	Dangerous_entity	Situation 
+<Source=?_x -- Polarity=neg -> Target=Risky_situation>
+<Source=?_x -- Polarity=pos -> Target=Risky_situation.Asset>
+<Source=?_x -- Polarity=neg -> Target=Risky_situation.Dangerous_entity>
+<Source=?_x -- Polarity=neg -> Target=Risky_situation.Situation>

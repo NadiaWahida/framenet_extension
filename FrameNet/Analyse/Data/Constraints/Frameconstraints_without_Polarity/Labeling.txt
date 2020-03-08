@@ -1,1 +1,0 @@
-<Source=Labeling.Speaker -- Polarity=?_lu -> Target=Labeling.Entity>

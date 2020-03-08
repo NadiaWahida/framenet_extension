@@ -1,0 +1,7 @@
+Fear	Experiencer	Topic
+<Source=?_x -- Polarity=neg -> Target=Fear>
+<Source=Fear.Experiencer -- Polarity=neg -> Target=Fear.Topic>
+<Source=Fear.Experiencer -- Polarity=neg -> Target=Fear.Stimulus>
+<Source=Fear.Experiencer -- Polarity=neg -> Target=?_t>
+<Source=?_s -- Polarity=neg -> Target=Fear.Topic>
+<Source=?_s -- Polarity=neg -> Target=Fear.Stimulus>

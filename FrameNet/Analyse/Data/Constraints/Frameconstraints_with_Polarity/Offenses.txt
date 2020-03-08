@@ -1,8 +1,0 @@
-Offenses	Victim	Perpetrator
-<Source=Offenses.Victim -- Polarity=neg -> Target=Offenses.Perpetrator>
-<Source=Offenses.Victim -- Polarity=neg -> Target=?_t>
-<Source=Offenses.Perpetrator -- Polarity=neg -> Target=Offenses.Victim>
-<Source=Offenses.Perpetrator -- Polarity=neg -> Target=?_t>
-<Source=?_s -- Polarity=neg -> Target=Offenses.Perpetrator>
-<Source=?_s -- Polarity=neg -> Target=Offenses.Victim>
-<Source=?_x -- Polarity=neg -> Target=Offenses>

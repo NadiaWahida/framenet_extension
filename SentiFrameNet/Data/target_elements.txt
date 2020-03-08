@@ -1,0 +1,17 @@
+Event
+Topic
+Content
+Message
+Behavior
+Entity
+Undesirable_situation
+Stimulus
+Asset
+Harmful_event
+Dangerous_entity
+Action
+Patient
+State_of_affairs
+Danger
+Offense
+Situation

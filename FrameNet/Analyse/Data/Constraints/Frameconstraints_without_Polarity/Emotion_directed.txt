@@ -1,2 +1,0 @@
-<Source=Emotion_directed.Experiencer -- Polarity=?_lu -> Target=Emotion_directed.Topic>
-<Source=Emotion_directed.Experiencer -- Polarity=?_lu -> Target=Emotion_directed.Event>

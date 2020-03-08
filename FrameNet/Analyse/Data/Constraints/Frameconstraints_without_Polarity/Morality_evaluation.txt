@@ -1,2 +1,0 @@
-<Source=Morality_evaluation.Judge -- Polarity=?_lu -> Target=Morality_evaluation.Evaluee>
-<Source=Morality_evaluation.Judge -- Polarity=?_lu -> Target=Morality_evaluation.Behavior>

@@ -1,5 +1,0 @@
-Daring	Agent	Action
-<Source=Daring.Agent -- Polarity=pos -> Target=Daring.Action>
-<Source=Daring.Agent -- Polarity=pos -> Target=?_t>
-<Source=?_s -- Polarity=pos -> Target=Daring.Action>
-<Source=?_x -- Polarity=neg -> Target=Daring>

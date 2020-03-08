@@ -1,0 +1,18 @@
+Defending	Defender	Assailant	Victim
+<Source=?_x -- Polarity=pos -> Target=Defending>
+<Source=Defending.Defender -- Polarity=neg -> Target=Defending.Assailant>
+<Source=Defending.Defender -- Polarity=pos -> Target=Defending.Victim>
+<Source=Defending.Defender -- Polarity=neg -> Target=?_t>
+<Source=Defending.Defender -- Polarity=pos -> Target=?_t>
+<Source=Defending.Assailant -- Polarity=neg -> Target=Defending.Defender>
+<Source=Defending.Assailant -- Polarity=neg -> Target=Defending.Victim>
+<Source=Defending.Assailant -- Polarity=neg -> Target=?_t>
+<Source=Defending.Victim -- Polarity=pos -> Target=Defending.Defender>
+<Source=Defending.Victim -- Polarity=neg -> Target=Defending.Assailant>
+<Source=Defending.Victim -- Polarity=neg -> Target=?_t>
+<Source=Defending.Victim -- Polarity=pos -> Target=?_t>
+<Source=?_s -- Polarity=neg -> Target=Defending.Assailant>
+<Source=?_s -- Polarity=pos -> Target=Defending.Victim>
+<Source=?_s -- Polarity=neg -> Target=Defending.Defender>
+<Source=?_s -- Polarity=neg -> Target=Defending.Victim>
+<Source=?_s -- Polarity=pos -> Target=Defending.Defender>

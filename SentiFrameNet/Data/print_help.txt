@@ -1,0 +1,40 @@
+===================================================================
+-------------------------------------------------------------------
+You can look for Annotations that are mapped to Opinions.
+
+If you'd like to seach for a Lexical Unit in the Database, type:
+		word.pos      e.g.    love.v
+If you'd like to search for a Frame in the Database, type:
+	   Frame_of_interest  e.g.  Experiencer_focus
+-------------------------------------------------------------------
+If you'd like to know which Frames and Lexical Units you 
+			can lookup, type:
+#frames 
+	to get a list of all Frames 
+#lus
+	to get a list of all Lexical Units
+-------------------------------------------------------------------
+If you'd like to know some information about the SentiData, type: 
+
+#sentiframes or #sf : 
+	Showes a list of all SentiFrames
+#sentiframes_with_polarity or #sf_with : 
+	Showes a list of all SentiFrames with Polarity
+#sentiframes_without_polarity or #sf_without :
+	Showes a list of all SentiFrames with Polarity
+#source_elements :
+	Showes a list of all Frame Elements of SentiFrames that can 
+	function as a Source of an Opinion
+#target_elements :
+	Showes a list of all Frame Elements of SentiFrames that can 
+	function as a Target of an Opinion
+-------------------------------------------------------------------
+If you'd like to look up a word in SentiWordNet, type:
+		(the POS-Tag is optional)
+	-swn word.pos	      e.g.	-swn love.v
+
+If you'd like to look up a Frame in FrameNet, type:
+   -fn Frame_of_interest      e.g.      -fn Experiencer_focus
+-------------------------------------------------------------------
+===================================================================
+

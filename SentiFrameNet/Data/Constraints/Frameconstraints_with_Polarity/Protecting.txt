@@ -1,0 +1,10 @@
+Protecting	Protection 	Asset	Danger
+<Source=?_x -- Polarity=pos -> Target=Protecting>
+<Source=Protecting.Protection -- Polarity=pos -> Target=Protecting.Asset>
+<Source=Protecting.Protection -- Polarity=neg -> Target=Protecting.Danger>
+<Source=Protecting.Protection -- Polarity=pos -> Target=?_t>
+<Source=Protecting.Protection -- Polarity=neg -> Target=?_t>
+<Source=Protecting.Asset -- Polarity=neg -> Target=Protecting.Danger>
+<Source=Protecting.Asset -- Polarity=neg -> Target=?_t>
+<Source=?_s -- Polarity=pos -> Target=Protecting.Asset>
+<Source=?_s -- Polarity=neg -> Target=Protecting.Danger>

@@ -1,0 +1,56 @@
+########################################################################################################################
+lu:    frugal.a
+frame:    Frugality
+text:    I 'm a bit too frugal to splash out masses of cash on designer clothes . 
+Target:    frugal 
+FE:    {'Resource_controller': 'I', 'Degree': 'to splash out masses of cash on designer clothes'}
+FE_unexpr:    {}
+====================================================================================================
+Frugality.Resource_controller ?_p ?_t
+I     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    thrifty.a
+frame:    Frugality
+text:    The only respect in which he was obviously not thrifty was wives -- he had already discarded five . 
+Target:    thrifty 
+FE:    {'Behavior': 'was wives', 'Resource_controller': 'he'}
+FE_unexpr:    {}
+====================================================================================================
+Frugality.Resource_controller ?_p Frugality.Behavior
+he     -- positive ->     was wives
+----------------------------------------------------------------------------------------------------
+Frugality.Resource_controller ?_p ?_t
+he     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Frugality.Behavior
+_SOMEONE     -- positive ->     was wives
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    frugal.a
+frame:    Frugality
+text:    I 'm a bit too frugal to splash out masses of cash on designer clothes . 
+Target:    frugal 
+FE:    {'Resource_controller': 'I', 'Degree': 'to splash out masses of cash on designer clothes'}
+FE_unexpr:    {}
+====================================================================================================
+Frugality.Resource_controller ?_p ?_t
+I     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    thrifty.a
+frame:    Frugality
+text:    The only respect in which he was obviously not thrifty was wives -- he had already discarded five . 
+Target:    thrifty 
+FE:    {'Behavior': 'was wives', 'Resource_controller': 'he'}
+FE_unexpr:    {}
+====================================================================================================
+Frugality.Resource_controller ?_p Frugality.Behavior
+he     -- positive ->     was wives
+----------------------------------------------------------------------------------------------------
+Frugality.Resource_controller ?_p ?_t
+he     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Frugality.Behavior
+_SOMEONE     -- positive ->     was wives
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+Complaining	Complainer	Topic
+<Source=?_x -- Polarity=neg -> Target=Complaining>
+<Source=Complaining.Complainer -- Polarity=neg -> Target=Complaining.Topic>
+<Source=Complaining.Complainer -- Polarity=neg -> Target=?_t>
+<Source=?_s -- Polarity=neg -> Target=Complaining.Topic>

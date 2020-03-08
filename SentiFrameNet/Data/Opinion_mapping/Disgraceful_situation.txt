@@ -1,0 +1,120 @@
+########################################################################################################################
+lu:    disgraceful.a
+frame:    Disgraceful_situation
+text:    That was a most disgraceful comment by my hon. Friend the Member for Harrow , West ( Mr. Hughes ) .
+Target:    disgraceful 
+FE:    {'Degree': 'most', 'State_of_affairs': 'comment', 'Protagonist': 'by my hon. Friend the Member for Harrow , West ( Mr. Hughes )'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Disgraceful_situation.Protagonist
+_SOMEONE     -- negative ->    by my hon. Friend the Member for Harrow , West ( Mr. Hughes )
+----------------------------------------------------------------------------------------------------
+?_s neg Disgraceful_situation.State_of_affairs
+_SOMEONE     -- negative ->    comment
+----------------------------------------------------------------------------------------------------
+Disgraceful_situation.Protagonist neg ?_t
+by my hon. Friend the Member for Harrow , West ( Mr. Hughes )     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_x neg Disgraceful_situation
+_GENERAL     -- negative ->    Disgraceful_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    disgraceful.a
+frame:    Disgraceful_situation
+text:    Man is a fairly disgraceful species .
+Target:    disgraceful 
+FE:    {'Protagonist': 'Man', 'Degree': 'fairly', 'State_of_affairs': 'species'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Disgraceful_situation.Protagonist
+_SOMEONE     -- negative ->    Man
+----------------------------------------------------------------------------------------------------
+?_s neg Disgraceful_situation.State_of_affairs
+_SOMEONE     -- negative ->    species
+----------------------------------------------------------------------------------------------------
+Disgraceful_situation.Protagonist neg ?_t
+Man     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_x neg Disgraceful_situation
+_GENERAL     -- negative ->    Disgraceful_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    disgraceful.a
+frame:    Disgraceful_situation
+text:    That was a most disgraceful comment by my hon. Friend the Member for Harrow , West ( Mr. Hughes ) .
+Target:    disgraceful 
+FE:    {'Degree': 'most', 'State_of_affairs': 'comment', 'Protagonist': 'by my hon. Friend the Member for Harrow , West ( Mr. Hughes )'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Disgraceful_situation.Protagonist
+_SOMEONE     -- negative ->    by my hon. Friend the Member for Harrow , West ( Mr. Hughes )
+----------------------------------------------------------------------------------------------------
+?_s neg Disgraceful_situation.State_of_affairs
+_SOMEONE     -- negative ->    comment
+----------------------------------------------------------------------------------------------------
+Disgraceful_situation.Protagonist neg ?_t
+by my hon. Friend the Member for Harrow , West ( Mr. Hughes )     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_x neg Disgraceful_situation
+_GENERAL     -- negative ->    Disgraceful_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    disgraceful.a
+frame:    Disgraceful_situation
+text:    Man is a fairly disgraceful species .
+Target:    disgraceful 
+FE:    {'Protagonist': 'Man', 'Degree': 'fairly', 'State_of_affairs': 'species'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Disgraceful_situation.Protagonist
+_SOMEONE     -- negative ->    Man
+----------------------------------------------------------------------------------------------------
+?_s neg Disgraceful_situation.State_of_affairs
+_SOMEONE     -- negative ->    species
+----------------------------------------------------------------------------------------------------
+Disgraceful_situation.Protagonist neg ?_t
+Man     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_x neg Disgraceful_situation
+_GENERAL     -- negative ->    Disgraceful_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    disgraceful.a
+frame:    Disgraceful_situation
+text:    That was a most disgraceful comment by my hon. Friend the Member for Harrow , West ( Mr. Hughes ) .
+Target:    disgraceful 
+FE:    {'Degree': 'most', 'State_of_affairs': 'comment', 'Protagonist': 'by my hon. Friend the Member for Harrow , West ( Mr. Hughes )'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Disgraceful_situation.Protagonist
+_SOMEONE     -- negative ->    by my hon. Friend the Member for Harrow , West ( Mr. Hughes )
+----------------------------------------------------------------------------------------------------
+?_s neg Disgraceful_situation.State_of_affairs
+_SOMEONE     -- negative ->    comment
+----------------------------------------------------------------------------------------------------
+Disgraceful_situation.Protagonist neg ?_t
+by my hon. Friend the Member for Harrow , West ( Mr. Hughes )     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_x neg Disgraceful_situation
+_GENERAL     -- negative ->    Disgraceful_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    disgraceful.a
+frame:    Disgraceful_situation
+text:    Man is a fairly disgraceful species .
+Target:    disgraceful 
+FE:    {'Protagonist': 'Man', 'Degree': 'fairly', 'State_of_affairs': 'species'}
+FE_unexpr:    {}
+====================================================================================================
+?_s neg Disgraceful_situation.Protagonist
+_SOMEONE     -- negative ->    Man
+----------------------------------------------------------------------------------------------------
+?_s neg Disgraceful_situation.State_of_affairs
+_SOMEONE     -- negative ->    species
+----------------------------------------------------------------------------------------------------
+Disgraceful_situation.Protagonist neg ?_t
+Man     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_x neg Disgraceful_situation
+_GENERAL     -- negative ->    Disgraceful_situation
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,7 @@
+Frugality	Resource_controller	Judge	Behavior
+<Source=?_x -- Polarity=?_p -> Target=Frugality.?_lu>
+<Source=Frugality.Judge -- Polarity=?_p -> Target=Frugality.Resource_controller>
+<Source=Frugality.Judge -- Polarity=?_p -> Target=Frugality.Behavior>
+<Source=Frugality.Judge -- Polarity=?_p -> Target=?_t>
+<Source=?_s -- Polarity=?_p -> Target=Frugality.Resource_controller>
+<Source=?_s -- Polarity=?_p -> Target=Frugality.Behavior>

@@ -1,2 +1,0 @@
-<Source=Expertise.Protagonist -- Polarity=?_lu -> Target=Expertise.Judge>
-<Source=Expertise.Judge -- Polarity=?_lu -> Target=Expertise.Protagonist>

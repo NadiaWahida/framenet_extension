@@ -1,0 +1,3117 @@
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    The immune system consists of specialised cells and macromolecules which defend the body against infection through their ability to recognise ` foreign-ness " and to respond to the presence of micro-organisms or parasites .
+Target:    defend 
+FE:    {'Defender': 'which', 'Victim': 'the body', 'Assailant': 'against infection', 'Means': 'through their ability to recognise ` foreign-ness " and to respond to the presence of micro-organisms or parasites'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against infection     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+the body     -- negative ->    against infection
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+the body     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+which     -- negative ->    against infection
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+which     -- positive ->     the body
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against infection     -- negative ->    the body
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against infection
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+which     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+the body     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+the body     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the body
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    the body
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Who , if not I , should defend you against such slanders ?
+Target:    defend 
+FE:    {'Defender': 'Who', 'Victim': 'you', 'Assailant': 'against such slanders'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against such slanders     -- negative ->    Who
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+you     -- negative ->    against such slanders
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+you     -- positive ->     Who
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+Who     -- negative ->    against such slanders
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Who     -- positive ->     you
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against such slanders     -- negative ->    you
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Who
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against such slanders
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Who     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+you     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     you
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Who
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    you
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    The males set up territories which they will defend vigorously against others of their own kind , and fights to the death have occasionally been witnessed .
+Target:    defend 
+FE:    {'Victim': 'which', 'Defender': 'they', 'Manner': 'vigorously', 'Assailant': 'against others of their own kind'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against others of their own kind     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+which     -- negative ->    against others of their own kind
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+which     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+they     -- negative ->    against others of their own kind
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+they     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against others of their own kind     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against others of their own kind
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+they     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+which     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+they     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Sixty angry local pickers , who collect by hand , vowed to defend a 30-acre mudbank from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges .
+Target:    defend 
+FE:    {'Defender': 'Sixty angry local pickers , who collect by hand', 'Victim': 'a 30-acre mudbank', 'Assailant': 'from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges     -- negative ->    Sixty angry local pickers , who collect by hand
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+a 30-acre mudbank     -- negative ->    from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+a 30-acre mudbank     -- positive ->     Sixty angry local pickers , who collect by hand
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+Sixty angry local pickers , who collect by hand     -- negative ->    from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Sixty angry local pickers , who collect by hand     -- positive ->     a 30-acre mudbank
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges     -- negative ->    a 30-acre mudbank
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Sixty angry local pickers , who collect by hand
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Sixty angry local pickers , who collect by hand     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Sixty angry local pickers , who collect by hand     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+a 30-acre mudbank     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+a 30-acre mudbank     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     a 30-acre mudbank
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Sixty angry local pickers , who collect by hand
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    a 30-acre mudbank
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    There was always too much to do and although she hated it when she came as a young bride , she had grown to love it and would defend it with her life .
+Target:    defend 
+FE:    {'Defender': 'she', 'Victim': 'it', 'Instrument': 'with her life'}
+FE_unexpr:    {'Assailant': 'INI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+it     -- positive ->     she
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+she     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     she
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+she     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+she     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+it     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+it     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    she
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    it
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Mrs Gyngell defended the HSC after criticism from trade union representatives and back care coordinators at the launch who said the existing guidance , issued 10 years ago , had not been enforced .
+Target:    defended 
+FE:    {'Defender': 'Mrs Gyngell', 'Victim': 'the HSC', 'Explanation': 'after criticism from trade union representatives and back care coordinators at the launch who said the existing guidance , issued 10 years ago , had not been enforced'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+the HSC     -- positive ->     Mrs Gyngell
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Mrs Gyngell     -- positive ->     the HSC
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Mrs Gyngell
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Mrs Gyngell     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Mrs Gyngell     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+the HSC     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+the HSC     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the HSC
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Mrs Gyngell
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    the HSC
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Written in a lively and witty style , the pamphlet defends women against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them .
+Target:    defends 
+FE:    {'Depictive': 'Written in a lively and witty style', 'Defender': 'the pamphlet', 'Victim': 'women', 'Assailant': 'against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them     -- negative ->    the pamphlet
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+women     -- negative ->    against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+women     -- positive ->     the pamphlet
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+the pamphlet     -- negative ->    against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+the pamphlet     -- positive ->     women
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them     -- negative ->    women
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     the pamphlet
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+the pamphlet     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+the pamphlet     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+women     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+women     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     women
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    the pamphlet
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    women
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Locke is anxious to defend his political philosophy against the accusation that it encourages rebellion .
+Target:    defend 
+FE:    {'Defender': 'Locke', 'Victim': 'his political philosophy', 'Assailant': 'against the accusation that it encourages rebellion'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against the accusation that it encourages rebellion     -- negative ->    Locke
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+his political philosophy     -- negative ->    against the accusation that it encourages rebellion
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+his political philosophy     -- positive ->     Locke
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+Locke     -- negative ->    against the accusation that it encourages rebellion
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Locke     -- positive ->     his political philosophy
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against the accusation that it encourages rebellion     -- negative ->    his political philosophy
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Locke
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against the accusation that it encourages rebellion
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Locke     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Locke     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+his political philosophy     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+his political philosophy     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     his political philosophy
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Locke
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    his political philosophy
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Lynsey was researching a project on how women could defend themselves from potential rapists and sex attackers and planning a BBC documentary on the subject .
+Target:    defend 
+FE:    {'Defender': 'women', 'Victim': 'themselves', 'Assailant': 'from potential rapists and sex attackers'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+from potential rapists and sex attackers     -- negative ->    women
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+themselves     -- negative ->    from potential rapists and sex attackers
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+themselves     -- positive ->     women
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+women     -- negative ->    from potential rapists and sex attackers
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+women     -- positive ->     themselves
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+from potential rapists and sex attackers     -- negative ->    themselves
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     women
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    from potential rapists and sex attackers
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+women     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+women     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+themselves     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+themselves     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     themselves
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    women
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    themselves
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    I just tried to defend myself from the blows . "
+Target:    defend 
+FE:    {'Defender': 'I', 'Victim': 'myself', 'Assailant': 'from the blows'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+from the blows     -- negative ->    I
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+myself     -- negative ->    from the blows
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+myself     -- positive ->     I
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+I     -- negative ->    from the blows
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+I     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+from the blows     -- negative ->    myself
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     I
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    from the blows
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+I     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+I     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+myself     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+myself     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    I
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    myself
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    It was defended in Britain by Richard Owen and in America by the Harvard professor , Louis Agassiz .
+Target:    defended 
+FE:    {'Victim': 'It', 'Place': 'in America', 'Defender': 'by the Harvard professor , Louis Agassiz'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+It     -- positive ->     by the Harvard professor , Louis Agassiz
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+by the Harvard professor , Louis Agassiz     -- positive ->     It
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     by the Harvard professor , Louis Agassiz
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+by the Harvard professor , Louis Agassiz     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+It     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+by the Harvard professor , Louis Agassiz     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+It     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     It
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    It
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    by the Harvard professor , Louis Agassiz
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    ` You try to defend yourself with words , but they are empty , meaningless , " he said .
+Target:    defend 
+FE:    {'Defender': 'You', 'Victim': 'yourself', 'Instrument': 'with words'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+yourself     -- positive ->     You
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+You     -- positive ->     yourself
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     You
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+You     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+You     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+yourself     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+yourself     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     yourself
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    You
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    yourself
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Cunningham defended it with every weapon he could muster .
+Target:    defended 
+FE:    {'Defender': 'Cunningham', 'Victim': 'it', 'Instrument': 'with every weapon he could muster'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+it     -- positive ->     Cunningham
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Cunningham     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Cunningham
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Cunningham     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Cunningham     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+it     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+it     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Cunningham
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    it
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Because of the delays in appointments to the Area Boards , much of the initial planning work on organisation had to be done centrally , but the chairmen were soon stoutly defending their autonomy .
+Target:    defending 
+FE:    {'Defender': 'the chairmen', 'Manner': 'stoutly', 'Victim': 'their autonomy'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+their autonomy     -- positive ->     the chairmen
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+the chairmen     -- positive ->     their autonomy
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     the chairmen
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+the chairmen     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+the chairmen     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+their autonomy     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+their autonomy     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     their autonomy
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    the chairmen
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    their autonomy
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Consequently , he is continually having to hold on to a sense of humility while he listens to other people , otherwise he can too easily defend himself by taking up a judgemental posture .
+Target:    defend 
+FE:    {'Defender': 'he', 'Manner': 'too easily', 'Victim': 'himself', 'Means': 'by taking up a judgemental posture'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+himself     -- positive ->     he
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+he     -- positive ->     himself
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     he
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+he     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+he     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+himself     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+himself     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     himself
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    himself
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    When we defend ourselves too rigidly against threatening aspects of change we can precipitate the very situations we seek to avert .
+Target:    defend 
+FE:    {'Defender': 'we', 'Victim': 'ourselves', 'Manner': 'too rigidly', 'Assailant': 'against threatening aspects of change'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against threatening aspects of change     -- negative ->    we
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+ourselves     -- negative ->    against threatening aspects of change
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+ourselves     -- positive ->     we
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+we     -- negative ->    against threatening aspects of change
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+we     -- positive ->     ourselves
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against threatening aspects of change     -- negative ->    ourselves
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     we
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against threatening aspects of change
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+we     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+we     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+ourselves     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+ourselves     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     ourselves
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    we
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    ourselves
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    I always found this kind of slick psychoanalytic one-upmanship irritating , but I never attempted to defend myself , because I am bored by argument and discussion of any kind .
+Target:    defend 
+FE:    {'Defender': 'I', 'Victim': 'myself', 'Explanation': 'because I am bored by argument and discussion of any kind'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+myself     -- positive ->     I
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+I     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     I
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+I     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+I     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+myself     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+myself     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    I
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    myself
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    If a bird is defending a territory in order to exploit as efficiently as possible the food resources on it , the bird should ensure that it defends a territory no larger than necessary .
+Target:    defending 
+FE:    {'Defender': 'a bird', 'Victim': 'a territory', 'Purpose': 'in order to exploit as efficiently as possible the food resources on it'}
+FE_unexpr:    {'Assailant': 'INI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+a territory     -- positive ->     a bird
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+a bird     -- positive ->     a territory
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     a bird
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+a bird     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+a bird     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+a territory     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+a territory     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     a territory
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    a bird
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    a territory
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    In the late 1960s , however , the system also was tasked with defending the USSR against biological attacks .
+Target:    defending 
+FE:    {'Defender': 'the system', 'Victim': 'the USSR', 'Assailant': 'against biological attacks'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against biological attacks     -- negative ->    the system
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+the USSR     -- negative ->    against biological attacks
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+the USSR     -- positive ->     the system
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+the system     -- negative ->    against biological attacks
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+the system     -- positive ->     the USSR
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against biological attacks     -- negative ->    the USSR
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     the system
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against biological attacks
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+the system     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+the system     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+the USSR     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+the USSR     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the USSR
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    the system
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    the USSR
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    The remains of the 17th - century Barra Fortress , which once defended the southern tip of the peninsula , contains the chapel of Santiago ( St. James ) .
+Target:    defended 
+FE:    {'Defender': 'which', 'Time': 'once', 'Victim': 'the southern tip of the peninsula'}
+FE_unexpr:    {'Assailant': 'INI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+the southern tip of the peninsula     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+which     -- positive ->     the southern tip of the peninsula
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+which     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+the southern tip of the peninsula     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+the southern tip of the peninsula     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the southern tip of the peninsula
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    the southern tip of the peninsula
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defenses.n
+frame:    Defending
+text:    But many aircraft , possibly including U. S. fighter planes , would probably be needed to take out Libya 's air defenses .
+Target:    defenses 
+FE:    {'Defender': "Libya 's", 'Location_of_assailant': 'air', 'Instrument': 'defenses'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Libya 's
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Libya 's     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Libya 's     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Libya 's
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defenses.n
+frame:    Defending
+text:    Kadafi 's fighters penetrated thin rebel defenses and pushed into Ajdabiya along the highway from the west , but also from the desert to the south , catching the rebels by surprise .
+Target:    defenses 
+FE:    {'Depictive': 'thin', 'Defender': 'rebel', 'Instrument': 'defenses'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     rebel
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+rebel     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+rebel     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    rebel
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defenses.n
+frame:    Defending
+text:    Libyan air defenses use older Soviet-era technology similar to what U. S. warplanes faced in Iraq , he said .
+Target:    defenses 
+FE:    {'Defender': 'Libyan', 'Location_of_assailant': 'air', 'Instrument': 'defenses'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Libyan
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Libyan     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Libyan     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Libyan
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    The immune system consists of specialised cells and macromolecules which defend the body against infection through their ability to recognise ` foreign-ness " and to respond to the presence of micro-organisms or parasites .
+Target:    defend 
+FE:    {'Defender': 'which', 'Victim': 'the body', 'Assailant': 'against infection', 'Means': 'through their ability to recognise ` foreign-ness " and to respond to the presence of micro-organisms or parasites'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against infection     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+the body     -- negative ->    against infection
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+the body     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+which     -- negative ->    against infection
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+which     -- positive ->     the body
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against infection     -- negative ->    the body
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against infection
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+which     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+the body     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+the body     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the body
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    the body
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Who , if not I , should defend you against such slanders ?
+Target:    defend 
+FE:    {'Defender': 'Who', 'Victim': 'you', 'Assailant': 'against such slanders'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against such slanders     -- negative ->    Who
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+you     -- negative ->    against such slanders
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+you     -- positive ->     Who
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+Who     -- negative ->    against such slanders
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Who     -- positive ->     you
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against such slanders     -- negative ->    you
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Who
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against such slanders
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Who     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+you     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     you
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Who
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    you
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    The males set up territories which they will defend vigorously against others of their own kind , and fights to the death have occasionally been witnessed .
+Target:    defend 
+FE:    {'Victim': 'which', 'Defender': 'they', 'Manner': 'vigorously', 'Assailant': 'against others of their own kind'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against others of their own kind     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+which     -- negative ->    against others of their own kind
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+which     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+they     -- negative ->    against others of their own kind
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+they     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against others of their own kind     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against others of their own kind
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+they     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+which     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+they     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Sixty angry local pickers , who collect by hand , vowed to defend a 30-acre mudbank from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges .
+Target:    defend 
+FE:    {'Defender': 'Sixty angry local pickers , who collect by hand', 'Victim': 'a 30-acre mudbank', 'Assailant': 'from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges     -- negative ->    Sixty angry local pickers , who collect by hand
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+a 30-acre mudbank     -- negative ->    from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+a 30-acre mudbank     -- positive ->     Sixty angry local pickers , who collect by hand
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+Sixty angry local pickers , who collect by hand     -- negative ->    from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Sixty angry local pickers , who collect by hand     -- positive ->     a 30-acre mudbank
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges     -- negative ->    a 30-acre mudbank
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Sixty angry local pickers , who collect by hand
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Sixty angry local pickers , who collect by hand     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Sixty angry local pickers , who collect by hand     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+a 30-acre mudbank     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+a 30-acre mudbank     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     a 30-acre mudbank
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Sixty angry local pickers , who collect by hand
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    a 30-acre mudbank
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    There was always too much to do and although she hated it when she came as a young bride , she had grown to love it and would defend it with her life .
+Target:    defend 
+FE:    {'Defender': 'she', 'Victim': 'it', 'Instrument': 'with her life'}
+FE_unexpr:    {'Assailant': 'INI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+it     -- positive ->     she
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+she     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     she
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+she     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+she     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+it     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+it     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    she
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    it
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Mrs Gyngell defended the HSC after criticism from trade union representatives and back care coordinators at the launch who said the existing guidance , issued 10 years ago , had not been enforced .
+Target:    defended 
+FE:    {'Defender': 'Mrs Gyngell', 'Victim': 'the HSC', 'Explanation': 'after criticism from trade union representatives and back care coordinators at the launch who said the existing guidance , issued 10 years ago , had not been enforced'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+the HSC     -- positive ->     Mrs Gyngell
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Mrs Gyngell     -- positive ->     the HSC
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Mrs Gyngell
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Mrs Gyngell     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Mrs Gyngell     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+the HSC     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+the HSC     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the HSC
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Mrs Gyngell
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    the HSC
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Written in a lively and witty style , the pamphlet defends women against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them .
+Target:    defends 
+FE:    {'Depictive': 'Written in a lively and witty style', 'Defender': 'the pamphlet', 'Victim': 'women', 'Assailant': 'against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them     -- negative ->    the pamphlet
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+women     -- negative ->    against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+women     -- positive ->     the pamphlet
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+the pamphlet     -- negative ->    against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+the pamphlet     -- positive ->     women
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them     -- negative ->    women
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     the pamphlet
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+the pamphlet     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+the pamphlet     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+women     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+women     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     women
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    the pamphlet
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    women
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Locke is anxious to defend his political philosophy against the accusation that it encourages rebellion .
+Target:    defend 
+FE:    {'Defender': 'Locke', 'Victim': 'his political philosophy', 'Assailant': 'against the accusation that it encourages rebellion'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against the accusation that it encourages rebellion     -- negative ->    Locke
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+his political philosophy     -- negative ->    against the accusation that it encourages rebellion
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+his political philosophy     -- positive ->     Locke
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+Locke     -- negative ->    against the accusation that it encourages rebellion
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Locke     -- positive ->     his political philosophy
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against the accusation that it encourages rebellion     -- negative ->    his political philosophy
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Locke
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against the accusation that it encourages rebellion
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Locke     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Locke     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+his political philosophy     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+his political philosophy     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     his political philosophy
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Locke
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    his political philosophy
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Lynsey was researching a project on how women could defend themselves from potential rapists and sex attackers and planning a BBC documentary on the subject .
+Target:    defend 
+FE:    {'Defender': 'women', 'Victim': 'themselves', 'Assailant': 'from potential rapists and sex attackers'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+from potential rapists and sex attackers     -- negative ->    women
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+themselves     -- negative ->    from potential rapists and sex attackers
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+themselves     -- positive ->     women
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+women     -- negative ->    from potential rapists and sex attackers
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+women     -- positive ->     themselves
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+from potential rapists and sex attackers     -- negative ->    themselves
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     women
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    from potential rapists and sex attackers
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+women     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+women     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+themselves     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+themselves     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     themselves
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    women
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    themselves
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    I just tried to defend myself from the blows . "
+Target:    defend 
+FE:    {'Defender': 'I', 'Victim': 'myself', 'Assailant': 'from the blows'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+from the blows     -- negative ->    I
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+myself     -- negative ->    from the blows
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+myself     -- positive ->     I
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+I     -- negative ->    from the blows
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+I     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+from the blows     -- negative ->    myself
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     I
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    from the blows
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+I     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+I     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+myself     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+myself     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    I
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    myself
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    It was defended in Britain by Richard Owen and in America by the Harvard professor , Louis Agassiz .
+Target:    defended 
+FE:    {'Victim': 'It', 'Place': 'in America', 'Defender': 'by the Harvard professor , Louis Agassiz'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+It     -- positive ->     by the Harvard professor , Louis Agassiz
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+by the Harvard professor , Louis Agassiz     -- positive ->     It
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     by the Harvard professor , Louis Agassiz
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+by the Harvard professor , Louis Agassiz     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+It     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+by the Harvard professor , Louis Agassiz     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+It     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     It
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    It
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    by the Harvard professor , Louis Agassiz
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    ` You try to defend yourself with words , but they are empty , meaningless , " he said .
+Target:    defend 
+FE:    {'Defender': 'You', 'Victim': 'yourself', 'Instrument': 'with words'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+yourself     -- positive ->     You
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+You     -- positive ->     yourself
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     You
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+You     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+You     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+yourself     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+yourself     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     yourself
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    You
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    yourself
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Cunningham defended it with every weapon he could muster .
+Target:    defended 
+FE:    {'Defender': 'Cunningham', 'Victim': 'it', 'Instrument': 'with every weapon he could muster'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+it     -- positive ->     Cunningham
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Cunningham     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Cunningham
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Cunningham     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Cunningham     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+it     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+it     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Cunningham
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    it
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Because of the delays in appointments to the Area Boards , much of the initial planning work on organisation had to be done centrally , but the chairmen were soon stoutly defending their autonomy .
+Target:    defending 
+FE:    {'Defender': 'the chairmen', 'Manner': 'stoutly', 'Victim': 'their autonomy'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+their autonomy     -- positive ->     the chairmen
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+the chairmen     -- positive ->     their autonomy
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     the chairmen
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+the chairmen     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+the chairmen     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+their autonomy     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+their autonomy     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     their autonomy
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    the chairmen
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    their autonomy
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Consequently , he is continually having to hold on to a sense of humility while he listens to other people , otherwise he can too easily defend himself by taking up a judgemental posture .
+Target:    defend 
+FE:    {'Defender': 'he', 'Manner': 'too easily', 'Victim': 'himself', 'Means': 'by taking up a judgemental posture'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+himself     -- positive ->     he
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+he     -- positive ->     himself
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     he
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+he     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+he     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+himself     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+himself     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     himself
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    himself
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    When we defend ourselves too rigidly against threatening aspects of change we can precipitate the very situations we seek to avert .
+Target:    defend 
+FE:    {'Defender': 'we', 'Victim': 'ourselves', 'Manner': 'too rigidly', 'Assailant': 'against threatening aspects of change'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against threatening aspects of change     -- negative ->    we
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+ourselves     -- negative ->    against threatening aspects of change
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+ourselves     -- positive ->     we
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+we     -- negative ->    against threatening aspects of change
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+we     -- positive ->     ourselves
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against threatening aspects of change     -- negative ->    ourselves
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     we
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against threatening aspects of change
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+we     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+we     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+ourselves     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+ourselves     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     ourselves
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    we
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    ourselves
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    I always found this kind of slick psychoanalytic one-upmanship irritating , but I never attempted to defend myself , because I am bored by argument and discussion of any kind .
+Target:    defend 
+FE:    {'Defender': 'I', 'Victim': 'myself', 'Explanation': 'because I am bored by argument and discussion of any kind'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+myself     -- positive ->     I
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+I     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     I
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+I     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+I     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+myself     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+myself     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    I
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    myself
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    If a bird is defending a territory in order to exploit as efficiently as possible the food resources on it , the bird should ensure that it defends a territory no larger than necessary .
+Target:    defending 
+FE:    {'Defender': 'a bird', 'Victim': 'a territory', 'Purpose': 'in order to exploit as efficiently as possible the food resources on it'}
+FE_unexpr:    {'Assailant': 'INI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+a territory     -- positive ->     a bird
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+a bird     -- positive ->     a territory
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     a bird
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+a bird     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+a bird     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+a territory     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+a territory     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     a territory
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    a bird
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    a territory
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    In the late 1960s , however , the system also was tasked with defending the USSR against biological attacks .
+Target:    defending 
+FE:    {'Defender': 'the system', 'Victim': 'the USSR', 'Assailant': 'against biological attacks'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against biological attacks     -- negative ->    the system
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+the USSR     -- negative ->    against biological attacks
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+the USSR     -- positive ->     the system
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+the system     -- negative ->    against biological attacks
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+the system     -- positive ->     the USSR
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against biological attacks     -- negative ->    the USSR
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     the system
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against biological attacks
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+the system     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+the system     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+the USSR     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+the USSR     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the USSR
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    the system
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    the USSR
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    The remains of the 17th - century Barra Fortress , which once defended the southern tip of the peninsula , contains the chapel of Santiago ( St. James ) .
+Target:    defended 
+FE:    {'Defender': 'which', 'Time': 'once', 'Victim': 'the southern tip of the peninsula'}
+FE_unexpr:    {'Assailant': 'INI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+the southern tip of the peninsula     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+which     -- positive ->     the southern tip of the peninsula
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+which     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+the southern tip of the peninsula     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+the southern tip of the peninsula     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the southern tip of the peninsula
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    the southern tip of the peninsula
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defenses.n
+frame:    Defending
+text:    But many aircraft , possibly including U. S. fighter planes , would probably be needed to take out Libya 's air defenses .
+Target:    defenses 
+FE:    {'Defender': "Libya 's", 'Location_of_assailant': 'air', 'Instrument': 'defenses'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Libya 's
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Libya 's     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Libya 's     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Libya 's
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defenses.n
+frame:    Defending
+text:    Kadafi 's fighters penetrated thin rebel defenses and pushed into Ajdabiya along the highway from the west , but also from the desert to the south , catching the rebels by surprise .
+Target:    defenses 
+FE:    {'Depictive': 'thin', 'Defender': 'rebel', 'Instrument': 'defenses'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     rebel
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+rebel     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+rebel     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    rebel
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defenses.n
+frame:    Defending
+text:    Libyan air defenses use older Soviet-era technology similar to what U. S. warplanes faced in Iraq , he said .
+Target:    defenses 
+FE:    {'Defender': 'Libyan', 'Location_of_assailant': 'air', 'Instrument': 'defenses'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Libyan
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Libyan     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Libyan     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Libyan
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    The immune system consists of specialised cells and macromolecules which defend the body against infection through their ability to recognise ` foreign-ness " and to respond to the presence of micro-organisms or parasites .
+Target:    defend 
+FE:    {'Defender': 'which', 'Victim': 'the body', 'Assailant': 'against infection', 'Means': 'through their ability to recognise ` foreign-ness " and to respond to the presence of micro-organisms or parasites'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against infection     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+the body     -- negative ->    against infection
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+the body     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+which     -- negative ->    against infection
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+which     -- positive ->     the body
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against infection     -- negative ->    the body
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against infection
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+which     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+the body     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+the body     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the body
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    the body
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Who , if not I , should defend you against such slanders ?
+Target:    defend 
+FE:    {'Defender': 'Who', 'Victim': 'you', 'Assailant': 'against such slanders'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against such slanders     -- negative ->    Who
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+you     -- negative ->    against such slanders
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+you     -- positive ->     Who
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+Who     -- negative ->    against such slanders
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Who     -- positive ->     you
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against such slanders     -- negative ->    you
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Who
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against such slanders
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Who     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+you     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     you
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Who
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    you
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    The males set up territories which they will defend vigorously against others of their own kind , and fights to the death have occasionally been witnessed .
+Target:    defend 
+FE:    {'Victim': 'which', 'Defender': 'they', 'Manner': 'vigorously', 'Assailant': 'against others of their own kind'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against others of their own kind     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+which     -- negative ->    against others of their own kind
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+which     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+they     -- negative ->    against others of their own kind
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+they     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against others of their own kind     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against others of their own kind
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+they     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+which     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+they     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Sixty angry local pickers , who collect by hand , vowed to defend a 30-acre mudbank from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges .
+Target:    defend 
+FE:    {'Defender': 'Sixty angry local pickers , who collect by hand', 'Victim': 'a 30-acre mudbank', 'Assailant': 'from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges     -- negative ->    Sixty angry local pickers , who collect by hand
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+a 30-acre mudbank     -- negative ->    from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+a 30-acre mudbank     -- positive ->     Sixty angry local pickers , who collect by hand
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+Sixty angry local pickers , who collect by hand     -- negative ->    from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Sixty angry local pickers , who collect by hand     -- positive ->     a 30-acre mudbank
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges     -- negative ->    a 30-acre mudbank
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Sixty angry local pickers , who collect by hand
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Sixty angry local pickers , who collect by hand     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Sixty angry local pickers , who collect by hand     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+a 30-acre mudbank     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+a 30-acre mudbank     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     a 30-acre mudbank
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Sixty angry local pickers , who collect by hand
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    a 30-acre mudbank
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    There was always too much to do and although she hated it when she came as a young bride , she had grown to love it and would defend it with her life .
+Target:    defend 
+FE:    {'Defender': 'she', 'Victim': 'it', 'Instrument': 'with her life'}
+FE_unexpr:    {'Assailant': 'INI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+it     -- positive ->     she
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+she     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     she
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+she     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+she     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+it     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+it     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    she
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    it
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Mrs Gyngell defended the HSC after criticism from trade union representatives and back care coordinators at the launch who said the existing guidance , issued 10 years ago , had not been enforced .
+Target:    defended 
+FE:    {'Defender': 'Mrs Gyngell', 'Victim': 'the HSC', 'Explanation': 'after criticism from trade union representatives and back care coordinators at the launch who said the existing guidance , issued 10 years ago , had not been enforced'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+the HSC     -- positive ->     Mrs Gyngell
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Mrs Gyngell     -- positive ->     the HSC
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Mrs Gyngell
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Mrs Gyngell     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Mrs Gyngell     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+the HSC     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+the HSC     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the HSC
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Mrs Gyngell
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    the HSC
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Written in a lively and witty style , the pamphlet defends women against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them .
+Target:    defends 
+FE:    {'Depictive': 'Written in a lively and witty style', 'Defender': 'the pamphlet', 'Victim': 'women', 'Assailant': 'against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them     -- negative ->    the pamphlet
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+women     -- negative ->    against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+women     -- positive ->     the pamphlet
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+the pamphlet     -- negative ->    against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+the pamphlet     -- positive ->     women
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them     -- negative ->    women
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     the pamphlet
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+the pamphlet     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+the pamphlet     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+women     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+women     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     women
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    the pamphlet
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    women
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Locke is anxious to defend his political philosophy against the accusation that it encourages rebellion .
+Target:    defend 
+FE:    {'Defender': 'Locke', 'Victim': 'his political philosophy', 'Assailant': 'against the accusation that it encourages rebellion'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against the accusation that it encourages rebellion     -- negative ->    Locke
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+his political philosophy     -- negative ->    against the accusation that it encourages rebellion
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+his political philosophy     -- positive ->     Locke
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+Locke     -- negative ->    against the accusation that it encourages rebellion
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Locke     -- positive ->     his political philosophy
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against the accusation that it encourages rebellion     -- negative ->    his political philosophy
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Locke
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against the accusation that it encourages rebellion
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Locke     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Locke     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+his political philosophy     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+his political philosophy     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     his political philosophy
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Locke
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    his political philosophy
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Lynsey was researching a project on how women could defend themselves from potential rapists and sex attackers and planning a BBC documentary on the subject .
+Target:    defend 
+FE:    {'Defender': 'women', 'Victim': 'themselves', 'Assailant': 'from potential rapists and sex attackers'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+from potential rapists and sex attackers     -- negative ->    women
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+themselves     -- negative ->    from potential rapists and sex attackers
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+themselves     -- positive ->     women
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+women     -- negative ->    from potential rapists and sex attackers
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+women     -- positive ->     themselves
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+from potential rapists and sex attackers     -- negative ->    themselves
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     women
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    from potential rapists and sex attackers
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+women     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+women     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+themselves     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+themselves     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     themselves
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    women
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    themselves
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    I just tried to defend myself from the blows . "
+Target:    defend 
+FE:    {'Defender': 'I', 'Victim': 'myself', 'Assailant': 'from the blows'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+from the blows     -- negative ->    I
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+myself     -- negative ->    from the blows
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+myself     -- positive ->     I
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+I     -- negative ->    from the blows
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+I     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+from the blows     -- negative ->    myself
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     I
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    from the blows
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+I     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+I     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+myself     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+myself     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    I
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    myself
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    It was defended in Britain by Richard Owen and in America by the Harvard professor , Louis Agassiz .
+Target:    defended 
+FE:    {'Victim': 'It', 'Place': 'in America', 'Defender': 'by the Harvard professor , Louis Agassiz'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+It     -- positive ->     by the Harvard professor , Louis Agassiz
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+by the Harvard professor , Louis Agassiz     -- positive ->     It
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     by the Harvard professor , Louis Agassiz
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+by the Harvard professor , Louis Agassiz     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+It     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+by the Harvard professor , Louis Agassiz     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+It     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     It
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    It
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    by the Harvard professor , Louis Agassiz
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    ` You try to defend yourself with words , but they are empty , meaningless , " he said .
+Target:    defend 
+FE:    {'Defender': 'You', 'Victim': 'yourself', 'Instrument': 'with words'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+yourself     -- positive ->     You
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+You     -- positive ->     yourself
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     You
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+You     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+You     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+yourself     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+yourself     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     yourself
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    You
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    yourself
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Cunningham defended it with every weapon he could muster .
+Target:    defended 
+FE:    {'Defender': 'Cunningham', 'Victim': 'it', 'Instrument': 'with every weapon he could muster'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+it     -- positive ->     Cunningham
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+Cunningham     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Cunningham
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Cunningham     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Cunningham     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+it     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+it     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Cunningham
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    it
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Because of the delays in appointments to the Area Boards , much of the initial planning work on organisation had to be done centrally , but the chairmen were soon stoutly defending their autonomy .
+Target:    defending 
+FE:    {'Defender': 'the chairmen', 'Manner': 'stoutly', 'Victim': 'their autonomy'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+their autonomy     -- positive ->     the chairmen
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+the chairmen     -- positive ->     their autonomy
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     the chairmen
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+the chairmen     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+the chairmen     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+their autonomy     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+their autonomy     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     their autonomy
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    the chairmen
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    their autonomy
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    Consequently , he is continually having to hold on to a sense of humility while he listens to other people , otherwise he can too easily defend himself by taking up a judgemental posture .
+Target:    defend 
+FE:    {'Defender': 'he', 'Manner': 'too easily', 'Victim': 'himself', 'Means': 'by taking up a judgemental posture'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+himself     -- positive ->     he
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+he     -- positive ->     himself
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     he
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+he     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+he     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+himself     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+himself     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     himself
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    himself
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    When we defend ourselves too rigidly against threatening aspects of change we can precipitate the very situations we seek to avert .
+Target:    defend 
+FE:    {'Defender': 'we', 'Victim': 'ourselves', 'Manner': 'too rigidly', 'Assailant': 'against threatening aspects of change'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against threatening aspects of change     -- negative ->    we
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+ourselves     -- negative ->    against threatening aspects of change
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+ourselves     -- positive ->     we
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+we     -- negative ->    against threatening aspects of change
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+we     -- positive ->     ourselves
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against threatening aspects of change     -- negative ->    ourselves
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     we
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against threatening aspects of change
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+we     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+we     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+ourselves     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+ourselves     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     ourselves
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    we
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    ourselves
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    I always found this kind of slick psychoanalytic one-upmanship irritating , but I never attempted to defend myself , because I am bored by argument and discussion of any kind .
+Target:    defend 
+FE:    {'Defender': 'I', 'Victim': 'myself', 'Explanation': 'because I am bored by argument and discussion of any kind'}
+FE_unexpr:    {'Assailant': 'DNI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+myself     -- positive ->     I
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+I     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     I
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+I     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+I     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+myself     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+myself     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    I
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    myself
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    If a bird is defending a territory in order to exploit as efficiently as possible the food resources on it , the bird should ensure that it defends a territory no larger than necessary .
+Target:    defending 
+FE:    {'Defender': 'a bird', 'Victim': 'a territory', 'Purpose': 'in order to exploit as efficiently as possible the food resources on it'}
+FE_unexpr:    {'Assailant': 'INI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+a territory     -- positive ->     a bird
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+a bird     -- positive ->     a territory
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     a bird
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+a bird     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+a bird     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+a territory     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+a territory     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     a territory
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    a bird
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    a territory
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    In the late 1960s , however , the system also was tasked with defending the USSR against biological attacks .
+Target:    defending 
+FE:    {'Defender': 'the system', 'Victim': 'the USSR', 'Assailant': 'against biological attacks'}
+FE_unexpr:    {}
+====================================================================================================
+Defending.Assailant neg Defending.Defender
+against biological attacks     -- negative ->    the system
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg Defending.Assailant
+the USSR     -- negative ->    against biological attacks
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos Defending.Defender
+the USSR     -- positive ->     the system
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg Defending.Assailant
+the system     -- negative ->    against biological attacks
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+the system     -- positive ->     the USSR
+----------------------------------------------------------------------------------------------------
+Defending.Assailant neg Defending.Victim
+against biological attacks     -- negative ->    the USSR
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     the system
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against biological attacks
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+the system     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+the system     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+the USSR     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+the USSR     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the USSR
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    the system
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    the USSR
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defend.v
+frame:    Defending
+text:    The remains of the 17th - century Barra Fortress , which once defended the southern tip of the peninsula , contains the chapel of Santiago ( St. James ) .
+Target:    defended 
+FE:    {'Defender': 'which', 'Time': 'once', 'Victim': 'the southern tip of the peninsula'}
+FE_unexpr:    {'Assailant': 'INI'}
+====================================================================================================
+Defending.Victim pos Defending.Defender
+the southern tip of the peninsula     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos Defending.Victim
+which     -- positive ->     the southern tip of the peninsula
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     which
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+which     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim neg ?_t
+the southern tip of the peninsula     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Victim pos ?_t
+the southern tip of the peninsula     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the southern tip of the peninsula
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    the southern tip of the peninsula
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defenses.n
+frame:    Defending
+text:    But many aircraft , possibly including U. S. fighter planes , would probably be needed to take out Libya 's air defenses .
+Target:    defenses 
+FE:    {'Defender': "Libya 's", 'Location_of_assailant': 'air', 'Instrument': 'defenses'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Libya 's
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Libya 's     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Libya 's     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Libya 's
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defenses.n
+frame:    Defending
+text:    Kadafi 's fighters penetrated thin rebel defenses and pushed into Ajdabiya along the highway from the west , but also from the desert to the south , catching the rebels by surprise .
+Target:    defenses 
+FE:    {'Depictive': 'thin', 'Defender': 'rebel', 'Instrument': 'defenses'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     rebel
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+rebel     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+rebel     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    rebel
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    defenses.n
+frame:    Defending
+text:    Libyan air defenses use older Soviet-era technology similar to what U. S. warplanes faced in Iraq , he said .
+Target:    defenses 
+FE:    {'Defender': 'Libyan', 'Location_of_assailant': 'air', 'Instrument': 'defenses'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Libyan
+----------------------------------------------------------------------------------------------------
+?_x pos Defending
+_GENERAL     -- positive ->     Defending
+----------------------------------------------------------------------------------------------------
+Defending.Defender pos ?_t
+Libyan     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+Defending.Defender neg ?_t
+Libyan     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Libyan
+----------------------------------------------------------------------------------------------------

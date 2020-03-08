@@ -1,0 +1,3 @@
+Inhibit_movement	Agent	
+<Source=?_x -- Polarity=?_p -> Target=Inhibit_movement.?_lu>
+<Source=Inhibit_movement.Agent -- Polarity=?_p -> Target=?_t>

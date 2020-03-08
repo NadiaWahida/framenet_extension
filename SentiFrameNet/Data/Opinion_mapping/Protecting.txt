@@ -1,0 +1,1998 @@
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    If the water table is within 15 m of the surface , the cheapest method is to dig a well by hand and protect the walls from collapse by building a masonry lining .
+Target:    protect 
+FE:    {'Asset': 'the walls', 'Danger': 'from collapse', 'Means': 'by building a masonry lining'}
+FE_unexpr:    {'Protection': 'CNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the walls
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    It was an old graveyard , protected by the high walls from the bustle and intrusion of the outside world .
+Target:    protected 
+FE:    {'Asset': 'an old graveyard', 'Protection': 'by the high walls', 'Danger': 'from the bustle and intrusion of the outside world'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     an old graveyard
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    These regulations are designed to protect people against immediate or delayed health risks from substances which may have an adverse effect on their health ; for instance , disinfectants such as glutaraldehyde .
+Target:    protect 
+FE:    {'Protection': 'These regulations', 'Asset': 'people', 'Danger': 'against immediate or delayed health risks from substances which may have an adverse effect on their health ; for instance , disinfectants such as glutaraldehyde'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     people
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    IN THE MENDIPS , A SHEEP FARMER IS STRUGGLING TO PROTECT HIS LAMBS FROM THE FOXES THAT WATCH AND PREY .
+Target:    PROTECT 
+FE:    {'Place': 'IN THE MENDIPS', 'Protection': 'A SHEEP FARMER', 'Asset': 'HIS LAMBS', 'Danger': 'FROM THE FOXES THAT WATCH AND PREY'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     HIS LAMBS
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Paint protects your car from rust .
+Target:    protects 
+FE:    {'Protection': 'Paint', 'Asset': 'your car', 'Danger': 'from rust'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     your car
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Tod Richardson protects himself from burglars .
+Target:    protects 
+FE:    {'Protection': 'Tod Richardson', 'Asset': 'himself', 'Danger': 'from burglars'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     himself
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    But China is also protecting North Korea from the wrath of the United Nations Security Council .
+Target:    protecting 
+FE:    {'Protection': 'China', 'Asset': 'North Korea', 'Danger': 'from the wrath of the United Nations'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     North Korea
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Scottish parents are apparently even more likely to do this -- one in three parents never protect their children from its harmful rays despite the fact that many of them have particularly delicate skin .
+Target:    protect 
+FE:    {'Protection': 'one in three parents', 'Asset': 'their children', 'Danger': 'from its harmful rays'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     their children
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    The high walls of the tower protect the crew from arrows and attack from the ground .
+Target:    protect 
+FE:    {'Protection': 'The high walls of the tower', 'Asset': 'the crew', 'Danger': 'from arrows and attack from the ground'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the crew
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    But prison had protected Surere from the truth .
+Target:    protected 
+FE:    {'Protection': 'prison', 'Asset': 'Surere', 'Danger': 'from the truth'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Surere
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    It does not protect the grant of a licence against recall on the ground of one or other of the disqualifications mentioned in note C below .
+Target:    protect 
+FE:    {'Protection': 'It', 'Asset': 'the grant of a licence', 'Danger': 'against recall', 'Explanation': 'on the ground of one or other of the disqualifications mentioned in note C below'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the grant of a licence
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Through the valuable option of the NatWest Home Improvement Loan Protector , you can have peace of mind and protect yourself and your dependents against unforeseen circumstances .
+Target:    protect 
+FE:    {'Means': 'Through the valuable option of the NatWest Home Improvement Loan Protector', 'Protection': 'you', 'Asset': 'yourself and your dependents', 'Danger': 'against unforeseen circumstances'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     yourself and your dependents
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Of course , you must make sure you protect the baby from a toddler who pinches or slaps or tries to tip her out of the pram when your back is turned .
+Target:    protect 
+FE:    {'Protection': 'you', 'Asset': 'the baby', 'Danger': 'from a toddler who pinches or slaps or tries to tip her out of the pram when your back is turned'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the baby
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    At the moment only scheduled archaeological sites are protected by law ; we need to extend that to unscheduled sites as well .
+Target:    protected 
+FE:    {'Time': 'At the moment', 'Asset': 'only scheduled archaeological sites', 'Protection': 'by law'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     only scheduled archaeological sites
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    It is possible that he was simply protecting the feeding territory for the benefit of his own offspring .
+Target:    protecting 
+FE:    {'Protection': 'he', 'Asset': 'the feeding territory', 'Explanation': 'for the benefit of his own offspring'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the feeding territory
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    During his stay in Iraq , he will visit several places , including hospitals and schools , in Baghdad and southern Iraq , where the U.S. and Britain imposed a no-fly zone , with the claimed aim of protecting Shi 'ite Muslims from possible attacks by Iraqi government .
+Target:    protecting 
+FE:    {'Protection': 'a no-fly zone', 'Asset': "Shi 'ite Muslims", 'Danger': 'from possible attacks by Iraqi government'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Shi 'ite Muslims
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    The buses should have the following : 1- Light armor and rocket launchers 2- Wireless equipment to report dangerous activities 3- Writing materials to jot down suspicious activities or license plate numbers 4- Sand bags around the buses to protect them from gun fire
+Target:    protect 
+FE:    {'Protection': 'Sand bags around the buses', 'Asset': 'them', 'Danger': 'from gun fire'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    The devil-man opened his eyes and shielded them against the brightness of the sky .
+Target:    shielded 
+FE:    {'Protection': 'The devil-man', 'Asset': 'them', 'Danger': 'against the brightness of the sky'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    Welford said : ` He grabbed me by the lapels and cuffed me across the face , but I shielded myself from the rest of his blows . "
+Target:    shielded 
+FE:    {'Protection': 'I', 'Asset': 'myself', 'Danger': 'from the rest of his blows'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    As a result , an alumina implant can shield the surrounding bone from the stresses generated by normal activity , and the bone loses the stimulation which is necessary for it to remain healthy .
+Target:    shield 
+FE:    {'Protection': 'an alumina implant', 'Asset': 'the surrounding bone', 'Danger': 'from the stresses generated by normal activity'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the surrounding bone
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    He tried to shield his past from its probing .
+Target:    shield 
+FE:    {'Protection': 'He', 'Asset': 'his past', 'Danger': 'from its probing'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     his past
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    But the government shielded consumers from the worst excesses of inflation by reducing the community charge burden , and businesses kept their price rises down to one of the lowest levels for 24 years .
+Target:    shielded 
+FE:    {'Protection': 'the government', 'Asset': 'consumers', 'Danger': 'from the worst excesses of inflation', 'Means': 'by reducing the community charge burden'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     consumers
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    He waited , watching John 's hands shielding the spark from the tinder , and the moment he finished , he turned to descend at his back .
+Target:    shielding 
+FE:    {'Protection': "John 's hands", 'Asset': 'the spark', 'Danger': 'from the tinder'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the spark
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    The resemblance could be particularly close if breeders were installing some trait that allowed the crop to thrive in a new habitat , or one that shielded it from parasites or diseases .
+Target:    shielded 
+FE:    {'Protection': 'that', 'Asset': 'it', 'Danger': 'from parasites or diseases'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    With theatrical exaggeration he shielded his eyes from the bright lights and searched the audience for a suitable victim , and they all laughed at his cheek .
+Target:    shielded 
+FE:    {'Manner': 'With theatrical exaggeration', 'Protection': 'he', 'Asset': 'his eyes', 'Danger': 'from the bright lights'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     his eyes
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    ` Here , let me shield you from the wind . "
+Target:    shield 
+FE:    {'Protection': 'me', 'Asset': 'you', 'Danger': 'from the wind'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     you
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    We followed it , passed a massive Iron Age earthwork called Abbotsbury Castle , and gradually entered an isolated valley shielded from the sea by the massive bulk of Wears Hill .
+Target:    shielded 
+FE:    {'Asset': 'an isolated valley', 'Danger': 'from the sea', 'Protection': 'by the massive bulk of Wears Hill'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     an isolated valley
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    The buoy shielded her from the view of the guards , and she used that advantage to get her breath back .
+Target:    shielded 
+FE:    {'Protection': 'The buoy', 'Asset': 'her', 'Danger': 'from the view of the guards'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     her
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    They grew carrots , onions and tomatoes : the palms shielded plants from the sun , and wells provided a ready supply for watering by hand .
+Target:    shielded 
+FE:    {'Protection': 'the palms', 'Asset': 'plants', 'Danger': 'from the sun'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     plants
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    We began to treat him like a strange alien person who need to be over-protected , who needed to be shielded from outsiders and the press .
+Target:    shielded 
+FE:    {'Asset': 'who', 'Danger': 'from outsiders and the press'}
+FE_unexpr:    {'Protection': 'CNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     who
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    Miriam had to shield the candle-flame with her hand as it fluttered wildly .
+Target:    shield 
+FE:    {'Protection': 'Miriam', 'Asset': 'the candle-flame', 'Instrument': 'with her hand'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the candle-flame
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    Before the first shots rang out , Adam had turned the shallow bend and was shielded by the safety of the trees .
+Target:    shielded 
+FE:    {'Time': 'Before the first shots rang out', 'Asset': 'Adam', 'Protection': 'by the safety of the trees'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Adam
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    The rocks she sat behind shielded her from the lodge and the staff-cabins .
+Target:    shielded 
+FE:    {'Protection': 'The rocks she sat behind', 'Asset': 'her', 'Danger': 'from the lodge and the staff-cabins'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     her
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    A thick hedge shielded her from the field which swept down towards the foot of the embankment .
+Target:    shielded 
+FE:    {'Protection': 'A thick hedge', 'Asset': 'her', 'Danger': 'from the field which swept down towards the foot of the embankment'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     her
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    Hence , the investor is partially shielded from the full force of any general market decline .
+Target:    shielded 
+FE:    {'Asset': 'the investor', 'Degree': 'partially', 'Danger': 'from the full force of any general market decline'}
+FE_unexpr:    {'Protection': 'CNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the investor
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    bulwark.n
+frame:    Protecting
+text:    The Comecon countries of Europe other than the USSR -- Bulgaria , Czechoslovakia , the GDR , Hungary , Poland and Romania -- are part of Russia 's bulwark against the capitalist West .
+Target:    bulwark 
+FE:    {'Protection': 'The Comecon countries of Europe other than the USSR -- Bulgaria , Czechoslovakia , the GDR , Hungary , Poland and Romania', 'Beneficiary': "Russia 's", 'Danger': 'against the capitalist West'}
+FE_unexpr:    {'Asset': 'DNI'}
+====================================================================================================
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    bulwark.n
+frame:    Protecting
+text:    We 're your bulwark against the underscum .
+Target:    bulwark 
+FE:    {'Protection': 'We', 'Beneficiary': 'your', 'Danger': 'against the underscum'}
+FE_unexpr:    {'Asset': 'DNI'}
+====================================================================================================
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Haunting the city from across the Nile are the three Great Pyramids and the Sphinx , these colossal constructions have guarded the desert border for over three and a half thousand years .
+Target:    guarded 
+FE:    {'Protection': 'these colossal constructions', 'Asset': 'the desert border', 'Duration': 'for over three and a half thousand years'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the desert border
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Trees guard the house from the east winds ; meadows slope down to the water .
+Target:    guard 
+FE:    {'Protection': 'Trees', 'Asset': 'the house', 'Danger': 'from the east winds'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the house
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    In addition , amplexus allows a male to guard a female from other males until she is ready to lay her eggs .
+Target:    guard 
+FE:    {'Protection': 'a male', 'Asset': 'a female', 'Danger': 'from other males'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     a female
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    A Dungeons and Dragons theme where you guard your wizard from attack whilst attempting to destroy other wizards on the board .
+Target:    guard 
+FE:    {'Protection': 'you', 'Asset': 'your wizard', 'Danger': 'from attack', 'Depictive': 'whilst attempting to destroy other wizards on the board'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     your wizard
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Every evening throughout 1922 a band of youths from the colony volunteered to guard the local stretch of the main road into Poltava .
+Target:    guard 
+FE:    {'Time': 'Every evening throughout 1922', 'Protection': 'a band of youths from the colony', 'Asset': 'the local stretch of the main road into Poltava'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the local stretch of the main road into Poltava
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    In those days the names of intelligence chiefs were guarded by the D-Notice system so British newspapers tended not to publish them .
+Target:    guarded 
+FE:    {'Time': 'In those days', 'Asset': 'the names of intelligence chiefs', 'Protection': 'by the D-Notice system'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the names of intelligence chiefs
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Roman Legions guarding Hadrian 's Wall in the north of England carried banners made of Chinese silk , so some enterprising businessman had seized trading opportunities centuries before Marco Polo .
+Target:    guarding 
+FE:    {'Protection': 'Roman Legions', 'Asset': "Hadrian 's Wall", 'Place': 'in the north of England'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Hadrian 's Wall
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Orcs and Goblins poured over the Worlds Edge Mountains through passes previously guarded by the Dwarfs , while in the northern forests human tribes began to move southwards .
+Target:    guarded 
+FE:    {'Asset': 'passes', 'Time': 'previously', 'Protection': 'by the Dwarfs'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     passes
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    ` Still , he can guard the house for Mummy and Daddy , ca n't he ? "
+Target:    guard 
+FE:    {'Protection': 'he', 'Asset': 'the house', 'Beneficiary': 'for Mummy and Daddy'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the house
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    They guarded it superstitiously , for while it remained impenetrable , they felt they could stay alive , whatever the horror of the world outside .
+Target:    guarded 
+FE:    {'Protection': 'They', 'Asset': 'it', 'Manner': 'superstitiously'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Four hundred troops are currently in the northwestern county guarding densely-populated areas , airports and power stations .
+Target:    guarding 
+FE:    {'Protection': 'Four hundred troops', 'Asset': 'power stations'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     power stations
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    If the water table is within 15 m of the surface , the cheapest method is to dig a well by hand and protect the walls from collapse by building a masonry lining .
+Target:    protect 
+FE:    {'Asset': 'the walls', 'Danger': 'from collapse', 'Means': 'by building a masonry lining'}
+FE_unexpr:    {'Protection': 'CNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the walls
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    It was an old graveyard , protected by the high walls from the bustle and intrusion of the outside world .
+Target:    protected 
+FE:    {'Asset': 'an old graveyard', 'Protection': 'by the high walls', 'Danger': 'from the bustle and intrusion of the outside world'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     an old graveyard
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    These regulations are designed to protect people against immediate or delayed health risks from substances which may have an adverse effect on their health ; for instance , disinfectants such as glutaraldehyde .
+Target:    protect 
+FE:    {'Protection': 'These regulations', 'Asset': 'people', 'Danger': 'against immediate or delayed health risks from substances which may have an adverse effect on their health ; for instance , disinfectants such as glutaraldehyde'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     people
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    IN THE MENDIPS , A SHEEP FARMER IS STRUGGLING TO PROTECT HIS LAMBS FROM THE FOXES THAT WATCH AND PREY .
+Target:    PROTECT 
+FE:    {'Place': 'IN THE MENDIPS', 'Protection': 'A SHEEP FARMER', 'Asset': 'HIS LAMBS', 'Danger': 'FROM THE FOXES THAT WATCH AND PREY'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     HIS LAMBS
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Paint protects your car from rust .
+Target:    protects 
+FE:    {'Protection': 'Paint', 'Asset': 'your car', 'Danger': 'from rust'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     your car
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Tod Richardson protects himself from burglars .
+Target:    protects 
+FE:    {'Protection': 'Tod Richardson', 'Asset': 'himself', 'Danger': 'from burglars'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     himself
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    But China is also protecting North Korea from the wrath of the United Nations Security Council .
+Target:    protecting 
+FE:    {'Protection': 'China', 'Asset': 'North Korea', 'Danger': 'from the wrath of the United Nations'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     North Korea
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Scottish parents are apparently even more likely to do this -- one in three parents never protect their children from its harmful rays despite the fact that many of them have particularly delicate skin .
+Target:    protect 
+FE:    {'Protection': 'one in three parents', 'Asset': 'their children', 'Danger': 'from its harmful rays'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     their children
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    The high walls of the tower protect the crew from arrows and attack from the ground .
+Target:    protect 
+FE:    {'Protection': 'The high walls of the tower', 'Asset': 'the crew', 'Danger': 'from arrows and attack from the ground'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the crew
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    But prison had protected Surere from the truth .
+Target:    protected 
+FE:    {'Protection': 'prison', 'Asset': 'Surere', 'Danger': 'from the truth'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Surere
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    It does not protect the grant of a licence against recall on the ground of one or other of the disqualifications mentioned in note C below .
+Target:    protect 
+FE:    {'Protection': 'It', 'Asset': 'the grant of a licence', 'Danger': 'against recall', 'Explanation': 'on the ground of one or other of the disqualifications mentioned in note C below'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the grant of a licence
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Through the valuable option of the NatWest Home Improvement Loan Protector , you can have peace of mind and protect yourself and your dependents against unforeseen circumstances .
+Target:    protect 
+FE:    {'Means': 'Through the valuable option of the NatWest Home Improvement Loan Protector', 'Protection': 'you', 'Asset': 'yourself and your dependents', 'Danger': 'against unforeseen circumstances'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     yourself and your dependents
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Of course , you must make sure you protect the baby from a toddler who pinches or slaps or tries to tip her out of the pram when your back is turned .
+Target:    protect 
+FE:    {'Protection': 'you', 'Asset': 'the baby', 'Danger': 'from a toddler who pinches or slaps or tries to tip her out of the pram when your back is turned'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the baby
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    At the moment only scheduled archaeological sites are protected by law ; we need to extend that to unscheduled sites as well .
+Target:    protected 
+FE:    {'Time': 'At the moment', 'Asset': 'only scheduled archaeological sites', 'Protection': 'by law'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     only scheduled archaeological sites
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    It is possible that he was simply protecting the feeding territory for the benefit of his own offspring .
+Target:    protecting 
+FE:    {'Protection': 'he', 'Asset': 'the feeding territory', 'Explanation': 'for the benefit of his own offspring'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the feeding territory
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    During his stay in Iraq , he will visit several places , including hospitals and schools , in Baghdad and southern Iraq , where the U.S. and Britain imposed a no-fly zone , with the claimed aim of protecting Shi 'ite Muslims from possible attacks by Iraqi government .
+Target:    protecting 
+FE:    {'Protection': 'a no-fly zone', 'Asset': "Shi 'ite Muslims", 'Danger': 'from possible attacks by Iraqi government'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Shi 'ite Muslims
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    The buses should have the following : 1- Light armor and rocket launchers 2- Wireless equipment to report dangerous activities 3- Writing materials to jot down suspicious activities or license plate numbers 4- Sand bags around the buses to protect them from gun fire
+Target:    protect 
+FE:    {'Protection': 'Sand bags around the buses', 'Asset': 'them', 'Danger': 'from gun fire'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    The devil-man opened his eyes and shielded them against the brightness of the sky .
+Target:    shielded 
+FE:    {'Protection': 'The devil-man', 'Asset': 'them', 'Danger': 'against the brightness of the sky'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    Welford said : ` He grabbed me by the lapels and cuffed me across the face , but I shielded myself from the rest of his blows . "
+Target:    shielded 
+FE:    {'Protection': 'I', 'Asset': 'myself', 'Danger': 'from the rest of his blows'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    As a result , an alumina implant can shield the surrounding bone from the stresses generated by normal activity , and the bone loses the stimulation which is necessary for it to remain healthy .
+Target:    shield 
+FE:    {'Protection': 'an alumina implant', 'Asset': 'the surrounding bone', 'Danger': 'from the stresses generated by normal activity'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the surrounding bone
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    He tried to shield his past from its probing .
+Target:    shield 
+FE:    {'Protection': 'He', 'Asset': 'his past', 'Danger': 'from its probing'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     his past
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    But the government shielded consumers from the worst excesses of inflation by reducing the community charge burden , and businesses kept their price rises down to one of the lowest levels for 24 years .
+Target:    shielded 
+FE:    {'Protection': 'the government', 'Asset': 'consumers', 'Danger': 'from the worst excesses of inflation', 'Means': 'by reducing the community charge burden'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     consumers
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    He waited , watching John 's hands shielding the spark from the tinder , and the moment he finished , he turned to descend at his back .
+Target:    shielding 
+FE:    {'Protection': "John 's hands", 'Asset': 'the spark', 'Danger': 'from the tinder'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the spark
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    The resemblance could be particularly close if breeders were installing some trait that allowed the crop to thrive in a new habitat , or one that shielded it from parasites or diseases .
+Target:    shielded 
+FE:    {'Protection': 'that', 'Asset': 'it', 'Danger': 'from parasites or diseases'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    With theatrical exaggeration he shielded his eyes from the bright lights and searched the audience for a suitable victim , and they all laughed at his cheek .
+Target:    shielded 
+FE:    {'Manner': 'With theatrical exaggeration', 'Protection': 'he', 'Asset': 'his eyes', 'Danger': 'from the bright lights'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     his eyes
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    ` Here , let me shield you from the wind . "
+Target:    shield 
+FE:    {'Protection': 'me', 'Asset': 'you', 'Danger': 'from the wind'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     you
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    We followed it , passed a massive Iron Age earthwork called Abbotsbury Castle , and gradually entered an isolated valley shielded from the sea by the massive bulk of Wears Hill .
+Target:    shielded 
+FE:    {'Asset': 'an isolated valley', 'Danger': 'from the sea', 'Protection': 'by the massive bulk of Wears Hill'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     an isolated valley
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    The buoy shielded her from the view of the guards , and she used that advantage to get her breath back .
+Target:    shielded 
+FE:    {'Protection': 'The buoy', 'Asset': 'her', 'Danger': 'from the view of the guards'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     her
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    They grew carrots , onions and tomatoes : the palms shielded plants from the sun , and wells provided a ready supply for watering by hand .
+Target:    shielded 
+FE:    {'Protection': 'the palms', 'Asset': 'plants', 'Danger': 'from the sun'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     plants
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    We began to treat him like a strange alien person who need to be over-protected , who needed to be shielded from outsiders and the press .
+Target:    shielded 
+FE:    {'Asset': 'who', 'Danger': 'from outsiders and the press'}
+FE_unexpr:    {'Protection': 'CNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     who
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    Miriam had to shield the candle-flame with her hand as it fluttered wildly .
+Target:    shield 
+FE:    {'Protection': 'Miriam', 'Asset': 'the candle-flame', 'Instrument': 'with her hand'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the candle-flame
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    Before the first shots rang out , Adam had turned the shallow bend and was shielded by the safety of the trees .
+Target:    shielded 
+FE:    {'Time': 'Before the first shots rang out', 'Asset': 'Adam', 'Protection': 'by the safety of the trees'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Adam
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    The rocks she sat behind shielded her from the lodge and the staff-cabins .
+Target:    shielded 
+FE:    {'Protection': 'The rocks she sat behind', 'Asset': 'her', 'Danger': 'from the lodge and the staff-cabins'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     her
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    A thick hedge shielded her from the field which swept down towards the foot of the embankment .
+Target:    shielded 
+FE:    {'Protection': 'A thick hedge', 'Asset': 'her', 'Danger': 'from the field which swept down towards the foot of the embankment'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     her
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    Hence , the investor is partially shielded from the full force of any general market decline .
+Target:    shielded 
+FE:    {'Asset': 'the investor', 'Degree': 'partially', 'Danger': 'from the full force of any general market decline'}
+FE_unexpr:    {'Protection': 'CNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the investor
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    bulwark.n
+frame:    Protecting
+text:    The Comecon countries of Europe other than the USSR -- Bulgaria , Czechoslovakia , the GDR , Hungary , Poland and Romania -- are part of Russia 's bulwark against the capitalist West .
+Target:    bulwark 
+FE:    {'Protection': 'The Comecon countries of Europe other than the USSR -- Bulgaria , Czechoslovakia , the GDR , Hungary , Poland and Romania', 'Beneficiary': "Russia 's", 'Danger': 'against the capitalist West'}
+FE_unexpr:    {'Asset': 'DNI'}
+====================================================================================================
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    bulwark.n
+frame:    Protecting
+text:    We 're your bulwark against the underscum .
+Target:    bulwark 
+FE:    {'Protection': 'We', 'Beneficiary': 'your', 'Danger': 'against the underscum'}
+FE_unexpr:    {'Asset': 'DNI'}
+====================================================================================================
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Haunting the city from across the Nile are the three Great Pyramids and the Sphinx , these colossal constructions have guarded the desert border for over three and a half thousand years .
+Target:    guarded 
+FE:    {'Protection': 'these colossal constructions', 'Asset': 'the desert border', 'Duration': 'for over three and a half thousand years'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the desert border
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Trees guard the house from the east winds ; meadows slope down to the water .
+Target:    guard 
+FE:    {'Protection': 'Trees', 'Asset': 'the house', 'Danger': 'from the east winds'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the house
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    In addition , amplexus allows a male to guard a female from other males until she is ready to lay her eggs .
+Target:    guard 
+FE:    {'Protection': 'a male', 'Asset': 'a female', 'Danger': 'from other males'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     a female
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    A Dungeons and Dragons theme where you guard your wizard from attack whilst attempting to destroy other wizards on the board .
+Target:    guard 
+FE:    {'Protection': 'you', 'Asset': 'your wizard', 'Danger': 'from attack', 'Depictive': 'whilst attempting to destroy other wizards on the board'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     your wizard
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Every evening throughout 1922 a band of youths from the colony volunteered to guard the local stretch of the main road into Poltava .
+Target:    guard 
+FE:    {'Time': 'Every evening throughout 1922', 'Protection': 'a band of youths from the colony', 'Asset': 'the local stretch of the main road into Poltava'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the local stretch of the main road into Poltava
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    In those days the names of intelligence chiefs were guarded by the D-Notice system so British newspapers tended not to publish them .
+Target:    guarded 
+FE:    {'Time': 'In those days', 'Asset': 'the names of intelligence chiefs', 'Protection': 'by the D-Notice system'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the names of intelligence chiefs
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Roman Legions guarding Hadrian 's Wall in the north of England carried banners made of Chinese silk , so some enterprising businessman had seized trading opportunities centuries before Marco Polo .
+Target:    guarding 
+FE:    {'Protection': 'Roman Legions', 'Asset': "Hadrian 's Wall", 'Place': 'in the north of England'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Hadrian 's Wall
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Orcs and Goblins poured over the Worlds Edge Mountains through passes previously guarded by the Dwarfs , while in the northern forests human tribes began to move southwards .
+Target:    guarded 
+FE:    {'Asset': 'passes', 'Time': 'previously', 'Protection': 'by the Dwarfs'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     passes
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    ` Still , he can guard the house for Mummy and Daddy , ca n't he ? "
+Target:    guard 
+FE:    {'Protection': 'he', 'Asset': 'the house', 'Beneficiary': 'for Mummy and Daddy'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the house
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    They guarded it superstitiously , for while it remained impenetrable , they felt they could stay alive , whatever the horror of the world outside .
+Target:    guarded 
+FE:    {'Protection': 'They', 'Asset': 'it', 'Manner': 'superstitiously'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Four hundred troops are currently in the northwestern county guarding densely-populated areas , airports and power stations .
+Target:    guarding 
+FE:    {'Protection': 'Four hundred troops', 'Asset': 'power stations'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     power stations
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    If the water table is within 15 m of the surface , the cheapest method is to dig a well by hand and protect the walls from collapse by building a masonry lining .
+Target:    protect 
+FE:    {'Asset': 'the walls', 'Danger': 'from collapse', 'Means': 'by building a masonry lining'}
+FE_unexpr:    {'Protection': 'CNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the walls
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    It was an old graveyard , protected by the high walls from the bustle and intrusion of the outside world .
+Target:    protected 
+FE:    {'Asset': 'an old graveyard', 'Protection': 'by the high walls', 'Danger': 'from the bustle and intrusion of the outside world'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     an old graveyard
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    These regulations are designed to protect people against immediate or delayed health risks from substances which may have an adverse effect on their health ; for instance , disinfectants such as glutaraldehyde .
+Target:    protect 
+FE:    {'Protection': 'These regulations', 'Asset': 'people', 'Danger': 'against immediate or delayed health risks from substances which may have an adverse effect on their health ; for instance , disinfectants such as glutaraldehyde'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     people
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    IN THE MENDIPS , A SHEEP FARMER IS STRUGGLING TO PROTECT HIS LAMBS FROM THE FOXES THAT WATCH AND PREY .
+Target:    PROTECT 
+FE:    {'Place': 'IN THE MENDIPS', 'Protection': 'A SHEEP FARMER', 'Asset': 'HIS LAMBS', 'Danger': 'FROM THE FOXES THAT WATCH AND PREY'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     HIS LAMBS
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Paint protects your car from rust .
+Target:    protects 
+FE:    {'Protection': 'Paint', 'Asset': 'your car', 'Danger': 'from rust'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     your car
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Tod Richardson protects himself from burglars .
+Target:    protects 
+FE:    {'Protection': 'Tod Richardson', 'Asset': 'himself', 'Danger': 'from burglars'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     himself
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    But China is also protecting North Korea from the wrath of the United Nations Security Council .
+Target:    protecting 
+FE:    {'Protection': 'China', 'Asset': 'North Korea', 'Danger': 'from the wrath of the United Nations'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     North Korea
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Scottish parents are apparently even more likely to do this -- one in three parents never protect their children from its harmful rays despite the fact that many of them have particularly delicate skin .
+Target:    protect 
+FE:    {'Protection': 'one in three parents', 'Asset': 'their children', 'Danger': 'from its harmful rays'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     their children
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    The high walls of the tower protect the crew from arrows and attack from the ground .
+Target:    protect 
+FE:    {'Protection': 'The high walls of the tower', 'Asset': 'the crew', 'Danger': 'from arrows and attack from the ground'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the crew
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    But prison had protected Surere from the truth .
+Target:    protected 
+FE:    {'Protection': 'prison', 'Asset': 'Surere', 'Danger': 'from the truth'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Surere
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    It does not protect the grant of a licence against recall on the ground of one or other of the disqualifications mentioned in note C below .
+Target:    protect 
+FE:    {'Protection': 'It', 'Asset': 'the grant of a licence', 'Danger': 'against recall', 'Explanation': 'on the ground of one or other of the disqualifications mentioned in note C below'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the grant of a licence
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Through the valuable option of the NatWest Home Improvement Loan Protector , you can have peace of mind and protect yourself and your dependents against unforeseen circumstances .
+Target:    protect 
+FE:    {'Means': 'Through the valuable option of the NatWest Home Improvement Loan Protector', 'Protection': 'you', 'Asset': 'yourself and your dependents', 'Danger': 'against unforeseen circumstances'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     yourself and your dependents
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    Of course , you must make sure you protect the baby from a toddler who pinches or slaps or tries to tip her out of the pram when your back is turned .
+Target:    protect 
+FE:    {'Protection': 'you', 'Asset': 'the baby', 'Danger': 'from a toddler who pinches or slaps or tries to tip her out of the pram when your back is turned'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the baby
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    At the moment only scheduled archaeological sites are protected by law ; we need to extend that to unscheduled sites as well .
+Target:    protected 
+FE:    {'Time': 'At the moment', 'Asset': 'only scheduled archaeological sites', 'Protection': 'by law'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     only scheduled archaeological sites
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    It is possible that he was simply protecting the feeding territory for the benefit of his own offspring .
+Target:    protecting 
+FE:    {'Protection': 'he', 'Asset': 'the feeding territory', 'Explanation': 'for the benefit of his own offspring'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the feeding territory
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    During his stay in Iraq , he will visit several places , including hospitals and schools , in Baghdad and southern Iraq , where the U.S. and Britain imposed a no-fly zone , with the claimed aim of protecting Shi 'ite Muslims from possible attacks by Iraqi government .
+Target:    protecting 
+FE:    {'Protection': 'a no-fly zone', 'Asset': "Shi 'ite Muslims", 'Danger': 'from possible attacks by Iraqi government'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Shi 'ite Muslims
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    protect.v
+frame:    Protecting
+text:    The buses should have the following : 1- Light armor and rocket launchers 2- Wireless equipment to report dangerous activities 3- Writing materials to jot down suspicious activities or license plate numbers 4- Sand bags around the buses to protect them from gun fire
+Target:    protect 
+FE:    {'Protection': 'Sand bags around the buses', 'Asset': 'them', 'Danger': 'from gun fire'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    The devil-man opened his eyes and shielded them against the brightness of the sky .
+Target:    shielded 
+FE:    {'Protection': 'The devil-man', 'Asset': 'them', 'Danger': 'against the brightness of the sky'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     them
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    Welford said : ` He grabbed me by the lapels and cuffed me across the face , but I shielded myself from the rest of his blows . "
+Target:    shielded 
+FE:    {'Protection': 'I', 'Asset': 'myself', 'Danger': 'from the rest of his blows'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     myself
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    As a result , an alumina implant can shield the surrounding bone from the stresses generated by normal activity , and the bone loses the stimulation which is necessary for it to remain healthy .
+Target:    shield 
+FE:    {'Protection': 'an alumina implant', 'Asset': 'the surrounding bone', 'Danger': 'from the stresses generated by normal activity'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the surrounding bone
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    He tried to shield his past from its probing .
+Target:    shield 
+FE:    {'Protection': 'He', 'Asset': 'his past', 'Danger': 'from its probing'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     his past
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    But the government shielded consumers from the worst excesses of inflation by reducing the community charge burden , and businesses kept their price rises down to one of the lowest levels for 24 years .
+Target:    shielded 
+FE:    {'Protection': 'the government', 'Asset': 'consumers', 'Danger': 'from the worst excesses of inflation', 'Means': 'by reducing the community charge burden'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     consumers
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    He waited , watching John 's hands shielding the spark from the tinder , and the moment he finished , he turned to descend at his back .
+Target:    shielding 
+FE:    {'Protection': "John 's hands", 'Asset': 'the spark', 'Danger': 'from the tinder'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the spark
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    The resemblance could be particularly close if breeders were installing some trait that allowed the crop to thrive in a new habitat , or one that shielded it from parasites or diseases .
+Target:    shielded 
+FE:    {'Protection': 'that', 'Asset': 'it', 'Danger': 'from parasites or diseases'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    With theatrical exaggeration he shielded his eyes from the bright lights and searched the audience for a suitable victim , and they all laughed at his cheek .
+Target:    shielded 
+FE:    {'Manner': 'With theatrical exaggeration', 'Protection': 'he', 'Asset': 'his eyes', 'Danger': 'from the bright lights'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     his eyes
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    ` Here , let me shield you from the wind . "
+Target:    shield 
+FE:    {'Protection': 'me', 'Asset': 'you', 'Danger': 'from the wind'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     you
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    We followed it , passed a massive Iron Age earthwork called Abbotsbury Castle , and gradually entered an isolated valley shielded from the sea by the massive bulk of Wears Hill .
+Target:    shielded 
+FE:    {'Asset': 'an isolated valley', 'Danger': 'from the sea', 'Protection': 'by the massive bulk of Wears Hill'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     an isolated valley
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    The buoy shielded her from the view of the guards , and she used that advantage to get her breath back .
+Target:    shielded 
+FE:    {'Protection': 'The buoy', 'Asset': 'her', 'Danger': 'from the view of the guards'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     her
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    They grew carrots , onions and tomatoes : the palms shielded plants from the sun , and wells provided a ready supply for watering by hand .
+Target:    shielded 
+FE:    {'Protection': 'the palms', 'Asset': 'plants', 'Danger': 'from the sun'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     plants
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    We began to treat him like a strange alien person who need to be over-protected , who needed to be shielded from outsiders and the press .
+Target:    shielded 
+FE:    {'Asset': 'who', 'Danger': 'from outsiders and the press'}
+FE_unexpr:    {'Protection': 'CNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     who
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    Miriam had to shield the candle-flame with her hand as it fluttered wildly .
+Target:    shield 
+FE:    {'Protection': 'Miriam', 'Asset': 'the candle-flame', 'Instrument': 'with her hand'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the candle-flame
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    Before the first shots rang out , Adam had turned the shallow bend and was shielded by the safety of the trees .
+Target:    shielded 
+FE:    {'Time': 'Before the first shots rang out', 'Asset': 'Adam', 'Protection': 'by the safety of the trees'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Adam
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    The rocks she sat behind shielded her from the lodge and the staff-cabins .
+Target:    shielded 
+FE:    {'Protection': 'The rocks she sat behind', 'Asset': 'her', 'Danger': 'from the lodge and the staff-cabins'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     her
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    A thick hedge shielded her from the field which swept down towards the foot of the embankment .
+Target:    shielded 
+FE:    {'Protection': 'A thick hedge', 'Asset': 'her', 'Danger': 'from the field which swept down towards the foot of the embankment'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     her
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shield.v
+frame:    Protecting
+text:    Hence , the investor is partially shielded from the full force of any general market decline .
+Target:    shielded 
+FE:    {'Asset': 'the investor', 'Degree': 'partially', 'Danger': 'from the full force of any general market decline'}
+FE_unexpr:    {'Protection': 'CNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the investor
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    bulwark.n
+frame:    Protecting
+text:    The Comecon countries of Europe other than the USSR -- Bulgaria , Czechoslovakia , the GDR , Hungary , Poland and Romania -- are part of Russia 's bulwark against the capitalist West .
+Target:    bulwark 
+FE:    {'Protection': 'The Comecon countries of Europe other than the USSR -- Bulgaria , Czechoslovakia , the GDR , Hungary , Poland and Romania', 'Beneficiary': "Russia 's", 'Danger': 'against the capitalist West'}
+FE_unexpr:    {'Asset': 'DNI'}
+====================================================================================================
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    bulwark.n
+frame:    Protecting
+text:    We 're your bulwark against the underscum .
+Target:    bulwark 
+FE:    {'Protection': 'We', 'Beneficiary': 'your', 'Danger': 'against the underscum'}
+FE_unexpr:    {'Asset': 'DNI'}
+====================================================================================================
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Haunting the city from across the Nile are the three Great Pyramids and the Sphinx , these colossal constructions have guarded the desert border for over three and a half thousand years .
+Target:    guarded 
+FE:    {'Protection': 'these colossal constructions', 'Asset': 'the desert border', 'Duration': 'for over three and a half thousand years'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the desert border
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Trees guard the house from the east winds ; meadows slope down to the water .
+Target:    guard 
+FE:    {'Protection': 'Trees', 'Asset': 'the house', 'Danger': 'from the east winds'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the house
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    In addition , amplexus allows a male to guard a female from other males until she is ready to lay her eggs .
+Target:    guard 
+FE:    {'Protection': 'a male', 'Asset': 'a female', 'Danger': 'from other males'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     a female
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    A Dungeons and Dragons theme where you guard your wizard from attack whilst attempting to destroy other wizards on the board .
+Target:    guard 
+FE:    {'Protection': 'you', 'Asset': 'your wizard', 'Danger': 'from attack', 'Depictive': 'whilst attempting to destroy other wizards on the board'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     your wizard
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Every evening throughout 1922 a band of youths from the colony volunteered to guard the local stretch of the main road into Poltava .
+Target:    guard 
+FE:    {'Time': 'Every evening throughout 1922', 'Protection': 'a band of youths from the colony', 'Asset': 'the local stretch of the main road into Poltava'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the local stretch of the main road into Poltava
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    In those days the names of intelligence chiefs were guarded by the D-Notice system so British newspapers tended not to publish them .
+Target:    guarded 
+FE:    {'Time': 'In those days', 'Asset': 'the names of intelligence chiefs', 'Protection': 'by the D-Notice system'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the names of intelligence chiefs
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Roman Legions guarding Hadrian 's Wall in the north of England carried banners made of Chinese silk , so some enterprising businessman had seized trading opportunities centuries before Marco Polo .
+Target:    guarding 
+FE:    {'Protection': 'Roman Legions', 'Asset': "Hadrian 's Wall", 'Place': 'in the north of England'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Hadrian 's Wall
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Orcs and Goblins poured over the Worlds Edge Mountains through passes previously guarded by the Dwarfs , while in the northern forests human tribes began to move southwards .
+Target:    guarded 
+FE:    {'Asset': 'passes', 'Time': 'previously', 'Protection': 'by the Dwarfs'}
+FE_unexpr:    {'Danger': 'DNI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     passes
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    ` Still , he can guard the house for Mummy and Daddy , ca n't he ? "
+Target:    guard 
+FE:    {'Protection': 'he', 'Asset': 'the house', 'Beneficiary': 'for Mummy and Daddy'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the house
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    They guarded it superstitiously , for while it remained impenetrable , they felt they could stay alive , whatever the horror of the world outside .
+Target:    guarded 
+FE:    {'Protection': 'They', 'Asset': 'it', 'Manner': 'superstitiously'}
+FE_unexpr:    {'Danger': 'INI'}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    guard.v
+frame:    Protecting
+text:    Four hundred troops are currently in the northwestern county guarding densely-populated areas , airports and power stations .
+Target:    guarding 
+FE:    {'Protection': 'Four hundred troops', 'Asset': 'power stations'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     power stations
+----------------------------------------------------------------------------------------------------
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+----------------------------------------------------------------------------------------------------

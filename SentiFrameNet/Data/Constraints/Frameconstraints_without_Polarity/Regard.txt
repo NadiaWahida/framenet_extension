@@ -1,0 +1,5 @@
+Regard	Cognizer	Evaluee	
+<Source=?_x -- Polarity=?_p -> Target=Regard.?_lu>
+<Source=Regard.Cognizer -- Polarity=?_p -> Target=Regard.Evaluee>
+<Source=Regard.Cognizer -- Polarity=?_p -> Target=?_t>
+<Source=?_s -- Polarity=?_p -> Target=Regard.Evaluee>

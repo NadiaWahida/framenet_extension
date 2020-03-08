@@ -1,0 +1,9 @@
+Emotion_directed	Experiencer	Topic	Stimulus	Event
+<Source=?_x -- Polarity=?_p -> Target=Emotion_directed.?_lu>
+<Source=Emotion_directed.Experiencer -- Polarity=?_p -> Target=Emotion_directed.Topic>
+<Source=Emotion_directed.Experiencer -- Polarity=?_p -> Target=Emotion_directed.Stimulus>
+<Source=Emotion_directed.Experiencer -- Polarity=?_p -> Target=Emotion_directed.Event>
+<Source=Emotion_directed.Experiencer -- Polarity=?_p -> Target=?_t>
+<Source=?_s -- Polarity=?_p -> Target=Emotion_directed.Topic>
+<Source=?_s -- Polarity=?_p -> Target=Emotion_directed.Stimulus>
+<Source=?_s -- Polarity=?_p -> Target=Emotion_directed.Event>

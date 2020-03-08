@@ -1,6 +1,0 @@
-<Source=Mental_property.Protagonist -- Polarity=?_p -> Target=Mental_property.Judge>
-<Source=Mental_property.Protagonist -- Polarity=?_p -> Target=Mental_property.Behavior>
-<Source=Mental_property.Protagonist -- Polarity=?_p -> Target=Mental_property.Practice>
-<Source=Mental_property.Judge -- Polarity=?_lu -> Target=Mental_property.Protagonist>
-<Source=Mental_property.Judge -- Polarity=?_lu -> Target=Mental_property.Behavior>
-<Source=Mental_property.Judge -- Polarity=?_lu -> Target=Mental_property.Practice>

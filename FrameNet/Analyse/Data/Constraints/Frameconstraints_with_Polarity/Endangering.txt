@@ -1,3 +1,0 @@
-Endangering	Agent
-<Source=Endangering.Agent -- Polarity=neg -> Target=?_t>
-<Source=?_x -- Polarity=neg -> Target=Endangering>

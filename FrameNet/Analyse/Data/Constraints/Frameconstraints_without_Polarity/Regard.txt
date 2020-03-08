@@ -1,1 +1,0 @@
-<Source=Regard.Cognizer -- Polarity=?_lu -> Target=Regard.Evaluee>

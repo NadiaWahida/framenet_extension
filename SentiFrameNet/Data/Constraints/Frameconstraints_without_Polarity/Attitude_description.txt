@@ -1,0 +1,5 @@
+Attitude_description	Cognizer	State_of_affairs
+<Source=?_x -- Polarity=?_p -> Target=Attitude_description.?_lu>
+<Source=Attitude_description.Cognizer -- Polarity=?_p -> Target=Attitude_description.State_of_affairs>
+<Source=Attitude_description.Cognizer -- Polarity=?_p -> Target=?_t>
+<Source=?_s -- Polarity=?_p -> Target=Attitude_description.State_of_affairs>

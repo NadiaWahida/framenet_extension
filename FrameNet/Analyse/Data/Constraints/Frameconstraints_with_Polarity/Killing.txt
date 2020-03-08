@@ -1,4 +1,0 @@
-Killing	Victim
-<Source=Killing.Victim -- Polarity=neg -> Target=Killing>
-<Source=Killing.Victim -- Polarity=neg -> Target=?_t>
-<Source=?_x -- Polarity=neg -> Target=Killing>

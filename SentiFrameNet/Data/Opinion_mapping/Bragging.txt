@@ -1,0 +1,1281 @@
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    He was an attorney at law who , when he first began his practice , bragged , according to Gilbert 's Parochial History of Cornwall , ` that he would get an estate by the law one way or the other . 
+Target:    bragged 
+FE:    {'Speaker': 'who', 'Message': '` that he would get an estate by the law one way or the other .'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+who     -- positive ->     ` that he would get an estate by the law one way or the other .
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    who
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     ` that he would get an estate by the law one way or the other .
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    And certainly not Rod , who likes to brag about his off-the-job exploits at the meat factory where he works . 
+Target:    brag 
+FE:    {'Speaker': 'who', 'Topic': 'about his off-the-job exploits at the meat factory where he works'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Speaker pos Bragging.Topic
+who     -- positive ->     about his off-the-job exploits at the meat factory where he works
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    who
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     about his off-the-job exploits at the meat factory where he works
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    He bragged to friends : ` All I want is to kill a copper . 
+Target:    bragged 
+FE:    {'Speaker': 'He', 'Addressee': 'to friends', 'Message': '` All I want is to kill a copper .'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to friends     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+He     -- positive ->     ` All I want is to kill a copper .
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     ` All I want is to kill a copper .
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    The synopsis was , as Gould bragged to Jardine , ` very much approved of " , although Jardine himself still had reservations about the cost of the production and the lavish colouring . 
+Target:    bragged 
+FE:    {'Message': 'as', 'Speaker': 'Gould', 'Addressee': 'to Jardine'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to Jardine     -- negative ->    Gould
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+Gould     -- positive ->     as
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Gould
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     as
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Gould     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    He must , however , find some way of persuading her not to brag to the other members of the delegation about his suggestions . 
+Target:    brag 
+FE:    {'Speaker': 'her', 'Addressee': 'to the other members of the delegation', 'Topic': 'about his suggestions'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to the other members of the delegation     -- negative ->    her
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Topic
+her     -- positive ->     about his suggestions
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    her
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     about his suggestions
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+her     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    ` I f-f-f-found them , " Killion bragged , ` in a b-b-b-brothel . " 
+Target:    bragged 
+FE:    {'Message': '` in a b-b-b-brothel . "', 'Speaker': 'Killion'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+Killion     -- positive ->     ` in a b-b-b-brothel . "
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Killion
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     ` in a b-b-b-brothel . "
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Killion     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    When the new transmitter was installed , the Commercial Service produced a brochure for prospective customers which boasted , with some justification : 'East Africa 's Most powerful Advertising Medium' . 
+Target:    boasted 
+FE:    {'Medium': 'which', 'Message': "'East Africa 's Most powerful Advertising Medium'"}
+FE_unexpr:    {}
+====================================================================================================
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     'East Africa 's Most powerful Advertising Medium'
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    This was Hinkley Point , an industrial complex on the Somerset coast which already housed two nuclear power stations , and which proudly boasted in its publicity that it was ` Britain 's biggest " . 
+Target:    boasted 
+FE:    {'Speaker': 'which', 'Medium': 'in its publicity', 'Message': 'that it was ` Britain \'s biggest "'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+which     -- positive ->     that it was ` Britain 's biggest "
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that it was ` Britain 's biggest "
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    He boasts in the Tory-backing Daily Mail that she has been proved right in her warnings against the European exchange rate mechanism . 
+Target:    boasts 
+FE:    {'Speaker': 'He', 'Medium': 'in the Tory-backing Daily Mail', 'Message': 'that she has been proved right in her warnings against the European exchange rate mechanism'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+He     -- positive ->     that she has been proved right in her warnings against the European exchange rate mechanism
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that she has been proved right in her warnings against the European exchange rate mechanism
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    Marshall boasted on his trade card that he was ‘ the inventor of true Spectacle Grinding & the only person that has , or ever has had , the Approbation of the Royal Society ’ . 
+Target:    boasted 
+FE:    {'Speaker': 'Marshall', 'Medium': 'on his trade card', 'Message': 'that he was ‘ the inventor of true Spectacle Grinding & the only person that has , or ever has had , the Approbation of the Royal Society'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+Marshall     -- positive ->     that he was ‘ the inventor of true Spectacle Grinding & the only person that has , or ever has had , the Approbation of the Royal Society
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Marshall
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that he was ‘ the inventor of true Spectacle Grinding & the only person that has , or ever has had , the Approbation of the Royal Society
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Marshall     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    In that state , Paul talked more than he should ; and boasted to Edwin of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire . 
+Target:    boasted 
+FE:    {'Speaker': 'Paul', 'Addressee': 'to Edwin', 'Topic': 'of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Addressee ?_p Bragging.Topic
+to Edwin     -- positive ->     of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee neg Bragging.Speaker
+to Edwin     -- negative ->    Paul
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Topic
+Paul     -- positive ->     of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Paul
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Paul     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    Many licensed dealers ' clients boast to friends of their broker or their " man in the City " , who gives them tips . 
+Target:    boast 
+FE:    {'Speaker': "Many licensed dealers ' clients", 'Addressee': 'to friends', 'Topic': 'of their broker or their " man in the City " , who gives them tips'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Addressee ?_p Bragging.Topic
+to friends     -- positive ->     of their broker or their " man in the City " , who gives them tips
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee neg Bragging.Speaker
+to friends     -- negative ->    Many licensed dealers ' clients
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Topic
+Many licensed dealers ' clients     -- positive ->     of their broker or their " man in the City " , who gives them tips
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Many licensed dealers ' clients
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     of their broker or their " man in the City " , who gives them tips
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Many licensed dealers ' clients     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    He 'd boasted to Irina that politicians come and go , but spies go on forever . 
+Target:    boasted 
+FE:    {'Speaker': 'He', 'Addressee': 'to Irina', 'Message': 'that politicians come and go , but spies go on forever'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to Irina     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee ?_p Bragging.Message
+to Irina     -- positive ->     that politicians come and go , but spies go on forever
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+He     -- positive ->     that politicians come and go , but spies go on forever
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that politicians come and go , but spies go on forever
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    But he treated the democracy about which he boasted to foreign journalists with near contempt when it stood in the way of his domestic ambitions . 
+Target:    boasted 
+FE:    {'Topic': 'about which', 'Speaker': 'he', 'Addressee': 'to foreign journalists'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Addressee ?_p Bragging.Topic
+to foreign journalists     -- positive ->     about which
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee neg Bragging.Speaker
+to foreign journalists     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Topic
+he     -- positive ->     about which
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     about which
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+he     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    As he lined up his shot , he boasted to his mates , ` If I do n't sink this , I 'll marry my girlfriend . " 
+Target:    boasted 
+FE:    {'Speaker': 'he', 'Addressee': 'to his mates', 'Message': '` If I do n\'t sink this , I \'ll marry my girlfriend . "'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to his mates     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee ?_p Bragging.Message
+to his mates     -- positive ->     ` If I do n't sink this , I 'll marry my girlfriend . "
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+he     -- positive ->     ` If I do n't sink this , I 'll marry my girlfriend . "
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     ` If I do n't sink this , I 'll marry my girlfriend . "
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+he     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    One of their men boasted to me that they intend killing the ministers . 
+Target:    boasted 
+FE:    {'Speaker': 'One of their men', 'Addressee': 'to me', 'Message': 'that they intend killing the ministers'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to me     -- negative ->    One of their men
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee ?_p Bragging.Message
+to me     -- positive ->     that they intend killing the ministers
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+One of their men     -- positive ->     that they intend killing the ministers
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    One of their men
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that they intend killing the ministers
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+One of their men     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    This reminds me of the story about the old lady who boasted she had been wearing the same pair of stockings for twenty years -- one year she knitted new feet on them and the next new legs ! 
+Target:    boasted 
+FE:    {'Speaker': 'who', 'Message': 'she had been wearing the same pair of stockings for twenty years'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+who     -- positive ->     she had been wearing the same pair of stockings for twenty years
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    who
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     she had been wearing the same pair of stockings for twenty years
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    He was an attorney at law who , when he first began his practice , bragged , according to Gilbert 's Parochial History of Cornwall , ` that he would get an estate by the law one way or the other . 
+Target:    bragged 
+FE:    {'Speaker': 'who', 'Message': '` that he would get an estate by the law one way or the other .'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+who     -- positive ->     ` that he would get an estate by the law one way or the other .
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    who
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     ` that he would get an estate by the law one way or the other .
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    And certainly not Rod , who likes to brag about his off-the-job exploits at the meat factory where he works . 
+Target:    brag 
+FE:    {'Speaker': 'who', 'Topic': 'about his off-the-job exploits at the meat factory where he works'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Speaker pos Bragging.Topic
+who     -- positive ->     about his off-the-job exploits at the meat factory where he works
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    who
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     about his off-the-job exploits at the meat factory where he works
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    He bragged to friends : ` All I want is to kill a copper . 
+Target:    bragged 
+FE:    {'Speaker': 'He', 'Addressee': 'to friends', 'Message': '` All I want is to kill a copper .'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to friends     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+He     -- positive ->     ` All I want is to kill a copper .
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     ` All I want is to kill a copper .
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    The synopsis was , as Gould bragged to Jardine , ` very much approved of " , although Jardine himself still had reservations about the cost of the production and the lavish colouring . 
+Target:    bragged 
+FE:    {'Message': 'as', 'Speaker': 'Gould', 'Addressee': 'to Jardine'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to Jardine     -- negative ->    Gould
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+Gould     -- positive ->     as
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Gould
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     as
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Gould     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    He must , however , find some way of persuading her not to brag to the other members of the delegation about his suggestions . 
+Target:    brag 
+FE:    {'Speaker': 'her', 'Addressee': 'to the other members of the delegation', 'Topic': 'about his suggestions'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to the other members of the delegation     -- negative ->    her
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Topic
+her     -- positive ->     about his suggestions
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    her
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     about his suggestions
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+her     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    ` I f-f-f-found them , " Killion bragged , ` in a b-b-b-brothel . " 
+Target:    bragged 
+FE:    {'Message': '` in a b-b-b-brothel . "', 'Speaker': 'Killion'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+Killion     -- positive ->     ` in a b-b-b-brothel . "
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Killion
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     ` in a b-b-b-brothel . "
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Killion     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    When the new transmitter was installed , the Commercial Service produced a brochure for prospective customers which boasted , with some justification : 'East Africa 's Most powerful Advertising Medium' . 
+Target:    boasted 
+FE:    {'Medium': 'which', 'Message': "'East Africa 's Most powerful Advertising Medium'"}
+FE_unexpr:    {}
+====================================================================================================
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     'East Africa 's Most powerful Advertising Medium'
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    This was Hinkley Point , an industrial complex on the Somerset coast which already housed two nuclear power stations , and which proudly boasted in its publicity that it was ` Britain 's biggest " . 
+Target:    boasted 
+FE:    {'Speaker': 'which', 'Medium': 'in its publicity', 'Message': 'that it was ` Britain \'s biggest "'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+which     -- positive ->     that it was ` Britain 's biggest "
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that it was ` Britain 's biggest "
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    He boasts in the Tory-backing Daily Mail that she has been proved right in her warnings against the European exchange rate mechanism . 
+Target:    boasts 
+FE:    {'Speaker': 'He', 'Medium': 'in the Tory-backing Daily Mail', 'Message': 'that she has been proved right in her warnings against the European exchange rate mechanism'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+He     -- positive ->     that she has been proved right in her warnings against the European exchange rate mechanism
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that she has been proved right in her warnings against the European exchange rate mechanism
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    Marshall boasted on his trade card that he was ‘ the inventor of true Spectacle Grinding & the only person that has , or ever has had , the Approbation of the Royal Society ’ . 
+Target:    boasted 
+FE:    {'Speaker': 'Marshall', 'Medium': 'on his trade card', 'Message': 'that he was ‘ the inventor of true Spectacle Grinding & the only person that has , or ever has had , the Approbation of the Royal Society'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+Marshall     -- positive ->     that he was ‘ the inventor of true Spectacle Grinding & the only person that has , or ever has had , the Approbation of the Royal Society
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Marshall
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that he was ‘ the inventor of true Spectacle Grinding & the only person that has , or ever has had , the Approbation of the Royal Society
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Marshall     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    In that state , Paul talked more than he should ; and boasted to Edwin of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire . 
+Target:    boasted 
+FE:    {'Speaker': 'Paul', 'Addressee': 'to Edwin', 'Topic': 'of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Addressee ?_p Bragging.Topic
+to Edwin     -- positive ->     of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee neg Bragging.Speaker
+to Edwin     -- negative ->    Paul
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Topic
+Paul     -- positive ->     of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Paul
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Paul     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    Many licensed dealers ' clients boast to friends of their broker or their " man in the City " , who gives them tips . 
+Target:    boast 
+FE:    {'Speaker': "Many licensed dealers ' clients", 'Addressee': 'to friends', 'Topic': 'of their broker or their " man in the City " , who gives them tips'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Addressee ?_p Bragging.Topic
+to friends     -- positive ->     of their broker or their " man in the City " , who gives them tips
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee neg Bragging.Speaker
+to friends     -- negative ->    Many licensed dealers ' clients
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Topic
+Many licensed dealers ' clients     -- positive ->     of their broker or their " man in the City " , who gives them tips
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Many licensed dealers ' clients
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     of their broker or their " man in the City " , who gives them tips
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Many licensed dealers ' clients     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    He 'd boasted to Irina that politicians come and go , but spies go on forever . 
+Target:    boasted 
+FE:    {'Speaker': 'He', 'Addressee': 'to Irina', 'Message': 'that politicians come and go , but spies go on forever'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to Irina     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee ?_p Bragging.Message
+to Irina     -- positive ->     that politicians come and go , but spies go on forever
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+He     -- positive ->     that politicians come and go , but spies go on forever
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that politicians come and go , but spies go on forever
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    But he treated the democracy about which he boasted to foreign journalists with near contempt when it stood in the way of his domestic ambitions . 
+Target:    boasted 
+FE:    {'Topic': 'about which', 'Speaker': 'he', 'Addressee': 'to foreign journalists'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Addressee ?_p Bragging.Topic
+to foreign journalists     -- positive ->     about which
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee neg Bragging.Speaker
+to foreign journalists     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Topic
+he     -- positive ->     about which
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     about which
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+he     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    As he lined up his shot , he boasted to his mates , ` If I do n't sink this , I 'll marry my girlfriend . " 
+Target:    boasted 
+FE:    {'Speaker': 'he', 'Addressee': 'to his mates', 'Message': '` If I do n\'t sink this , I \'ll marry my girlfriend . "'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to his mates     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee ?_p Bragging.Message
+to his mates     -- positive ->     ` If I do n't sink this , I 'll marry my girlfriend . "
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+he     -- positive ->     ` If I do n't sink this , I 'll marry my girlfriend . "
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     ` If I do n't sink this , I 'll marry my girlfriend . "
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+he     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    One of their men boasted to me that they intend killing the ministers . 
+Target:    boasted 
+FE:    {'Speaker': 'One of their men', 'Addressee': 'to me', 'Message': 'that they intend killing the ministers'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to me     -- negative ->    One of their men
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee ?_p Bragging.Message
+to me     -- positive ->     that they intend killing the ministers
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+One of their men     -- positive ->     that they intend killing the ministers
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    One of their men
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that they intend killing the ministers
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+One of their men     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    This reminds me of the story about the old lady who boasted she had been wearing the same pair of stockings for twenty years -- one year she knitted new feet on them and the next new legs ! 
+Target:    boasted 
+FE:    {'Speaker': 'who', 'Message': 'she had been wearing the same pair of stockings for twenty years'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+who     -- positive ->     she had been wearing the same pair of stockings for twenty years
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    who
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     she had been wearing the same pair of stockings for twenty years
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    He was an attorney at law who , when he first began his practice , bragged , according to Gilbert 's Parochial History of Cornwall , ` that he would get an estate by the law one way or the other . 
+Target:    bragged 
+FE:    {'Speaker': 'who', 'Message': '` that he would get an estate by the law one way or the other .'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+who     -- positive ->     ` that he would get an estate by the law one way or the other .
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    who
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     ` that he would get an estate by the law one way or the other .
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    And certainly not Rod , who likes to brag about his off-the-job exploits at the meat factory where he works . 
+Target:    brag 
+FE:    {'Speaker': 'who', 'Topic': 'about his off-the-job exploits at the meat factory where he works'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Speaker pos Bragging.Topic
+who     -- positive ->     about his off-the-job exploits at the meat factory where he works
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    who
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     about his off-the-job exploits at the meat factory where he works
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    He bragged to friends : ` All I want is to kill a copper . 
+Target:    bragged 
+FE:    {'Speaker': 'He', 'Addressee': 'to friends', 'Message': '` All I want is to kill a copper .'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to friends     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+He     -- positive ->     ` All I want is to kill a copper .
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     ` All I want is to kill a copper .
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    The synopsis was , as Gould bragged to Jardine , ` very much approved of " , although Jardine himself still had reservations about the cost of the production and the lavish colouring . 
+Target:    bragged 
+FE:    {'Message': 'as', 'Speaker': 'Gould', 'Addressee': 'to Jardine'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to Jardine     -- negative ->    Gould
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+Gould     -- positive ->     as
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Gould
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     as
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Gould     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    He must , however , find some way of persuading her not to brag to the other members of the delegation about his suggestions . 
+Target:    brag 
+FE:    {'Speaker': 'her', 'Addressee': 'to the other members of the delegation', 'Topic': 'about his suggestions'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to the other members of the delegation     -- negative ->    her
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Topic
+her     -- positive ->     about his suggestions
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    her
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     about his suggestions
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+her     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brag.v
+frame:    Bragging
+text:    ` I f-f-f-found them , " Killion bragged , ` in a b-b-b-brothel . " 
+Target:    bragged 
+FE:    {'Message': '` in a b-b-b-brothel . "', 'Speaker': 'Killion'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+Killion     -- positive ->     ` in a b-b-b-brothel . "
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Killion
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     ` in a b-b-b-brothel . "
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Killion     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    When the new transmitter was installed , the Commercial Service produced a brochure for prospective customers which boasted , with some justification : 'East Africa 's Most powerful Advertising Medium' . 
+Target:    boasted 
+FE:    {'Medium': 'which', 'Message': "'East Africa 's Most powerful Advertising Medium'"}
+FE_unexpr:    {}
+====================================================================================================
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     'East Africa 's Most powerful Advertising Medium'
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    This was Hinkley Point , an industrial complex on the Somerset coast which already housed two nuclear power stations , and which proudly boasted in its publicity that it was ` Britain 's biggest " . 
+Target:    boasted 
+FE:    {'Speaker': 'which', 'Medium': 'in its publicity', 'Message': 'that it was ` Britain \'s biggest "'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+which     -- positive ->     that it was ` Britain 's biggest "
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that it was ` Britain 's biggest "
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    He boasts in the Tory-backing Daily Mail that she has been proved right in her warnings against the European exchange rate mechanism . 
+Target:    boasts 
+FE:    {'Speaker': 'He', 'Medium': 'in the Tory-backing Daily Mail', 'Message': 'that she has been proved right in her warnings against the European exchange rate mechanism'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+He     -- positive ->     that she has been proved right in her warnings against the European exchange rate mechanism
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that she has been proved right in her warnings against the European exchange rate mechanism
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    Marshall boasted on his trade card that he was ‘ the inventor of true Spectacle Grinding & the only person that has , or ever has had , the Approbation of the Royal Society ’ . 
+Target:    boasted 
+FE:    {'Speaker': 'Marshall', 'Medium': 'on his trade card', 'Message': 'that he was ‘ the inventor of true Spectacle Grinding & the only person that has , or ever has had , the Approbation of the Royal Society'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+Marshall     -- positive ->     that he was ‘ the inventor of true Spectacle Grinding & the only person that has , or ever has had , the Approbation of the Royal Society
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Marshall
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that he was ‘ the inventor of true Spectacle Grinding & the only person that has , or ever has had , the Approbation of the Royal Society
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Marshall     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    In that state , Paul talked more than he should ; and boasted to Edwin of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire . 
+Target:    boasted 
+FE:    {'Speaker': 'Paul', 'Addressee': 'to Edwin', 'Topic': 'of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Addressee ?_p Bragging.Topic
+to Edwin     -- positive ->     of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee neg Bragging.Speaker
+to Edwin     -- negative ->    Paul
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Topic
+Paul     -- positive ->     of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Paul
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Paul     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    Many licensed dealers ' clients boast to friends of their broker or their " man in the City " , who gives them tips . 
+Target:    boast 
+FE:    {'Speaker': "Many licensed dealers ' clients", 'Addressee': 'to friends', 'Topic': 'of their broker or their " man in the City " , who gives them tips'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Addressee ?_p Bragging.Topic
+to friends     -- positive ->     of their broker or their " man in the City " , who gives them tips
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee neg Bragging.Speaker
+to friends     -- negative ->    Many licensed dealers ' clients
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Topic
+Many licensed dealers ' clients     -- positive ->     of their broker or their " man in the City " , who gives them tips
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Many licensed dealers ' clients
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     of their broker or their " man in the City " , who gives them tips
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+Many licensed dealers ' clients     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    He 'd boasted to Irina that politicians come and go , but spies go on forever . 
+Target:    boasted 
+FE:    {'Speaker': 'He', 'Addressee': 'to Irina', 'Message': 'that politicians come and go , but spies go on forever'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to Irina     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee ?_p Bragging.Message
+to Irina     -- positive ->     that politicians come and go , but spies go on forever
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+He     -- positive ->     that politicians come and go , but spies go on forever
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    He
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that politicians come and go , but spies go on forever
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    But he treated the democracy about which he boasted to foreign journalists with near contempt when it stood in the way of his domestic ambitions . 
+Target:    boasted 
+FE:    {'Topic': 'about which', 'Speaker': 'he', 'Addressee': 'to foreign journalists'}
+FE_unexpr:    {'Message': 'INI'}
+====================================================================================================
+Bragging.Addressee ?_p Bragging.Topic
+to foreign journalists     -- positive ->     about which
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee neg Bragging.Speaker
+to foreign journalists     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Topic
+he     -- positive ->     about which
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Topic
+_SOMEONE     -- positive ->     about which
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+he     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    As he lined up his shot , he boasted to his mates , ` If I do n't sink this , I 'll marry my girlfriend . " 
+Target:    boasted 
+FE:    {'Speaker': 'he', 'Addressee': 'to his mates', 'Message': '` If I do n\'t sink this , I \'ll marry my girlfriend . "'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to his mates     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee ?_p Bragging.Message
+to his mates     -- positive ->     ` If I do n't sink this , I 'll marry my girlfriend . "
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+he     -- positive ->     ` If I do n't sink this , I 'll marry my girlfriend . "
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     ` If I do n't sink this , I 'll marry my girlfriend . "
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+he     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    One of their men boasted to me that they intend killing the ministers . 
+Target:    boasted 
+FE:    {'Speaker': 'One of their men', 'Addressee': 'to me', 'Message': 'that they intend killing the ministers'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Addressee neg Bragging.Speaker
+to me     -- negative ->    One of their men
+----------------------------------------------------------------------------------------------------
+Bragging.Addressee ?_p Bragging.Message
+to me     -- positive ->     that they intend killing the ministers
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos Bragging.Message
+One of their men     -- positive ->     that they intend killing the ministers
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    One of their men
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     that they intend killing the ministers
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+One of their men     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    boast.v
+frame:    Bragging
+text:    This reminds me of the story about the old lady who boasted she had been wearing the same pair of stockings for twenty years -- one year she knitted new feet on them and the next new legs ! 
+Target:    boasted 
+FE:    {'Speaker': 'who', 'Message': 'she had been wearing the same pair of stockings for twenty years'}
+FE_unexpr:    {}
+====================================================================================================
+Bragging.Speaker pos Bragging.Message
+who     -- positive ->     she had been wearing the same pair of stockings for twenty years
+----------------------------------------------------------------------------------------------------
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    who
+----------------------------------------------------------------------------------------------------
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+----------------------------------------------------------------------------------------------------
+?_s pos Bragging.Message
+_SOMEONE     -- positive ->     she had been wearing the same pair of stockings for twenty years
+----------------------------------------------------------------------------------------------------
+Bragging.Speaker pos ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------

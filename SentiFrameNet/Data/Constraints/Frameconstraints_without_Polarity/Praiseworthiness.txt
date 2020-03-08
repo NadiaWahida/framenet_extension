@@ -1,0 +1,9 @@
+Praiseworthiness	Evaluee	Judge	Behavior
+<Source=?_x -- Polarity=?_p -> Target=Praiseworthiness.?_lu>
+<Source=Praiseworthiness.Evaluee -- Polarity=?_p -> Target=Praiseworthiness.Behavior>
+<Source=Praiseworthiness.Evaluee -- Polarity=?_p -> Target=?_t>
+<Source=Praiseworthiness.Judge -- Polarity=?_p -> Target=Praiseworthiness.Evaluee>
+<Source=Praiseworthiness.Judge -- Polarity=?_p -> Target=Praiseworthiness.Behavior>
+<Source=Praiseworthiness.Judge -- Polarity=?_p -> Target=?_t>
+<Source=?_s -- Polarity=?_p -> Target=Praiseworthiness.Evaluee>
+<Source=?_s -- Polarity=?_p -> Target=Praiseworthiness.Behavior>

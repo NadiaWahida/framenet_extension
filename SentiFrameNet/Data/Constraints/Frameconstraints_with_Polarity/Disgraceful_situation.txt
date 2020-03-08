@@ -1,0 +1,11 @@
+Disgraceful_situation	Protagonist	Judge	State_of_affairs
+<Source=?_x -- Polarity=neg -> Target=Disgraceful_situation>
+<Source=Disgraceful_situation.Protagonist -- Polarity=neg -> Target=Disgraceful_situation.Judge>
+<Source=Disgraceful_situation.Protagonist -- Polarity=neg -> Target=Disgraceful_situation.State_of_affairs>
+<Source=Disgraceful_situation.Protagonist -- Polarity=neg -> Target=?_t>
+<Source=Disgraceful_situation.Judge -- Polarity=neg -> Target=Disgraceful_situation.Protagonist>
+<Source=Disgraceful_situation.Judge -- Polarity=neg -> Target=Disgraceful_situation.State_of_affairs>
+<Source=Disgraceful_situation.Judge -- Polarity=neg -> Target=?_t>
+<Source=?_s -- Polarity=neg -> Target=Disgraceful_situation.Protagonist>
+<Source=?_s -- Polarity=neg -> Target=Disgraceful_situation.Judge>
+<Source=?_s -- Polarity=neg -> Target=Disgraceful_situation.State_of_affairs>

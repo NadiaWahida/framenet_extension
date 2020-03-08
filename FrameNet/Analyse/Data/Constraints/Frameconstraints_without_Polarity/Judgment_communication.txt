@@ -1,6 +1,0 @@
-<Source=Judgment_communication.Addressee -- Polarity=?_p -> Target=Judgment_communication.Communicator>
-<Source=Judgment_communication.Addressee -- Polarity=?_p -> Target=Judgment_communication.Topic>
-<Source=Judgment_communication.Addressee -- Polarity=?_p -> Target=Judgment_communication.Evaluee>
-<Source=Judgment_communication.Communicator -- Polarity=?_p -> Target=Judgment_communication.Addressee>
-<Source=Judgment_communication.Communicator -- Polarity=?_lu -> Target=Judgment_communication.Topic>
-<Source=Judgment_communication.Communicator -- Polarity=?_lu -> Target=Judgment_communication.Evaluee>

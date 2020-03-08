@@ -1,0 +1,141 @@
+########################################################################################################################
+lu:    trendy.a
+frame:    Trendiness
+text:    At last , thanks to safer sex , it is almost trendy to admit to self-abuse so long as porn had nothing to do with it .
+Target:    trendy 
+FE:    {'Degree': 'almost', 'Behavior': 'to admit to self-abuse', 'Circumstances': 'so long as porn had nothing to do with it'}
+FE_unexpr:    {}
+====================================================================================================
+?_x pos Trendiness
+_GENERAL     -- positive ->     Trendiness
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    trendy.a
+frame:    Trendiness
+text:    With sinking heart Sly realized that he was in a burger joint that was too trendy to peel its potatoes .
+Target:    trendy 
+FE:    {'Behavior': 'that', 'Degree': 'to peel its potatoes'}
+FE_unexpr:    {}
+====================================================================================================
+?_x pos Trendiness
+_GENERAL     -- positive ->     Trendiness
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    big.a
+frame:    Trendiness
+text:    He said ` The RS/6000 is not big now in Hungary , and it has only recently come off the Comecon list .
+Target:    big 
+FE:    {'Behavior': 'The RS/6000', 'Time': 'now', 'Place': 'in Hungary'}
+FE_unexpr:    {}
+====================================================================================================
+?_x pos Trendiness
+_GENERAL     -- positive ->     Trendiness
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    big.a
+frame:    Trendiness
+text:    But Jill is very talented , she 's going to be really big once she gets her music together . "
+Target:    big 
+FE:    {'Evaluee': 'she', 'Degree': 'really', 'Time': 'once she gets her music together'}
+FE_unexpr:    {}
+====================================================================================================
+?_x pos Trendiness
+_GENERAL     -- positive ->     Trendiness
+----------------------------------------------------------------------------------------------------
+Trendiness.Evaluee pos ?_t
+she     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    trendy.a
+frame:    Trendiness
+text:    At last , thanks to safer sex , it is almost trendy to admit to self-abuse so long as porn had nothing to do with it .
+Target:    trendy 
+FE:    {'Degree': 'almost', 'Behavior': 'to admit to self-abuse', 'Circumstances': 'so long as porn had nothing to do with it'}
+FE_unexpr:    {}
+====================================================================================================
+?_x pos Trendiness
+_GENERAL     -- positive ->     Trendiness
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    trendy.a
+frame:    Trendiness
+text:    With sinking heart Sly realized that he was in a burger joint that was too trendy to peel its potatoes .
+Target:    trendy 
+FE:    {'Behavior': 'that', 'Degree': 'to peel its potatoes'}
+FE_unexpr:    {}
+====================================================================================================
+?_x pos Trendiness
+_GENERAL     -- positive ->     Trendiness
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    big.a
+frame:    Trendiness
+text:    He said ` The RS/6000 is not big now in Hungary , and it has only recently come off the Comecon list .
+Target:    big 
+FE:    {'Behavior': 'The RS/6000', 'Time': 'now', 'Place': 'in Hungary'}
+FE_unexpr:    {}
+====================================================================================================
+?_x pos Trendiness
+_GENERAL     -- positive ->     Trendiness
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    big.a
+frame:    Trendiness
+text:    But Jill is very talented , she 's going to be really big once she gets her music together . "
+Target:    big 
+FE:    {'Evaluee': 'she', 'Degree': 'really', 'Time': 'once she gets her music together'}
+FE_unexpr:    {}
+====================================================================================================
+?_x pos Trendiness
+_GENERAL     -- positive ->     Trendiness
+----------------------------------------------------------------------------------------------------
+Trendiness.Evaluee pos ?_t
+she     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    trendy.a
+frame:    Trendiness
+text:    At last , thanks to safer sex , it is almost trendy to admit to self-abuse so long as porn had nothing to do with it .
+Target:    trendy 
+FE:    {'Degree': 'almost', 'Behavior': 'to admit to self-abuse', 'Circumstances': 'so long as porn had nothing to do with it'}
+FE_unexpr:    {}
+====================================================================================================
+?_x pos Trendiness
+_GENERAL     -- positive ->     Trendiness
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    trendy.a
+frame:    Trendiness
+text:    With sinking heart Sly realized that he was in a burger joint that was too trendy to peel its potatoes .
+Target:    trendy 
+FE:    {'Behavior': 'that', 'Degree': 'to peel its potatoes'}
+FE_unexpr:    {}
+====================================================================================================
+?_x pos Trendiness
+_GENERAL     -- positive ->     Trendiness
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    big.a
+frame:    Trendiness
+text:    He said ` The RS/6000 is not big now in Hungary , and it has only recently come off the Comecon list .
+Target:    big 
+FE:    {'Behavior': 'The RS/6000', 'Time': 'now', 'Place': 'in Hungary'}
+FE_unexpr:    {}
+====================================================================================================
+?_x pos Trendiness
+_GENERAL     -- positive ->     Trendiness
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    big.a
+frame:    Trendiness
+text:    But Jill is very talented , she 's going to be really big once she gets her music together . "
+Target:    big 
+FE:    {'Evaluee': 'she', 'Degree': 'really', 'Time': 'once she gets her music together'}
+FE_unexpr:    {}
+====================================================================================================
+?_x pos Trendiness
+_GENERAL     -- positive ->     Trendiness
+----------------------------------------------------------------------------------------------------
+Trendiness.Evaluee pos ?_t
+she     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------

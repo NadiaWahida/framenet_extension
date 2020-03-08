@@ -1,0 +1,5 @@
+Being_at_risk	Asset	Harmful_event	Dangerous_entity
+<Source=?_x -- Polarity=neg -> Target=Being_at_risk>
+<Source=?_s -- Polarity=pos -> Target=Being_at_risk.Asset>
+<Source=?_s -- Polarity=neg -> Target=Being_at_risk.Harmful_event>
+<Source=?_s -- Polarity=neg -> Target=Being_at_risk.Dangerous_entity>

@@ -1,9 +1,0 @@
-Attack	Victim	Assailant
-<Source=Attack.Victim -- Polarity=neg -> Target=Attack.Assailant>
-<Source=Attack.Victim -- Polarity=neg -> Target=?_t>
-<Source=Attack.Victim -- Polarity=neg -> Target=Attack>
-<Source=?_s -- Polarity=neg -> Target=Attack.Assailant>
-<Source=Attack.Assailant -- Polarity=neg -> Target=Attack.Victim>
-<Source=Attack.Assailant -- Polarity=neg -> Target=?_t>
-<Source=?_s -- Polarity=neg -> Target=Attack.Victim>
-<Source=?_x -- Polarity=neg -> Target=Attack>

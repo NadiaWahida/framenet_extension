@@ -1,0 +1,3 @@
+People_by_morality	Person	
+<Source=?_x -- Polarity=?_p -> Target=People_by_morality.?_lu>
+<Source=?_s -- Polarity=?_p -> Target=People_by_morality.Person>

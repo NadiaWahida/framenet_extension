@@ -1,0 +1,858 @@
+########################################################################################################################
+lu:    honorable.a
+frame:    Morality_evaluation
+text:    He still could n't resist her , even if he might be too honourable to sleep with her . 
+Target:    honourable 
+FE:    {'Evaluee': 'he', 'Degree': 'to sleep with her'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     he
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    improper.a
+frame:    Morality_evaluation
+text:    He said , ` That was most improper of me if I did . 
+Target:    improper 
+FE:    {'Behavior': 'That', 'Degree': 'most', 'Evaluee': 'of me'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    That
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    of me
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    improper.a
+frame:    Morality_evaluation
+text:    She began to climb the staircase , but I stopped her , saying : ` Miss Kenton , please do n't think me unduly improper in not ascending to see my father in his deceased condition just at this moment . 
+Target:    improper 
+FE:    {'Evaluee': 'me', 'Degree': 'unduly', 'Behavior': 'in not ascending to see my father in his deceased condition just at this moment'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    me
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    in not ascending to see my father in his deceased condition just at this moment
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    immoral.a
+frame:    Morality_evaluation
+text:    Killing things for fun seems to me to be so immoral as to warrant no discussion at all . 
+Target:    immoral 
+FE:    {'Behavior': 'Killing things for fun', 'Degree': 'as to warrant no discussion at all'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    Killing things for fun
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    immoral.a
+frame:    Morality_evaluation
+text:    John Batstone , secretary of the Teesside-based North-East Coast Pension Campaign Committee , said : ` We hope the weight of pressure will make British Steel realise that they are being rather immoral in disposing of the surplus , which they inherited from the days of nationalisation . 
+Target:    immoral 
+FE:    {'Evaluee': 'they', 'Degree': 'rather', 'Behavior': 'in disposing of the surplus , which they inherited from the days of nationalisation'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    in dis    -- positive ->    ing of the surplus , which they inherited from the days of nationalisation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    honorable.a
+frame:    Morality_evaluation
+text:    He still could n't resist her , even if he might be too honourable to sleep with her . 
+Target:    honourable 
+FE:    {'Evaluee': 'he', 'Degree': 'to sleep with her'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     he
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vile.a
+frame:    Morality_evaluation
+text:    Many of them were the scourings of the jails , and they began to be even more vile than before , burning houses , torturing people , and retaliating against the civilian population in every way they could . 
+Target:    vile 
+FE:    {'Evaluee': 'they', 'Degree': 'than before'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vile.a
+frame:    Morality_evaluation
+text:    But the trouble was , he was so vile I could n't respect him . 
+Target:    vile 
+FE:    {'Evaluee': 'he', 'Degree': "I could n't respect him"}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vile.a
+frame:    Morality_evaluation
+text:    Is there anything too vile to bring out into the light ? 
+Target:    vile 
+FE:    {'Behavior': 'anything', 'Degree': 'to bring out into the light'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    anything
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    sinful.a
+frame:    Morality_evaluation
+text:    ` Well , perhaps I was a bit sinful when I used to think about men and women gettin' married . 
+Target:    sinful 
+FE:    {'Evaluee': 'I', 'Degree': 'a bit', 'Behavior': "when I used to think about men and women gettin' married"}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    I
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    when I used to think about men and women gettin' married
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    sinful.a
+frame:    Morality_evaluation
+text:    The silliest and the most sinful of the many heresies of pseudo-democracy is to pretend that all studies and all learning are ` created equal " . 
+Target:    sinful 
+FE:    {'Degree': 'most', 'Behavior': 'to pretend that all studies and all learning are ` created equal "'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    to pretend that all studies and all learning are ` created equal "
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    sinful.a
+frame:    Morality_evaluation
+text:    Such behaviour was still rather sinful to my innocent mind : many years were to pass before I gained a taste for traditional ale ! 
+Target:    sinful 
+FE:    {'Behavior': 'Such behaviour', 'Degree': 'rather', 'Evaluee': 'to my innocent mind'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    Such behaviour
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    to my innocent mind
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    wicked.a
+frame:    Morality_evaluation
+text:    ` And it was very wicked of her . " 
+Target:    wicked 
+FE:    {'Behavior': 'it', 'Degree': 'very', 'Evaluee': 'of her'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    of her
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    wicked.a
+frame:    Morality_evaluation
+text:    The sins were far too wicked to be named , Henry had answered with a confidential glance at Lettice who held her dainty hands at her mouth , wide-eyed . 
+Target:    wicked 
+FE:    {'Behavior': 'The sins', 'Degree': 'to be named'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    The sins
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    wicked.a
+frame:    Morality_evaluation
+text:    Surely no one would be so wicked as to set fire to the place ? " 
+Target:    wicked 
+FE:    {'Evaluee': 'no one', 'Degree': 'as to set fire to the place'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    no one
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    wrong.a
+frame:    Morality_evaluation
+text:    How wrong of you to bring me away from the main road ! 
+Target:    wrong 
+FE:    {'Degree': 'How', 'Evaluee': 'of you', 'Behavior': 'to bring me away from the main road'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    of you
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    to bring me away from the main road
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    corrupt.a
+frame:    Morality_evaluation
+text:    A kindly man who is trying to nudge Mr Karimov away from repressive measures , Mr Zakhidov admitted that the government apparatus was as corrupt as ever but suggested that the president himself was clean . 
+Target:    corrupt 
+FE:    {'Evaluee': 'the government apparatus', 'Degree': 'as ever'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    the government apparatus
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    corrupt.a
+frame:    Morality_evaluation
+text:    ` Because to them , one government is as corrupt as any other . 
+Target:    corrupt 
+FE:    {'Evaluee': 'one government', 'Degree': 'as any other'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    one government
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    bad.a
+frame:    Morality_evaluation
+text:    A SHERIFF yesterday reported a solicitor to the Law Society of Scotland for what he said was the worst courtroom behaviour he had seen in 40 years . 
+Target:    worst 
+FE:    {'Degree': 'he had seen in 40 years', 'Behavior': 'courtroom behaviour'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    courtroom behaviour
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    bad.a
+frame:    Morality_evaluation
+text:    There are some folk who think that they are too bad to be saved , there are other folk who do n't think they 're bad enough to need saving , both are equally wrong ! 
+Target:    bad 
+FE:    {'Evaluee': 'they', 'Degree': 'to be saved'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    depraved.a
+frame:    Morality_evaluation
+text:    If found guilty , he will be Russia 's most prolific serial killer and qualify as one of the most depraved mass murderers of all time . 
+Target:    depraved 
+FE:    {'Degree': 'of all time', 'Evaluee': 'mass murderers'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    mass murderers
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    unethical.a
+frame:    Morality_evaluation
+text:    It was n't any more unethical than if the companies had a summit conference the way Russia and the West meet . 
+Target:    unethical 
+FE:    {'Behavior': 'It', 'Degree': 'than if the companies had a summit conference the way Russia and the West meet'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    It
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    ethical.a
+frame:    Morality_evaluation
+text:    It was n't any more unethical than if the companies had a summit conference the way Russia and the West meet . 
+Target:    unethical 
+FE:    {'Behavior': 'It', 'Degree': 'than if the companies had a summit conference the way Russia and the West meet'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- positive ->     It
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    moral.a
+frame:    Morality_evaluation
+text:    Killing things for fun seems to me to be so immoral as to warrant no discussion at all . 
+Target:    immoral 
+FE:    {'Behavior': 'Killing things for fun', 'Degree': 'as to warrant no discussion at all'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- positive ->     Killing things for fun
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    moral.a
+frame:    Morality_evaluation
+text:    John Batstone , secretary of the Teesside-based North-East Coast Pension Campaign Committee , said : ` We hope the weight of pressure will make British Steel realise that they are being rather immoral in disposing of the surplus , which they inherited from the days of nationalisation . 
+Target:    immoral 
+FE:    {'Evaluee': 'they', 'Degree': 'rather', 'Behavior': 'in disposing of the surplus , which they inherited from the days of nationalisation'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- positive ->     in dis    -- positive ->    ing of the surplus , which they inherited from the days of nationalisation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    decent.a
+frame:    Morality_evaluation
+text:    He 's too decent to blame you . 
+Target:    decent 
+FE:    {'Evaluee': 'He', 'Degree': 'to blame you'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     He
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    virtuous.a
+frame:    Morality_evaluation
+text:    The fact was that for many years she and her father had been living with a dangerous illusion ; and the illusion was that they were entirely virtuous in their endeavours , entirely on the angels ' side . 
+Target:    virtuous 
+FE:    {'Evaluee': 'they', 'Degree': 'entirely', 'Behavior': 'in their endeavours'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- positive ->     in their endeavours
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    virtuous.a
+frame:    Morality_evaluation
+text:    The battle in the Gulf is not about George Bush and Saddam Hussein and which of them is less virtuous than the other . 
+Target:    virtuous 
+FE:    {'Evaluee': 'which of them', 'Degree': 'than the other'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     which of them
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    virtuous.a
+frame:    Morality_evaluation
+text:    If your sister is as virtuous as you say , then she has nothing to fear from my nephew . " 
+Target:    virtuous 
+FE:    {'Evaluee': 'your sister', 'Degree': 'as you say'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     your sister
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    high-minded.a
+frame:    Morality_evaluation
+text:    Nor should the West be excessively high-minded now in condemning a L regime which once served its anti- Soviet purposes so well . 
+Target:    high-minded 
+FE:    {'Evaluee': 'the West', 'Degree': 'excessively', 'Behavior': 'in condemning a L regime which once served its anti- Soviet purposes so well'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     the West
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- positive ->     in condemning a L regime which once served its anti- Soviet pur    -- positive ->    es so well
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    high-minded.a
+frame:    Morality_evaluation
+text:    Claudia 's study , while more high-minded than Leavitt 's movies , had the same general effect . 
+Target:    high-minded 
+FE:    {'Behavior': "Claudia 's study", 'Degree': "than Leavitt 's movies"}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- positive ->     Claudia 's study
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    villainous.a
+frame:    Morality_evaluation
+text:    This rule is the bane of fiction writers , who must take special care to ensure that the more villainous characters in their plots can not be mistaken for living persons . 
+Target:    villainous 
+FE:    {'Degree': 'in their plots', 'Evaluee': 'characters'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    characters
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    heinous.a
+frame:    Morality_evaluation
+text:    Is it right that liability for the second most heinous crime in English law , which carries a maximum penalty of life imprisonment , should be satisfied by this relatively low grade of fault ? 
+Target:    heinous 
+FE:    {'Degree': 'in English law', 'Behavior': 'crime'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    crime
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    heinous.a
+frame:    Morality_evaluation
+text:    Provoked killings are generally thought to be less heinous than unprovoked killings , and provocation has long been accepted as a ground for reducing to manslaughter a killing which would otherwise fulfil the definition of murder . 
+Target:    heinous 
+FE:    {'Behavior': 'Provoked killings', 'Degree': 'than unprovoked killings'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    Provoked killings
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    heinous.a
+frame:    Morality_evaluation
+text:    Evil in Germany was so heinous , so unmistakable in the late 1930s , that all the world would assuredly join forces to wipe it out . 
+Target:    heinous 
+FE:    {'Behavior': 'Evil in Germany', 'Degree': 'that all the world would assuredly join forces to wipe it out'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    Evil in Germany
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    unscrupulous.a
+frame:    Morality_evaluation
+text:    A few moments of complete mental instability when you were unscrupulous enough to take advantage of me .
+Target:    unscrupulous 
+FE:    {'Evaluee': 'you', 'Degree': 'enough', 'Behavior': 'to take advantage of me'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    you
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    to take advantage of me
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    honorable.a
+frame:    Morality_evaluation
+text:    He still could n't resist her , even if he might be too honourable to sleep with her . 
+Target:    honourable 
+FE:    {'Evaluee': 'he', 'Degree': 'to sleep with her'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     he
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    improper.a
+frame:    Morality_evaluation
+text:    He said , ` That was most improper of me if I did . 
+Target:    improper 
+FE:    {'Behavior': 'That', 'Degree': 'most', 'Evaluee': 'of me'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    That
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    of me
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    improper.a
+frame:    Morality_evaluation
+text:    She began to climb the staircase , but I stopped her , saying : ` Miss Kenton , please do n't think me unduly improper in not ascending to see my father in his deceased condition just at this moment . 
+Target:    improper 
+FE:    {'Evaluee': 'me', 'Degree': 'unduly', 'Behavior': 'in not ascending to see my father in his deceased condition just at this moment'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    me
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    in not ascending to see my father in his deceased condition just at this moment
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    immoral.a
+frame:    Morality_evaluation
+text:    Killing things for fun seems to me to be so immoral as to warrant no discussion at all . 
+Target:    immoral 
+FE:    {'Behavior': 'Killing things for fun', 'Degree': 'as to warrant no discussion at all'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    Killing things for fun
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    immoral.a
+frame:    Morality_evaluation
+text:    John Batstone , secretary of the Teesside-based North-East Coast Pension Campaign Committee , said : ` We hope the weight of pressure will make British Steel realise that they are being rather immoral in disposing of the surplus , which they inherited from the days of nationalisation . 
+Target:    immoral 
+FE:    {'Evaluee': 'they', 'Degree': 'rather', 'Behavior': 'in disposing of the surplus , which they inherited from the days of nationalisation'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    in dis    -- positive ->    ing of the surplus , which they inherited from the days of nationalisation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    honorable.a
+frame:    Morality_evaluation
+text:    He still could n't resist her , even if he might be too honourable to sleep with her . 
+Target:    honourable 
+FE:    {'Evaluee': 'he', 'Degree': 'to sleep with her'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     he
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vile.a
+frame:    Morality_evaluation
+text:    Many of them were the scourings of the jails , and they began to be even more vile than before , burning houses , torturing people , and retaliating against the civilian population in every way they could . 
+Target:    vile 
+FE:    {'Evaluee': 'they', 'Degree': 'than before'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vile.a
+frame:    Morality_evaluation
+text:    But the trouble was , he was so vile I could n't respect him . 
+Target:    vile 
+FE:    {'Evaluee': 'he', 'Degree': "I could n't respect him"}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    he
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    vile.a
+frame:    Morality_evaluation
+text:    Is there anything too vile to bring out into the light ? 
+Target:    vile 
+FE:    {'Behavior': 'anything', 'Degree': 'to bring out into the light'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    anything
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    sinful.a
+frame:    Morality_evaluation
+text:    ` Well , perhaps I was a bit sinful when I used to think about men and women gettin' married . 
+Target:    sinful 
+FE:    {'Evaluee': 'I', 'Degree': 'a bit', 'Behavior': "when I used to think about men and women gettin' married"}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    I
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    when I used to think about men and women gettin' married
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    sinful.a
+frame:    Morality_evaluation
+text:    The silliest and the most sinful of the many heresies of pseudo-democracy is to pretend that all studies and all learning are ` created equal " . 
+Target:    sinful 
+FE:    {'Degree': 'most', 'Behavior': 'to pretend that all studies and all learning are ` created equal "'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    to pretend that all studies and all learning are ` created equal "
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    sinful.a
+frame:    Morality_evaluation
+text:    Such behaviour was still rather sinful to my innocent mind : many years were to pass before I gained a taste for traditional ale ! 
+Target:    sinful 
+FE:    {'Behavior': 'Such behaviour', 'Degree': 'rather', 'Evaluee': 'to my innocent mind'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    Such behaviour
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    to my innocent mind
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    wicked.a
+frame:    Morality_evaluation
+text:    ` And it was very wicked of her . " 
+Target:    wicked 
+FE:    {'Behavior': 'it', 'Degree': 'very', 'Evaluee': 'of her'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    it
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    of her
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    wicked.a
+frame:    Morality_evaluation
+text:    The sins were far too wicked to be named , Henry had answered with a confidential glance at Lettice who held her dainty hands at her mouth , wide-eyed . 
+Target:    wicked 
+FE:    {'Behavior': 'The sins', 'Degree': 'to be named'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    The sins
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    wicked.a
+frame:    Morality_evaluation
+text:    Surely no one would be so wicked as to set fire to the place ? " 
+Target:    wicked 
+FE:    {'Evaluee': 'no one', 'Degree': 'as to set fire to the place'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    no one
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    wrong.a
+frame:    Morality_evaluation
+text:    How wrong of you to bring me away from the main road ! 
+Target:    wrong 
+FE:    {'Degree': 'How', 'Evaluee': 'of you', 'Behavior': 'to bring me away from the main road'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    of you
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    to bring me away from the main road
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    corrupt.a
+frame:    Morality_evaluation
+text:    A kindly man who is trying to nudge Mr Karimov away from repressive measures , Mr Zakhidov admitted that the government apparatus was as corrupt as ever but suggested that the president himself was clean . 
+Target:    corrupt 
+FE:    {'Evaluee': 'the government apparatus', 'Degree': 'as ever'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    the government apparatus
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    corrupt.a
+frame:    Morality_evaluation
+text:    ` Because to them , one government is as corrupt as any other . 
+Target:    corrupt 
+FE:    {'Evaluee': 'one government', 'Degree': 'as any other'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    one government
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    bad.a
+frame:    Morality_evaluation
+text:    A SHERIFF yesterday reported a solicitor to the Law Society of Scotland for what he said was the worst courtroom behaviour he had seen in 40 years . 
+Target:    worst 
+FE:    {'Degree': 'he had seen in 40 years', 'Behavior': 'courtroom behaviour'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    courtroom behaviour
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    bad.a
+frame:    Morality_evaluation
+text:    There are some folk who think that they are too bad to be saved , there are other folk who do n't think they 're bad enough to need saving , both are equally wrong ! 
+Target:    bad 
+FE:    {'Evaluee': 'they', 'Degree': 'to be saved'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    depraved.a
+frame:    Morality_evaluation
+text:    If found guilty , he will be Russia 's most prolific serial killer and qualify as one of the most depraved mass murderers of all time . 
+Target:    depraved 
+FE:    {'Degree': 'of all time', 'Evaluee': 'mass murderers'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    mass murderers
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    unethical.a
+frame:    Morality_evaluation
+text:    It was n't any more unethical than if the companies had a summit conference the way Russia and the West meet . 
+Target:    unethical 
+FE:    {'Behavior': 'It', 'Degree': 'than if the companies had a summit conference the way Russia and the West meet'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    It
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    ethical.a
+frame:    Morality_evaluation
+text:    It was n't any more unethical than if the companies had a summit conference the way Russia and the West meet . 
+Target:    unethical 
+FE:    {'Behavior': 'It', 'Degree': 'than if the companies had a summit conference the way Russia and the West meet'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- positive ->     It
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    moral.a
+frame:    Morality_evaluation
+text:    Killing things for fun seems to me to be so immoral as to warrant no discussion at all . 
+Target:    immoral 
+FE:    {'Behavior': 'Killing things for fun', 'Degree': 'as to warrant no discussion at all'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- positive ->     Killing things for fun
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    moral.a
+frame:    Morality_evaluation
+text:    John Batstone , secretary of the Teesside-based North-East Coast Pension Campaign Committee , said : ` We hope the weight of pressure will make British Steel realise that they are being rather immoral in disposing of the surplus , which they inherited from the days of nationalisation . 
+Target:    immoral 
+FE:    {'Evaluee': 'they', 'Degree': 'rather', 'Behavior': 'in disposing of the surplus , which they inherited from the days of nationalisation'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- positive ->     in dis    -- positive ->    ing of the surplus , which they inherited from the days of nationalisation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    decent.a
+frame:    Morality_evaluation
+text:    He 's too decent to blame you . 
+Target:    decent 
+FE:    {'Evaluee': 'He', 'Degree': 'to blame you'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     He
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    virtuous.a
+frame:    Morality_evaluation
+text:    The fact was that for many years she and her father had been living with a dangerous illusion ; and the illusion was that they were entirely virtuous in their endeavours , entirely on the angels ' side . 
+Target:    virtuous 
+FE:    {'Evaluee': 'they', 'Degree': 'entirely', 'Behavior': 'in their endeavours'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     they
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- positive ->     in their endeavours
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    virtuous.a
+frame:    Morality_evaluation
+text:    The battle in the Gulf is not about George Bush and Saddam Hussein and which of them is less virtuous than the other . 
+Target:    virtuous 
+FE:    {'Evaluee': 'which of them', 'Degree': 'than the other'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     which of them
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    virtuous.a
+frame:    Morality_evaluation
+text:    If your sister is as virtuous as you say , then she has nothing to fear from my nephew . " 
+Target:    virtuous 
+FE:    {'Evaluee': 'your sister', 'Degree': 'as you say'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     your sister
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    high-minded.a
+frame:    Morality_evaluation
+text:    Nor should the West be excessively high-minded now in condemning a L regime which once served its anti- Soviet purposes so well . 
+Target:    high-minded 
+FE:    {'Evaluee': 'the West', 'Degree': 'excessively', 'Behavior': 'in condemning a L regime which once served its anti- Soviet purposes so well'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     the West
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- positive ->     in condemning a L regime which once served its anti- Soviet pur    -- positive ->    es so well
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    high-minded.a
+frame:    Morality_evaluation
+text:    Claudia 's study , while more high-minded than Leavitt 's movies , had the same general effect . 
+Target:    high-minded 
+FE:    {'Behavior': "Claudia 's study", 'Degree': "than Leavitt 's movies"}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- positive ->     Claudia 's study
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    villainous.a
+frame:    Morality_evaluation
+text:    This rule is the bane of fiction writers , who must take special care to ensure that the more villainous characters in their plots can not be mistaken for living persons . 
+Target:    villainous 
+FE:    {'Degree': 'in their plots', 'Evaluee': 'characters'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    characters
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    heinous.a
+frame:    Morality_evaluation
+text:    Is it right that liability for the second most heinous crime in English law , which carries a maximum penalty of life imprisonment , should be satisfied by this relatively low grade of fault ? 
+Target:    heinous 
+FE:    {'Degree': 'in English law', 'Behavior': 'crime'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    crime
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    heinous.a
+frame:    Morality_evaluation
+text:    Provoked killings are generally thought to be less heinous than unprovoked killings , and provocation has long been accepted as a ground for reducing to manslaughter a killing which would otherwise fulfil the definition of murder . 
+Target:    heinous 
+FE:    {'Behavior': 'Provoked killings', 'Degree': 'than unprovoked killings'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    Provoked killings
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    heinous.a
+frame:    Morality_evaluation
+text:    Evil in Germany was so heinous , so unmistakable in the late 1930s , that all the world would assuredly join forces to wipe it out . 
+Target:    heinous 
+FE:    {'Behavior': 'Evil in Germany', 'Degree': 'that all the world would assuredly join forces to wipe it out'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    Evil in Germany
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    unscrupulous.a
+frame:    Morality_evaluation
+text:    A few moments of complete mental instability when you were unscrupulous enough to take advantage of me .
+Target:    unscrupulous 
+FE:    {'Evaluee': 'you', 'Degree': 'enough', 'Behavior': 'to take advantage of me'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    you
+----------------------------------------------------------------------------------------------------
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    to take advantage of me
+----------------------------------------------------------------------------------------------------

@@ -1,1 +1,0 @@
-<Source=People_by_morality.Person -- Polarity=?_lu -> Target=?_t>

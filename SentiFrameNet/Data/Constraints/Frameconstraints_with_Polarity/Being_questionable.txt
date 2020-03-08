@@ -1,0 +1,12 @@
+Being_questionable	Social_actor	Judge	Behavior	Entity
+<Source=?_x -- Polarity=neg -> Target=Being_questionable>
+<Source=Being_questionable.Social_actor -- Polarity=neg -> Target=Being_questionable.Judge>
+<Source=Being_questionable.Social_actor -- Polarity=neg -> Target=?_t>
+<Source=Being_questionable.Judge -- Polarity=neg -> Target=Being_questionable.Social_actor>
+<Source=Being_questionable.Judge -- Polarity=neg -> Target=Being_questionable.Behavior>
+<Source=Being_questionable.Judge -- Polarity=neg -> Target=Being_questionable.Entity>
+<Source=Being_questionable.Judge -- Polarity=neg -> Target=?_t>
+<Source=?_s -- Polarity=neg -> Target=Being_questionable.Social_actor>
+<Source=?_s -- Polarity=neg -> Target=Being_questionable.Judge>
+<Source=?_s -- Polarity=neg -> Target=Being_questionable.Behavior>
+<Source=?_s -- Polarity=neg -> Target=Being_questionable.Entity>

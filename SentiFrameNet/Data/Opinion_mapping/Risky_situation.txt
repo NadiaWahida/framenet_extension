@@ -1,0 +1,1369 @@
+########################################################################################################################
+lu:    safe.a
+frame:    Risky_situation
+text:    Lately , as the southern city of Quetta has become increasingly unsafe for Afghan Taliban leaders , they have also been making the trek to Karachi to establish new cells , experts say .
+Target:    unsafe 
+FE:    {'Situation': 'the southern city of Quetta', 'Degree': 'increasingly', 'Asset': 'for Afghan Taliban leaders'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Afghan Taliban leaders
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    unsafe.a
+frame:    Risky_situation
+text:    Lately , as the southern city of Quetta has become increasingly unsafe for Afghan Taliban leaders , they have also been making the trek to Karachi to establish new cells , experts say .
+Target:    unsafe 
+FE:    {'Situation': 'the southern city of Quetta', 'Degree': 'increasingly', 'Asset': 'for Afghan Taliban leaders'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Afghan Taliban leaders
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    dangerous.a
+frame:    Risky_situation
+text:    Although Port-au-Prince was under fire from the oldest and most primitive of artillery pieces , which were so ill-preserved as to be as dangerous to their operators as to their targets , the effect was still terrifying to the populace , who were unused to the banshee wail that echoed overhead and preceded bone-crushing explosive impacts .
+Target:    dangerous 
+FE:    {'Dangerous_entity': 'which', 'Asset': 'to their operators'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to their operators
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    dangerous.a
+frame:    Risky_situation
+text:    ` To bring him here is a dangerous matter , '' Claudel said , and by the way Shaaban nodded , his dark eyes large and anxious , Claudel knew that it could also be dangerous for Shaaban if he had to answer any more questions .
+Target:    dangerous 
+FE:    {'Dangerous_entity': 'it', 'Asset': 'for Shaaban', 'Circumstances': 'if he had to answer any more questions'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Shaaban
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    it
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    dangerous.a
+frame:    Risky_situation
+text:    Biologists at Fort Detrick 's newest biodefense center may be asked to make some of the world 's deadliest microbes even more dangerous than they already are .
+Target:    dangerous 
+FE:    {'Dangerous_entity': "the world 's deadliest microbes", 'Degree': 'than they already are'}
+FE_unexpr:    {}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    the world 's deadliest microbes
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    But daily consumption of ETU , a component of the fungicides , posed a considerable long-term risk .
+Target:    risk 
+FE:    {'Situation': 'daily consumption of ETU , a component of the fungicides', 'Degree': 'considerable', 'Time': 'long-term'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Unexploded bomblets pose a special risk to children , who often believe that they are toys .
+Target:    risk 
+FE:    {'Situation': 'Unexploded bomblets', 'Degree': 'special', 'Asset': 'to children , who often believe that they are toys'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to children , who often believe that they are toys
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Pentagon officials say prisoners are released when they are believed to be of no more intelligence value to interrogators and to pose no significant security risk .
+Target:    risk 
+FE:    {'Dangerous_entity': 'they', 'Degree': 'significant', 'Asset': 'security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    On the civilian side , it offered a picture of a rebuilt mosque , along with a warning that " inadequate governance " posed a major strategic risk .
+Target:    risk 
+FE:    {'Situation': 'inadequate governance', 'Degree': 'major', 'Domain': 'strategic'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    threat.n
+frame:    Risky_situation
+text:    This deployment represents a significant threat to heavily populated Seoul , as well as to the entire peninsula in the event of a southward invasion by the Korean People's Army ( KPA ) .
+Target:    threat 
+FE:    {'Situation': 'a significant threat', 'Asset': 'to heavily populated Seoul , as well as to the entire peninsula'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to heavily populated Seoul , as well as to the entire peninsula
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    threat.n
+frame:    Risky_situation
+text:    It `` may well be '' that theft of business data is `` as serious a strategic threat to national security '' as it is a threat to the survival of victimized U.S. firms , said Michelle Van Cleave , the White House 's assistant director for National Security Affairs .
+Target:    threat 
+FE:    {'Degree': 'as', 'Situation': 'it', 'Asset': 'to the survival of victimized U.S. firms'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to the survival of victimized U.S. firms
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    Rough terrain and often-turbulent weather pose substantial dangers to military aviation in Afghanistan .
+Target:    dangers 
+FE:    {'Situation': 'Rough terrain and often-turbulent weather', 'Degree': 'substantial', 'Asset': 'to military aviation in Afghanistan'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to military aviation in Afghanistan
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    But on most days the greatest danger to a fobbit 's health are the three heaping , deep-fried daily portions of mess hall food .
+Target:    danger 
+FE:    {'Degree': 'greatest', 'Asset': "to a fobbit 's health", 'Dangerous_entity': 'the three heaping , deep-fried daily portions of mess hall food'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to a fobbit 's health
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    the three heaping , deep-fried daily portions of mess hall food
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    U. S. officials rarely discuss the missile strikes , which the Pakistani public views as a threat to national sovereignty and a danger to civilians .
+Target:    danger 
+FE:    {'Situation': 'which', 'Asset': 'to civilians'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to civilians
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    Many U. S. and Iraqi officials say Shiite militias , many with ties to the highest echelons of political power , represent a greater danger to Iraqi security than Sunni insurgents .
+Target:    danger 
+FE:    {'Dangerous_entity': 'Shiite militias , many with ties to the highest echelons of political power', 'Degree': 'than Sunni insurgents', 'Asset': 'to Iraqi security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to Iraqi security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    Shiite militias , many with ties to the highest echelons of political power
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Risky_situation
+text:    Lately , as the southern city of Quetta has become increasingly unsafe for Afghan Taliban leaders , they have also been making the trek to Karachi to establish new cells , experts say .
+Target:    unsafe 
+FE:    {'Situation': 'the southern city of Quetta', 'Degree': 'increasingly', 'Asset': 'for Afghan Taliban leaders'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Afghan Taliban leaders
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    unsafe.a
+frame:    Risky_situation
+text:    Lately , as the southern city of Quetta has become increasingly unsafe for Afghan Taliban leaders , they have also been making the trek to Karachi to establish new cells , experts say .
+Target:    unsafe 
+FE:    {'Situation': 'the southern city of Quetta', 'Degree': 'increasingly', 'Asset': 'for Afghan Taliban leaders'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Afghan Taliban leaders
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    But daily consumption of ETU , a component of the fungicides , posed a considerable long-term risk .
+Target:    risk 
+FE:    {'Situation': 'daily consumption of ETU , a component of the fungicides', 'Degree': 'considerable', 'Time': 'long-term'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Unexploded bomblets pose a special risk to children , who often believe that they are toys .
+Target:    risk 
+FE:    {'Situation': 'Unexploded bomblets', 'Degree': 'special', 'Asset': 'to children , who often believe that they are toys'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to children , who often believe that they are toys
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Pentagon officials say prisoners are released when they are believed to be of no more intelligence value to interrogators and to pose no significant security risk .
+Target:    risk 
+FE:    {'Dangerous_entity': 'they', 'Degree': 'significant', 'Asset': 'security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    On the civilian side , it offered a picture of a rebuilt mosque , along with a warning that " inadequate governance " posed a major strategic risk .
+Target:    risk 
+FE:    {'Situation': 'inadequate governance', 'Degree': 'major', 'Domain': 'strategic'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    Rough terrain and often-turbulent weather pose substantial dangers to military aviation in Afghanistan .
+Target:    dangers 
+FE:    {'Situation': 'Rough terrain and often-turbulent weather', 'Degree': 'substantial', 'Asset': 'to military aviation in Afghanistan'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to military aviation in Afghanistan
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    But on most days the greatest danger to a fobbit 's health are the three heaping , deep-fried daily portions of mess hall food .
+Target:    danger 
+FE:    {'Degree': 'greatest', 'Asset': "to a fobbit 's health", 'Dangerous_entity': 'the three heaping , deep-fried daily portions of mess hall food'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to a fobbit 's health
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    the three heaping , deep-fried daily portions of mess hall food
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    U. S. officials rarely discuss the missile strikes , which the Pakistani public views as a threat to national sovereignty and a danger to civilians .
+Target:    danger 
+FE:    {'Situation': 'which', 'Asset': 'to civilians'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to civilians
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    Many U. S. and Iraqi officials say Shiite militias , many with ties to the highest echelons of political power , represent a greater danger to Iraqi security than Sunni insurgents .
+Target:    danger 
+FE:    {'Dangerous_entity': 'Shiite militias , many with ties to the highest echelons of political power', 'Degree': 'than Sunni insurgents', 'Asset': 'to Iraqi security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to Iraqi security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    Shiite militias , many with ties to the highest echelons of political power
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    But daily consumption of ETU , a component of the fungicides , posed a considerable long-term risk .
+Target:    risk 
+FE:    {'Situation': 'daily consumption of ETU , a component of the fungicides', 'Degree': 'considerable', 'Time': 'long-term'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Unexploded bomblets pose a special risk to children , who often believe that they are toys .
+Target:    risk 
+FE:    {'Situation': 'Unexploded bomblets', 'Degree': 'special', 'Asset': 'to children , who often believe that they are toys'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to children , who often believe that they are toys
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Pentagon officials say prisoners are released when they are believed to be of no more intelligence value to interrogators and to pose no significant security risk .
+Target:    risk 
+FE:    {'Dangerous_entity': 'they', 'Degree': 'significant', 'Asset': 'security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    On the civilian side , it offered a picture of a rebuilt mosque , along with a warning that " inadequate governance " posed a major strategic risk .
+Target:    risk 
+FE:    {'Situation': 'inadequate governance', 'Degree': 'major', 'Domain': 'strategic'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    anger.n
+frame:    Risky_situation
+text:    Rough terrain and often-turbulent weather pose substantial dangers to military aviation in Afghanistan .
+Target:    dangers 
+FE:    {'Situation': 'Rough terrain and often-turbulent weather', 'Degree': 'substantial', 'Asset': 'to military aviation in Afghanistan'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to military aviation in Afghanistan
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    anger.n
+frame:    Risky_situation
+text:    But on most days the greatest danger to a fobbit 's health are the three heaping , deep-fried daily portions of mess hall food .
+Target:    danger 
+FE:    {'Degree': 'greatest', 'Asset': "to a fobbit 's health", 'Dangerous_entity': 'the three heaping , deep-fried daily portions of mess hall food'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to a fobbit 's health
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    the three heaping , deep-fried daily portions of mess hall food
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    anger.n
+frame:    Risky_situation
+text:    U. S. officials rarely discuss the missile strikes , which the Pakistani public views as a threat to national sovereignty and a danger to civilians .
+Target:    danger 
+FE:    {'Situation': 'which', 'Asset': 'to civilians'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to civilians
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    anger.n
+frame:    Risky_situation
+text:    Many U. S. and Iraqi officials say Shiite militias , many with ties to the highest echelons of political power , represent a greater danger to Iraqi security than Sunni insurgents .
+Target:    danger 
+FE:    {'Dangerous_entity': 'Shiite militias , many with ties to the highest echelons of political power', 'Degree': 'than Sunni insurgents', 'Asset': 'to Iraqi security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to Iraqi security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    Shiite militias , many with ties to the highest echelons of political power
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Risky_situation
+text:    Lately , as the southern city of Quetta has become increasingly unsafe for Afghan Taliban leaders , they have also been making the trek to Karachi to establish new cells , experts say .
+Target:    unsafe 
+FE:    {'Situation': 'the southern city of Quetta', 'Degree': 'increasingly', 'Asset': 'for Afghan Taliban leaders'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Afghan Taliban leaders
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    unsafe.a
+frame:    Risky_situation
+text:    Lately , as the southern city of Quetta has become increasingly unsafe for Afghan Taliban leaders , they have also been making the trek to Karachi to establish new cells , experts say .
+Target:    unsafe 
+FE:    {'Situation': 'the southern city of Quetta', 'Degree': 'increasingly', 'Asset': 'for Afghan Taliban leaders'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Afghan Taliban leaders
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    dangerous.a
+frame:    Risky_situation
+text:    Although Port-au-Prince was under fire from the oldest and most primitive of artillery pieces , which were so ill-preserved as to be as dangerous to their operators as to their targets , the effect was still terrifying to the populace , who were unused to the banshee wail that echoed overhead and preceded bone-crushing explosive impacts .
+Target:    dangerous 
+FE:    {'Dangerous_entity': 'which', 'Asset': 'to their operators'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to their operators
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    dangerous.a
+frame:    Risky_situation
+text:    ` To bring him here is a dangerous matter , '' Claudel said , and by the way Shaaban nodded , his dark eyes large and anxious , Claudel knew that it could also be dangerous for Shaaban if he had to answer any more questions .
+Target:    dangerous 
+FE:    {'Dangerous_entity': 'it', 'Asset': 'for Shaaban', 'Circumstances': 'if he had to answer any more questions'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Shaaban
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    it
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    dangerous.a
+frame:    Risky_situation
+text:    Biologists at Fort Detrick 's newest biodefense center may be asked to make some of the world 's deadliest microbes even more dangerous than they already are .
+Target:    dangerous 
+FE:    {'Dangerous_entity': "the world 's deadliest microbes", 'Degree': 'than they already are'}
+FE_unexpr:    {}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    the world 's deadliest microbes
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    But daily consumption of ETU , a component of the fungicides , posed a considerable long-term risk .
+Target:    risk 
+FE:    {'Situation': 'daily consumption of ETU , a component of the fungicides', 'Degree': 'considerable', 'Time': 'long-term'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Unexploded bomblets pose a special risk to children , who often believe that they are toys .
+Target:    risk 
+FE:    {'Situation': 'Unexploded bomblets', 'Degree': 'special', 'Asset': 'to children , who often believe that they are toys'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to children , who often believe that they are toys
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Pentagon officials say prisoners are released when they are believed to be of no more intelligence value to interrogators and to pose no significant security risk .
+Target:    risk 
+FE:    {'Dangerous_entity': 'they', 'Degree': 'significant', 'Asset': 'security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    On the civilian side , it offered a picture of a rebuilt mosque , along with a warning that " inadequate governance " posed a major strategic risk .
+Target:    risk 
+FE:    {'Situation': 'inadequate governance', 'Degree': 'major', 'Domain': 'strategic'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    threat.n
+frame:    Risky_situation
+text:    This deployment represents a significant threat to heavily populated Seoul , as well as to the entire peninsula in the event of a southward invasion by the Korean People's Army ( KPA ) .
+Target:    threat 
+FE:    {'Situation': 'a significant threat', 'Asset': 'to heavily populated Seoul , as well as to the entire peninsula'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to heavily populated Seoul , as well as to the entire peninsula
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    threat.n
+frame:    Risky_situation
+text:    It `` may well be '' that theft of business data is `` as serious a strategic threat to national security '' as it is a threat to the survival of victimized U.S. firms , said Michelle Van Cleave , the White House 's assistant director for National Security Affairs .
+Target:    threat 
+FE:    {'Degree': 'as', 'Situation': 'it', 'Asset': 'to the survival of victimized U.S. firms'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to the survival of victimized U.S. firms
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    Rough terrain and often-turbulent weather pose substantial dangers to military aviation in Afghanistan .
+Target:    dangers 
+FE:    {'Situation': 'Rough terrain and often-turbulent weather', 'Degree': 'substantial', 'Asset': 'to military aviation in Afghanistan'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to military aviation in Afghanistan
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    But on most days the greatest danger to a fobbit 's health are the three heaping , deep-fried daily portions of mess hall food .
+Target:    danger 
+FE:    {'Degree': 'greatest', 'Asset': "to a fobbit 's health", 'Dangerous_entity': 'the three heaping , deep-fried daily portions of mess hall food'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to a fobbit 's health
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    the three heaping , deep-fried daily portions of mess hall food
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    U. S. officials rarely discuss the missile strikes , which the Pakistani public views as a threat to national sovereignty and a danger to civilians .
+Target:    danger 
+FE:    {'Situation': 'which', 'Asset': 'to civilians'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to civilians
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    Many U. S. and Iraqi officials say Shiite militias , many with ties to the highest echelons of political power , represent a greater danger to Iraqi security than Sunni insurgents .
+Target:    danger 
+FE:    {'Dangerous_entity': 'Shiite militias , many with ties to the highest echelons of political power', 'Degree': 'than Sunni insurgents', 'Asset': 'to Iraqi security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to Iraqi security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    Shiite militias , many with ties to the highest echelons of political power
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Risky_situation
+text:    Lately , as the southern city of Quetta has become increasingly unsafe for Afghan Taliban leaders , they have also been making the trek to Karachi to establish new cells , experts say .
+Target:    unsafe 
+FE:    {'Situation': 'the southern city of Quetta', 'Degree': 'increasingly', 'Asset': 'for Afghan Taliban leaders'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Afghan Taliban leaders
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    unsafe.a
+frame:    Risky_situation
+text:    Lately , as the southern city of Quetta has become increasingly unsafe for Afghan Taliban leaders , they have also been making the trek to Karachi to establish new cells , experts say .
+Target:    unsafe 
+FE:    {'Situation': 'the southern city of Quetta', 'Degree': 'increasingly', 'Asset': 'for Afghan Taliban leaders'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Afghan Taliban leaders
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    But daily consumption of ETU , a component of the fungicides , posed a considerable long-term risk .
+Target:    risk 
+FE:    {'Situation': 'daily consumption of ETU , a component of the fungicides', 'Degree': 'considerable', 'Time': 'long-term'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Unexploded bomblets pose a special risk to children , who often believe that they are toys .
+Target:    risk 
+FE:    {'Situation': 'Unexploded bomblets', 'Degree': 'special', 'Asset': 'to children , who often believe that they are toys'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to children , who often believe that they are toys
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Pentagon officials say prisoners are released when they are believed to be of no more intelligence value to interrogators and to pose no significant security risk .
+Target:    risk 
+FE:    {'Dangerous_entity': 'they', 'Degree': 'significant', 'Asset': 'security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    On the civilian side , it offered a picture of a rebuilt mosque , along with a warning that " inadequate governance " posed a major strategic risk .
+Target:    risk 
+FE:    {'Situation': 'inadequate governance', 'Degree': 'major', 'Domain': 'strategic'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    Rough terrain and often-turbulent weather pose substantial dangers to military aviation in Afghanistan .
+Target:    dangers 
+FE:    {'Situation': 'Rough terrain and often-turbulent weather', 'Degree': 'substantial', 'Asset': 'to military aviation in Afghanistan'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to military aviation in Afghanistan
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    But on most days the greatest danger to a fobbit 's health are the three heaping , deep-fried daily portions of mess hall food .
+Target:    danger 
+FE:    {'Degree': 'greatest', 'Asset': "to a fobbit 's health", 'Dangerous_entity': 'the three heaping , deep-fried daily portions of mess hall food'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to a fobbit 's health
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    the three heaping , deep-fried daily portions of mess hall food
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    U. S. officials rarely discuss the missile strikes , which the Pakistani public views as a threat to national sovereignty and a danger to civilians .
+Target:    danger 
+FE:    {'Situation': 'which', 'Asset': 'to civilians'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to civilians
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    Many U. S. and Iraqi officials say Shiite militias , many with ties to the highest echelons of political power , represent a greater danger to Iraqi security than Sunni insurgents .
+Target:    danger 
+FE:    {'Dangerous_entity': 'Shiite militias , many with ties to the highest echelons of political power', 'Degree': 'than Sunni insurgents', 'Asset': 'to Iraqi security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to Iraqi security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    Shiite militias , many with ties to the highest echelons of political power
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    But daily consumption of ETU , a component of the fungicides , posed a considerable long-term risk .
+Target:    risk 
+FE:    {'Situation': 'daily consumption of ETU , a component of the fungicides', 'Degree': 'considerable', 'Time': 'long-term'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Unexploded bomblets pose a special risk to children , who often believe that they are toys .
+Target:    risk 
+FE:    {'Situation': 'Unexploded bomblets', 'Degree': 'special', 'Asset': 'to children , who often believe that they are toys'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to children , who often believe that they are toys
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Pentagon officials say prisoners are released when they are believed to be of no more intelligence value to interrogators and to pose no significant security risk .
+Target:    risk 
+FE:    {'Dangerous_entity': 'they', 'Degree': 'significant', 'Asset': 'security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    On the civilian side , it offered a picture of a rebuilt mosque , along with a warning that " inadequate governance " posed a major strategic risk .
+Target:    risk 
+FE:    {'Situation': 'inadequate governance', 'Degree': 'major', 'Domain': 'strategic'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    anger.n
+frame:    Risky_situation
+text:    Rough terrain and often-turbulent weather pose substantial dangers to military aviation in Afghanistan .
+Target:    dangers 
+FE:    {'Situation': 'Rough terrain and often-turbulent weather', 'Degree': 'substantial', 'Asset': 'to military aviation in Afghanistan'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to military aviation in Afghanistan
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    anger.n
+frame:    Risky_situation
+text:    But on most days the greatest danger to a fobbit 's health are the three heaping , deep-fried daily portions of mess hall food .
+Target:    danger 
+FE:    {'Degree': 'greatest', 'Asset': "to a fobbit 's health", 'Dangerous_entity': 'the three heaping , deep-fried daily portions of mess hall food'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to a fobbit 's health
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    the three heaping , deep-fried daily portions of mess hall food
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    anger.n
+frame:    Risky_situation
+text:    U. S. officials rarely discuss the missile strikes , which the Pakistani public views as a threat to national sovereignty and a danger to civilians .
+Target:    danger 
+FE:    {'Situation': 'which', 'Asset': 'to civilians'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to civilians
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    anger.n
+frame:    Risky_situation
+text:    Many U. S. and Iraqi officials say Shiite militias , many with ties to the highest echelons of political power , represent a greater danger to Iraqi security than Sunni insurgents .
+Target:    danger 
+FE:    {'Dangerous_entity': 'Shiite militias , many with ties to the highest echelons of political power', 'Degree': 'than Sunni insurgents', 'Asset': 'to Iraqi security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to Iraqi security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    Shiite militias , many with ties to the highest echelons of political power
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Risky_situation
+text:    Lately , as the southern city of Quetta has become increasingly unsafe for Afghan Taliban leaders , they have also been making the trek to Karachi to establish new cells , experts say .
+Target:    unsafe 
+FE:    {'Situation': 'the southern city of Quetta', 'Degree': 'increasingly', 'Asset': 'for Afghan Taliban leaders'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Afghan Taliban leaders
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    unsafe.a
+frame:    Risky_situation
+text:    Lately , as the southern city of Quetta has become increasingly unsafe for Afghan Taliban leaders , they have also been making the trek to Karachi to establish new cells , experts say .
+Target:    unsafe 
+FE:    {'Situation': 'the southern city of Quetta', 'Degree': 'increasingly', 'Asset': 'for Afghan Taliban leaders'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Afghan Taliban leaders
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    dangerous.a
+frame:    Risky_situation
+text:    Although Port-au-Prince was under fire from the oldest and most primitive of artillery pieces , which were so ill-preserved as to be as dangerous to their operators as to their targets , the effect was still terrifying to the populace , who were unused to the banshee wail that echoed overhead and preceded bone-crushing explosive impacts .
+Target:    dangerous 
+FE:    {'Dangerous_entity': 'which', 'Asset': 'to their operators'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to their operators
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    which
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    dangerous.a
+frame:    Risky_situation
+text:    ` To bring him here is a dangerous matter , '' Claudel said , and by the way Shaaban nodded , his dark eyes large and anxious , Claudel knew that it could also be dangerous for Shaaban if he had to answer any more questions .
+Target:    dangerous 
+FE:    {'Dangerous_entity': 'it', 'Asset': 'for Shaaban', 'Circumstances': 'if he had to answer any more questions'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Shaaban
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    it
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    dangerous.a
+frame:    Risky_situation
+text:    Biologists at Fort Detrick 's newest biodefense center may be asked to make some of the world 's deadliest microbes even more dangerous than they already are .
+Target:    dangerous 
+FE:    {'Dangerous_entity': "the world 's deadliest microbes", 'Degree': 'than they already are'}
+FE_unexpr:    {}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    the world 's deadliest microbes
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    But daily consumption of ETU , a component of the fungicides , posed a considerable long-term risk .
+Target:    risk 
+FE:    {'Situation': 'daily consumption of ETU , a component of the fungicides', 'Degree': 'considerable', 'Time': 'long-term'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Unexploded bomblets pose a special risk to children , who often believe that they are toys .
+Target:    risk 
+FE:    {'Situation': 'Unexploded bomblets', 'Degree': 'special', 'Asset': 'to children , who often believe that they are toys'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to children , who often believe that they are toys
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Pentagon officials say prisoners are released when they are believed to be of no more intelligence value to interrogators and to pose no significant security risk .
+Target:    risk 
+FE:    {'Dangerous_entity': 'they', 'Degree': 'significant', 'Asset': 'security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    On the civilian side , it offered a picture of a rebuilt mosque , along with a warning that " inadequate governance " posed a major strategic risk .
+Target:    risk 
+FE:    {'Situation': 'inadequate governance', 'Degree': 'major', 'Domain': 'strategic'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    threat.n
+frame:    Risky_situation
+text:    This deployment represents a significant threat to heavily populated Seoul , as well as to the entire peninsula in the event of a southward invasion by the Korean People's Army ( KPA ) .
+Target:    threat 
+FE:    {'Situation': 'a significant threat', 'Asset': 'to heavily populated Seoul , as well as to the entire peninsula'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to heavily populated Seoul , as well as to the entire peninsula
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    threat.n
+frame:    Risky_situation
+text:    It `` may well be '' that theft of business data is `` as serious a strategic threat to national security '' as it is a threat to the survival of victimized U.S. firms , said Michelle Van Cleave , the White House 's assistant director for National Security Affairs .
+Target:    threat 
+FE:    {'Degree': 'as', 'Situation': 'it', 'Asset': 'to the survival of victimized U.S. firms'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to the survival of victimized U.S. firms
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    Rough terrain and often-turbulent weather pose substantial dangers to military aviation in Afghanistan .
+Target:    dangers 
+FE:    {'Situation': 'Rough terrain and often-turbulent weather', 'Degree': 'substantial', 'Asset': 'to military aviation in Afghanistan'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to military aviation in Afghanistan
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    But on most days the greatest danger to a fobbit 's health are the three heaping , deep-fried daily portions of mess hall food .
+Target:    danger 
+FE:    {'Degree': 'greatest', 'Asset': "to a fobbit 's health", 'Dangerous_entity': 'the three heaping , deep-fried daily portions of mess hall food'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to a fobbit 's health
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    the three heaping , deep-fried daily portions of mess hall food
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    U. S. officials rarely discuss the missile strikes , which the Pakistani public views as a threat to national sovereignty and a danger to civilians .
+Target:    danger 
+FE:    {'Situation': 'which', 'Asset': 'to civilians'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to civilians
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    Many U. S. and Iraqi officials say Shiite militias , many with ties to the highest echelons of political power , represent a greater danger to Iraqi security than Sunni insurgents .
+Target:    danger 
+FE:    {'Dangerous_entity': 'Shiite militias , many with ties to the highest echelons of political power', 'Degree': 'than Sunni insurgents', 'Asset': 'to Iraqi security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to Iraqi security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    Shiite militias , many with ties to the highest echelons of political power
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    safe.a
+frame:    Risky_situation
+text:    Lately , as the southern city of Quetta has become increasingly unsafe for Afghan Taliban leaders , they have also been making the trek to Karachi to establish new cells , experts say .
+Target:    unsafe 
+FE:    {'Situation': 'the southern city of Quetta', 'Degree': 'increasingly', 'Asset': 'for Afghan Taliban leaders'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Afghan Taliban leaders
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    unsafe.a
+frame:    Risky_situation
+text:    Lately , as the southern city of Quetta has become increasingly unsafe for Afghan Taliban leaders , they have also been making the trek to Karachi to establish new cells , experts say .
+Target:    unsafe 
+FE:    {'Situation': 'the southern city of Quetta', 'Degree': 'increasingly', 'Asset': 'for Afghan Taliban leaders'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     for Afghan Taliban leaders
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    But daily consumption of ETU , a component of the fungicides , posed a considerable long-term risk .
+Target:    risk 
+FE:    {'Situation': 'daily consumption of ETU , a component of the fungicides', 'Degree': 'considerable', 'Time': 'long-term'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Unexploded bomblets pose a special risk to children , who often believe that they are toys .
+Target:    risk 
+FE:    {'Situation': 'Unexploded bomblets', 'Degree': 'special', 'Asset': 'to children , who often believe that they are toys'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to children , who often believe that they are toys
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Pentagon officials say prisoners are released when they are believed to be of no more intelligence value to interrogators and to pose no significant security risk .
+Target:    risk 
+FE:    {'Dangerous_entity': 'they', 'Degree': 'significant', 'Asset': 'security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    On the civilian side , it offered a picture of a rebuilt mosque , along with a warning that " inadequate governance " posed a major strategic risk .
+Target:    risk 
+FE:    {'Situation': 'inadequate governance', 'Degree': 'major', 'Domain': 'strategic'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    Rough terrain and often-turbulent weather pose substantial dangers to military aviation in Afghanistan .
+Target:    dangers 
+FE:    {'Situation': 'Rough terrain and often-turbulent weather', 'Degree': 'substantial', 'Asset': 'to military aviation in Afghanistan'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to military aviation in Afghanistan
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    But on most days the greatest danger to a fobbit 's health are the three heaping , deep-fried daily portions of mess hall food .
+Target:    danger 
+FE:    {'Degree': 'greatest', 'Asset': "to a fobbit 's health", 'Dangerous_entity': 'the three heaping , deep-fried daily portions of mess hall food'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to a fobbit 's health
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    the three heaping , deep-fried daily portions of mess hall food
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    U. S. officials rarely discuss the missile strikes , which the Pakistani public views as a threat to national sovereignty and a danger to civilians .
+Target:    danger 
+FE:    {'Situation': 'which', 'Asset': 'to civilians'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to civilians
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    danger.n
+frame:    Risky_situation
+text:    Many U. S. and Iraqi officials say Shiite militias , many with ties to the highest echelons of political power , represent a greater danger to Iraqi security than Sunni insurgents .
+Target:    danger 
+FE:    {'Dangerous_entity': 'Shiite militias , many with ties to the highest echelons of political power', 'Degree': 'than Sunni insurgents', 'Asset': 'to Iraqi security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to Iraqi security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    Shiite militias , many with ties to the highest echelons of political power
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    But daily consumption of ETU , a component of the fungicides , posed a considerable long-term risk .
+Target:    risk 
+FE:    {'Situation': 'daily consumption of ETU , a component of the fungicides', 'Degree': 'considerable', 'Time': 'long-term'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Unexploded bomblets pose a special risk to children , who often believe that they are toys .
+Target:    risk 
+FE:    {'Situation': 'Unexploded bomblets', 'Degree': 'special', 'Asset': 'to children , who often believe that they are toys'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     to children , who often believe that they are toys
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    Pentagon officials say prisoners are released when they are believed to be of no more intelligence value to interrogators and to pose no significant security risk .
+Target:    risk 
+FE:    {'Dangerous_entity': 'they', 'Degree': 'significant', 'Asset': 'security'}
+FE_unexpr:    {}
+====================================================================================================
+?_s pos Risky_situation.Asset
+_SOMEONE     -- positive ->     security
+----------------------------------------------------------------------------------------------------
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------
+?_s neg Risky_situation.Dangerous_entity
+_SOMEONE     -- negative ->    they
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    risk.n
+frame:    Risky_situation
+text:    On the civilian side , it offered a picture of a rebuilt mosque , along with a warning that " inadequate governance " posed a major strategic risk .
+Target:    risk 
+FE:    {'Situation': 'inadequate governance', 'Degree': 'major', 'Domain': 'strategic'}
+FE_unexpr:    {'Asset': 'INI'}
+====================================================================================================
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
+----------------------------------------------------------------------------------------------------

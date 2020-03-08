@@ -1,0 +1,7 @@
+Mental_property	Protagonist	Judge	Behavior
+<Source=?_x -- Polarity=?_p -> Target=Mental_property.?_lu>
+<Source=Mental_property.Judge -- Polarity=?_p -> Target=Mental_property.Protagonist>
+<Source=Mental_property.Judge -- Polarity=?_p -> Target=Mental_property.Behavior>
+<Source=Mental_property.Judge -- Polarity=?_p -> Target=?_t>
+<Source=?_s -- Polarity=?_p -> Target=Mental_property.Protagonist>
+<Source=?_s -- Polarity=?_p -> Target=Mental_property.Behavior>

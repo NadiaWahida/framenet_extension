@@ -1,0 +1,15 @@
+Kidnapping	Perpetrator	Victim	Co-participant	Event
+<Source=?_x -- Polarity=neg -> Target=Kidnapping>
+<Source=Kidnapping.Perpetrator -- Polarity=neg -> Target=Kidnapping.Victim>
+<Source=Kidnapping.Perpetrator -- Polarity=neg -> Target=Kidnapping.Co-participant>
+<Source=Kidnapping.Perpetrator -- Polarity=neg -> Target=?_t>
+<Source=Kidnapping.Victim -- Polarity=neg -> Target=Kidnapping.Perpetrator>
+<Source=Kidnapping.Victim -- Polarity=neg -> Target=Kidnapping.Event>
+<Source=Kidnapping.Victim -- Polarity=neg -> Target=?_t>
+<Source=Kidnapping.Co-participant -- Polarity=neg -> Target=Kidnapping.Perpetrator>
+<Source=Kidnapping.Co-participant -- Polarity=neg -> Target=Kidnapping.Event>
+<Source=Kidnapping.Co-participant -- Polarity=neg -> Target=?_t>
+<Source=?_s -- Polarity=neg -> Target=Kidnapping.Perpetrator>
+<Source=?_s -- Polarity=neg -> Target=Kidnapping.Victim>
+<Source=?_s -- Polarity=neg -> Target=Kidnapping.Co-participant>
+<Source=?_s -- Polarity=neg -> Target=Kidnapping.Event>

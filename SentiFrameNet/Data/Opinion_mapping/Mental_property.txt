@@ -1,0 +1,1613 @@
+########################################################################################################################
+lu:    absurd.a
+frame:    Mental_property
+text:    THERE is still something slightly absurd about the notion that 4,812,000 people cast their votes for Mr Dan Duffy . 
+Target:    absurd 
+FE:    {'Behavior': 'about the notion that 4,812,000 people cast their votes for Mr Dan Duffy', 'Degree': 'slightly'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     about the notion that 4,812,000 people cast their votes for Mr Dan Duffy
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    absurd.a
+frame:    Mental_property
+text:    But would it be so absurd for those who sought refuge in tranquilisers or pep pills to try instead a course of Beethoven , Mozart or Chopin ? 
+Target:    absurd 
+FE:    {'Degree': 'so', 'Protagonist': 'for those who sought refuge in tranquilisers or pep pills', 'Behavior': 'to try instead a course of Beethoven , Mozart or Chopin'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+for those who sought refuge in tranquilisers or pep pills     -- positive ->     to try instead a course of Beethoven , Mozart or Chopin
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+for those who sought refuge in tranquilisers or pep pills     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to try instead a course of Beethoven , Mozart or Chopin
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    astute.a
+frame:    Mental_property
+text:    She always had an eye for a bargain and was very astute in her shopping . 
+Target:    astute 
+FE:    {'Protagonist': 'She', 'Degree': 'very', 'Practice': 'in her shopping'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+She     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    astute.a
+frame:    Mental_property
+text:    Very astute of you to notice that . 
+Target:    astute 
+FE:    {'Degree': 'Very', 'Protagonist': 'of you', 'Behavior': 'to notice that'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of you     -- positive ->     to notice that
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to notice that
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brilliant.a
+frame:    Mental_property
+text:    All the prize guys who were brilliant at football had disappeared and I was left with the swots . " 
+Target:    brilliant 
+FE:    {'Protagonist': 'who', 'Practice': 'at football'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    brilliant.a
+frame:    Mental_property
+text:    Someone who 's brilliant on the cinema screen is n't necessarily a good talk show guest . 
+Target:    brilliant 
+FE:    {'Protagonist': 'who', 'Practice': 'on the cinema screen'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    canny.a
+frame:    Mental_property
+text:    I will have to be a bit canny with him as I do n't expect he will be very well handicapped . " 
+Target:    canny 
+FE:    {'Protagonist': 'I', 'Degree': 'a bit', 'Practice': 'with him'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+I     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    careless.a
+frame:    Mental_property
+text:    Someone was singularly careless to allow him to walk out of that hospital in Holland . " 
+Target:    careless 
+FE:    {'Protagonist': 'Someone', 'Degree': 'singularly', 'Behavior': 'to allow him to walk out of that hospital in Holland'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+Someone     -- negative ->    to allow him to walk out of that hospital in Holland
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+Someone     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- negative ->    to allow him to walk out of that hospital in Holland
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    careless.a
+frame:    Mental_property
+text:    She was a bit careless at adding drops -- a kind of baker 's dozen approach - but she knew the answer would be salt and she identified the right one . 
+Target:    careless 
+FE:    {'Protagonist': 'She', 'Degree': 'a bit', 'Practice': 'at adding drops'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+She     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    careless.a
+frame:    Mental_property
+text:    ` It was very careless of your brother-in-law to leave that brochure lying about . 
+Target:    careless 
+FE:    {'Degree': 'very', 'Protagonist': 'of your brother-in-law', 'Behavior': 'to leave that brochure lying about'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of your brother-in-law     -- negative ->    to leave that brochure lying about
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of your brother-in-law     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- negative ->    to leave that brochure lying about
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    careless.a
+frame:    Mental_property
+text:    For a banker he was pretty careless with money ! 
+Target:    careless 
+FE:    {'Protagonist': 'he', 'Degree': 'pretty', 'Practice': 'with money'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+he     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    careless.a
+frame:    Mental_property
+text:    There have been lots of accusations about how party headquarters has been very careless in allowing damaging material to leak out in recent months . 
+Target:    careless 
+FE:    {'Protagonist': 'party headquarters', 'Degree': 'very', 'Behavior': 'in allowing damaging material to leak out in recent months'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+party headquarters     -- negative ->    in allowing damaging material to leak out in recent months
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+party headquarters     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- negative ->    in allowing damaging material to leak out in recent months
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    crafty.a
+frame:    Mental_property
+text:    He is also superbly crafty in the book in inserting , so gently that the recipient would n't even notice , the odd barb . 
+Target:    crafty 
+FE:    {'Protagonist': 'He', 'Degree': 'superbly', 'Practice': "in inserting , so gently that the recipient would n't even notice , the odd barb"}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    crazy.a
+frame:    Mental_property
+text:    I 've tried to tell him that the last thing Project Eden needs is an Administrator who 's crazy as a dakkabug , but will he listen to me ? " 
+Target:    crazy 
+FE:    {'Protagonist': 'who', 'Degree': 'as a dakkabug'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+who     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    cunning.a
+frame:    Mental_property
+text:    Take a couple of instances from Agatha Christie , who was marvellously cunning with it . 
+Target:    cunning 
+FE:    {'Protagonist': 'who', 'Degree': 'marvellously', 'Practice': 'with it'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    cunning.a
+frame:    Mental_property
+text:    This almost utopian-sounding conclusion -- that niceness and forgivingness pay -- came as a surprise to many of the experts , who had tried to be too cunning by submitting subtly nasty strategies ; while even those who had submitted nice strategies had not dared anything so forgiving as Tit for Two Tats . 
+Target:    cunning 
+FE:    {'Protagonist': 'who', 'Degree': 'too'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    daft.a
+frame:    Mental_property
+text:    It rises with the tide , only no one 's so daft as to stay and see how high . 
+Target:    daft 
+FE:    {'Protagonist': 'no one', 'Degree': 'as to stay and see how high'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+no one     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    diligent.a
+frame:    Mental_property
+text:    It is uncharacteristically diligent of a minister to seek precisely to understand what money spent will accomplish . 
+Target:    diligent 
+FE:    {'Degree': 'uncharacteristically', 'Protagonist': 'of a minister', 'Behavior': 'to seek precisely to understand what money spent will accomplish'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of a minister     -- positive ->     to seek precisely to understand what money spent will accomplish
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of a minister     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to seek precisely to understand what money spent will accomplish
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    diligent.a
+frame:    Mental_property
+text:    Almost apologetically , Mr Coughlin conceded that ` Britain also has been less diligent than some of its neighbours in setting out a timetable for reducing nitrate in water " . 
+Target:    diligent 
+FE:    {'Protagonist': 'Britain', 'Degree': 'than some of its neighbours', 'Practice': 'in setting out a timetable for reducing nitrate in water'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+Britain     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    dim.a
+frame:    Mental_property
+text:    ` Oh , indeed I did , " he said brightly , as though he merely indulged a rather dim child 's curiosity . 
+Target:    dim 
+FE:    {'Degree': 'rather', 'Protagonist': "child 's", 'Behavior': 'curiosity'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+child 's     -- negative ->    curiosity
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+child 's     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- negative ->    curiosity
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    dim.a
+frame:    Mental_property
+text:    For someone who appeared so gleefully wicked and amoral , Cleo seemed surprisingly dim when it came to character judgment . 
+Target:    dim 
+FE:    {'Protagonist': 'Cleo', 'Degree': 'surprisingly', 'Practice': 'when it came to character judgment'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+Cleo     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    discerning.a
+frame:    Mental_property
+text:    Increased awareness of ` green " issues , together with fierce competition , means consumers are more discerning about the environmental impact of the products they buy . 
+Target:    discerning 
+FE:    {'Protagonist': 'consumers', 'Degree': 'more', 'Practice': 'about the environmental impact of the products they buy'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+consumers     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    discerning.a
+frame:    Mental_property
+text:    They merely became more discerning in the façade they showed to the public . 
+Target:    discerning 
+FE:    {'Protagonist': 'They', 'Degree': 'more', 'Practice': 'in the façade they showed to the public'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+They     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    discernment.n
+frame:    Mental_property
+text:    What I should have said was that there was no serious dispute among professionals of quality who had any discernment in such matters . 
+Target:    discernment 
+FE:    {'Protagonist': 'who', 'Practice': 'in such matters'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    discernment.n
+frame:    Mental_property
+text:    At first glance , such precise and long-winded accounts of restorations , alterations and embellishments might indicate that Mr Frick employed limited discernment in his choice of purchases , but this is definitely not the case . 
+Target:    discernment 
+FE:    {'Protagonist': 'Mr Frick', 'Degree': 'limited', 'Practice': 'in his choice of purchases'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+Mr Frick     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    foolish.a
+frame:    Mental_property
+text:    " It was very foolish of me . " 
+Target:    foolish 
+FE:    {'Behavior': 'It', 'Degree': 'very', 'Protagonist': 'of me'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of me     -- positive ->     It
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of me     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     It
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    foolish.a
+frame:    Mental_property
+text:    That would be very foolish of you . " 
+Target:    foolish 
+FE:    {'Behavior': 'That', 'Degree': 'very', 'Protagonist': 'of you'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of you     -- positive ->     That
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     That
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    foolish.a
+frame:    Mental_property
+text:    ` Singularly foolish of Mother to leave it lying around . " 
+Target:    foolish 
+FE:    {'Degree': 'Singularly', 'Protagonist': 'of Mother', 'Behavior': 'to leave it lying around'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of Mother     -- positive ->     to leave it lying around
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of Mother     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to leave it lying around
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    idiotic.a
+frame:    Mental_property
+text:    I was sufficiently idiotic to love with a longing that weakened me as though I was bleeding . 
+Target:    idiotic 
+FE:    {'Protagonist': 'I', 'Degree': 'to love with a longing that weakened me as though I was bleeding'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+I     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    intelligent.a
+frame:    Mental_property
+text:    How could a man so intelligent in every other way be so obtuse when it came to ordinary everyday living ? 
+Target:    intelligent 
+FE:    {'Protagonist': 'a man', 'Degree': 'so', 'Practice': 'in every other way'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+a man     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    intelligent.a
+frame:    Mental_property
+text:    I think it was quite intelligent of you , my dear . " 
+Target:    intelligent 
+FE:    {'Behavior': 'it', 'Degree': 'quite', 'Protagonist': 'of you'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of you     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     it
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    ludicrous.a
+frame:    Mental_property
+text:    Some members of this Government are becoming more ludicrous than their Spitting Image puppets . 
+Target:    ludicrous 
+FE:    {'Protagonist': 'Some members of this Government', 'Degree': 'than their Spitting Image puppets'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+Some members of this Government     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    ludicrous.a
+frame:    Mental_property
+text:    Finally , after Pooley had made a suggestion so ludicrous as to bring the naturally short-tempered Irishman within a hairbreadth of killing him there and then , Omally put his foot down once and for all . 
+Target:    ludicrous 
+FE:    {'Behavior': 'a suggestion', 'Degree': 'as to bring the naturally short-tempered Irishman within a hairbreadth of killing him there and then'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     a suggestion
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    naive.a
+frame:    Mental_property
+text:    ` We 're still a bit naive with all that stuff , " nods angel-tonsilled guitarist Paul Yeadon . 
+Target:    naive 
+FE:    {'Protagonist': 'We', 'Degree': 'a bit', 'Practice': 'with all that stuff'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+We     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    perceptive.a
+frame:    Mental_property
+text:    How perceptive of her to realize that the entity might thrive on violent opposition . 
+Target:    perceptive 
+FE:    {'Degree': 'How', 'Protagonist': 'of her', 'Behavior': 'to realize that the entity might thrive on violent opposition'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of her     -- positive ->     to realize that the entity might thrive on violent op    -- positive ->    ition
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of her     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to realize that the entity might thrive on violent op    -- positive ->    ition
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    perceptive.a
+frame:    Mental_property
+text:    Some people are just much more sensitive and perceptive in transmitting or receiving data than others . 
+Target:    perceptive 
+FE:    {'Protagonist': 'Some people', 'Degree': 'than others', 'Practice': 'in transmitting or receiving data'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+Some people     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    perceptive.a
+frame:    Mental_property
+text:    This paper was thought sufficiently perceptive and important to be reprinted in England in 1876 , in France in 1877 , and in the USA in 1895 . 
+Target:    perceptive 
+FE:    {'Behavior': 'This paper', 'Degree': 'to be reprinted in England in 1876 , in France in 1877 , and in the USA in 1895'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     This paper
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    reasonable.a
+frame:    Mental_property
+text:    In its early days software is tested by programmers and expert , hand picked users , who tend to be reasonable about they way they use machines . 
+Target:    reasonable 
+FE:    {'Protagonist': 'who', 'Practice': 'about they way they use machines'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    reasonable.a
+frame:    Mental_property
+text:    How reasonable of him to admit that Scotland is , as it always was , a separate and distinct nation . 
+Target:    reasonable 
+FE:    {'Degree': 'How', 'Protagonist': 'of him', 'Behavior': 'to admit that Scotland is , as it always was , a separate and distinct nation'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of him     -- positive ->     to admit that Scotland is , as it always was , a separate and distinct nation
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of him     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to admit that Scotland is , as it always was , a separate and distinct nation
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    reasonable.a
+frame:    Mental_property
+text:    It does n't mean they get an easier ride , but it does mean I 'm not going to be utterly unreasonable in the demands I make . " 
+Target:    unreasonable 
+FE:    {'Protagonist': 'I', 'Degree': 'utterly', 'Behavior': 'in the demands I make'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+I     -- positive ->     in the demands I make
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+I     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     in the demands I make
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    reasonable.a
+frame:    Mental_property
+text:    Fenella was trying to be very patient , because it was not in the least unreasonable of Caspar to want to go on and leave the Dark Workshops as far behind them as possible . 
+Target:    unreasonable 
+FE:    {'Protagonist': 'of Caspar', 'Behavior': 'to want to go on and leave the Dark Workshops as far behind them as possible'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of Caspar     -- positive ->     to want to go on and leave the Dark Workshops as far behind them as     -- positive ->    sible
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of Caspar     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to want to go on and leave the Dark Workshops as far behind them as     -- positive ->    sible
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    ridiculous.a
+frame:    Mental_property
+text:    HOW ridiculous of Prime Minister Major 's son James to flare up and get sent off in a public school friendly football match . 
+Target:    ridiculous 
+FE:    {'Degree': 'HOW', 'Protagonist': "of Prime Minister Major 's son James", 'Behavior': 'to flare up and get sent off in a public school friendly football match'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of Prime Minister Major 's son James     -- positive ->     to flare up and get sent off in a public school friendly football match
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of Prime Minister Major 's son James     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to flare up and get sent off in a public school friendly football match
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    ridiculous.a
+frame:    Mental_property
+text:    The very idea of Kenneth Williams protecting anyone is so ridiculous that it is laughable , but Halliwell did n't see things that way . 
+Target:    ridiculous 
+FE:    {'Behavior': 'The very idea of Kenneth Williams protecting anyone', 'Degree': 'that it is laughable'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     The very idea of Kenneth Williams protecting anyone
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    sensible.a
+frame:    Mental_property
+text:    Very sensible of you to come up , as we 'll need your consent for any treatment the doctor may decide on for your lad . " 
+Target:    sensible 
+FE:    {'Degree': 'Very', 'Protagonist': 'of you', 'Behavior': 'to come up'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of you     -- positive ->     to come up
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to come up
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    sensible.a
+frame:    Mental_property
+text:    ` Surely she 's more sensible than that , " said the doctor , smiling at me . 
+Target:    sensible 
+FE:    {'Protagonist': 'she', 'Degree': 'than that'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+she     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    sensible.a
+frame:    Mental_property
+text:    A Downing Street spokesman said : " The latest ideas sound much more sensible than the original ones . " 
+Target:    sensible 
+FE:    {'Behavior': 'The latest ideas', 'Degree': 'than the original ones'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     The latest ideas
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shrewd.a
+frame:    Mental_property
+text:    Anne Ridler noticed how Eliot " affected a certain detachment from the proceedings , and did The Times crossword during the meetings , but his business judgments were as shrewd as anyone 's … " 
+Target:    shrewd 
+FE:    {'Behavior': 'his business judgments', 'Degree': "as anyone 's"}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     his business judgments
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    shrewd.a
+frame:    Mental_property
+text:    The analysis of Burun 's character was so shrewd that Alexei was startled . 
+Target:    shrewd 
+FE:    {'Behavior': "The analysis of Burun 's character", 'Degree': 'that Alexei was startled'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     The analysis of Burun 's character
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    He 's too smart to pretend to be Labour , but he makes sure we do n't forget him . 
+Target:    smart 
+FE:    {'Protagonist': 'He', 'Degree': 'too', 'Behavior': 'to pretend to be Labour'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+He     -- positive ->     to pretend to be Labour
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to pretend to be Labour
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    There 's an awful lot of television now , screaming for the public 's attention , and you 've got to be that much smarter at creating ` event " television , a sense of occasion . 
+Target:    smarter 
+FE:    {'Protagonist': 'you', 'Degree': 'that much', 'Practice': 'at creating ` event " television , a sense of occasion'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Some people might think you were too smart for your own health . " 
+Target:    smart 
+FE:    {'Protagonist': 'you', 'Degree': 'for your own health'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    that is very smart to do
+Target:    smart 
+FE:    {'Behavior': 'to do', 'Degree': 'very'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to do
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    So my aunt had been , had been real smart about , about scheduling those every year and trying to get as many people there as possible so that we all , ah , kept in touch and we all know who our cousins and our relatives were .
+Target:    smart 
+FE:    {'Protagonist': 'my aunt', 'Degree': 'real', 'Behavior': 'about , about scheduling those every year and trying to get as many people there as possible'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+my aunt     -- positive ->     about , about scheduling those every year and trying to get as many people there as     -- positive ->    sible
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+my aunt     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     about , about scheduling those every year and trying to get as many people there as     -- positive ->    sible
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Whatever his past gaps in judgment , Gingrich is too smart to think he has a realistic chance of being elected president .
+Target:    smart 
+FE:    {'Protagonist': 'Gingrich', 'Degree': 'too', 'Behavior': 'to think he has a realistic chance of being elected president'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+Gingrich     -- positive ->     to think he has a realistic chance of being elected president
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+Gingrich     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to think he has a realistic chance of being elected president
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    That Rowling 's books , which are so smart and so bracingly British ( I think you 're right to keep bringing up P.L. Travers as a reference point -- she and Rowling both manage to be at once subversive and starchy , anarchic and commonsensical ) , have resonated with parents is no surprise .
+Target:    smart 
+FE:    {'Protagonist': 'which', 'Degree': 'so'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Fortunately , some government units ( certain of which we are privileged to count among our clients ) are smart enough to know better and do produce first - class work in foreign languages by engaging reputable suppliers .
+Target:    smart 
+FE:    {'Protagonist': 'some government units ( certain of which we are privileged to count among our clients', 'Degree': 'enough', 'Behavior': 'to know better'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+some government units ( certain of which we are privileged to count among our clients     -- positive ->     to know better
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+some government units ( certain of which we are privileged to count among our clients     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to know better
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    I think the theory derives from the familiar prejudice against intelligence , which holds that people who are too smart must be limited in other ways .
+Target:    smart 
+FE:    {'Protagonist': 'who', 'Degree': 'too'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    and i think the people were smart enough to realize that you know Hussein that that i think they 're afraid of him is what they are the population is is afraid to speak out against him and
+Target:    smart 
+FE:    {'Protagonist': 'the people', 'Degree': 'enough', 'Behavior': "to realize that you know Hussein that that i think they 're afraid of him is what they are the population is is afraid to speak out against him"}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+the people     -- positive ->     to realize that you know Hussein that that i think they 're afraid of him is what they are the population is is afraid to speak out against him
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+the people     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to realize that you know Hussein that that i think they 're afraid of him is what they are the population is is afraid to speak out against him
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    James Earl Ray could not have committed the crime : Some say Ray , who dropped out of school in 8 th grade , was not smart enough to pull it off .
+Target:    smart 
+FE:    {'Protagonist': 'Ray , who dropped out of school in 8 th grade', 'Degree': 'enough', 'Behavior': 'to pull it off'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+Ray , who dropped out of school in 8 th grade     -- positive ->     to pull it off
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+Ray , who dropped out of school in 8 th grade     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to pull it off
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Although you may not be aware of it , the standard line of the average conspiracy debunker is that the conspirators are not smart or organized enough to hold the plot together .
+Target:    smart 
+FE:    {'Protagonist': 'the conspirators', 'Degree': 'enough', 'Behavior': 'to hold the plot together'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+the conspirators     -- positive ->     to hold the plot together
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+the conspirators     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to hold the plot together
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Maybe I am just not smart enough for a modern British TV detective story , as I am not smart enough for a British crossword puzzle .
+Target:    smart 
+FE:    {'Protagonist': 'I', 'Degree': 'enough', 'Behavior': 'for a modern British TV detective story'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+I     -- positive ->     for a modern British TV detective story
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+I     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     for a modern British TV detective story
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    His broad smile , neither purely romantic nor wholly cynical , tells the story : This is a man who breaks the rules and is attractive , wealthy , and smart enough to get away with it .
+Target:    smart 
+FE:    {'Protagonist': 'a man who breaks the rules', 'Degree': 'enough', 'Behavior': 'to get away with it'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+a man who breaks the rules     -- positive ->     to get away with it
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+a man who breaks the rules     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to get away with it
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Her Donna De Angelo ( I hate that tart / angel name ) is both desperate to grab onto a man and smart enough to watch in horror as she 's grabbing .
+Target:    smart 
+FE:    {'Protagonist': 'Her Donna De Angelo', 'Degree': 'enough', 'Behavior': "to watch in horror as she 's grabbing"}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+Her Donna De Angelo     -- positive ->     to watch in horror as she 's grabbing
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+Her Donna De Angelo     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to watch in horror as she 's grabbing
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    yeah well the yeah coin dealers are supposed to be smart enough not to fall for that gimmick but i i have seen a few of them sell these things
+Target:    smart 
+FE:    {'Protagonist': 'coin dealers', 'Degree': 'enough', 'Behavior': 'not to fall for that gimmick'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+coin dealers     -- positive ->     not to fall for that gimmick
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+coin dealers     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     not to fall for that gimmick
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    unreasonable.a
+frame:    Mental_property
+text:    It does n't mean they get an easier ride , but it does mean I 'm not going to be utterly unreasonable in the demands I make . " 
+Target:    unreasonable 
+FE:    {'Protagonist': 'I', 'Degree': 'utterly', 'Behavior': 'in the demands I make'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+I     -- negative ->    in the demands I make
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+I     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- negative ->    in the demands I make
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    unreasonable.a
+frame:    Mental_property
+text:    Fenella was trying to be very patient , because it was not in the least unreasonable of Caspar to want to go on and leave the Dark Workshops as far behind them as possible . 
+Target:    unreasonable 
+FE:    {'Protagonist': 'of Caspar', 'Behavior': 'to want to go on and leave the Dark Workshops as far behind them as possible'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of Caspar     -- negative ->    to want to go on and leave the Dark Workshops as far behind them as     -- positive ->    sible
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of Caspar     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- negative ->    to want to go on and leave the Dark Workshops as far behind them as     -- positive ->    sible
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    stupid.a
+frame:    Mental_property
+text:    It was too stupid of her to let the memories come crowding in so easily . 
+Target:    stupid 
+FE:    {'Degree': 'too', 'Protagonist': 'of her', 'Behavior': 'to let the memories come crowding in so easily'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of her     -- negative ->    to let the memories come crowding in so easily
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of her     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- negative ->    to let the memories come crowding in so easily
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    stupid.a
+frame:    Mental_property
+text:    If you are too stupid to know when to draw the line physically then you will be too stupid to know when to stop emotionally as well . 
+Target:    stupid 
+FE:    {'Protagonist': 'you', 'Degree': 'to know when to stop emotionally as well'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+you     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    stupid.a
+frame:    Mental_property
+text:    My client is too stupid to have committed these crimes . " 
+Target:    stupid 
+FE:    {'Protagonist': 'My client', 'Degree': 'to have committed these crimes'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+My client     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    stupid.a
+frame:    Mental_property
+text:    I 'm so stupid that I started doing cocaine to try to understand him -- to get close to him and understand where he was coming from . 
+Target:    stupid 
+FE:    {'Protagonist': 'I', 'Degree': 'that I started doing cocaine to try to understand him -- to get close to him and understand where he was coming from'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+I     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    stupid.a
+frame:    Mental_property
+text:    Does she think me so stupid that I do n't know they do that ? 
+Target:    stupid 
+FE:    {'Protagonist': 'me', 'Degree': "that I do n't know they do that"}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+me     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    stupid.a
+frame:    Mental_property
+text:    There is no particular reason to think that people who are determined to get their hands on vulnerable children will be so stupid that they can not pass examinations . 
+Target:    stupid 
+FE:    {'Protagonist': 'people who are determined to get their hands on vulnerable children', 'Degree': 'that they can not pass examinations'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+people who are determined to get their hands on vulnerable children     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    stupid.a
+frame:    Mental_property
+text:    And the characters are so stupid you can laugh at them . " 
+Target:    stupid 
+FE:    {'Protagonist': 'the characters', 'Degree': 'you can laugh at them'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+the characters     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    stupid.a
+frame:    Mental_property
+text:    ` It was therefore particularly stupid of you to sneak into the Mission on a Sunday and attempt to go behind my back . 
+Target:    stupid 
+FE:    {'Degree': 'particularly', 'Protagonist': 'of you', 'Behavior': 'to sneak into the Mission on a Sunday and attempt to go behind my back'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+of you     -- negative ->    to sneak into the Mission on a Sunday and attempt to go behind my back
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+of you     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- negative ->    to sneak into the Mission on a Sunday and attempt to go behind my back
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    stupid.a
+frame:    Mental_property
+text:    I AM reluctant to believe that the British people are so stupid as to return anyone but nice Mr Major at tomorrow 's election . 
+Target:    stupid 
+FE:    {'Protagonist': 'the British people', 'Degree': "as to return anyone but nice Mr Major at tomorrow 's election"}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+the British people     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    stupid.a
+frame:    Mental_property
+text:    Could Filmer have been so stupid as to get the horses ' names wrong in addition to the cities ? 
+Target:    stupid 
+FE:    {'Protagonist': 'Filmer', 'Degree': "as to get the horses ' names wrong in addition to the cities"}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+Filmer     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    stupid.a
+frame:    Mental_property
+text:    But they would never be so stupid as to allow us to find him . 
+Target:    stupid 
+FE:    {'Protagonist': 'they', 'Degree': 'as to allow us to find him'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+they     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    stupid.a
+frame:    Mental_property
+text:    The poor were just as stupid as the rich ; he had only contempt for both of them . 
+Target:    stupid 
+FE:    {'Protagonist': 'The poor', 'Degree': 'as the rich'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+The poor     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    stupid.a
+frame:    Mental_property
+text:    Never again would he be so stupid as to embroil himself in something like this . 
+Target:    stupid 
+FE:    {'Protagonist': 'he', 'Degree': 'as to embroil himself in something like this'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+he     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    suspicious.a
+frame:    Mental_property
+text:    Going national had its own good reasons , but were Jews being overly suspicious in thinking that one reason , which they did not think was so good , was to recruit from areas in which fewer Jews lived ?
+Target:    suspicious 
+FE:    {'Protagonist': 'Jews', 'Degree': 'overly', 'Behavior': 'in thinking that one reason , which they did not think was so good , was to recruit from areas in which fewer Jews lived'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+Jews     -- negative ->    in thinking that one reason , which they did not think was so good , was to recruit from areas in which fewer Jews lived
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+Jews     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- negative ->    in thinking that one reason , which they did not think was so good , was to recruit from areas in which fewer Jews lived
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    suspicious.a
+frame:    Mental_property
+text:    especially if you have an interest group that comes up with a study that supports their own position if they did the work i always tend to be a little suspicious of it and that might 've been the Southern Poverty Law Project or something that did that
+Target:    suspicious 
+FE:    {'Protagonist': 'i', 'Degree': 'a little', 'Behavior': 'of it'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+i     -- negative ->    of it
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+i     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- negative ->    of it
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    He 's too smart to pretend to be Labour , but he makes sure we do n't forget him . 
+Target:    smart 
+FE:    {'Protagonist': 'He', 'Degree': 'too', 'Behavior': 'to pretend to be Labour'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+He     -- positive ->     to pretend to be Labour
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to pretend to be Labour
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    There 's an awful lot of television now , screaming for the public 's attention , and you 've got to be that much smarter at creating ` event " television , a sense of occasion . 
+Target:    smarter 
+FE:    {'Protagonist': 'you', 'Degree': 'that much', 'Practice': 'at creating ` event " television , a sense of occasion'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Some people might think you were too smart for your own health . " 
+Target:    smart 
+FE:    {'Protagonist': 'you', 'Degree': 'for your own health'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    that is very smart to do
+Target:    smart 
+FE:    {'Behavior': 'to do', 'Degree': 'very'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to do
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    So my aunt had been , had been real smart about , about scheduling those every year and trying to get as many people there as possible so that we all , ah , kept in touch and we all know who our cousins and our relatives were .
+Target:    smart 
+FE:    {'Protagonist': 'my aunt', 'Degree': 'real', 'Behavior': 'about , about scheduling those every year and trying to get as many people there as possible'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+my aunt     -- positive ->     about , about scheduling those every year and trying to get as many people there as     -- positive ->    sible
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+my aunt     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     about , about scheduling those every year and trying to get as many people there as     -- positive ->    sible
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Whatever his past gaps in judgment , Gingrich is too smart to think he has a realistic chance of being elected president .
+Target:    smart 
+FE:    {'Protagonist': 'Gingrich', 'Degree': 'too', 'Behavior': 'to think he has a realistic chance of being elected president'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+Gingrich     -- positive ->     to think he has a realistic chance of being elected president
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+Gingrich     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to think he has a realistic chance of being elected president
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    That Rowling 's books , which are so smart and so bracingly British ( I think you 're right to keep bringing up P.L. Travers as a reference point -- she and Rowling both manage to be at once subversive and starchy , anarchic and commonsensical ) , have resonated with parents is no surprise .
+Target:    smart 
+FE:    {'Protagonist': 'which', 'Degree': 'so'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Fortunately , some government units ( certain of which we are privileged to count among our clients ) are smart enough to know better and do produce first - class work in foreign languages by engaging reputable suppliers .
+Target:    smart 
+FE:    {'Protagonist': 'some government units ( certain of which we are privileged to count among our clients', 'Degree': 'enough', 'Behavior': 'to know better'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+some government units ( certain of which we are privileged to count among our clients     -- positive ->     to know better
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+some government units ( certain of which we are privileged to count among our clients     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to know better
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    I think the theory derives from the familiar prejudice against intelligence , which holds that people who are too smart must be limited in other ways .
+Target:    smart 
+FE:    {'Protagonist': 'who', 'Degree': 'too'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    and i think the people were smart enough to realize that you know Hussein that that i think they 're afraid of him is what they are the population is is afraid to speak out against him and
+Target:    smart 
+FE:    {'Protagonist': 'the people', 'Degree': 'enough', 'Behavior': "to realize that you know Hussein that that i think they 're afraid of him is what they are the population is is afraid to speak out against him"}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+the people     -- positive ->     to realize that you know Hussein that that i think they 're afraid of him is what they are the population is is afraid to speak out against him
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+the people     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to realize that you know Hussein that that i think they 're afraid of him is what they are the population is is afraid to speak out against him
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    James Earl Ray could not have committed the crime : Some say Ray , who dropped out of school in 8 th grade , was not smart enough to pull it off .
+Target:    smart 
+FE:    {'Protagonist': 'Ray , who dropped out of school in 8 th grade', 'Degree': 'enough', 'Behavior': 'to pull it off'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+Ray , who dropped out of school in 8 th grade     -- positive ->     to pull it off
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+Ray , who dropped out of school in 8 th grade     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to pull it off
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Although you may not be aware of it , the standard line of the average conspiracy debunker is that the conspirators are not smart or organized enough to hold the plot together .
+Target:    smart 
+FE:    {'Protagonist': 'the conspirators', 'Degree': 'enough', 'Behavior': 'to hold the plot together'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+the conspirators     -- positive ->     to hold the plot together
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+the conspirators     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to hold the plot together
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Maybe I am just not smart enough for a modern British TV detective story , as I am not smart enough for a British crossword puzzle .
+Target:    smart 
+FE:    {'Protagonist': 'I', 'Degree': 'enough', 'Behavior': 'for a modern British TV detective story'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+I     -- positive ->     for a modern British TV detective story
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+I     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     for a modern British TV detective story
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    His broad smile , neither purely romantic nor wholly cynical , tells the story : This is a man who breaks the rules and is attractive , wealthy , and smart enough to get away with it .
+Target:    smart 
+FE:    {'Protagonist': 'a man who breaks the rules', 'Degree': 'enough', 'Behavior': 'to get away with it'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+a man who breaks the rules     -- positive ->     to get away with it
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+a man who breaks the rules     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to get away with it
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Her Donna De Angelo ( I hate that tart / angel name ) is both desperate to grab onto a man and smart enough to watch in horror as she 's grabbing .
+Target:    smart 
+FE:    {'Protagonist': 'Her Donna De Angelo', 'Degree': 'enough', 'Behavior': "to watch in horror as she 's grabbing"}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+Her Donna De Angelo     -- positive ->     to watch in horror as she 's grabbing
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+Her Donna De Angelo     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to watch in horror as she 's grabbing
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    yeah well the yeah coin dealers are supposed to be smart enough not to fall for that gimmick but i i have seen a few of them sell these things
+Target:    smart 
+FE:    {'Protagonist': 'coin dealers', 'Degree': 'enough', 'Behavior': 'not to fall for that gimmick'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+coin dealers     -- positive ->     not to fall for that gimmick
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+coin dealers     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     not to fall for that gimmick
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    He 's too smart to pretend to be Labour , but he makes sure we do n't forget him . 
+Target:    smart 
+FE:    {'Protagonist': 'He', 'Degree': 'too', 'Behavior': 'to pretend to be Labour'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+He     -- positive ->     to pretend to be Labour
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+He     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to pretend to be Labour
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    There 's an awful lot of television now , screaming for the public 's attention , and you 've got to be that much smarter at creating ` event " television , a sense of occasion . 
+Target:    smarter 
+FE:    {'Protagonist': 'you', 'Degree': 'that much', 'Practice': 'at creating ` event " television , a sense of occasion'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Some people might think you were too smart for your own health . " 
+Target:    smart 
+FE:    {'Protagonist': 'you', 'Degree': 'for your own health'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+you     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    that is very smart to do
+Target:    smart 
+FE:    {'Behavior': 'to do', 'Degree': 'very'}
+FE_unexpr:    {}
+====================================================================================================
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to do
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    So my aunt had been , had been real smart about , about scheduling those every year and trying to get as many people there as possible so that we all , ah , kept in touch and we all know who our cousins and our relatives were .
+Target:    smart 
+FE:    {'Protagonist': 'my aunt', 'Degree': 'real', 'Behavior': 'about , about scheduling those every year and trying to get as many people there as possible'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+my aunt     -- positive ->     about , about scheduling those every year and trying to get as many people there as     -- positive ->    sible
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+my aunt     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     about , about scheduling those every year and trying to get as many people there as     -- positive ->    sible
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Whatever his past gaps in judgment , Gingrich is too smart to think he has a realistic chance of being elected president .
+Target:    smart 
+FE:    {'Protagonist': 'Gingrich', 'Degree': 'too', 'Behavior': 'to think he has a realistic chance of being elected president'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+Gingrich     -- positive ->     to think he has a realistic chance of being elected president
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+Gingrich     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to think he has a realistic chance of being elected president
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    That Rowling 's books , which are so smart and so bracingly British ( I think you 're right to keep bringing up P.L. Travers as a reference point -- she and Rowling both manage to be at once subversive and starchy , anarchic and commonsensical ) , have resonated with parents is no surprise .
+Target:    smart 
+FE:    {'Protagonist': 'which', 'Degree': 'so'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+which     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Fortunately , some government units ( certain of which we are privileged to count among our clients ) are smart enough to know better and do produce first - class work in foreign languages by engaging reputable suppliers .
+Target:    smart 
+FE:    {'Protagonist': 'some government units ( certain of which we are privileged to count among our clients', 'Degree': 'enough', 'Behavior': 'to know better'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+some government units ( certain of which we are privileged to count among our clients     -- positive ->     to know better
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+some government units ( certain of which we are privileged to count among our clients     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to know better
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    I think the theory derives from the familiar prejudice against intelligence , which holds that people who are too smart must be limited in other ways .
+Target:    smart 
+FE:    {'Protagonist': 'who', 'Degree': 'too'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p ?_t
+who     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    and i think the people were smart enough to realize that you know Hussein that that i think they 're afraid of him is what they are the population is is afraid to speak out against him and
+Target:    smart 
+FE:    {'Protagonist': 'the people', 'Degree': 'enough', 'Behavior': "to realize that you know Hussein that that i think they 're afraid of him is what they are the population is is afraid to speak out against him"}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+the people     -- positive ->     to realize that you know Hussein that that i think they 're afraid of him is what they are the population is is afraid to speak out against him
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+the people     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to realize that you know Hussein that that i think they 're afraid of him is what they are the population is is afraid to speak out against him
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    James Earl Ray could not have committed the crime : Some say Ray , who dropped out of school in 8 th grade , was not smart enough to pull it off .
+Target:    smart 
+FE:    {'Protagonist': 'Ray , who dropped out of school in 8 th grade', 'Degree': 'enough', 'Behavior': 'to pull it off'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+Ray , who dropped out of school in 8 th grade     -- positive ->     to pull it off
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+Ray , who dropped out of school in 8 th grade     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to pull it off
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Although you may not be aware of it , the standard line of the average conspiracy debunker is that the conspirators are not smart or organized enough to hold the plot together .
+Target:    smart 
+FE:    {'Protagonist': 'the conspirators', 'Degree': 'enough', 'Behavior': 'to hold the plot together'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+the conspirators     -- positive ->     to hold the plot together
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+the conspirators     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to hold the plot together
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Maybe I am just not smart enough for a modern British TV detective story , as I am not smart enough for a British crossword puzzle .
+Target:    smart 
+FE:    {'Protagonist': 'I', 'Degree': 'enough', 'Behavior': 'for a modern British TV detective story'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+I     -- positive ->     for a modern British TV detective story
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+I     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     for a modern British TV detective story
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    His broad smile , neither purely romantic nor wholly cynical , tells the story : This is a man who breaks the rules and is attractive , wealthy , and smart enough to get away with it .
+Target:    smart 
+FE:    {'Protagonist': 'a man who breaks the rules', 'Degree': 'enough', 'Behavior': 'to get away with it'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+a man who breaks the rules     -- positive ->     to get away with it
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+a man who breaks the rules     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to get away with it
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    Her Donna De Angelo ( I hate that tart / angel name ) is both desperate to grab onto a man and smart enough to watch in horror as she 's grabbing .
+Target:    smart 
+FE:    {'Protagonist': 'Her Donna De Angelo', 'Degree': 'enough', 'Behavior': "to watch in horror as she 's grabbing"}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+Her Donna De Angelo     -- positive ->     to watch in horror as she 's grabbing
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+Her Donna De Angelo     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     to watch in horror as she 's grabbing
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    smart.a
+frame:    Mental_property
+text:    yeah well the yeah coin dealers are supposed to be smart enough not to fall for that gimmick but i i have seen a few of them sell these things
+Target:    smart 
+FE:    {'Protagonist': 'coin dealers', 'Degree': 'enough', 'Behavior': 'not to fall for that gimmick'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+coin dealers     -- positive ->     not to fall for that gimmick
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+coin dealers     -- positive ->     _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- positive ->     not to fall for that gimmick
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    suspicious.a
+frame:    Mental_property
+text:    Going national had its own good reasons , but were Jews being overly suspicious in thinking that one reason , which they did not think was so good , was to recruit from areas in which fewer Jews lived ?
+Target:    suspicious 
+FE:    {'Protagonist': 'Jews', 'Degree': 'overly', 'Behavior': 'in thinking that one reason , which they did not think was so good , was to recruit from areas in which fewer Jews lived'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+Jews     -- negative ->    in thinking that one reason , which they did not think was so good , was to recruit from areas in which fewer Jews lived
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+Jews     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- negative ->    in thinking that one reason , which they did not think was so good , was to recruit from areas in which fewer Jews lived
+----------------------------------------------------------------------------------------------------
+########################################################################################################################
+lu:    suspicious.a
+frame:    Mental_property
+text:    especially if you have an interest group that comes up with a study that supports their own position if they did the work i always tend to be a little suspicious of it and that might 've been the Southern Poverty Law Project or something that did that
+Target:    suspicious 
+FE:    {'Protagonist': 'i', 'Degree': 'a little', 'Behavior': 'of it'}
+FE_unexpr:    {}
+====================================================================================================
+Mental_property.Protagonist ?_p Mental_property.Behavior
+i     -- negative ->    of it
+----------------------------------------------------------------------------------------------------
+Mental_property.Protagonist ?_p ?_t
+i     -- negative ->    _SOMETHING
+----------------------------------------------------------------------------------------------------
+?_s ?_p Mental_property.Behavior
+_SOMEONE     -- negative ->    of it
+----------------------------------------------------------------------------------------------------

@@ -1,7 +1,0 @@
-End_of_scale	6
-Bound_dependent_LU	1
-Positive_judgment	1
-Participating_entity	1
-Negative	4
-Agentive_noun	2
-Transparent Noun	1
