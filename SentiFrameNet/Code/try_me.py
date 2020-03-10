@@ -27,13 +27,11 @@ def print_annotation_opinions(word, n=3):
             annotations = annotations_by_lu[word]
         except:
             correct = False
-            #print('Invalid Input')
     else:
         try:
             annotations = annotations_by_frame[word]
         except:
             correct = False
-            #print('Invalid Input')
     if correct==False:
         print('\n ------------------------------INVALID INPUT------------------------------\n')
         ask_for_word()
@@ -42,27 +40,31 @@ def print_annotation_opinions(word, n=3):
             print('\n Only ', len(annotations), ' annotation(s) for ', word, ' were found: \n')
         else:
             annotations = random.choices(annotations, k=n)
-            
+        print('\nOpinion Mapping for: ',word,'\n') 
+        print('#'*100)
         for annotation in annotations:
             mapping = c2a.map_constraints_to_annotation(annotation, constraints)
             (solutions, solutions_with_vars) = mapping
             for el in annotation.items():
                 print(el[0]+':  '+str(el[1]))
             print('='*100)
-            for el in solutions:    
-                print(el[0])
-                print(el[1])
+            i = 1
+            for el in solutions:
+                print(str(i)+'.)\t',el[0])
+                print('\t',el[1])
                 print('-'*100)
-            for el in solutions_with_vars:    
-                print(el[0])
-                print(el[1])
+                i+=1
+            for el in solutions_with_vars:
+                print(str(i)+'.)\t',el[0])
+                print('\t',el[1])
                 print('-'*100)
+                i+=1
             print('#'*100)
     ask_for_instruction()
             
 def welcome():
     print('\n Hi!\n')
-    print('Type "help" for help \n')
+    print('Type "help" for help \n and "exit" to leave \n\n')
 
 def print_help():
     with open(HELP,'r') as f:
@@ -146,7 +148,7 @@ def look_up_fn(instruction):
            
       
 def ask_for_instruction():
-    instruction = input('What would you like to know? ')
+    instruction = input('\nWhat would you like to know? ')
     if instruction in annotations_by_frame.keys() or instruction in annotations_by_lu.keys():
         ask_for_word(instruction)
     elif instruction == 'help':
@@ -164,7 +166,6 @@ def ask_for_instruction():
         ask_for_instruction()
     
 if __name__ == '__main__':
-    #print('\n Loading Frames into Memory...')
     with open(CONSTRAINTS,'r') as f:
         constraints = json.load(f)
     with open(ANNOTATIONS,'r') as f:
@@ -184,6 +185,4 @@ if __name__ == '__main__':
             annotations_by_lu[a['lu']].append(a)
     welcome()
     ask_for_instruction()
-    #ask_for_word()
-    #print_annotation_opinions('brag.v')
     

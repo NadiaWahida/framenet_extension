@@ -8,7 +8,7 @@ Created on Thu Mar  5 09:22:56 2020
 This module gets annotated sentences for SentiFrames from FrameNet,
 saves them in the file: '../Data/annotated_sents_from_FrameNet.txt',
 one dictionary a line
-dict like: {'lu':lu, 'frame':frame, 'text':text, 'Target':target, 'FE':fes, 'FE_unexpr': unexpr}
+dict like: {'lu':lu, 'frame':frame, 'text':text, 'Target':target, 'FE':fes}
 """
 from nltk.corpus import framenet as fn
 FRAME_POLARITY = '../Data/Senti_Frames_mit_Framepolarity.txt'
@@ -20,7 +20,7 @@ def filter_annotation(lu, annotation):
     This function filters an annotated sentence from FrameNet 
     if sentence evokes a SentiFrame and sentence has at least three Frameelements,
     returns a reshaped form of that sentence like:
-    {'text':text, 'Target':target, 'FE':fes, 'FE_unexpr': unexpr, 'frame':frame}
+    {'text':text, 'Target':target, 'FE':fes, 'frame':frame}
     
     Parameters
     ----------
@@ -51,8 +51,7 @@ def filter_annotation(lu, annotation):
     fes = {}
     for el in annotation.FE[0]:
         fes[el[2]] = text[el[0]:el[1]]
-    unexpr = annotation.FE[1]
-    sent_info = {'lu':lu, 'frame':frame, 'text':text, 'Target':target, 'FE':fes, 'FE_unexpr': unexpr}
+    sent_info = {'lu':lu, 'frame':frame, 'text':text, 'Target':target, 'FE':fes}
     return sent_info
     
     

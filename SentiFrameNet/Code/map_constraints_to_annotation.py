@@ -25,9 +25,9 @@ def map_constraints_to_annotation(annotation, constraints):
     Parameters
     ----------
     annotation : dict
-        DESCRIPTION.
+        {'lu':lu, 'frame':frame, 'text':text, 'Target':target, 'FE':fes}.
     constraints : dict
-        DESCRIPTION.
+        dictionary of SentiConstraints.
 
     Returns
     -------
@@ -37,10 +37,6 @@ def map_constraints_to_annotation(annotation, constraints):
         solutions_with_unbounded_variable.
 
     """
-    
-    #for el in annotation.items():
-        #print(el[0]+':  '+str(el[1]))
-    #print('='*100)
     #annotation = {'lu':lu, 'frame':frame, 'text':text, 'Target':target, 'FE':fes, 'FE_unexpr': unexpr}
     constraints = constraints[annotation['frame']]
     suitable = []
@@ -49,20 +45,21 @@ def map_constraints_to_annotation(annotation, constraints):
             if fe in constraint:
                 suitable.append(constraint)
             elif '?_x' in constraint:
-               suitable.append(constraint) 
+               suitable.insert(0,constraint) 
     suitable = list(set(suitable))
     solutions = []
     solutions_with_vars = []
     for constraint in suitable:
         original = constraint
-        if constraint.count('.') == 1:   
+        if '?_lu' in constraint:
+            constraint = constraint.replace('?_lu', annotation['lu'])
+        elif constraint.count('.') == 1:   
             try:
                 constraint = constraint.replace(re.search(fe_pattern,constraint).group(), annotation['FE'][re.search(fe_pattern,constraint).group(2)])
                 constraint = constraint.replace('?_s','_SOMEONE')
                 constraint = constraint.replace('?_t','_SOMETHING')
             except:
                 continue
-            #print(constraint)
         elif constraint.count('.') == 2:
             try:
                 constraint = constraint.replace(re.search(fe_pattern,constraint).group(), annotation['FE'][re.search(fe_pattern,constraint).group(2)])
@@ -72,7 +69,8 @@ def map_constraints_to_annotation(annotation, constraints):
                 constraint = constraint.replace(re.search(fe_pattern,constraint).group(), annotation['FE'][re.search(fe_pattern,constraint).group(2)])
             except: continue
             #print(constraint)
-        elif '?_x' in constraint:
+        
+        if '?_x' in constraint:
             constraint = constraint.replace('?_x','_GENERAL')
         if '?_p' in constraint:
             p = SentiWordNet.get_sentiment(annotation['lu'].split('.')[0], annotation['lu'].split('.')[1])
@@ -83,16 +81,14 @@ def map_constraints_to_annotation(annotation, constraints):
             constraint = constraint.replace('?_p', p)
         constraint = constraint.replace('neg','    -- negative ->   ')
         constraint = constraint.replace('pos','    -- positive ->    ')
-        if '_SOME' in constraint or '_GEN' in constraint:
+        if '_SOME' in constraint:# or '_GEN' in constraint
             solutions_with_vars.append((original,constraint))
         else:
-            solutions.append((original,constraint))
-        #print(original)
-        #print(constraint)
-        #print('-'*100)
-    #print('#'*100)
+            if '_GEN' in constraint:
+                solutions.insert(0,(original,constraint))
+            else:
+                solutions.append((original,constraint))
     if len(solutions)!= 0 or len(solutions_with_vars)!=0:
-        #write_to_file(annotation, solutions, solutions_with_vars)
         return (solutions, solutions_with_vars)
     else: return ()
 
@@ -101,16 +97,16 @@ def write_to_file(annotation, solutions, solutions_with_vars):
     Pretty Prints annotation and solved opinion mapping
     """
     with open(OUTPUT+annotation['frame']+'.txt','a') as f:
-        f.writelines('#'*120+'\n')
+        f.writelines('#'*120+'\n\n')
         for el in annotation.items():
             f.writelines(el[0]+':    '+str(el[1])+'\n')
-        f.writelines('='*100+'\n')
+        f.writelines('\n'+'='*100+'\n\n')
         for el in solutions:
-            f.writelines(el[0]+'\n'+el[1]+'\n')
-            f.writelines('-'*100+'\n')
+            f.writelines(el[0]+'\n'+el[1]+'\n\n')
+            f.writelines('-'*100+'\n\n')
         for el in solutions_with_vars:
-            f.writelines(el[0]+'\n'+el[1]+'\n')
-            f.writelines('-'*100+'\n')
+            f.writelines(el[0]+'\n'+el[1]+'\n\n')
+            f.writelines('-'*100+'\n\n')
             
 
 if __name__ == '__main__':
@@ -131,4 +127,4 @@ if __name__ == '__main__':
             if len(mapping)!=0:
                 (solutions, solutions_with_vars) = mapping
                 print(solutions)
-                #write_to_file(annotation, solutions, solutions_with_vars)
+                write_to_file(annotation, solutions, solutions_with_vars)
