@@ -1,542 +1,480 @@
 ########################################################################################################################
+
 lu:    lucky.a
 frame:    Luck
 text:    Schools of porpoise , dolphin and sometimes even turtles can also be seen but we were n't so lucky that day .
 Target:    lucky 
 FE:    {'Protagonist': 'we', 'Degree': 'so', 'Time': 'that day'}
-FE_unexpr:    {'State_of_affairs': 'DNI'}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.lucky.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p ?_t
 we     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lucky.a
 frame:    Luck
 text:    Bonefish , in brief , was a very good man who had never heard of Sir Thomas Breakspear , and I was a very lucky man for the fortunate accident of having met Bonefish .
 Target:    lucky 
 FE:    {'Degree': 'very', 'Protagonist': 'man', 'State_of_affairs': 'for the fortunate accident of having met Bonefish'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.lucky.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p Luck.State_of_affairs
 man     -- positive ->     for the fortunate accident of having met Bonefish
+
 ----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-man     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Luck.State_of_affairs
 _SOMEONE     -- positive ->     for the fortunate accident of having met Bonefish
+
 ----------------------------------------------------------------------------------------------------
+
+Luck.Protagonist ?_p ?_t
+man     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lucky.a
 frame:    Luck
 text:    I was very lucky to find this piece of land .
 Target:    lucky 
 FE:    {'Protagonist': 'I', 'Degree': 'very', 'State_of_affairs': 'to find this piece of land'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.lucky.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p Luck.State_of_affairs
 I     -- positive ->     to find this piece of land
+
 ----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-I     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Luck.State_of_affairs
 _SOMEONE     -- positive ->     to find this piece of land
+
 ----------------------------------------------------------------------------------------------------
+
+Luck.Protagonist ?_p ?_t
+I     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lucky.a
 frame:    Luck
 text:    ` I was very lucky I did not get wiped out completely , " he says .
 Target:    lucky 
 FE:    {'Protagonist': 'I', 'Degree': 'very', 'State_of_affairs': 'I did not get wiped out completely'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.lucky.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p Luck.State_of_affairs
 I     -- positive ->     I did not get wiped out completely
+
 ----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-I     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Luck.State_of_affairs
 _SOMEONE     -- positive ->     I did not get wiped out completely
+
 ----------------------------------------------------------------------------------------------------
+
+Luck.Protagonist ?_p ?_t
+I     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lucky.a
 frame:    Luck
 text:    We are not so lucky , because our kidneys can not produce such a high concentration of salt in urine .
 Target:    lucky 
 FE:    {'Protagonist': 'We', 'Degree': 'so', 'State_of_affairs': 'because our kidneys can not produce such a high concentration of salt in urine'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.lucky.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p Luck.State_of_affairs
 We     -- positive ->     because our kidneys can not produce such a high concentration of salt in urine
+
 ----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-We     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Luck.State_of_affairs
 _SOMEONE     -- positive ->     because our kidneys can not produce such a high concentration of salt in urine
+
 ----------------------------------------------------------------------------------------------------
+
+Luck.Protagonist ?_p ?_t
+We     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lucky.a
 frame:    Luck
 text:    We were dead lucky to get to bed without a belting on a Sunday . "
 Target:    lucky 
 FE:    {'Protagonist': 'We', 'Degree': 'dead', 'State_of_affairs': 'to get to bed without a belting on a Sunday'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.lucky.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p Luck.State_of_affairs
 We     -- positive ->     to get to bed without a belting on a Sunday
+
 ----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-We     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Luck.State_of_affairs
 _SOMEONE     -- positive ->     to get to bed without a belting on a Sunday
+
 ----------------------------------------------------------------------------------------------------
+
+Luck.Protagonist ?_p ?_t
+We     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lucky.a
 frame:    Luck
 text:    And Eleanor was damn lucky to have him as an escort once in a blue moon .
 Target:    lucky 
 FE:    {'Protagonist': 'Eleanor', 'Degree': 'damn', 'State_of_affairs': 'to have him as an escort once in a blue moon'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.lucky.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p Luck.State_of_affairs
 Eleanor     -- positive ->     to have him as an escort once in a blue moon
+
 ----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-Eleanor     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Luck.State_of_affairs
 _SOMEONE     -- positive ->     to have him as an escort once in a blue moon
+
 ----------------------------------------------------------------------------------------------------
+
+Luck.Protagonist ?_p ?_t
+Eleanor     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lucky.a
 frame:    Luck
 text:    I often think how lucky I am to be her daughter . "
 Target:    lucky 
 FE:    {'Degree': 'how', 'Protagonist': 'I', 'State_of_affairs': 'to be her daughter'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.lucky.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p Luck.State_of_affairs
 I     -- positive ->     to be her daughter
+
 ----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-I     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Luck.State_of_affairs
 _SOMEONE     -- positive ->     to be her daughter
+
 ----------------------------------------------------------------------------------------------------
+
+Luck.Protagonist ?_p ?_t
+I     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lucky.a
 frame:    Luck
 text:    ` We 're lucky in England , as we do n't have to learn Irish , " I said .
 Target:    lucky 
 FE:    {'Protagonist': 'We', 'Place': 'in England', 'State_of_affairs': "as we do n't have to learn Irish"}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.lucky.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p Luck.State_of_affairs
 We     -- positive ->     as we do n't have to learn Irish
+
 ----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-We     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Luck.State_of_affairs
 _SOMEONE     -- positive ->     as we do n't have to learn Irish
+
 ----------------------------------------------------------------------------------------------------
+
+Luck.Protagonist ?_p ?_t
+We     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    fortunate.a
 frame:    Luck
 text:    For many the comparison is not with those who are more fortunate but with their own past position .
 Target:    fortunate 
 FE:    {'Protagonist': 'who', 'Degree': 'more'}
-FE_unexpr:    {'State_of_affairs': 'DNI'}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.fortunate.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p ?_t
 who     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    fortunate.a
 frame:    Luck
 text:    Britain has been particularly fortunate in acquiring the sorts of institutions which she did acquire .
 Target:    fortunate 
 FE:    {'Protagonist': 'Britain', 'Degree': 'particularly', 'State_of_affairs': 'in acquiring the sorts of institutions which she did acquire'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.fortunate.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p Luck.State_of_affairs
 Britain     -- positive ->     in acquiring the sorts of institutions which she did acquire
+
 ----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-Britain     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Luck.State_of_affairs
 _SOMEONE     -- positive ->     in acquiring the sorts of institutions which she did acquire
+
 ----------------------------------------------------------------------------------------------------
+
+Luck.Protagonist ?_p ?_t
+Britain     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    fortunate.a
 frame:    Luck
 text:    We were particularly fortunate to have Father John Watson , Father Tony Quinn and Father Michael Murray with us .
 Target:    fortunate 
 FE:    {'Protagonist': 'We', 'Degree': 'particularly', 'State_of_affairs': 'to have Father John Watson , Father Tony Quinn and Father Michael Murray with us'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.fortunate.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p Luck.State_of_affairs
 We     -- positive ->     to have Father John Watson , Father Tony Quinn and Father Michael Murray with us
+
 ----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-We     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Luck.State_of_affairs
 _SOMEONE     -- positive ->     to have Father John Watson , Father Tony Quinn and Father Michael Murray with us
+
 ----------------------------------------------------------------------------------------------------
+
+Luck.Protagonist ?_p ?_t
+We     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    fortunate.a
 frame:    Luck
 text:    For children less fortunate than ourselves
 Target:    fortunate 
 FE:    {'Protagonist': 'children', 'Degree': 'than ourselves'}
-FE_unexpr:    {'State_of_affairs': 'DNI'}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.fortunate.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p ?_t
 children     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    fortunate.a
 frame:    Luck
 text:    We are fortunate in Lothian to have good existing interagency links ; this has made the development task much easier .
 Target:    fortunate 
 FE:    {'Protagonist': 'We', 'Place': 'in Lothian', 'State_of_affairs': 'to have good existing interagency links'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.fortunate.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p Luck.State_of_affairs
 We     -- positive ->     to have good existing interagency links
+
 ----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-We     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Luck.State_of_affairs
 _SOMEONE     -- positive ->     to have good existing interagency links
+
 ----------------------------------------------------------------------------------------------------
+
+Luck.Protagonist ?_p ?_t
+We     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    fortunate.a
 frame:    Luck
 text:    We 're very , very fortunate , I think , in being able to use the university facilities here because they really are ideal .
 Target:    fortunate 
 FE:    {'Protagonist': 'We', 'Degree': 'very', 'State_of_affairs': 'in being able to use the university facilities here'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.fortunate.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p Luck.State_of_affairs
 We     -- positive ->     in being able to use the university facilities here
+
 ----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-We     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Luck.State_of_affairs
 _SOMEONE     -- positive ->     in being able to use the university facilities here
+
 ----------------------------------------------------------------------------------------------------
+
+Luck.Protagonist ?_p ?_t
+We     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    fortunate.a
 frame:    Luck
 text:    I am sure that he will wish to develop that issue in Committee , if he is fortunate enough to be a member .
 Target:    fortunate 
 FE:    {'Protagonist': 'he', 'Degree': 'enough', 'State_of_affairs': 'to be a member'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.fortunate.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p Luck.State_of_affairs
 he     -- positive ->     to be a member
+
 ----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-he     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Luck.State_of_affairs
 _SOMEONE     -- positive ->     to be a member
+
 ----------------------------------------------------------------------------------------------------
+
+Luck.Protagonist ?_p ?_t
+he     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    fortunate.a
 frame:    Luck
 text:    How fortunate Paul was to have married such a woman !
 Target:    fortunate 
 FE:    {'Degree': 'How', 'Protagonist': 'Paul', 'State_of_affairs': 'to have married such a woman'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Luck.?_lu
+_GENERAL     -- positive ->     Luck.fortunate.a
+
+----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p Luck.State_of_affairs
 Paul     -- positive ->     to have married such a woman
+
 ----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-Paul     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Luck.State_of_affairs
 _SOMEONE     -- positive ->     to have married such a woman
+
 ----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lucky.a
-frame:    Luck
-text:    Schools of porpoise , dolphin and sometimes even turtles can also be seen but we were n't so lucky that day .
-Target:    lucky 
-FE:    {'Protagonist': 'we', 'Degree': 'so', 'Time': 'that day'}
-FE_unexpr:    {'State_of_affairs': 'DNI'}
-====================================================================================================
-Luck.Protagonist ?_p ?_t
-we     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lucky.a
-frame:    Luck
-text:    Bonefish , in brief , was a very good man who had never heard of Sir Thomas Breakspear , and I was a very lucky man for the fortunate accident of having met Bonefish .
-Target:    lucky 
-FE:    {'Degree': 'very', 'Protagonist': 'man', 'State_of_affairs': 'for the fortunate accident of having met Bonefish'}
-FE_unexpr:    {}
-====================================================================================================
-Luck.Protagonist ?_p Luck.State_of_affairs
-man     -- positive ->     for the fortunate accident of having met Bonefish
-----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-man     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Luck.State_of_affairs
-_SOMEONE     -- positive ->     for the fortunate accident of having met Bonefish
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lucky.a
-frame:    Luck
-text:    I was very lucky to find this piece of land .
-Target:    lucky 
-FE:    {'Protagonist': 'I', 'Degree': 'very', 'State_of_affairs': 'to find this piece of land'}
-FE_unexpr:    {}
-====================================================================================================
-Luck.Protagonist ?_p Luck.State_of_affairs
-I     -- positive ->     to find this piece of land
-----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-I     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Luck.State_of_affairs
-_SOMEONE     -- positive ->     to find this piece of land
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lucky.a
-frame:    Luck
-text:    ` I was very lucky I did not get wiped out completely , " he says .
-Target:    lucky 
-FE:    {'Protagonist': 'I', 'Degree': 'very', 'State_of_affairs': 'I did not get wiped out completely'}
-FE_unexpr:    {}
-====================================================================================================
-Luck.Protagonist ?_p Luck.State_of_affairs
-I     -- positive ->     I did not get wiped out completely
-----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-I     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Luck.State_of_affairs
-_SOMEONE     -- positive ->     I did not get wiped out completely
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lucky.a
-frame:    Luck
-text:    We are not so lucky , because our kidneys can not produce such a high concentration of salt in urine .
-Target:    lucky 
-FE:    {'Protagonist': 'We', 'Degree': 'so', 'State_of_affairs': 'because our kidneys can not produce such a high concentration of salt in urine'}
-FE_unexpr:    {}
-====================================================================================================
-Luck.Protagonist ?_p Luck.State_of_affairs
-We     -- positive ->     because our kidneys can not produce such a high concentration of salt in urine
-----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-We     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Luck.State_of_affairs
-_SOMEONE     -- positive ->     because our kidneys can not produce such a high concentration of salt in urine
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lucky.a
-frame:    Luck
-text:    We were dead lucky to get to bed without a belting on a Sunday . "
-Target:    lucky 
-FE:    {'Protagonist': 'We', 'Degree': 'dead', 'State_of_affairs': 'to get to bed without a belting on a Sunday'}
-FE_unexpr:    {}
-====================================================================================================
-Luck.Protagonist ?_p Luck.State_of_affairs
-We     -- positive ->     to get to bed without a belting on a Sunday
-----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-We     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Luck.State_of_affairs
-_SOMEONE     -- positive ->     to get to bed without a belting on a Sunday
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lucky.a
-frame:    Luck
-text:    And Eleanor was damn lucky to have him as an escort once in a blue moon .
-Target:    lucky 
-FE:    {'Protagonist': 'Eleanor', 'Degree': 'damn', 'State_of_affairs': 'to have him as an escort once in a blue moon'}
-FE_unexpr:    {}
-====================================================================================================
-Luck.Protagonist ?_p Luck.State_of_affairs
-Eleanor     -- positive ->     to have him as an escort once in a blue moon
-----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-Eleanor     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Luck.State_of_affairs
-_SOMEONE     -- positive ->     to have him as an escort once in a blue moon
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lucky.a
-frame:    Luck
-text:    I often think how lucky I am to be her daughter . "
-Target:    lucky 
-FE:    {'Degree': 'how', 'Protagonist': 'I', 'State_of_affairs': 'to be her daughter'}
-FE_unexpr:    {}
-====================================================================================================
-Luck.Protagonist ?_p Luck.State_of_affairs
-I     -- positive ->     to be her daughter
-----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-I     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Luck.State_of_affairs
-_SOMEONE     -- positive ->     to be her daughter
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lucky.a
-frame:    Luck
-text:    ` We 're lucky in England , as we do n't have to learn Irish , " I said .
-Target:    lucky 
-FE:    {'Protagonist': 'We', 'Place': 'in England', 'State_of_affairs': "as we do n't have to learn Irish"}
-FE_unexpr:    {}
-====================================================================================================
-Luck.Protagonist ?_p Luck.State_of_affairs
-We     -- positive ->     as we do n't have to learn Irish
-----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-We     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Luck.State_of_affairs
-_SOMEONE     -- positive ->     as we do n't have to learn Irish
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    fortunate.a
-frame:    Luck
-text:    For many the comparison is not with those who are more fortunate but with their own past position .
-Target:    fortunate 
-FE:    {'Protagonist': 'who', 'Degree': 'more'}
-FE_unexpr:    {'State_of_affairs': 'DNI'}
-====================================================================================================
-Luck.Protagonist ?_p ?_t
-who     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    fortunate.a
-frame:    Luck
-text:    Britain has been particularly fortunate in acquiring the sorts of institutions which she did acquire .
-Target:    fortunate 
-FE:    {'Protagonist': 'Britain', 'Degree': 'particularly', 'State_of_affairs': 'in acquiring the sorts of institutions which she did acquire'}
-FE_unexpr:    {}
-====================================================================================================
-Luck.Protagonist ?_p Luck.State_of_affairs
-Britain     -- positive ->     in acquiring the sorts of institutions which she did acquire
-----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-Britain     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Luck.State_of_affairs
-_SOMEONE     -- positive ->     in acquiring the sorts of institutions which she did acquire
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    fortunate.a
-frame:    Luck
-text:    We were particularly fortunate to have Father John Watson , Father Tony Quinn and Father Michael Murray with us .
-Target:    fortunate 
-FE:    {'Protagonist': 'We', 'Degree': 'particularly', 'State_of_affairs': 'to have Father John Watson , Father Tony Quinn and Father Michael Murray with us'}
-FE_unexpr:    {}
-====================================================================================================
-Luck.Protagonist ?_p Luck.State_of_affairs
-We     -- positive ->     to have Father John Watson , Father Tony Quinn and Father Michael Murray with us
-----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-We     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Luck.State_of_affairs
-_SOMEONE     -- positive ->     to have Father John Watson , Father Tony Quinn and Father Michael Murray with us
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    fortunate.a
-frame:    Luck
-text:    For children less fortunate than ourselves
-Target:    fortunate 
-FE:    {'Protagonist': 'children', 'Degree': 'than ourselves'}
-FE_unexpr:    {'State_of_affairs': 'DNI'}
-====================================================================================================
-Luck.Protagonist ?_p ?_t
-children     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    fortunate.a
-frame:    Luck
-text:    We are fortunate in Lothian to have good existing interagency links ; this has made the development task much easier .
-Target:    fortunate 
-FE:    {'Protagonist': 'We', 'Place': 'in Lothian', 'State_of_affairs': 'to have good existing interagency links'}
-FE_unexpr:    {}
-====================================================================================================
-Luck.Protagonist ?_p Luck.State_of_affairs
-We     -- positive ->     to have good existing interagency links
-----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-We     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Luck.State_of_affairs
-_SOMEONE     -- positive ->     to have good existing interagency links
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    fortunate.a
-frame:    Luck
-text:    We 're very , very fortunate , I think , in being able to use the university facilities here because they really are ideal .
-Target:    fortunate 
-FE:    {'Protagonist': 'We', 'Degree': 'very', 'State_of_affairs': 'in being able to use the university facilities here'}
-FE_unexpr:    {}
-====================================================================================================
-Luck.Protagonist ?_p Luck.State_of_affairs
-We     -- positive ->     in being able to use the university facilities here
-----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-We     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Luck.State_of_affairs
-_SOMEONE     -- positive ->     in being able to use the university facilities here
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    fortunate.a
-frame:    Luck
-text:    I am sure that he will wish to develop that issue in Committee , if he is fortunate enough to be a member .
-Target:    fortunate 
-FE:    {'Protagonist': 'he', 'Degree': 'enough', 'State_of_affairs': 'to be a member'}
-FE_unexpr:    {}
-====================================================================================================
-Luck.Protagonist ?_p Luck.State_of_affairs
-he     -- positive ->     to be a member
-----------------------------------------------------------------------------------------------------
-Luck.Protagonist ?_p ?_t
-he     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Luck.State_of_affairs
-_SOMEONE     -- positive ->     to be a member
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    fortunate.a
-frame:    Luck
-text:    How fortunate Paul was to have married such a woman !
-Target:    fortunate 
-FE:    {'Degree': 'How', 'Protagonist': 'Paul', 'State_of_affairs': 'to have married such a woman'}
-FE_unexpr:    {}
-====================================================================================================
-Luck.Protagonist ?_p Luck.State_of_affairs
-Paul     -- positive ->     to have married such a woman
-----------------------------------------------------------------------------------------------------
+
 Luck.Protagonist ?_p ?_t
 Paul     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
-?_s ?_p Luck.State_of_affairs
-_SOMEONE     -- positive ->     to have married such a woman
-----------------------------------------------------------------------------------------------------
+

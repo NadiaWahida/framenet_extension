@@ -1,60 +1,35 @@
 ########################################################################################################################
+
 lu:    dare.v
 frame:    Daring
 text:    People who can never dare to move close because of the inevitable withdrawal afterwards may experience little sexual desire . 
 Target:    dare 
 FE:    {'Agent': 'who', 'Action': 'to move close', 'Explanation': 'because of the inevitable withdrawal afterwards'}
-FE_unexpr:    {}
+
 ====================================================================================================
-Daring.Agent pos Daring.Action
-who     -- positive ->     to move close
-----------------------------------------------------------------------------------------------------
-Daring.Agent pos ?_t
-who     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s pos Daring.Action
-_SOMEONE     -- positive ->     to move close
-----------------------------------------------------------------------------------------------------
+
 ?_x neg Daring
 _GENERAL     -- negative ->    Daring
+
 ----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    dare.v
-frame:    Daring
-text:    People who can never dare to move close because of the inevitable withdrawal afterwards may experience little sexual desire . 
-Target:    dare 
-FE:    {'Agent': 'who', 'Action': 'to move close', 'Explanation': 'because of the inevitable withdrawal afterwards'}
-FE_unexpr:    {}
-====================================================================================================
+
+?_x neg Daring.Action
+_GENERAL     -- negative ->    to move close
+
+----------------------------------------------------------------------------------------------------
+
 Daring.Agent pos Daring.Action
 who     -- positive ->     to move close
+
 ----------------------------------------------------------------------------------------------------
-Daring.Agent pos ?_t
-who     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s pos Daring.Action
 _SOMEONE     -- positive ->     to move close
+
 ----------------------------------------------------------------------------------------------------
-?_x neg Daring
-_GENERAL     -- negative ->    Daring
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    dare.v
-frame:    Daring
-text:    People who can never dare to move close because of the inevitable withdrawal afterwards may experience little sexual desire . 
-Target:    dare 
-FE:    {'Agent': 'who', 'Action': 'to move close', 'Explanation': 'because of the inevitable withdrawal afterwards'}
-FE_unexpr:    {}
-====================================================================================================
-Daring.Agent pos Daring.Action
-who     -- positive ->     to move close
-----------------------------------------------------------------------------------------------------
+
 Daring.Agent pos ?_t
 who     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
-?_s pos Daring.Action
-_SOMEONE     -- positive ->     to move close
-----------------------------------------------------------------------------------------------------
-?_x neg Daring
-_GENERAL     -- negative ->    Daring
-----------------------------------------------------------------------------------------------------
+

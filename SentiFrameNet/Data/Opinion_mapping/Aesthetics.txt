@@ -1,353 +1,350 @@
 ########################################################################################################################
+
 lu:    smart.a
 frame:    Aesthetics
 text:    During the war years Harold had risen to the rank of major in the Canadian Army and he looked very smart in his uniform .
 Target:    smart 
 FE:    {'Entity': 'he', 'Degree': 'very', 'Circumstances': 'in his uniform'}
-FE_unexpr:    {'Attribute': 'INI'}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- positive ->     Aesthetics.smart.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- positive ->     he
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    smart.a
 frame:    Aesthetics
 text:    Whitsuntide was the traditional time for wearing new clothes and the little girls were all smart in their prettiest dresses , mostly white , with ribbons and flowers in their hair .
 Target:    smart 
 FE:    {'Entity': 'the little girls', 'Degree': 'all', 'Circumstances': 'in their prettiest dresses'}
-FE_unexpr:    {'Attribute': 'INI'}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- positive ->     Aesthetics.smart.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- positive ->     the little girls
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    smart.a
 frame:    Aesthetics
 text:    A motley crowd is hurrying by -- workers in dungarees ; a yogi with his followers ; a noblewoman in purdah in palanquin ; a group of nautch girls , attractive in their aniline - dyed dresses and bright bandanas , their bangles jingling and their long , shampooed hair streaming in the breeze ; a sepoy all smart in khaki on his horse , his jodhpurs trim and neat ; a scholarly pundit ; a mahout on his elephant , ambling like a juggernaut .
 Target:    smart 
 FE:    {'Entity': 'a sepoy', 'Degree': 'all', 'Attribute': 'in khaki'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- positive ->     Aesthetics.smart.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- positive ->     a sepoy
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    beautiful.a
 frame:    Aesthetics
 text:    For half of my life I have lived here with the most beautiful woman in the world .
 Target:    beautiful 
 FE:    {'Degree': 'most', 'Entity': 'woman', 'Place': 'in the world'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- positive ->     Aesthetics.beautiful.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- positive ->     woman
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    beautiful.a
 frame:    Aesthetics
 text:    Florence is much more romantic , but the most beautiful city in Italy is Bologna .
 Target:    beautiful 
 FE:    {'Degree': 'most', 'Entity': 'city', 'Place': 'in Italy'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- positive ->     Aesthetics.beautiful.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- positive ->     city
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    beautiful.a
 frame:    Aesthetics
 text:    Czechoslovakia must count as one of the most beautiful countries in Europe .
 Target:    beautiful 
 FE:    {'Degree': 'most', 'Entity': 'countries', 'Place': 'in Europe'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- positive ->     Aesthetics.beautiful.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- positive ->     countries
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    smart.a
 frame:    Aesthetics
 text:    During the war years Harold had risen to the rank of major in the Canadian Army and he looked very smart in his uniform .
 Target:    smart 
 FE:    {'Entity': 'he', 'Degree': 'very', 'Circumstances': 'in his uniform'}
-FE_unexpr:    {'Attribute': 'INI'}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- positive ->     Aesthetics.smart.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- positive ->     he
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    smart.a
 frame:    Aesthetics
 text:    Whitsuntide was the traditional time for wearing new clothes and the little girls were all smart in their prettiest dresses , mostly white , with ribbons and flowers in their hair .
 Target:    smart 
 FE:    {'Entity': 'the little girls', 'Degree': 'all', 'Circumstances': 'in their prettiest dresses'}
-FE_unexpr:    {'Attribute': 'INI'}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- positive ->     Aesthetics.smart.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- positive ->     the little girls
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    smart.a
 frame:    Aesthetics
 text:    A motley crowd is hurrying by -- workers in dungarees ; a yogi with his followers ; a noblewoman in purdah in palanquin ; a group of nautch girls , attractive in their aniline - dyed dresses and bright bandanas , their bangles jingling and their long , shampooed hair streaming in the breeze ; a sepoy all smart in khaki on his horse , his jodhpurs trim and neat ; a scholarly pundit ; a mahout on his elephant , ambling like a juggernaut .
 Target:    smart 
 FE:    {'Entity': 'a sepoy', 'Degree': 'all', 'Attribute': 'in khaki'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- positive ->     Aesthetics.smart.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- positive ->     a sepoy
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    ugly.a
 frame:    Aesthetics
 text:    Jack Butler was almost ugly when he was angry ; it was a side of him that the many thousands of women who watched racing only to catch a glimpse of him never saw .
 Target:    ugly 
 FE:    {'Entity': 'Jack Butler', 'Degree': 'almost', 'Time': 'when he was angry'}
-FE_unexpr:    {'Attribute': 'INI'}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- negative ->    Aesthetics.ugly.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- negative ->    Jack Butler
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    ugly.a
 frame:    Aesthetics
 text:    I d only just been telling my girlfriend my favourite quip about how he only scores because he s SO ugly he scares the defenders .
 Target:    ugly 
 FE:    {'Entity': 'he', 'Degree': 'he scares the defenders'}
-FE_unexpr:    {'Attribute': 'INI'}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- negative ->    Aesthetics.ugly.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- negative ->    he
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    ugly.a
 frame:    Aesthetics
 text:    ` He 's not as ugly as that .
 Target:    ugly 
 FE:    {'Entity': 'He', 'Degree': 'as that'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- negative ->    Aesthetics.ugly.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- negative ->    He
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    ugly.a
 frame:    Aesthetics
 text:    But its nakedness does make it appear extremely ugly to many cat enthusiasts and does not seem to compensate for its oddity-value .
 Target:    ugly 
 FE:    {'Entity': 'it', 'Degree': 'extremely', 'Viewpoint': 'to many cat enthusiasts'}
-FE_unexpr:    {'Attribute': 'INI'}
+
 ====================================================================================================
+
 Aesthetics.Viewpoint ?_p Aesthetics.Entity
 to many cat enthusiasts     -- negative ->    it
+
 ----------------------------------------------------------------------------------------------------
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- negative ->    it
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- negative ->    Aesthetics.ugly.a
+
 ----------------------------------------------------------------------------------------------------
+
 Aesthetics.Viewpoint ?_p ?_t
 to many cat enthusiasts     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
+?_s ?_p Aesthetics.Entity
+_SOMEONE     -- negative ->    it
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    elegant.a
 frame:    Aesthetics
 text:    Its restored lobby is Hong Kong 's most elegant gathering place ; afternoon tea here is a visitors ' ritual .
 Target:    elegant 
 FE:    {'Degree': 'most', 'Attribute': 'elegant', 'Entity': 'gathering place'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- positive ->     Aesthetics.elegant.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- positive ->     gathering place
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    smart.a
 frame:    Aesthetics
 text:    During the war years Harold had risen to the rank of major in the Canadian Army and he looked very smart in his uniform .
 Target:    smart 
 FE:    {'Entity': 'he', 'Degree': 'very', 'Circumstances': 'in his uniform'}
-FE_unexpr:    {'Attribute': 'INI'}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- positive ->     Aesthetics.smart.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- positive ->     he
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    smart.a
 frame:    Aesthetics
 text:    Whitsuntide was the traditional time for wearing new clothes and the little girls were all smart in their prettiest dresses , mostly white , with ribbons and flowers in their hair .
 Target:    smart 
 FE:    {'Entity': 'the little girls', 'Degree': 'all', 'Circumstances': 'in their prettiest dresses'}
-FE_unexpr:    {'Attribute': 'INI'}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- positive ->     Aesthetics.smart.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- positive ->     the little girls
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    smart.a
 frame:    Aesthetics
 text:    A motley crowd is hurrying by -- workers in dungarees ; a yogi with his followers ; a noblewoman in purdah in palanquin ; a group of nautch girls , attractive in their aniline - dyed dresses and bright bandanas , their bangles jingling and their long , shampooed hair streaming in the breeze ; a sepoy all smart in khaki on his horse , his jodhpurs trim and neat ; a scholarly pundit ; a mahout on his elephant , ambling like a juggernaut .
 Target:    smart 
 FE:    {'Entity': 'a sepoy', 'Degree': 'all', 'Attribute': 'in khaki'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- positive ->     Aesthetics.smart.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Aesthetics.Entity
 _SOMEONE     -- positive ->     a sepoy
+
 ----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    beautiful.a
-frame:    Aesthetics
-text:    For half of my life I have lived here with the most beautiful woman in the world .
-Target:    beautiful 
-FE:    {'Degree': 'most', 'Entity': 'woman', 'Place': 'in the world'}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- positive ->     woman
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    beautiful.a
-frame:    Aesthetics
-text:    Florence is much more romantic , but the most beautiful city in Italy is Bologna .
-Target:    beautiful 
-FE:    {'Degree': 'most', 'Entity': 'city', 'Place': 'in Italy'}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- positive ->     city
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    beautiful.a
-frame:    Aesthetics
-text:    Czechoslovakia must count as one of the most beautiful countries in Europe .
-Target:    beautiful 
-FE:    {'Degree': 'most', 'Entity': 'countries', 'Place': 'in Europe'}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- positive ->     countries
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    smart.a
-frame:    Aesthetics
-text:    During the war years Harold had risen to the rank of major in the Canadian Army and he looked very smart in his uniform .
-Target:    smart 
-FE:    {'Entity': 'he', 'Degree': 'very', 'Circumstances': 'in his uniform'}
-FE_unexpr:    {'Attribute': 'INI'}
-====================================================================================================
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- positive ->     he
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    smart.a
-frame:    Aesthetics
-text:    Whitsuntide was the traditional time for wearing new clothes and the little girls were all smart in their prettiest dresses , mostly white , with ribbons and flowers in their hair .
-Target:    smart 
-FE:    {'Entity': 'the little girls', 'Degree': 'all', 'Circumstances': 'in their prettiest dresses'}
-FE_unexpr:    {'Attribute': 'INI'}
-====================================================================================================
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- positive ->     the little girls
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    smart.a
-frame:    Aesthetics
-text:    A motley crowd is hurrying by -- workers in dungarees ; a yogi with his followers ; a noblewoman in purdah in palanquin ; a group of nautch girls , attractive in their aniline - dyed dresses and bright bandanas , their bangles jingling and their long , shampooed hair streaming in the breeze ; a sepoy all smart in khaki on his horse , his jodhpurs trim and neat ; a scholarly pundit ; a mahout on his elephant , ambling like a juggernaut .
-Target:    smart 
-FE:    {'Entity': 'a sepoy', 'Degree': 'all', 'Attribute': 'in khaki'}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- positive ->     a sepoy
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    ugly.a
-frame:    Aesthetics
-text:    Jack Butler was almost ugly when he was angry ; it was a side of him that the many thousands of women who watched racing only to catch a glimpse of him never saw .
-Target:    ugly 
-FE:    {'Entity': 'Jack Butler', 'Degree': 'almost', 'Time': 'when he was angry'}
-FE_unexpr:    {'Attribute': 'INI'}
-====================================================================================================
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- negative ->    Jack Butler
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    ugly.a
-frame:    Aesthetics
-text:    I d only just been telling my girlfriend my favourite quip about how he only scores because he s SO ugly he scares the defenders .
-Target:    ugly 
-FE:    {'Entity': 'he', 'Degree': 'he scares the defenders'}
-FE_unexpr:    {'Attribute': 'INI'}
-====================================================================================================
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- negative ->    he
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    ugly.a
-frame:    Aesthetics
-text:    ` He 's not as ugly as that .
-Target:    ugly 
-FE:    {'Entity': 'He', 'Degree': 'as that'}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- negative ->    He
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    ugly.a
-frame:    Aesthetics
-text:    But its nakedness does make it appear extremely ugly to many cat enthusiasts and does not seem to compensate for its oddity-value .
-Target:    ugly 
-FE:    {'Entity': 'it', 'Degree': 'extremely', 'Viewpoint': 'to many cat enthusiasts'}
-FE_unexpr:    {'Attribute': 'INI'}
-====================================================================================================
-Aesthetics.Viewpoint ?_p Aesthetics.Entity
-to many cat enthusiasts     -- negative ->    it
-----------------------------------------------------------------------------------------------------
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- negative ->    it
-----------------------------------------------------------------------------------------------------
-Aesthetics.Viewpoint ?_p ?_t
-to many cat enthusiasts     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    elegant.a
-frame:    Aesthetics
-text:    Its restored lobby is Hong Kong 's most elegant gathering place ; afternoon tea here is a visitors ' ritual .
-Target:    elegant 
-FE:    {'Degree': 'most', 'Attribute': 'elegant', 'Entity': 'gathering place'}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- positive ->     gathering place
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    smart.a
-frame:    Aesthetics
-text:    During the war years Harold had risen to the rank of major in the Canadian Army and he looked very smart in his uniform .
-Target:    smart 
-FE:    {'Entity': 'he', 'Degree': 'very', 'Circumstances': 'in his uniform'}
-FE_unexpr:    {'Attribute': 'INI'}
-====================================================================================================
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- positive ->     he
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    smart.a
-frame:    Aesthetics
-text:    Whitsuntide was the traditional time for wearing new clothes and the little girls were all smart in their prettiest dresses , mostly white , with ribbons and flowers in their hair .
-Target:    smart 
-FE:    {'Entity': 'the little girls', 'Degree': 'all', 'Circumstances': 'in their prettiest dresses'}
-FE_unexpr:    {'Attribute': 'INI'}
-====================================================================================================
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- positive ->     the little girls
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    smart.a
-frame:    Aesthetics
-text:    A motley crowd is hurrying by -- workers in dungarees ; a yogi with his followers ; a noblewoman in purdah in palanquin ; a group of nautch girls , attractive in their aniline - dyed dresses and bright bandanas , their bangles jingling and their long , shampooed hair streaming in the breeze ; a sepoy all smart in khaki on his horse , his jodhpurs trim and neat ; a scholarly pundit ; a mahout on his elephant , ambling like a juggernaut .
-Target:    smart 
-FE:    {'Entity': 'a sepoy', 'Degree': 'all', 'Attribute': 'in khaki'}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Aesthetics.Entity
-_SOMEONE     -- positive ->     a sepoy
-----------------------------------------------------------------------------------------------------
+

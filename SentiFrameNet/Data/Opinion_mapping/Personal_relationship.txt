@@ -1,0 +1,420 @@
+########################################################################################################################
+
+lu:    marriage.n
+frame:    Personal_relationship
+text:    During Catherine 's brief marriage to Henry , Culpepper and another former lover , Richard Dereham , were arrested and tortured into admitting having lain with Catherine before she wed the King . 
+Target:    marriage 
+FE:    {'Partner_1': "Catherine 's", 'Relationship': 'marriage', 'Partner_2': 'to Henry'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.marriage.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    marriage.n
+frame:    Personal_relationship
+text:    It was his marriage to his wife Danielle , the heiress to a family fortune , which finally secured the soap-opera image . 
+Target:    marriage 
+FE:    {'Partner_1': 'his', 'Relationship': 'marriage', 'Partner_2': 'to his wife Danielle , the heiress to a family fortune'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.marriage.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    marriage.n
+frame:    Personal_relationship
+text:    ` Unfortunately my marriage to Andrew has come to the end . 
+Target:    marriage 
+FE:    {'Partner_1': 'my', 'Relationship': 'marriage', 'Partner_2': 'to Andrew'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.marriage.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    marriage.n
+frame:    Personal_relationship
+text:    Oswald 's marriage to Cyneburh , daughter of Cynegils , reveals clearly that relatively cordial relations could prevail between an overlord and a dependant if both stood to gain from the relationship . 
+Target:    marriage 
+FE:    {'Partner_1': "Oswald 's", 'Relationship': 'marriage', 'Partner_2': 'to Cyneburh , daughter of Cynegils'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.marriage.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    marriage.n
+frame:    Personal_relationship
+text:    The Princess Royal already has two children , Peter , 15 , and Zara , 12 , from her marriage to Captain Mark Phillips , whom she divorced last year . 
+Target:    marriage 
+FE:    {'Partner_1': 'her', 'Relationship': 'marriage', 'Partner_2': 'to Captain Mark Phillips , whom she divorced last year'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.marriage.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    marriage.n
+frame:    Personal_relationship
+text:    His marriage with the lovely Susy , designed to give him stability , peace and quiet -- things that I believe James actually , despite occasional appearances to the contrary , cherishes -- had broken up . 
+Target:    marriage 
+FE:    {'Partner_1': 'His', 'Relationship': 'marriage', 'Partner_2': 'with the lovely Susy'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.marriage.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    marriage.n
+frame:    Personal_relationship
+text:    She thought of the inevitable disdain with which her friend would react to the news that Constance had been seduced into a reckless marriage with a virtual stranger . 
+Target:    marriage 
+FE:    {'Partner_1': 'Constance', 'Relationship': 'marriage', 'Partner_2': 'with a virtual stranger'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.marriage.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    marriage.n
+frame:    Personal_relationship
+text:    Louis VII's marriage with Eleanor , duchess of Aquitaine , meant more royal charters for Poitou and Gascony ; his own political endeavours resulted in an increase for Berry and the Auvergne . 
+Target:    marriage 
+FE:    {'Partner_1': "Louis VII's", 'Relationship': 'marriage', 'Partner_2': 'with Eleanor , duchess of Aquitaine ,'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.marriage.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    marriage.n
+frame:    Personal_relationship
+text:    She felt the balance of her marriage with Bernard was thereby restored . 
+Target:    marriage 
+FE:    {'Partner_1': 'her', 'Relationship': 'marriage', 'Partner_2': 'with Bernard'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.marriage.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    marriage.n
+frame:    Personal_relationship
+text:    Nor , for that matter , of other building blocks in his character -- his collection of Flaubertiana , his love of cooking , his marriage to leading literary agent Pat Kavanagh . 
+Target:    marriage 
+FE:    {'Partner_1': 'his', 'Relationship': 'marriage', 'Partner_2': 'to leading literary agent Pat Kavanagh'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.marriage.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    lover.n
+frame:    Personal_relationship
+text:    ET wild child Drew Barrymore will star as Long Island Lolita in an American TV movie about the true story of a schoolgirl who shot her married lover 's wife . 
+Target:    lover 
+FE:    {'Partner_2': 'her', 'Depictive': 'married', 'Partner_1': 'lover'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.lover.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    lover.n
+frame:    Personal_relationship
+text:    He starred as playwright Joe Orton 's homosexual lover in Prick Up Your Ears , and will play Tony Hancock in a BBC1 television film to be shown in the autumn . 
+Target:    lover 
+FE:    {'Partner_2': "Joe Orton 's", 'Depictive': 'homosexual', 'Partner_1': 'lover'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.lover.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    court.v
+frame:    Personal_relationship
+text:    Women who are courted by men are , however , in greater danger of being deceived and exploited : 
+Target:    courted 
+FE:    {'Partner_2': 'who', 'Partner_1': 'by men'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.court.v
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    betrothed.a
+frame:    Personal_relationship
+text:    The putative father is one Mr Piers Jackson , an artist to whom the traditionally-minded Miss Jade is , of course , not betrothed . 
+Target:    betrothed 
+FE:    {'Partner_2': 'to whom', 'Partner_1': 'the traditionally-minded Miss Jade'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.betrothed.a
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    buddy.n
+frame:    Personal_relationship
+text:    It would always be the partner with a wife and kids who got shot down in the line of duty , giving his bachelor buddy the chance poignantly to break the news to his loved ones . 
+Target:    buddy 
+FE:    {'Partner_2': 'his', 'Depictive': 'bachelor', 'Partner_1': 'buddy'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.buddy.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    buddy.n
+frame:    Personal_relationship
+text:    A few paces away , Rocky raised an amused eyebrow as he recognised the unruffled drawl of his trucker buddy Chuck . 
+Target:    buddy 
+FE:    {'Partner_2': 'his', 'Depictive': 'trucker', 'Partner_1': 'Chuck'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.buddy.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    buddy.n
+frame:    Personal_relationship
+text:    On the other side of the highway the second of the big sixteen wheelers was parked , engine running and one of Rocky 's trucker buddies behind the wheel . 
+Target:    buddies 
+FE:    {'Partner_2': "Rocky 's", 'Depictive': 'trucker', 'Partner_1': 'buddies'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.buddy.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    buddy.n
+frame:    Personal_relationship
+text:    Howard 's friend and drinking buddy , William Holden , was less fortunate in his final moments . 
+Target:    buddy 
+FE:    {'Partner_2': "Howard 's", 'Depictive': 'drinking', 'Partner_1': 'William Holden'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.buddy.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    buddy.n
+frame:    Personal_relationship
+text:    His drinking buddies cheered and hooted . 
+Target:    buddies 
+FE:    {'Partner_2': 'His', 'Depictive': 'drinking', 'Partner_1': 'buddies'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.buddy.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    pal.n
+frame:    Personal_relationship
+text:    The American Ed Schuyler , the boxing correspondent of the Associated Press , and a long-time pal of McIlvanney , testifies to his uncommon zeal . 
+Target:    pal 
+FE:    {'Partner_1': 'pal', 'Duration': 'long-time', 'Partner_2': 'of McIlvanney'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.pal.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    mate.n
+frame:    Personal_relationship
+text:    Ask a scientist to do a scientist 's job -- not an overblown plumber 's mate . "
+Target:    mate 
+FE:    {'Depictive': 'overblown', 'Partner_2': "plumber 's", 'Partner_1': 'mate'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.mate.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    mate.n
+frame:    Personal_relationship
+text:    ` In Redruth to see an old mate of mine . "
+Target:    mate 
+FE:    {'Duration': 'old', 'Partner_1': 'mate', 'Partner_2': 'of mine'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.mate.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    mate.n
+frame:    Personal_relationship
+text:    I thought he was an old mate of Connon 's ? "
+Target:    mate 
+FE:    {'Partner_1': 'he', 'Duration': 'old', 'Partner_2': "of Connon 's"}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.mate.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    mate.n
+frame:    Personal_relationship
+text:    Now why do n't you take your croaky-faced mate and sod off back to boring boxed set land and bother the world no more !
+Target:    mate 
+FE:    {'Partner_2': 'your', 'Depictive': 'croaky-faced', 'Partner_1': 'mate'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.mate.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    mate.n
+frame:    Personal_relationship
+text:    ` I 'm Derek Beasley , an old mate of Jim 's from college , " the man murmured .
+Target:    mate 
+FE:    {'Partner_1': 'Derek Beasley', 'Duration': 'old', 'Partner_2': "of Jim 's", 'Source_of_relationship': 'from college'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.mate.n
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    chummy.a
+frame:    Personal_relationship
+text:    ` They were always too chummy with the O'Malleys for my likin' . " 
+Target:    chummy 
+FE:    {'Partner_1': 'They', 'Degree': 'too', 'Partner_2': "with the O'Malleys"}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.chummy.a
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    chummy.a
+frame:    Personal_relationship
+text:    Diana was so chummy with him she even used to iron his shirts . 
+Target:    chummy 
+FE:    {'Partner_1': 'Diana', 'Degree': 'she even used to iron his shirts', 'Partner_2': 'with him'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.chummy.a
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    chummy.a
+frame:    Personal_relationship
+text:    The woman leaned across her typewriter and flashed a smile so chummy it was almost a grin . 
+Target:    chummy 
+FE:    {'Depictive': 'a smile', 'Degree': 'it was almost a grin'}
+
+====================================================================================================
+
+?_x ?_p Personal_relationship.?_lu
+_GENERAL     -- positive ->     Personal_relationship.chummy.a
+
+----------------------------------------------------------------------------------------------------
+

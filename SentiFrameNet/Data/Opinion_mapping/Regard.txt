@@ -1,260 +1,230 @@
 ########################################################################################################################
+
 lu:    appreciate.v
 frame:    Regard
 text:    While I appreciate U.S. News and World Report 's endorsement , the true value of your support is measured by the way Goodwill takes on problems that affect all of us .
 Target:    appreciate 
 FE:    {'Cognizer': 'I', 'Judgment': 'appreciate', 'Evaluee': "U.S. News and World Report 's endorsement"}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Regard.?_lu
+_GENERAL     -- positive ->     Regard.appreciate.v
+
+----------------------------------------------------------------------------------------------------
+
 Regard.Cognizer ?_p Regard.Evaluee
 I     -- positive ->     U.S. News and World Report 's endorsement
+
 ----------------------------------------------------------------------------------------------------
-Regard.Cognizer ?_p ?_t
-I     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Regard.Evaluee
 _SOMEONE     -- positive ->     U.S. News and World Report 's endorsement
+
 ----------------------------------------------------------------------------------------------------
+
+Regard.Cognizer ?_p ?_t
+I     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    regard.n
 frame:    Regard
 text:    Chief executive Derek Hunt said : ` We have a high regard for Carpertright and a good commercial relationship with the company , which we expect to continue . "
 Target:    regard 
 FE:    {'Cognizer': 'We', 'Judgment': 'high', 'Evaluee': 'for Carpertright'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Regard.?_lu
+_GENERAL     -- positive ->     Regard.regard.n
+
+----------------------------------------------------------------------------------------------------
+
 Regard.Cognizer ?_p Regard.Evaluee
 We     -- positive ->     for Carpertright
+
 ----------------------------------------------------------------------------------------------------
-Regard.Cognizer ?_p ?_t
-We     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Regard.Evaluee
 _SOMEONE     -- positive ->     for Carpertright
+
 ----------------------------------------------------------------------------------------------------
+
+Regard.Cognizer ?_p ?_t
+We     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    regard.v
 frame:    Regard
 text:    A final statement yesterday said : `` While some advances are being made in nations throughout the hemisphere , the state of press freedom in the Americas still must be regarded as grim as long as journalists and their families are subject to the crudest form of censorship : death by assassination . ''
 Target:    regarded 
 FE:    {'Evaluee': 'the state of press freedom in the Americas', 'Judgment': 'as grim', 'Explanation': 'as long as journalists and their families are subject to the crudest form of censorship : death by assassination'}
-FE_unexpr:    {'Cognizer': 'CNI'}
+
 ====================================================================================================
+
+?_x ?_p Regard.?_lu
+_GENERAL     -- positive ->     Regard.regard.v
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Regard.Evaluee
 _SOMEONE     -- positive ->     the state of press freedom in the Americas
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    opinion.n
 frame:    Regard
 text:    `` The result is a generation of young people whose ignorance and intellectual incompetence is matched only by their good opinion of themselves .
 Target:    opinion 
 FE:    {'Cognizer': 'their', 'Judgment': 'good', 'Evaluee': 'of themselves'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Regard.?_lu
+_GENERAL     -- negative ->    Regard.opinion.n
+
+----------------------------------------------------------------------------------------------------
+
 Regard.Cognizer ?_p Regard.Evaluee
 their     -- negative ->    of themselves
+
 ----------------------------------------------------------------------------------------------------
-Regard.Cognizer ?_p ?_t
-their     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Regard.Evaluee
 _SOMEONE     -- negative ->    of themselves
+
 ----------------------------------------------------------------------------------------------------
+
+Regard.Cognizer ?_p ?_t
+their     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    think.v
 frame:    Regard
 text:    " Come , come , " said Baynes cheerily , " I think better of the law than that .
 Target:    think 
 FE:    {'Cognizer': 'I', 'Judgment': 'than that .', 'Evaluee': 'of the law'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Regard.?_lu
+_GENERAL     -- positive ->     Regard.think.v
+
+----------------------------------------------------------------------------------------------------
+
 Regard.Cognizer ?_p Regard.Evaluee
 I     -- positive ->     of the law
+
 ----------------------------------------------------------------------------------------------------
-Regard.Cognizer ?_p ?_t
-I     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Regard.Evaluee
 _SOMEONE     -- positive ->     of the law
+
 ----------------------------------------------------------------------------------------------------
+
+Regard.Cognizer ?_p ?_t
+I     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    appreciate.v
 frame:    Regard
 text:    While I appreciate U.S. News and World Report 's endorsement , the true value of your support is measured by the way Goodwill takes on problems that affect all of us .
 Target:    appreciate 
 FE:    {'Cognizer': 'I', 'Judgment': 'appreciate', 'Evaluee': "U.S. News and World Report 's endorsement"}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Regard.?_lu
+_GENERAL     -- positive ->     Regard.appreciate.v
+
+----------------------------------------------------------------------------------------------------
+
 Regard.Cognizer ?_p Regard.Evaluee
 I     -- positive ->     U.S. News and World Report 's endorsement
+
 ----------------------------------------------------------------------------------------------------
-Regard.Cognizer ?_p ?_t
-I     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Regard.Evaluee
 _SOMEONE     -- positive ->     U.S. News and World Report 's endorsement
+
 ----------------------------------------------------------------------------------------------------
+
+Regard.Cognizer ?_p ?_t
+I     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    find.v
 frame:    Regard
 text:    Examples of franglais which they find particularly monstrous are , I hear , to be condemned to a newly created `` Musée des horreurs . ''
 Target:    find 
 FE:    {'Evaluee': 'which', 'Cognizer': 'they', 'Judgment': 'particularly monstrous'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Regard.?_lu
+_GENERAL     -- positive ->     Regard.find.v
+
+----------------------------------------------------------------------------------------------------
+
 Regard.Cognizer ?_p Regard.Evaluee
 they     -- positive ->     which
+
 ----------------------------------------------------------------------------------------------------
-Regard.Cognizer ?_p ?_t
-they     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Regard.Evaluee
 _SOMEONE     -- positive ->     which
+
 ----------------------------------------------------------------------------------------------------
+
+Regard.Cognizer ?_p ?_t
+they     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    find.v
 frame:    Regard
 text:    If anyone finds the above paragraph startling , you 're welcome to write to me for clarification .
 Target:    finds 
 FE:    {'Cognizer': 'anyone', 'Evaluee': 'the above paragraph', 'Judgment': 'startling'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Regard.?_lu
+_GENERAL     -- positive ->     Regard.find.v
+
+----------------------------------------------------------------------------------------------------
+
 Regard.Cognizer ?_p Regard.Evaluee
 anyone     -- positive ->     the above paragraph
+
 ----------------------------------------------------------------------------------------------------
-Regard.Cognizer ?_p ?_t
-anyone     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Regard.Evaluee
 _SOMEONE     -- positive ->     the above paragraph
+
 ----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    appreciate.v
-frame:    Regard
-text:    While I appreciate U.S. News and World Report 's endorsement , the true value of your support is measured by the way Goodwill takes on problems that affect all of us .
-Target:    appreciate 
-FE:    {'Cognizer': 'I', 'Judgment': 'appreciate', 'Evaluee': "U.S. News and World Report 's endorsement"}
-FE_unexpr:    {}
-====================================================================================================
-Regard.Cognizer ?_p Regard.Evaluee
-I     -- positive ->     U.S. News and World Report 's endorsement
-----------------------------------------------------------------------------------------------------
-Regard.Cognizer ?_p ?_t
-I     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- positive ->     U.S. News and World Report 's endorsement
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    regard.n
-frame:    Regard
-text:    Chief executive Derek Hunt said : ` We have a high regard for Carpertright and a good commercial relationship with the company , which we expect to continue . "
-Target:    regard 
-FE:    {'Cognizer': 'We', 'Judgment': 'high', 'Evaluee': 'for Carpertright'}
-FE_unexpr:    {}
-====================================================================================================
-Regard.Cognizer ?_p Regard.Evaluee
-We     -- positive ->     for Carpertright
-----------------------------------------------------------------------------------------------------
-Regard.Cognizer ?_p ?_t
-We     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- positive ->     for Carpertright
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    regard.v
-frame:    Regard
-text:    A final statement yesterday said : `` While some advances are being made in nations throughout the hemisphere , the state of press freedom in the Americas still must be regarded as grim as long as journalists and their families are subject to the crudest form of censorship : death by assassination . ''
-Target:    regarded 
-FE:    {'Evaluee': 'the state of press freedom in the Americas', 'Judgment': 'as grim', 'Explanation': 'as long as journalists and their families are subject to the crudest form of censorship : death by assassination'}
-FE_unexpr:    {'Cognizer': 'CNI'}
-====================================================================================================
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- positive ->     the state of press freedom in the Americas
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    opinion.n
-frame:    Regard
-text:    `` The result is a generation of young people whose ignorance and intellectual incompetence is matched only by their good opinion of themselves .
-Target:    opinion 
-FE:    {'Cognizer': 'their', 'Judgment': 'good', 'Evaluee': 'of themselves'}
-FE_unexpr:    {}
-====================================================================================================
-Regard.Cognizer ?_p Regard.Evaluee
-their     -- negative ->    of themselves
-----------------------------------------------------------------------------------------------------
-Regard.Cognizer ?_p ?_t
-their     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- negative ->    of themselves
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    think.v
-frame:    Regard
-text:    " Come , come , " said Baynes cheerily , " I think better of the law than that .
-Target:    think 
-FE:    {'Cognizer': 'I', 'Judgment': 'than that .', 'Evaluee': 'of the law'}
-FE_unexpr:    {}
-====================================================================================================
-Regard.Cognizer ?_p Regard.Evaluee
-I     -- positive ->     of the law
-----------------------------------------------------------------------------------------------------
-Regard.Cognizer ?_p ?_t
-I     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- positive ->     of the law
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    appreciate.v
-frame:    Regard
-text:    While I appreciate U.S. News and World Report 's endorsement , the true value of your support is measured by the way Goodwill takes on problems that affect all of us .
-Target:    appreciate 
-FE:    {'Cognizer': 'I', 'Judgment': 'appreciate', 'Evaluee': "U.S. News and World Report 's endorsement"}
-FE_unexpr:    {}
-====================================================================================================
-Regard.Cognizer ?_p Regard.Evaluee
-I     -- positive ->     U.S. News and World Report 's endorsement
-----------------------------------------------------------------------------------------------------
-Regard.Cognizer ?_p ?_t
-I     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- positive ->     U.S. News and World Report 's endorsement
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    find.v
-frame:    Regard
-text:    Examples of franglais which they find particularly monstrous are , I hear , to be condemned to a newly created `` Musée des horreurs . ''
-Target:    find 
-FE:    {'Evaluee': 'which', 'Cognizer': 'they', 'Judgment': 'particularly monstrous'}
-FE_unexpr:    {}
-====================================================================================================
-Regard.Cognizer ?_p Regard.Evaluee
-they     -- positive ->     which
-----------------------------------------------------------------------------------------------------
-Regard.Cognizer ?_p ?_t
-they     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- positive ->     which
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    find.v
-frame:    Regard
-text:    If anyone finds the above paragraph startling , you 're welcome to write to me for clarification .
-Target:    finds 
-FE:    {'Cognizer': 'anyone', 'Evaluee': 'the above paragraph', 'Judgment': 'startling'}
-FE_unexpr:    {}
-====================================================================================================
-Regard.Cognizer ?_p Regard.Evaluee
-anyone     -- positive ->     the above paragraph
-----------------------------------------------------------------------------------------------------
+
 Regard.Cognizer ?_p ?_t
 anyone     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- positive ->     the above paragraph
-----------------------------------------------------------------------------------------------------
+

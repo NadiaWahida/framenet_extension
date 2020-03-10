@@ -1,188 +1,200 @@
 ########################################################################################################################
+
 lu:    commendable.a
 frame:    Praiseworthiness
 text:    ` That 's very commendable of you , Mrs Morey , " said Daniel . 
 Target:    commendable 
 FE:    {'Behavior': 'That', 'Degree': 'very', 'Evaluee': 'of you'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+Praiseworthiness.Evaluee ?_p Praiseworthiness.Behavior
+of you     -- positive ->     That
+
+----------------------------------------------------------------------------------------------------
+
+?_x ?_p Praiseworthiness.?_lu
+_GENERAL     -- positive ->     Praiseworthiness.commendable.a
+
+----------------------------------------------------------------------------------------------------
+
+Praiseworthiness.Evaluee ?_p ?_t
+of you     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Praiseworthiness.Behavior
 _SOMEONE     -- positive ->     That
+
 ----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Praiseworthiness.Evaluee
 _SOMEONE     -- positive ->     of you
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    praiseworthy.a
 frame:    Praiseworthiness
 text:    Ferguson 's promise was more praiseworthy than pondering how much Germany might have been holding in reserve . 
 Target:    praiseworthy 
 FE:    {'Behavior': "Ferguson 's promise", 'Degree': 'than pondering how much Germany might have been holding in reserve'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Praiseworthiness.?_lu
+_GENERAL     -- positive ->     Praiseworthiness.praiseworthy.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Praiseworthiness.Behavior
 _SOMEONE     -- positive ->     Ferguson 's promise
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    commendable.a
 frame:    Praiseworthiness
 text:    ` That 's very commendable of you , Mrs Morey , " said Daniel . 
 Target:    commendable 
 FE:    {'Behavior': 'That', 'Degree': 'very', 'Evaluee': 'of you'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+Praiseworthiness.Evaluee ?_p Praiseworthiness.Behavior
+of you     -- positive ->     That
+
+----------------------------------------------------------------------------------------------------
+
+?_x ?_p Praiseworthiness.?_lu
+_GENERAL     -- positive ->     Praiseworthiness.commendable.a
+
+----------------------------------------------------------------------------------------------------
+
+Praiseworthiness.Evaluee ?_p ?_t
+of you     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Praiseworthiness.Behavior
 _SOMEONE     -- positive ->     That
+
 ----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Praiseworthiness.Evaluee
 _SOMEONE     -- positive ->     of you
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    blameworthy.a
 frame:    Praiseworthiness
 text:    Are persons who inflict physical or sexual assault in the domestic context really less blameworthy than their counterparts on the street ? 
 Target:    blameworthy 
 FE:    {'Evaluee': 'persons who inflict physical or sexual assault in the domestic context', 'Degree': 'than their counterparts on the street'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Praiseworthiness.?_lu
+_GENERAL     -- negative ->    Praiseworthiness.blameworthy.a
+
+----------------------------------------------------------------------------------------------------
+
+Praiseworthiness.Evaluee ?_p ?_t
+persons who inflict physical or sexual assault in the domestic context     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Praiseworthiness.Evaluee
 _SOMEONE     -- negative ->    persons who inflict physical or sexual assault in the domestic context
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    admirable.a
 frame:    Praiseworthiness
 text:    Those who wish to pursue the matter further can readily turn to specialist books or to such admirable general works as Geoffrey Ashall Glaisher 's Glossary of the Book ( first published 1960 and recently reissued ) . 
 Target:    admirable 
 FE:    {'Degree': "as Geoffrey Ashall Glaisher 's Glossary of the Book ( first published 1960 and recently reissued )", 'Behavior': 'general works'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Praiseworthiness.?_lu
+_GENERAL     -- positive ->     Praiseworthiness.admirable.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Praiseworthiness.Behavior
 _SOMEONE     -- positive ->     general works
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    admirable.a
 frame:    Praiseworthiness
 text:    He was more formidable and , leaving aside the way he had treated her , more admirable in so many other ways than any man she had ever encountered . 
 Target:    admirable 
 FE:    {'Degree': 'than any man she had ever encountered', 'Behavior': 'in so many other ways'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Praiseworthiness.?_lu
+_GENERAL     -- positive ->     Praiseworthiness.admirable.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Praiseworthiness.Behavior
 _SOMEONE     -- positive ->     in so many other ways
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    pitiable.a
 frame:    Praiseworthiness
 text:    James had done training under Dr John Conolly at Hanwell , the Middlesex County pauper lunatic asylum , and to him the insane were the most pitiable of all human flotsam . 
 Target:    pitiable 
 FE:    {'Evaluee': 'the insane', 'Degree': 'of all human flotsam'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Praiseworthiness.?_lu
+_GENERAL     -- negative ->    Praiseworthiness.pitiable.a
+
+----------------------------------------------------------------------------------------------------
+
+Praiseworthiness.Evaluee ?_p ?_t
+the insane     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Praiseworthiness.Evaluee
 _SOMEONE     -- negative ->    the insane
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    creditable.a
 frame:    Praiseworthiness
 text:    Charles is right ; there are others in the town who have done well for themselves , sometimes by methods less creditable than the undertaker 's , and they 're highly thought of . 
 Target:    creditable 
 FE:    {'Behavior': 'methods', 'Degree': "than the undertaker 's"}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Praiseworthiness.?_lu
+_GENERAL     -- positive ->     Praiseworthiness.creditable.a
+
+----------------------------------------------------------------------------------------------------
+
 ?_s ?_p Praiseworthiness.Behavior
 _SOMEONE     -- positive ->     methods
+
 ----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    commendable.a
-frame:    Praiseworthiness
-text:    ` That 's very commendable of you , Mrs Morey , " said Daniel . 
-Target:    commendable 
-FE:    {'Behavior': 'That', 'Degree': 'very', 'Evaluee': 'of you'}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Praiseworthiness.Behavior
-_SOMEONE     -- positive ->     That
-----------------------------------------------------------------------------------------------------
-?_s ?_p Praiseworthiness.Evaluee
-_SOMEONE     -- positive ->     of you
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    praiseworthy.a
-frame:    Praiseworthiness
-text:    Ferguson 's promise was more praiseworthy than pondering how much Germany might have been holding in reserve . 
-Target:    praiseworthy 
-FE:    {'Behavior': "Ferguson 's promise", 'Degree': 'than pondering how much Germany might have been holding in reserve'}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Praiseworthiness.Behavior
-_SOMEONE     -- positive ->     Ferguson 's promise
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    commendable.a
-frame:    Praiseworthiness
-text:    ` That 's very commendable of you , Mrs Morey , " said Daniel . 
-Target:    commendable 
-FE:    {'Behavior': 'That', 'Degree': 'very', 'Evaluee': 'of you'}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Praiseworthiness.Behavior
-_SOMEONE     -- positive ->     That
-----------------------------------------------------------------------------------------------------
-?_s ?_p Praiseworthiness.Evaluee
-_SOMEONE     -- positive ->     of you
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    blameworthy.a
-frame:    Praiseworthiness
-text:    Are persons who inflict physical or sexual assault in the domestic context really less blameworthy than their counterparts on the street ? 
-Target:    blameworthy 
-FE:    {'Evaluee': 'persons who inflict physical or sexual assault in the domestic context', 'Degree': 'than their counterparts on the street'}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Praiseworthiness.Evaluee
-_SOMEONE     -- negative ->    persons who inflict physical or sexual assault in the domestic context
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    admirable.a
-frame:    Praiseworthiness
-text:    Those who wish to pursue the matter further can readily turn to specialist books or to such admirable general works as Geoffrey Ashall Glaisher 's Glossary of the Book ( first published 1960 and recently reissued ) . 
-Target:    admirable 
-FE:    {'Degree': "as Geoffrey Ashall Glaisher 's Glossary of the Book ( first published 1960 and recently reissued )", 'Behavior': 'general works'}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Praiseworthiness.Behavior
-_SOMEONE     -- positive ->     general works
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    admirable.a
-frame:    Praiseworthiness
-text:    He was more formidable and , leaving aside the way he had treated her , more admirable in so many other ways than any man she had ever encountered . 
-Target:    admirable 
-FE:    {'Degree': 'than any man she had ever encountered', 'Behavior': 'in so many other ways'}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Praiseworthiness.Behavior
-_SOMEONE     -- positive ->     in so many other ways
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    pitiable.a
-frame:    Praiseworthiness
-text:    James had done training under Dr John Conolly at Hanwell , the Middlesex County pauper lunatic asylum , and to him the insane were the most pitiable of all human flotsam . 
-Target:    pitiable 
-FE:    {'Evaluee': 'the insane', 'Degree': 'of all human flotsam'}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Praiseworthiness.Evaluee
-_SOMEONE     -- negative ->    the insane
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    creditable.a
-frame:    Praiseworthiness
-text:    Charles is right ; there are others in the town who have done well for themselves , sometimes by methods less creditable than the undertaker 's , and they 're highly thought of . 
-Target:    creditable 
-FE:    {'Behavior': 'methods', 'Degree': "than the undertaker 's"}
-FE_unexpr:    {}
-====================================================================================================
-?_s ?_p Praiseworthiness.Behavior
-_SOMEONE     -- positive ->     methods
-----------------------------------------------------------------------------------------------------
+

@@ -1,51 +1,25 @@
 ########################################################################################################################
+
 lu:    bear.v
 frame:    Tolerating
 text:    " We can imagine that in the confusion of flight something precious , something which he could not bear to part with , had been left behind .
 Target:    bear 
 FE:    {'Content': 'to part with ,', 'Experiencer': 'he'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
 Tolerating.Experiencer neg Tolerating.Content
 he     -- negative ->    to part with ,
+
 ----------------------------------------------------------------------------------------------------
-?_s neg Tolerating.Content
-_SOMEONE     -- negative ->    to part with ,
-----------------------------------------------------------------------------------------------------
+
 Tolerating.Experiencer neg ?_t
 he     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    bear.v
-frame:    Tolerating
-text:    " We can imagine that in the confusion of flight something precious , something which he could not bear to part with , had been left behind .
-Target:    bear 
-FE:    {'Content': 'to part with ,', 'Experiencer': 'he'}
-FE_unexpr:    {}
-====================================================================================================
-Tolerating.Experiencer neg Tolerating.Content
-he     -- negative ->    to part with ,
-----------------------------------------------------------------------------------------------------
+
 ?_s neg Tolerating.Content
 _SOMEONE     -- negative ->    to part with ,
+
 ----------------------------------------------------------------------------------------------------
-Tolerating.Experiencer neg ?_t
-he     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    bear.v
-frame:    Tolerating
-text:    " We can imagine that in the confusion of flight something precious , something which he could not bear to part with , had been left behind .
-Target:    bear 
-FE:    {'Content': 'to part with ,', 'Experiencer': 'he'}
-FE_unexpr:    {}
-====================================================================================================
-Tolerating.Experiencer neg Tolerating.Content
-he     -- negative ->    to part with ,
-----------------------------------------------------------------------------------------------------
-?_s neg Tolerating.Content
-_SOMEONE     -- negative ->    to part with ,
-----------------------------------------------------------------------------------------------------
-Tolerating.Experiencer neg ?_t
-he     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
+

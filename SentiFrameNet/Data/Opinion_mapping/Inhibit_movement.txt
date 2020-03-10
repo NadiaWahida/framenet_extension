@@ -1,572 +1,520 @@
 ########################################################################################################################
+
 lu:    confine.v
 frame:    Inhibit_movement
 text:    Traps should wither kill them instantly or confine them for release elsewhere . 
 Target:    confine 
 FE:    {'Agent': 'Traps', 'Theme': 'them', 'Holding_location': 'for release elsewhere'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- positive ->     Inhibit_movement.confine.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 Traps     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    confine.v
 frame:    Inhibit_movement
 text:    He confined 340 mutineers in Burford Church for the next three days under general sentence of death . 
 Target:    confined 
 FE:    {'Agent': 'He', 'Theme': '340 mutineers', 'Holding_location': 'in Burford Church', 'Duration': 'for the next three days', 'Means': 'under general sentence of death'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- positive ->     Inhibit_movement.confine.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 He     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    confine.v
 frame:    Inhibit_movement
 text:    The Byzantines confined it , for a period , to an area of the Black Sea coast in what is now Bulgaria . 
 Target:    confined 
 FE:    {'Agent': 'The Byzantines', 'Theme': 'it', 'Duration': 'for a period', 'Holding_location': 'to an area of the Black Sea coast in what is now Bulgaria'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- positive ->     Inhibit_movement.confine.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 The Byzantines     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    confine.v
 frame:    Inhibit_movement
 text:    My senses took me through the bars that confined me . 
 Target:    confined 
 FE:    {'Agent': 'that', 'Theme': 'me'}
-FE_unexpr:    {'Holding_location': 'DNI'}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- positive ->     Inhibit_movement.confine.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 that     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    confine.v
 frame:    Inhibit_movement
 text:    I have deliberately confined most of the detailed consideration in this study to the north bank of the Tyne . 
 Target:    confined 
 FE:    {'Agent': 'I', 'Purpose': 'deliberately', 'Theme': 'most of the detailed consideration in this study', 'Holding_location': 'to the north bank of the Tyne'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- positive ->     Inhibit_movement.confine.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 I     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    confine.v
 frame:    Inhibit_movement
 text:    The Royal Commission on Police Powers would have confined this to " grave offences . " 
 Target:    confined 
 FE:    {'Agent': 'The Royal Commission on Police', 'Theme': 'this', 'Holding_location': 'to " grave offences'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- positive ->     Inhibit_movement.confine.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 The Royal Commission on Police     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    confine.v
 frame:    Inhibit_movement
 text:    ` Especially as once we start , we can never confine ourselves to just kissing , " Luke quipped with harsh humour , and paused . 
 Target:    confine 
 FE:    {'Agent': 'we', 'Theme': 'ourselves', 'Holding_location': 'to just kissing'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- positive ->     Inhibit_movement.confine.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 we     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    confine.v
 frame:    Inhibit_movement
 text:    And my people , the men and maidservants who came running , he confined as you see , each in a glass bottle , and finally closed me into the glass coffin in which you found me . 
 Target:    confined 
 FE:    {'Theme': 'my people , the men and maidservants who came running ,', 'Agent': 'he', 'Holding_location': 'in a glass bottle'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- positive ->     Inhibit_movement.confine.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 he     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    They 'd locked him in a dirty little hole with a bed you would n't put a dog under . 
 Target:    locked 
 FE:    {'Agent': 'They', 'Theme': 'him', 'Holding_location': 'in a dirty little hole'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 They     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    They made the girl go back to Baskerville Hall with them , and locked her in a room upstairs . 
 Target:    locked 
 FE:    {'Agent': 'They', 'Theme': 'her', 'Holding_location': 'in a room upstairs'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 They     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    He locked himself in his private room and by 10.20 a.m. he had made two phone calls . 
 Target:    locked 
 FE:    {'Agent': 'He', 'Theme': 'himself', 'Holding_location': 'in his private room'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 He     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    They put pins in their chairs , threw their clothes out of the window and locked them in the bathroom . 
 Target:    locked 
 FE:    {'Agent': 'They', 'Theme': 'them', 'Holding_location': 'in the bathroom'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 They     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    A BANK clerk was praised by police yesterday after she calmly locked a masked gunman inside the branch he was trying to rob . 
 Target:    locked 
 FE:    {'Agent': 'she', 'Theme': 'a masked gunman', 'Holding_location': 'inside the branch he was trying to rob'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 she     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    He once locked two visiting American soldiers inside the cathedral one evening and promised to come to let them out in half an hour but forgot to come . 
 Target:    locked 
 FE:    {'Agent': 'He', 'Theme': 'two visiting American soldiers', 'Holding_location': 'inside the cathedral'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 He     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    India-May locked Lumberjack inside the house . 
 Target:    locked 
 FE:    {'Agent': 'India-May', 'Theme': 'Lumberjack', 'Holding_location': 'inside the house'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 India-May     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    He tossed the Colt Python onto the front seat then locked the keys inside the police car . 
 Target:    locked 
 FE:    {'Agent': 'He', 'Theme': 'the keys', 'Holding_location': 'inside the police car'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 He     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    He then placed the ledger on top , and locked the articles into the sturdy cupboard beside the chimney breast . 
 Target:    locked 
 FE:    {'Agent': 'He', 'Theme': 'the articles', 'Holding_location': 'into the sturdy cupboard beside the chimney breast'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 He     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    I locked myself for two days and nights in my room without food or water or sleep . 
 Target:    locked 
 FE:    {'Agent': 'I', 'Theme': 'myself', 'Duration': 'for two days and nights', 'Holding_location': 'in my room'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 I     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    ` Are you saying you locked my mother in here ? " she demanded . 
 Target:    locked 
 FE:    {'Agent': 'you', 'Theme': 'my mother', 'Holding_location': 'in here'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 you     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    ` She locked my mother in here years ago -- threatened her . 
 Target:    locked 
 FE:    {'Agent': 'She', 'Theme': 'my mother', 'Holding_location': 'in here', 'Time': 'years ago'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 She     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    Later she locked it away in her own empty suitcase , a place where she was sure even Giovanna would never find it . 
 Target:    locked 
 FE:    {'Agent': 'she', 'Theme': 'it', 'Holding_location': 'in her own empty suitcase'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 she     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    And I 'm still waiting for you to explain why you locked me in here . " 
 Target:    locked 
 FE:    {'Agent': 'you', 'Theme': 'me', 'Holding_location': 'in here'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 you     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    You do n't want to lock your pictures away in a vault , so you make a vault of the room they 're in . 
 Target:    lock 
 FE:    {'Agent': 'You', 'Theme': 'your pictures', 'Holding_location': 'in a vault'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 You     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    lock.v
 frame:    Inhibit_movement
 text:    Mira falls asleep and dreams luridly about Celia whose father keeps her locked in a room in a castle , and will not feed her . 
 Target:    locked 
 FE:    {'Agent': 'father', 'Theme': 'her', 'Holding_location': 'in a room in a castle'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- negative ->    Inhibit_movement.lock.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 father     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    hold.v
 frame:    Inhibit_movement
 text:    The United Nations says Somali gunmen who hijacked a U.N. - chartered vessel carrying food aid for tsunami victims have released the ship after holding it for more than two months .
 Target:    holding 
 FE:    {'Agent': 'Somali gunmen who hijacked a U.N. - chartered vessel carrying food aid for tsunami victims', 'Theme': 'it', 'Duration': 'for more than two months'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- positive ->     Inhibit_movement.hold.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 Somali gunmen who hijacked a U.N. - chartered vessel carrying food aid for tsunami victims     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    hold.v
 frame:    Inhibit_movement
 text:    The United Nations says Somali gunmen who hijacked a U.N. - chartered vessel carrying food aid for tsunami victims have released the ship after holding it for more than two months .
 Target:    holding 
 FE:    {'Agent': 'Somali gunmen who hijacked a U.N. - chartered vessel carrying food aid for tsunami victims', 'Theme': 'it', 'Duration': 'for more than two months'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x ?_p Inhibit_movement.?_lu
+_GENERAL     -- positive ->     Inhibit_movement.hold.v
+
+----------------------------------------------------------------------------------------------------
+
 Inhibit_movement.Agent ?_p ?_t
 Somali gunmen who hijacked a U.N. - chartered vessel carrying food aid for tsunami victims     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    confine.v
-frame:    Inhibit_movement
-text:    Traps should wither kill them instantly or confine them for release elsewhere . 
-Target:    confine 
-FE:    {'Agent': 'Traps', 'Theme': 'them', 'Holding_location': 'for release elsewhere'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-Traps     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    confine.v
-frame:    Inhibit_movement
-text:    He confined 340 mutineers in Burford Church for the next three days under general sentence of death . 
-Target:    confined 
-FE:    {'Agent': 'He', 'Theme': '340 mutineers', 'Holding_location': 'in Burford Church', 'Duration': 'for the next three days', 'Means': 'under general sentence of death'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-He     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    confine.v
-frame:    Inhibit_movement
-text:    The Byzantines confined it , for a period , to an area of the Black Sea coast in what is now Bulgaria . 
-Target:    confined 
-FE:    {'Agent': 'The Byzantines', 'Theme': 'it', 'Duration': 'for a period', 'Holding_location': 'to an area of the Black Sea coast in what is now Bulgaria'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-The Byzantines     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    confine.v
-frame:    Inhibit_movement
-text:    My senses took me through the bars that confined me . 
-Target:    confined 
-FE:    {'Agent': 'that', 'Theme': 'me'}
-FE_unexpr:    {'Holding_location': 'DNI'}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-that     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    confine.v
-frame:    Inhibit_movement
-text:    I have deliberately confined most of the detailed consideration in this study to the north bank of the Tyne . 
-Target:    confined 
-FE:    {'Agent': 'I', 'Purpose': 'deliberately', 'Theme': 'most of the detailed consideration in this study', 'Holding_location': 'to the north bank of the Tyne'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-I     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    confine.v
-frame:    Inhibit_movement
-text:    The Royal Commission on Police Powers would have confined this to " grave offences . " 
-Target:    confined 
-FE:    {'Agent': 'The Royal Commission on Police', 'Theme': 'this', 'Holding_location': 'to " grave offences'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-The Royal Commission on Police     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    confine.v
-frame:    Inhibit_movement
-text:    ` Especially as once we start , we can never confine ourselves to just kissing , " Luke quipped with harsh humour , and paused . 
-Target:    confine 
-FE:    {'Agent': 'we', 'Theme': 'ourselves', 'Holding_location': 'to just kissing'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-we     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    confine.v
-frame:    Inhibit_movement
-text:    And my people , the men and maidservants who came running , he confined as you see , each in a glass bottle , and finally closed me into the glass coffin in which you found me . 
-Target:    confined 
-FE:    {'Theme': 'my people , the men and maidservants who came running ,', 'Agent': 'he', 'Holding_location': 'in a glass bottle'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-he     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    They 'd locked him in a dirty little hole with a bed you would n't put a dog under . 
-Target:    locked 
-FE:    {'Agent': 'They', 'Theme': 'him', 'Holding_location': 'in a dirty little hole'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-They     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    They made the girl go back to Baskerville Hall with them , and locked her in a room upstairs . 
-Target:    locked 
-FE:    {'Agent': 'They', 'Theme': 'her', 'Holding_location': 'in a room upstairs'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-They     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    He locked himself in his private room and by 10.20 a.m. he had made two phone calls . 
-Target:    locked 
-FE:    {'Agent': 'He', 'Theme': 'himself', 'Holding_location': 'in his private room'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-He     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    They put pins in their chairs , threw their clothes out of the window and locked them in the bathroom . 
-Target:    locked 
-FE:    {'Agent': 'They', 'Theme': 'them', 'Holding_location': 'in the bathroom'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-They     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    A BANK clerk was praised by police yesterday after she calmly locked a masked gunman inside the branch he was trying to rob . 
-Target:    locked 
-FE:    {'Agent': 'she', 'Theme': 'a masked gunman', 'Holding_location': 'inside the branch he was trying to rob'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-she     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    He once locked two visiting American soldiers inside the cathedral one evening and promised to come to let them out in half an hour but forgot to come . 
-Target:    locked 
-FE:    {'Agent': 'He', 'Theme': 'two visiting American soldiers', 'Holding_location': 'inside the cathedral'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-He     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    India-May locked Lumberjack inside the house . 
-Target:    locked 
-FE:    {'Agent': 'India-May', 'Theme': 'Lumberjack', 'Holding_location': 'inside the house'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-India-May     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    He tossed the Colt Python onto the front seat then locked the keys inside the police car . 
-Target:    locked 
-FE:    {'Agent': 'He', 'Theme': 'the keys', 'Holding_location': 'inside the police car'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-He     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    He then placed the ledger on top , and locked the articles into the sturdy cupboard beside the chimney breast . 
-Target:    locked 
-FE:    {'Agent': 'He', 'Theme': 'the articles', 'Holding_location': 'into the sturdy cupboard beside the chimney breast'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-He     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    I locked myself for two days and nights in my room without food or water or sleep . 
-Target:    locked 
-FE:    {'Agent': 'I', 'Theme': 'myself', 'Duration': 'for two days and nights', 'Holding_location': 'in my room'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-I     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    ` Are you saying you locked my mother in here ? " she demanded . 
-Target:    locked 
-FE:    {'Agent': 'you', 'Theme': 'my mother', 'Holding_location': 'in here'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-you     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    ` She locked my mother in here years ago -- threatened her . 
-Target:    locked 
-FE:    {'Agent': 'She', 'Theme': 'my mother', 'Holding_location': 'in here', 'Time': 'years ago'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-She     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    Later she locked it away in her own empty suitcase , a place where she was sure even Giovanna would never find it . 
-Target:    locked 
-FE:    {'Agent': 'she', 'Theme': 'it', 'Holding_location': 'in her own empty suitcase'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-she     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    And I 'm still waiting for you to explain why you locked me in here . " 
-Target:    locked 
-FE:    {'Agent': 'you', 'Theme': 'me', 'Holding_location': 'in here'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-you     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    You do n't want to lock your pictures away in a vault , so you make a vault of the room they 're in . 
-Target:    lock 
-FE:    {'Agent': 'You', 'Theme': 'your pictures', 'Holding_location': 'in a vault'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-You     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    lock.v
-frame:    Inhibit_movement
-text:    Mira falls asleep and dreams luridly about Celia whose father keeps her locked in a room in a castle , and will not feed her . 
-Target:    locked 
-FE:    {'Agent': 'father', 'Theme': 'her', 'Holding_location': 'in a room in a castle'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-father     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    hold.v
-frame:    Inhibit_movement
-text:    The United Nations says Somali gunmen who hijacked a U.N. - chartered vessel carrying food aid for tsunami victims have released the ship after holding it for more than two months .
-Target:    holding 
-FE:    {'Agent': 'Somali gunmen who hijacked a U.N. - chartered vessel carrying food aid for tsunami victims', 'Theme': 'it', 'Duration': 'for more than two months'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-Somali gunmen who hijacked a U.N. - chartered vessel carrying food aid for tsunami victims     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    hold.v
-frame:    Inhibit_movement
-text:    The United Nations says Somali gunmen who hijacked a U.N. - chartered vessel carrying food aid for tsunami victims have released the ship after holding it for more than two months .
-Target:    holding 
-FE:    {'Agent': 'Somali gunmen who hijacked a U.N. - chartered vessel carrying food aid for tsunami victims', 'Theme': 'it', 'Duration': 'for more than two months'}
-FE_unexpr:    {}
-====================================================================================================
-Inhibit_movement.Agent ?_p ?_t
-Somali gunmen who hijacked a U.N. - chartered vessel carrying food aid for tsunami victims     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+

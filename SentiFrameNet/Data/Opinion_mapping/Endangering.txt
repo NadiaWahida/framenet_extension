@@ -1,390 +1,110 @@
 ########################################################################################################################
+
 lu:    endanger.v
 frame:    Endangering
 text:    ` I can only express the hope that you 've not endangered your niece 's life by such behaviour . "
 Target:    endangered 
 FE:    {'Agent': 'you', 'Valued_entity': "your niece 's life", 'Endangering_act': 'by such behaviour'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
 ?_x neg Endangering
 _GENERAL     -- negative ->    Endangering
+
 ----------------------------------------------------------------------------------------------------
+
 Endangering.Agent neg ?_t
 you     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    endanger.v
 frame:    Endangering
 text:    By obstructing it , BR said tonight , they 're endangering the lives of a hundred and seventy thousand passengers who travel on the Great Western every day .
 Target:    endangering 
 FE:    {'Endangering_act': 'By obstructing it', 'Agent': 'they', 'Valued_entity': 'the lives of a hundred and seventy thousand passengers who travel on the Great Western every day'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
 ?_x neg Endangering
 _GENERAL     -- negative ->    Endangering
+
 ----------------------------------------------------------------------------------------------------
+
 Endangering.Agent neg ?_t
 they     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    endanger.v
 frame:    Endangering
 text:    This is the time when patients are assessed and nurses have an opportunity to decide whether a patient has particular problems which could endanger personal safety .
 Target:    endanger 
 FE:    {'Cause': 'which', 'Valued_entity': 'personal safety'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
 ?_x neg Endangering
 _GENERAL     -- negative ->    Endangering
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    endanger.v
 frame:    Endangering
 text:    Only the riders who endanger the whole group are left behind .
 Target:    endanger 
 FE:    {'Agent': 'who', 'Valued_entity': 'the whole group'}
-FE_unexpr:    {'Endangering_act': 'INI'}
+
 ====================================================================================================
+
 ?_x neg Endangering
 _GENERAL     -- negative ->    Endangering
+
 ----------------------------------------------------------------------------------------------------
+
 Endangering.Agent neg ?_t
 who     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    endanger.v
 frame:    Endangering
 text:    Despite her efforts to have a healthy child , she had unwittingly endangered her baby .
 Target:    endangered 
 FE:    {'Agent': 'she', 'Manner': 'unwittingly', 'Valued_entity': 'her baby'}
-FE_unexpr:    {'Endangering_act': 'INI'}
+
 ====================================================================================================
+
 ?_x neg Endangering
 _GENERAL     -- negative ->    Endangering
+
 ----------------------------------------------------------------------------------------------------
+
 Endangering.Agent neg ?_t
 she     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    endanger.v
 frame:    Endangering
 text:    For it will permit peaceful civilian use of nuclear power while avoiding the threat of proliferation and the possibility that terrorists might acquire a nuclear weapon or it might proliferate to some other irresponsible party and then endanger America or its allies .
 Target:    endanger 
 FE:    {'Cause': 'it', 'Time': 'then', 'Valued_entity': 'America or its allies'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
 ?_x neg Endangering
 _GENERAL     -- negative ->    Endangering
+
 ----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    anger.v
-frame:    Endangering
-text:    ` I can only express the hope that you 've not endangered your niece 's life by such behaviour . "
-Target:    endangered 
-FE:    {'Agent': 'you', 'Valued_entity': "your niece 's life", 'Endangering_act': 'by such behaviour'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-you     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    anger.v
-frame:    Endangering
-text:    By obstructing it , BR said tonight , they 're endangering the lives of a hundred and seventy thousand passengers who travel on the Great Western every day .
-Target:    endangering 
-FE:    {'Endangering_act': 'By obstructing it', 'Agent': 'they', 'Valued_entity': 'the lives of a hundred and seventy thousand passengers who travel on the Great Western every day'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-they     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    anger.v
-frame:    Endangering
-text:    This is the time when patients are assessed and nurses have an opportunity to decide whether a patient has particular problems which could endanger personal safety .
-Target:    endanger 
-FE:    {'Cause': 'which', 'Valued_entity': 'personal safety'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    anger.v
-frame:    Endangering
-text:    Only the riders who endanger the whole group are left behind .
-Target:    endanger 
-FE:    {'Agent': 'who', 'Valued_entity': 'the whole group'}
-FE_unexpr:    {'Endangering_act': 'INI'}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-who     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    anger.v
-frame:    Endangering
-text:    Despite her efforts to have a healthy child , she had unwittingly endangered her baby .
-Target:    endangered 
-FE:    {'Agent': 'she', 'Manner': 'unwittingly', 'Valued_entity': 'her baby'}
-FE_unexpr:    {'Endangering_act': 'INI'}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-she     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    anger.v
-frame:    Endangering
-text:    For it will permit peaceful civilian use of nuclear power while avoiding the threat of proliferation and the possibility that terrorists might acquire a nuclear weapon or it might proliferate to some other irresponsible party and then endanger America or its allies .
-Target:    endanger 
-FE:    {'Cause': 'it', 'Time': 'then', 'Valued_entity': 'America or its allies'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    endanger.v
-frame:    Endangering
-text:    ` I can only express the hope that you 've not endangered your niece 's life by such behaviour . "
-Target:    endangered 
-FE:    {'Agent': 'you', 'Valued_entity': "your niece 's life", 'Endangering_act': 'by such behaviour'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-you     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    endanger.v
-frame:    Endangering
-text:    By obstructing it , BR said tonight , they 're endangering the lives of a hundred and seventy thousand passengers who travel on the Great Western every day .
-Target:    endangering 
-FE:    {'Endangering_act': 'By obstructing it', 'Agent': 'they', 'Valued_entity': 'the lives of a hundred and seventy thousand passengers who travel on the Great Western every day'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-they     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    endanger.v
-frame:    Endangering
-text:    This is the time when patients are assessed and nurses have an opportunity to decide whether a patient has particular problems which could endanger personal safety .
-Target:    endanger 
-FE:    {'Cause': 'which', 'Valued_entity': 'personal safety'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    endanger.v
-frame:    Endangering
-text:    Only the riders who endanger the whole group are left behind .
-Target:    endanger 
-FE:    {'Agent': 'who', 'Valued_entity': 'the whole group'}
-FE_unexpr:    {'Endangering_act': 'INI'}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-who     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    endanger.v
-frame:    Endangering
-text:    Despite her efforts to have a healthy child , she had unwittingly endangered her baby .
-Target:    endangered 
-FE:    {'Agent': 'she', 'Manner': 'unwittingly', 'Valued_entity': 'her baby'}
-FE_unexpr:    {'Endangering_act': 'INI'}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-she     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    endanger.v
-frame:    Endangering
-text:    For it will permit peaceful civilian use of nuclear power while avoiding the threat of proliferation and the possibility that terrorists might acquire a nuclear weapon or it might proliferate to some other irresponsible party and then endanger America or its allies .
-Target:    endanger 
-FE:    {'Cause': 'it', 'Time': 'then', 'Valued_entity': 'America or its allies'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    anger.v
-frame:    Endangering
-text:    ` I can only express the hope that you 've not endangered your niece 's life by such behaviour . "
-Target:    endangered 
-FE:    {'Agent': 'you', 'Valued_entity': "your niece 's life", 'Endangering_act': 'by such behaviour'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-you     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    anger.v
-frame:    Endangering
-text:    By obstructing it , BR said tonight , they 're endangering the lives of a hundred and seventy thousand passengers who travel on the Great Western every day .
-Target:    endangering 
-FE:    {'Endangering_act': 'By obstructing it', 'Agent': 'they', 'Valued_entity': 'the lives of a hundred and seventy thousand passengers who travel on the Great Western every day'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-they     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    anger.v
-frame:    Endangering
-text:    This is the time when patients are assessed and nurses have an opportunity to decide whether a patient has particular problems which could endanger personal safety .
-Target:    endanger 
-FE:    {'Cause': 'which', 'Valued_entity': 'personal safety'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    anger.v
-frame:    Endangering
-text:    Only the riders who endanger the whole group are left behind .
-Target:    endanger 
-FE:    {'Agent': 'who', 'Valued_entity': 'the whole group'}
-FE_unexpr:    {'Endangering_act': 'INI'}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-who     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    anger.v
-frame:    Endangering
-text:    Despite her efforts to have a healthy child , she had unwittingly endangered her baby .
-Target:    endangered 
-FE:    {'Agent': 'she', 'Manner': 'unwittingly', 'Valued_entity': 'her baby'}
-FE_unexpr:    {'Endangering_act': 'INI'}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-she     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    anger.v
-frame:    Endangering
-text:    For it will permit peaceful civilian use of nuclear power while avoiding the threat of proliferation and the possibility that terrorists might acquire a nuclear weapon or it might proliferate to some other irresponsible party and then endanger America or its allies .
-Target:    endanger 
-FE:    {'Cause': 'it', 'Time': 'then', 'Valued_entity': 'America or its allies'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    endanger.v
-frame:    Endangering
-text:    ` I can only express the hope that you 've not endangered your niece 's life by such behaviour . "
-Target:    endangered 
-FE:    {'Agent': 'you', 'Valued_entity': "your niece 's life", 'Endangering_act': 'by such behaviour'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-you     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    endanger.v
-frame:    Endangering
-text:    By obstructing it , BR said tonight , they 're endangering the lives of a hundred and seventy thousand passengers who travel on the Great Western every day .
-Target:    endangering 
-FE:    {'Endangering_act': 'By obstructing it', 'Agent': 'they', 'Valued_entity': 'the lives of a hundred and seventy thousand passengers who travel on the Great Western every day'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-they     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    endanger.v
-frame:    Endangering
-text:    This is the time when patients are assessed and nurses have an opportunity to decide whether a patient has particular problems which could endanger personal safety .
-Target:    endanger 
-FE:    {'Cause': 'which', 'Valued_entity': 'personal safety'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    endanger.v
-frame:    Endangering
-text:    Only the riders who endanger the whole group are left behind .
-Target:    endanger 
-FE:    {'Agent': 'who', 'Valued_entity': 'the whole group'}
-FE_unexpr:    {'Endangering_act': 'INI'}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-who     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    endanger.v
-frame:    Endangering
-text:    Despite her efforts to have a healthy child , she had unwittingly endangered her baby .
-Target:    endangered 
-FE:    {'Agent': 'she', 'Manner': 'unwittingly', 'Valued_entity': 'her baby'}
-FE_unexpr:    {'Endangering_act': 'INI'}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
-Endangering.Agent neg ?_t
-she     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    endanger.v
-frame:    Endangering
-text:    For it will permit peaceful civilian use of nuclear power while avoiding the threat of proliferation and the possibility that terrorists might acquire a nuclear weapon or it might proliferate to some other irresponsible party and then endanger America or its allies .
-Target:    endanger 
-FE:    {'Cause': 'it', 'Time': 'then', 'Valued_entity': 'America or its allies'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Endangering
-_GENERAL     -- negative ->    Endangering
-----------------------------------------------------------------------------------------------------
+

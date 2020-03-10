@@ -1,111 +1,75 @@
 ########################################################################################################################
+
 lu:    hospitable.a
 frame:    Hospitality
 text:    I found the Board very hospitable to Russian graduates .
 Target:    hospitable 
 FE:    {'Host': 'the Board', 'Degree': 'very', 'Guest': 'to Russian graduates'}
-FE_unexpr:    {}
+
 ====================================================================================================
-Hospitality.Host pos ?_t
-the Board     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s pos Hospitality.Host
-_SOMEONE     -- positive ->     the Board
-----------------------------------------------------------------------------------------------------
+
 ?_x pos Hospitality
 _GENERAL     -- positive ->     Hospitality
+
 ----------------------------------------------------------------------------------------------------
+
+Hospitality.Host pos Hospitality.Guest
+the Board     -- positive ->     to Russian graduates
+
+----------------------------------------------------------------------------------------------------
+
+Hospitality.Guest pos Hospitality.Host
+to Russian graduates     -- positive ->     the Board
+
+----------------------------------------------------------------------------------------------------
+
+Hospitality.Guest pos ?_t
+to Russian graduates     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+Hospitality.Host pos ?_t
+the Board     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Hospitality.Guest
+_SOMEONE     -- positive ->     to Russian graduates
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Hospitality.Host
+_SOMEONE     -- positive ->     the Board
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    hospitable.a
 frame:    Hospitality
 text:    She need not have worried , however , for her good nature and naturally hospitable manner covered up any small deficiencies in deportment .
 Target:    hospitable 
 FE:    {'Host': 'her', 'Manner': 'naturally', 'Behavior': 'manner'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x pos Hospitality
+_GENERAL     -- positive ->     Hospitality
+
+----------------------------------------------------------------------------------------------------
+
 Hospitality.Host pos ?_t
 her     -- positive ->     _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
-?_s pos Hospitality.Host
-_SOMEONE     -- positive ->     her
-----------------------------------------------------------------------------------------------------
+
 ?_s pos Hospitality.Behavior
 _SOMEONE     -- positive ->     manner
+
 ----------------------------------------------------------------------------------------------------
-?_x pos Hospitality
-_GENERAL     -- positive ->     Hospitality
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    hospitable.a
-frame:    Hospitality
-text:    I found the Board very hospitable to Russian graduates .
-Target:    hospitable 
-FE:    {'Host': 'the Board', 'Degree': 'very', 'Guest': 'to Russian graduates'}
-FE_unexpr:    {}
-====================================================================================================
-Hospitality.Host pos ?_t
-the Board     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s pos Hospitality.Host
-_SOMEONE     -- positive ->     the Board
-----------------------------------------------------------------------------------------------------
-?_x pos Hospitality
-_GENERAL     -- positive ->     Hospitality
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    hospitable.a
-frame:    Hospitality
-text:    She need not have worried , however , for her good nature and naturally hospitable manner covered up any small deficiencies in deportment .
-Target:    hospitable 
-FE:    {'Host': 'her', 'Manner': 'naturally', 'Behavior': 'manner'}
-FE_unexpr:    {}
-====================================================================================================
-Hospitality.Host pos ?_t
-her     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_s pos Hospitality.Host
 _SOMEONE     -- positive ->     her
+
 ----------------------------------------------------------------------------------------------------
-?_s pos Hospitality.Behavior
-_SOMEONE     -- positive ->     manner
-----------------------------------------------------------------------------------------------------
-?_x pos Hospitality
-_GENERAL     -- positive ->     Hospitality
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    hospitable.a
-frame:    Hospitality
-text:    I found the Board very hospitable to Russian graduates .
-Target:    hospitable 
-FE:    {'Host': 'the Board', 'Degree': 'very', 'Guest': 'to Russian graduates'}
-FE_unexpr:    {}
-====================================================================================================
-Hospitality.Host pos ?_t
-the Board     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s pos Hospitality.Host
-_SOMEONE     -- positive ->     the Board
-----------------------------------------------------------------------------------------------------
-?_x pos Hospitality
-_GENERAL     -- positive ->     Hospitality
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    hospitable.a
-frame:    Hospitality
-text:    She need not have worried , however , for her good nature and naturally hospitable manner covered up any small deficiencies in deportment .
-Target:    hospitable 
-FE:    {'Host': 'her', 'Manner': 'naturally', 'Behavior': 'manner'}
-FE_unexpr:    {}
-====================================================================================================
-Hospitality.Host pos ?_t
-her     -- positive ->     _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_s pos Hospitality.Host
-_SOMEONE     -- positive ->     her
-----------------------------------------------------------------------------------------------------
-?_s pos Hospitality.Behavior
-_SOMEONE     -- positive ->     manner
-----------------------------------------------------------------------------------------------------
-?_x pos Hospitality
-_GENERAL     -- positive ->     Hospitality
-----------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,175 @@
+########################################################################################################################
+
+lu:    survive.v
+frame:    Surviving
+text:    Some groups may survive the winter , once the old people have died off .
+Target:    survive 
+FE:    {'Survivor': 'Some groups', 'Dangerous_situation': 'the winter', 'Time': 'once the old people have died off'}
+
+====================================================================================================
+
+Surviving.Survivor neg Surviving.Dangerous_situation
+Some groups     -- negative ->    the winter
+
+----------------------------------------------------------------------------------------------------
+
+?_X neg Surviving.Dangerous_situation
+?_X     -- negative ->    the winter
+
+----------------------------------------------------------------------------------------------------
+
+?_x pos Surviving
+_GENERAL     -- positive ->     Surviving
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Surviving.Dangerous_situation
+_SOMEONE     -- negative ->    the winter
+
+----------------------------------------------------------------------------------------------------
+
+Surviving.Survivor neg ?_t
+Some groups     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    survive.v
+frame:    Surviving
+text:    Doctor McRae , the only one to have survived the cruise unscathed , has tripped on a kerbstone and broken his foot .
+Target:    survived 
+FE:    {'Survivor': 'the only one', 'Dangerous_situation': 'the cruise', 'Depictive': 'unscathed'}
+
+====================================================================================================
+
+Surviving.Survivor neg Surviving.Dangerous_situation
+the only one     -- negative ->    the cruise
+
+----------------------------------------------------------------------------------------------------
+
+?_X neg Surviving.Dangerous_situation
+?_X     -- negative ->    the cruise
+
+----------------------------------------------------------------------------------------------------
+
+?_x pos Surviving
+_GENERAL     -- positive ->     Surviving
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Surviving.Dangerous_situation
+_SOMEONE     -- negative ->    the cruise
+
+----------------------------------------------------------------------------------------------------
+
+Surviving.Survivor neg ?_t
+the only one     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    survive.v
+frame:    Surviving
+text:    It survived the Great Fire intact and between 1621 and 1638 was the headquarters of the East India Company .
+Target:    survived 
+FE:    {'Survivor': 'It', 'Dangerous_situation': 'the Great Fire', 'Depictive': 'intact'}
+
+====================================================================================================
+
+Surviving.Survivor neg Surviving.Dangerous_situation
+It     -- negative ->    the Great Fire
+
+----------------------------------------------------------------------------------------------------
+
+?_X neg Surviving.Dangerous_situation
+?_X     -- negative ->    the Great Fire
+
+----------------------------------------------------------------------------------------------------
+
+?_x pos Surviving
+_GENERAL     -- positive ->     Surviving
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Surviving.Dangerous_situation
+_SOMEONE     -- negative ->    the Great Fire
+
+----------------------------------------------------------------------------------------------------
+
+Surviving.Survivor neg ?_t
+It     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    survive.v
+frame:    Surviving
+text:    It was located in a small row of old houses which had survived the war but had little else to say for themselves , being architecturally dull and pressed in on all sides by towering new office blocks and shopping developments .
+Target:    survived 
+FE:    {'Survivor': 'which', 'Dangerous_situation': 'the war'}
+
+====================================================================================================
+
+Surviving.Survivor neg Surviving.Dangerous_situation
+which     -- negative ->    the war
+
+----------------------------------------------------------------------------------------------------
+
+?_X neg Surviving.Dangerous_situation
+?_X     -- negative ->    the war
+
+----------------------------------------------------------------------------------------------------
+
+?_x pos Surviving
+_GENERAL     -- positive ->     Surviving
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Surviving.Dangerous_situation
+_SOMEONE     -- negative ->    the war
+
+----------------------------------------------------------------------------------------------------
+
+Surviving.Survivor neg ?_t
+which     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+########################################################################################################################
+
+lu:    survive.v
+frame:    Surviving
+text:    He married Mary Green in 1654 , and had seven children , three of whom ( two sons and one daughter ) survived infancy .
+Target:    survived 
+FE:    {'Survivor': 'three of whom ( two sons and one daughter', 'Dangerous_situation': 'infancy'}
+
+====================================================================================================
+
+Surviving.Survivor neg Surviving.Dangerous_situation
+three of whom ( two sons and one daughter     -- negative ->    infancy
+
+----------------------------------------------------------------------------------------------------
+
+?_X neg Surviving.Dangerous_situation
+?_X     -- negative ->    infancy
+
+----------------------------------------------------------------------------------------------------
+
+?_x pos Surviving
+_GENERAL     -- positive ->     Surviving
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Surviving.Dangerous_situation
+_SOMEONE     -- negative ->    infancy
+
+----------------------------------------------------------------------------------------------------
+
+Surviving.Survivor neg ?_t
+three of whom ( two sons and one daughter     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+

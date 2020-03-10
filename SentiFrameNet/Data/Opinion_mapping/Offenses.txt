@@ -1,753 +1,505 @@
 ########################################################################################################################
+
 lu:    sabotage.n
 frame:    Offenses
 text:    New Zealand had been outraged by the French sabotage of the Greenpeace ship , which had planned to monitor France 's nuclear tests in the Pacific .
 Target:    sabotage 
 FE:    {'Perpetrator': 'French', 'Offense': 'sabotage', 'Victim': 'of the Greenpeace ship'}
-FE_unexpr:    {}
+
 ====================================================================================================
-Offenses.Victim neg Offenses
-of the Greenpeace ship     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
+
 Offenses.Victim neg Offenses.Perpetrator
 of the Greenpeace ship     -- negative ->    French
+
 ----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg Offenses.Victim
-French     -- negative ->    of the Greenpeace ship
+
+?_x neg Offenses.Offense
+_GENERAL     -- negative ->    sabotage
+
 ----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Perpetrator
-_SOMEONE     -- negative ->    French
+
+Offenses.Victim neg Offenses.Offense
+of the Greenpeace ship     -- negative ->    sabotage
+
 ----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of the Greenpeace ship
-----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg ?_t
-French     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
+
 ----------------------------------------------------------------------------------------------------
+
+Offenses.Perpetrator neg Offenses.Victim
+French     -- negative ->    of the Greenpeace ship
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    of the Greenpeace ship
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Offense
+_SOMEONE     -- negative ->    sabotage
+
+----------------------------------------------------------------------------------------------------
+
 Offenses.Victim neg ?_t
 of the Greenpeace ship     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Perpetrator
+_SOMEONE     -- negative ->    French
+
+----------------------------------------------------------------------------------------------------
+
+Offenses.Perpetrator neg ?_t
+French     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    sabotage.n
 frame:    Offenses
 text:    The idealists also include extremists who are prepared to break laws and commit acts of industrial sabotage ( or ecotage ) in order to further their aims .
 Target:    sabotage 
 FE:    {'Perpetrator': 'who', 'Specification': 'industrial', 'Offense': 'sabotage'}
-FE_unexpr:    {'Victim': 'DNI'}
+
 ====================================================================================================
-?_s neg Offenses.Perpetrator
-_SOMEONE     -- negative ->    who
+
+?_x neg Offenses.Offense
+_GENERAL     -- negative ->    sabotage
+
 ----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg ?_t
-who     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
+
 ----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Offense
+_SOMEONE     -- negative ->    sabotage
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Perpetrator
+_SOMEONE     -- negative ->    who
+
+----------------------------------------------------------------------------------------------------
+
+Offenses.Perpetrator neg ?_t
+who     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    sabotage.n
 frame:    Offenses
 text:    The chief task of MI5 between 1939 and 1945 was to counter German espionage and sabotage in Britain and the empire .
 Target:    sabotage 
 FE:    {'Perpetrator': 'MI5', 'Offense': 'sabotage', 'Victim': 'in Britain and the empire'}
-FE_unexpr:    {}
+
 ====================================================================================================
-Offenses.Victim neg Offenses
-in Britain and the empire     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
+
 Offenses.Victim neg Offenses.Perpetrator
 in Britain and the empire     -- negative ->    MI5
+
 ----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg Offenses.Victim
-MI5     -- negative ->    in Britain and the empire
+
+?_x neg Offenses.Offense
+_GENERAL     -- negative ->    sabotage
+
 ----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Perpetrator
-_SOMEONE     -- negative ->    MI5
+
+Offenses.Victim neg Offenses.Offense
+in Britain and the empire     -- negative ->    sabotage
+
 ----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    in Britain and the empire
-----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg ?_t
-MI5     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
+
 ----------------------------------------------------------------------------------------------------
+
+Offenses.Perpetrator neg Offenses.Victim
+MI5     -- negative ->    in Britain and the empire
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    in Britain and the empire
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Offense
+_SOMEONE     -- negative ->    sabotage
+
+----------------------------------------------------------------------------------------------------
+
 Offenses.Victim neg ?_t
 in Britain and the empire     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Perpetrator
+_SOMEONE     -- negative ->    MI5
+
+----------------------------------------------------------------------------------------------------
+
+Offenses.Perpetrator neg ?_t
+MI5     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    burglary.n
 frame:    Offenses
 text:    McCann , in which the Court of Appeal reduced the sentence for a relatively minor burglary by an offender who had only one distant previous conviction , from two years ' imprisonment to nine months .
 Target:    burglary 
 FE:    {'Degree': 'relatively minor', 'Offense': 'burglary', 'Perpetrator': 'by an offender who had only one distant previous conviction'}
-FE_unexpr:    {'Victim': 'INI'}
+
 ====================================================================================================
-?_s neg Offenses.Perpetrator
-_SOMEONE     -- negative ->    by an offender who had only one distant previous conviction
+
+?_x neg Offenses.Offense
+_GENERAL     -- negative ->    burglary
+
 ----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg ?_t
-by an offender who had only one distant previous conviction     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
+
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
+
 ----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Offense
+_SOMEONE     -- negative ->    burglary
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Perpetrator
+_SOMEONE     -- negative ->    by an offender who had only one distant previous conviction
+
+----------------------------------------------------------------------------------------------------
+
+Offenses.Perpetrator neg ?_t
+by an offender who had only one distant previous conviction     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    felony.n
 frame:    Offenses
 text:    A new federal crime bill provides the death penalty for some federal gun felonies in which a person is killed .
 Target:    felonies 
 FE:    {'Degree': 'federal', 'Specification': 'in which a person is killed', 'Offense': 'felonies'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x neg Offenses.Offense
+_GENERAL     -- negative ->    felonies
+
+----------------------------------------------------------------------------------------------------
+
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
+
 ----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Offense
+_SOMEONE     -- negative ->    felonies
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    sexual harassment.n
 frame:    Offenses
 text:    Kiam has also become embroiled in the ` Great Locker Room Scandal " -- an incident involving a woman sports reporter ( who is now suing for sexual harassment ) and several naked and semi-naked Patriots players .
 Target:    sexual harassment 
 FE:    {'Victim': 'who', 'Offense': 'sexual harassment'}
-FE_unexpr:    {}
+
 ====================================================================================================
-Offenses.Victim neg Offenses
-who     -- negative ->    Offenses
+
+?_x neg Offenses.Offense
+_GENERAL     -- negative ->    sexual harassment
+
 ----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    who
+
+Offenses.Victim neg Offenses.Offense
+who     -- negative ->    sexual harassment
+
 ----------------------------------------------------------------------------------------------------
+
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
+
 ----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    who
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Offense
+_SOMEONE     -- negative ->    sexual harassment
+
+----------------------------------------------------------------------------------------------------
+
 Offenses.Victim neg ?_t
 who     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    sexual harassment.n
 frame:    Offenses
 text:    In a different context , feminists have worked within trade unions to mobilise grievance procedures to protect women who complain of sexual harassment , either by their bosses or by fellow workers .
 Target:    sexual harassment 
 FE:    {'Victim': 'who', 'Offense': 'sexual harassment'}
-FE_unexpr:    {}
+
 ====================================================================================================
-Offenses.Victim neg Offenses
-who     -- negative ->    Offenses
+
+?_x neg Offenses.Offense
+_GENERAL     -- negative ->    sexual harassment
+
 ----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    who
+
+Offenses.Victim neg Offenses.Offense
+who     -- negative ->    sexual harassment
+
 ----------------------------------------------------------------------------------------------------
+
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
+
 ----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    who
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Offense
+_SOMEONE     -- negative ->    sexual harassment
+
+----------------------------------------------------------------------------------------------------
+
 Offenses.Victim neg ?_t
 who     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    battery.n
 frame:    Offenses
 text:    LOS ANGELES ( AP ) --- Actor Charlie Sheen was charged with misdemeanor battery against his ex-girlfriend after a confrontation that allegedly left her bloody and unconscious .
 Target:    battery 
 FE:    {'Degree': 'misdemeanor', 'Offense': 'battery', 'Victim': 'against his ex-girlfriend'}
-FE_unexpr:    {}
+
 ====================================================================================================
-Offenses.Victim neg Offenses
-against his ex-girlfriend     -- negative ->    Offenses
+
+?_x neg Offenses.Offense
+_GENERAL     -- negative ->    battery
+
 ----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    against his ex-girlfriend
+
+Offenses.Victim neg Offenses.Offense
+against his ex-girlfriend     -- negative ->    battery
+
 ----------------------------------------------------------------------------------------------------
+
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
+
 ----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    against his ex-girlfriend
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Offense
+_SOMEONE     -- negative ->    battery
+
+----------------------------------------------------------------------------------------------------
+
 Offenses.Victim neg ?_t
 against his ex-girlfriend     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    homicide.n
 frame:    Offenses
 text:    Sutherland , 50 , of Gilmore Place , Edinburgh , denied the culpable homicide of Mr Buckley on 10 April last year . 
 Target:    homicide 
 FE:    {'Degree': 'culpable', 'Offense': 'homicide', 'Victim': 'of Mr Buckley'}
-FE_unexpr:    {}
+
 ====================================================================================================
-Offenses.Victim neg Offenses
-of Mr Buckley     -- negative ->    Offenses
+
+?_x neg Offenses.Offense
+_GENERAL     -- negative ->    homicide
+
 ----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of Mr Buckley
+
+Offenses.Victim neg Offenses.Offense
+of Mr Buckley     -- negative ->    homicide
+
 ----------------------------------------------------------------------------------------------------
+
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
+
 ----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    of Mr Buckley
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Offense
+_SOMEONE     -- negative ->    homicide
+
+----------------------------------------------------------------------------------------------------
+
 Offenses.Victim neg ?_t
 of Mr Buckley     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    homicide.n
 frame:    Offenses
 text:    Involuntary manslaughter is unlawful homicide without malice aforethought . 
 Target:    homicide 
 FE:    {'Degree': 'unlawful', 'Offense': 'homicide', 'Specification': 'without malice aforethought'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x neg Offenses.Offense
+_GENERAL     -- negative ->    homicide
+
+----------------------------------------------------------------------------------------------------
+
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
+
 ----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Offense
+_SOMEONE     -- negative ->    homicide
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    rape.n
 frame:    Offenses
 text:    A BOY of 14 will appear before a youth court in Crewe today , charged with the attempted rape of a 92-year-old woman .
 Target:    rape 
 FE:    {'Specification': 'attempted', 'Offense': 'rape', 'Victim': 'of a 92-year-old woman'}
-FE_unexpr:    {}
+
 ====================================================================================================
-Offenses.Victim neg Offenses
-of a 92-year-old woman     -- negative ->    Offenses
+
+?_x neg Offenses.Offense
+_GENERAL     -- negative ->    rape
+
 ----------------------------------------------------------------------------------------------------
+
+Offenses.Victim neg Offenses.Offense
+of a 92-year-old woman     -- negative ->    rape
+
+----------------------------------------------------------------------------------------------------
+
+?_x neg Offenses
+_GENERAL     -- negative ->    Offenses
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Offenses.Victim
 _SOMEONE     -- negative ->    of a 92-year-old woman
+
 ----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
+
+?_s neg Offenses.Offense
+_SOMEONE     -- negative ->    rape
+
 ----------------------------------------------------------------------------------------------------
+
 Offenses.Victim neg ?_t
 of a 92-year-old woman     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    homicide.n
 frame:    Offenses
 text:    Sutherland , 50 , of Gilmore Place , Edinburgh , denied the culpable homicide of Mr Buckley on 10 April last year . 
 Target:    homicide 
 FE:    {'Degree': 'culpable', 'Offense': 'homicide', 'Victim': 'of Mr Buckley'}
-FE_unexpr:    {}
+
 ====================================================================================================
-Offenses.Victim neg Offenses
-of Mr Buckley     -- negative ->    Offenses
+
+?_x neg Offenses.Offense
+_GENERAL     -- negative ->    homicide
+
 ----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of Mr Buckley
+
+Offenses.Victim neg Offenses.Offense
+of Mr Buckley     -- negative ->    homicide
+
 ----------------------------------------------------------------------------------------------------
+
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
+
 ----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    of Mr Buckley
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Offense
+_SOMEONE     -- negative ->    homicide
+
+----------------------------------------------------------------------------------------------------
+
 Offenses.Victim neg ?_t
 of Mr Buckley     -- negative ->    _SOMETHING
+
 ----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
+
 lu:    homicide.n
 frame:    Offenses
 text:    Involuntary manslaughter is unlawful homicide without malice aforethought . 
 Target:    homicide 
 FE:    {'Degree': 'unlawful', 'Offense': 'homicide', 'Specification': 'without malice aforethought'}
-FE_unexpr:    {}
+
 ====================================================================================================
+
+?_x neg Offenses.Offense
+_GENERAL     -- negative ->    homicide
+
+----------------------------------------------------------------------------------------------------
+
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
+
 ----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    sabotage.n
-frame:    Offenses
-text:    New Zealand had been outraged by the French sabotage of the Greenpeace ship , which had planned to monitor France 's nuclear tests in the Pacific .
-Target:    sabotage 
-FE:    {'Perpetrator': 'French', 'Offense': 'sabotage', 'Victim': 'of the Greenpeace ship'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-of the Greenpeace ship     -- negative ->    Offenses
+
+?_s neg Offenses.Offense
+_SOMEONE     -- negative ->    homicide
+
 ----------------------------------------------------------------------------------------------------
-Offenses.Victim neg Offenses.Perpetrator
-of the Greenpeace ship     -- negative ->    French
-----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg Offenses.Victim
-French     -- negative ->    of the Greenpeace ship
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Perpetrator
-_SOMEONE     -- negative ->    French
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of the Greenpeace ship
-----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg ?_t
-French     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-of the Greenpeace ship     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    sabotage.n
-frame:    Offenses
-text:    The idealists also include extremists who are prepared to break laws and commit acts of industrial sabotage ( or ecotage ) in order to further their aims .
-Target:    sabotage 
-FE:    {'Perpetrator': 'who', 'Specification': 'industrial', 'Offense': 'sabotage'}
-FE_unexpr:    {'Victim': 'DNI'}
-====================================================================================================
-?_s neg Offenses.Perpetrator
-_SOMEONE     -- negative ->    who
-----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg ?_t
-who     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    sabotage.n
-frame:    Offenses
-text:    The chief task of MI5 between 1939 and 1945 was to counter German espionage and sabotage in Britain and the empire .
-Target:    sabotage 
-FE:    {'Perpetrator': 'MI5', 'Offense': 'sabotage', 'Victim': 'in Britain and the empire'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-in Britain and the empire     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg Offenses.Perpetrator
-in Britain and the empire     -- negative ->    MI5
-----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg Offenses.Victim
-MI5     -- negative ->    in Britain and the empire
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Perpetrator
-_SOMEONE     -- negative ->    MI5
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    in Britain and the empire
-----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg ?_t
-MI5     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-in Britain and the empire     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    burglary.n
-frame:    Offenses
-text:    McCann , in which the Court of Appeal reduced the sentence for a relatively minor burglary by an offender who had only one distant previous conviction , from two years ' imprisonment to nine months .
-Target:    burglary 
-FE:    {'Degree': 'relatively minor', 'Offense': 'burglary', 'Perpetrator': 'by an offender who had only one distant previous conviction'}
-FE_unexpr:    {'Victim': 'INI'}
-====================================================================================================
-?_s neg Offenses.Perpetrator
-_SOMEONE     -- negative ->    by an offender who had only one distant previous conviction
-----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg ?_t
-by an offender who had only one distant previous conviction     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    felony.n
-frame:    Offenses
-text:    A new federal crime bill provides the death penalty for some federal gun felonies in which a person is killed .
-Target:    felonies 
-FE:    {'Degree': 'federal', 'Specification': 'in which a person is killed', 'Offense': 'felonies'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    sexual harassment.n
-frame:    Offenses
-text:    Kiam has also become embroiled in the ` Great Locker Room Scandal " -- an incident involving a woman sports reporter ( who is now suing for sexual harassment ) and several naked and semi-naked Patriots players .
-Target:    sexual harassment 
-FE:    {'Victim': 'who', 'Offense': 'sexual harassment'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-who     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    who
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-who     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    sexual harassment.n
-frame:    Offenses
-text:    In a different context , feminists have worked within trade unions to mobilise grievance procedures to protect women who complain of sexual harassment , either by their bosses or by fellow workers .
-Target:    sexual harassment 
-FE:    {'Victim': 'who', 'Offense': 'sexual harassment'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-who     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    who
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-who     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    battery.n
-frame:    Offenses
-text:    LOS ANGELES ( AP ) --- Actor Charlie Sheen was charged with misdemeanor battery against his ex-girlfriend after a confrontation that allegedly left her bloody and unconscious .
-Target:    battery 
-FE:    {'Degree': 'misdemeanor', 'Offense': 'battery', 'Victim': 'against his ex-girlfriend'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-against his ex-girlfriend     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    against his ex-girlfriend
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-against his ex-girlfriend     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    homicide.n
-frame:    Offenses
-text:    Sutherland , 50 , of Gilmore Place , Edinburgh , denied the culpable homicide of Mr Buckley on 10 April last year . 
-Target:    homicide 
-FE:    {'Degree': 'culpable', 'Offense': 'homicide', 'Victim': 'of Mr Buckley'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-of Mr Buckley     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of Mr Buckley
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-of Mr Buckley     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    homicide.n
-frame:    Offenses
-text:    Involuntary manslaughter is unlawful homicide without malice aforethought . 
-Target:    homicide 
-FE:    {'Degree': 'unlawful', 'Offense': 'homicide', 'Specification': 'without malice aforethought'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    rape.n
-frame:    Offenses
-text:    A BOY of 14 will appear before a youth court in Crewe today , charged with the attempted rape of a 92-year-old woman .
-Target:    rape 
-FE:    {'Specification': 'attempted', 'Offense': 'rape', 'Victim': 'of a 92-year-old woman'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-of a 92-year-old woman     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of a 92-year-old woman
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-of a 92-year-old woman     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    homicide.n
-frame:    Offenses
-text:    Sutherland , 50 , of Gilmore Place , Edinburgh , denied the culpable homicide of Mr Buckley on 10 April last year . 
-Target:    homicide 
-FE:    {'Degree': 'culpable', 'Offense': 'homicide', 'Victim': 'of Mr Buckley'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-of Mr Buckley     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of Mr Buckley
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-of Mr Buckley     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    homicide.n
-frame:    Offenses
-text:    Involuntary manslaughter is unlawful homicide without malice aforethought . 
-Target:    homicide 
-FE:    {'Degree': 'unlawful', 'Offense': 'homicide', 'Specification': 'without malice aforethought'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    sabotage.n
-frame:    Offenses
-text:    New Zealand had been outraged by the French sabotage of the Greenpeace ship , which had planned to monitor France 's nuclear tests in the Pacific .
-Target:    sabotage 
-FE:    {'Perpetrator': 'French', 'Offense': 'sabotage', 'Victim': 'of the Greenpeace ship'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-of the Greenpeace ship     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg Offenses.Perpetrator
-of the Greenpeace ship     -- negative ->    French
-----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg Offenses.Victim
-French     -- negative ->    of the Greenpeace ship
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Perpetrator
-_SOMEONE     -- negative ->    French
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of the Greenpeace ship
-----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg ?_t
-French     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-of the Greenpeace ship     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    sabotage.n
-frame:    Offenses
-text:    The idealists also include extremists who are prepared to break laws and commit acts of industrial sabotage ( or ecotage ) in order to further their aims .
-Target:    sabotage 
-FE:    {'Perpetrator': 'who', 'Specification': 'industrial', 'Offense': 'sabotage'}
-FE_unexpr:    {'Victim': 'DNI'}
-====================================================================================================
-?_s neg Offenses.Perpetrator
-_SOMEONE     -- negative ->    who
-----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg ?_t
-who     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    sabotage.n
-frame:    Offenses
-text:    The chief task of MI5 between 1939 and 1945 was to counter German espionage and sabotage in Britain and the empire .
-Target:    sabotage 
-FE:    {'Perpetrator': 'MI5', 'Offense': 'sabotage', 'Victim': 'in Britain and the empire'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-in Britain and the empire     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg Offenses.Perpetrator
-in Britain and the empire     -- negative ->    MI5
-----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg Offenses.Victim
-MI5     -- negative ->    in Britain and the empire
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Perpetrator
-_SOMEONE     -- negative ->    MI5
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    in Britain and the empire
-----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg ?_t
-MI5     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-in Britain and the empire     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    burglary.n
-frame:    Offenses
-text:    McCann , in which the Court of Appeal reduced the sentence for a relatively minor burglary by an offender who had only one distant previous conviction , from two years ' imprisonment to nine months .
-Target:    burglary 
-FE:    {'Degree': 'relatively minor', 'Offense': 'burglary', 'Perpetrator': 'by an offender who had only one distant previous conviction'}
-FE_unexpr:    {'Victim': 'INI'}
-====================================================================================================
-?_s neg Offenses.Perpetrator
-_SOMEONE     -- negative ->    by an offender who had only one distant previous conviction
-----------------------------------------------------------------------------------------------------
-Offenses.Perpetrator neg ?_t
-by an offender who had only one distant previous conviction     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    felony.n
-frame:    Offenses
-text:    A new federal crime bill provides the death penalty for some federal gun felonies in which a person is killed .
-Target:    felonies 
-FE:    {'Degree': 'federal', 'Specification': 'in which a person is killed', 'Offense': 'felonies'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    sexual harassment.n
-frame:    Offenses
-text:    Kiam has also become embroiled in the ` Great Locker Room Scandal " -- an incident involving a woman sports reporter ( who is now suing for sexual harassment ) and several naked and semi-naked Patriots players .
-Target:    sexual harassment 
-FE:    {'Victim': 'who', 'Offense': 'sexual harassment'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-who     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    who
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-who     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    sexual harassment.n
-frame:    Offenses
-text:    In a different context , feminists have worked within trade unions to mobilise grievance procedures to protect women who complain of sexual harassment , either by their bosses or by fellow workers .
-Target:    sexual harassment 
-FE:    {'Victim': 'who', 'Offense': 'sexual harassment'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-who     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    who
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-who     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    battery.n
-frame:    Offenses
-text:    LOS ANGELES ( AP ) --- Actor Charlie Sheen was charged with misdemeanor battery against his ex-girlfriend after a confrontation that allegedly left her bloody and unconscious .
-Target:    battery 
-FE:    {'Degree': 'misdemeanor', 'Offense': 'battery', 'Victim': 'against his ex-girlfriend'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-against his ex-girlfriend     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    against his ex-girlfriend
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-against his ex-girlfriend     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    homicide.n
-frame:    Offenses
-text:    Sutherland , 50 , of Gilmore Place , Edinburgh , denied the culpable homicide of Mr Buckley on 10 April last year . 
-Target:    homicide 
-FE:    {'Degree': 'culpable', 'Offense': 'homicide', 'Victim': 'of Mr Buckley'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-of Mr Buckley     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of Mr Buckley
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-of Mr Buckley     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    homicide.n
-frame:    Offenses
-text:    Involuntary manslaughter is unlawful homicide without malice aforethought . 
-Target:    homicide 
-FE:    {'Degree': 'unlawful', 'Offense': 'homicide', 'Specification': 'without malice aforethought'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    rape.n
-frame:    Offenses
-text:    A BOY of 14 will appear before a youth court in Crewe today , charged with the attempted rape of a 92-year-old woman .
-Target:    rape 
-FE:    {'Specification': 'attempted', 'Offense': 'rape', 'Victim': 'of a 92-year-old woman'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-of a 92-year-old woman     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of a 92-year-old woman
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-of a 92-year-old woman     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    homicide.n
-frame:    Offenses
-text:    Sutherland , 50 , of Gilmore Place , Edinburgh , denied the culpable homicide of Mr Buckley on 10 April last year . 
-Target:    homicide 
-FE:    {'Degree': 'culpable', 'Offense': 'homicide', 'Victim': 'of Mr Buckley'}
-FE_unexpr:    {}
-====================================================================================================
-Offenses.Victim neg Offenses
-of Mr Buckley     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of Mr Buckley
-----------------------------------------------------------------------------------------------------
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
-Offenses.Victim neg ?_t
-of Mr Buckley     -- negative ->    _SOMETHING
-----------------------------------------------------------------------------------------------------
-########################################################################################################################
-lu:    homicide.n
-frame:    Offenses
-text:    Involuntary manslaughter is unlawful homicide without malice aforethought . 
-Target:    homicide 
-FE:    {'Degree': 'unlawful', 'Offense': 'homicide', 'Specification': 'without malice aforethought'}
-FE_unexpr:    {}
-====================================================================================================
-?_x neg Offenses
-_GENERAL     -- negative ->    Offenses
-----------------------------------------------------------------------------------------------------
+
