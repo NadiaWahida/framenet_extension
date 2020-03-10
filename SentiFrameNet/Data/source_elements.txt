@@ -27,3 +27,4 @@ Victim
 Resource_controller
 Social_actor
 Protection
+Survivor

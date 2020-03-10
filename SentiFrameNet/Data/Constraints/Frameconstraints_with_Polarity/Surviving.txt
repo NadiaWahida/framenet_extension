@@ -1,0 +1,6 @@
+Surviving	Survivor	Dangerous_situation
+<Source=?_x -- Polarity=pos -> Target=Surviving>
+<Source=?_X -- Polarity=neg -> Target=Surviving.Dangerous_situation>
+<Source=Surviving.Survivor -- Polarity=neg -> Target=Surviving.Dangerous_situation>
+<Source=Surviving.Survivor -- Polarity=neg -> Target=?_t>
+<Source=?_s -- Polarity=neg -> Target=Surviving.Dangerous_situation>

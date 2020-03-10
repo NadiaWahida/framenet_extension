@@ -1,10 +1,9 @@
-Judgment	Cognizer	Evaluee	Topic
+Judgment	Cognizer	Evaluee	Reason	Topic
 <Source=?_x -- Polarity=?_p -> Target=Judgment.?_lu>
 <Source=Judgment.Cognizer -- Polarity=?_p -> Target=Judgment.Evaluee>
+<Source=Judgment.Cognizer -- Polarity=?_p -> Target=Judgment.Reason>
 <Source=Judgment.Cognizer -- Polarity=?_p -> Target=Judgment.Topic>
 <Source=Judgment.Cognizer -- Polarity=?_p -> Target=?_t>
-<Source=Judgment.Evaluee -- Polarity=?_p -> Target=Judgment.Cognizer>
-<Source=Judgment.Evaluee -- Polarity=?_p -> Target=?_t>
-<Source=?_s -- Polarity=?_p -> Target=Judgment.Cognizer>
 <Source=?_s -- Polarity=?_p -> Target=Judgment.Evaluee>
+<Source=?_s -- Polarity=?_p -> Target=Judgment.Reason>
 <Source=?_s -- Polarity=?_p -> Target=Judgment.Topic>
