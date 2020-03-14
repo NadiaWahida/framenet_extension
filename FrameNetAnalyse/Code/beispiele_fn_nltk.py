@@ -3,7 +3,10 @@
 """
 Created on Wed Aug  7 18:08:07 2019
 
-@author: nadia
+@author: Nadia Arslan
+
+This module introduces some functions in the FrameNet module in nltk.
+It was written to see some examples for Usage.
 """
 
 from nltk.corpus import framenet as fn
