@@ -1,10 +1,12 @@
-Judgment_direct_address	Communicator	Addressee	Topic
+Judgment_direct_address	Communicator	Addressee	Topic	Reason
 <Source=?_x -- Polarity=?_p -> Target=Judgment_direct_address.?_lu>
 <Source=Judgment_direct_address.Communicator -- Polarity=?_p -> Target=Judgment_direct_address.Addressee>
 <Source=Judgment_direct_address.Communicator -- Polarity=?_p -> Target=Judgment_direct_address.Topic>
+<Source=Judgment_direct_address.Communicator -- Polarity=?_p -> Target=Judgment_direct_address.Reason>
 <Source=Judgment_direct_address.Communicator -- Polarity=?_p -> Target=?_t>
 <Source=Judgment_direct_address.Addressee -- Polarity=?_p -> Target=Judgment_direct_address.Communicator>
 <Source=Judgment_direct_address.Addressee -- Polarity=?_p -> Target=?_t>
 <Source=?_s -- Polarity=?_p -> Target=Judgment_direct_address.Communicator>
 <Source=?_s -- Polarity=?_p -> Target=Judgment_direct_address.Addressee>
 <Source=?_s -- Polarity=?_p -> Target=Judgment_direct_address.Topic>
+<Source=?_s -- Polarity=?_p -> Target=Judgment_direct_address.Reason>
