@@ -73,13 +73,13 @@ the children     -- positive ->     in meeting someone from television
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in meeting someone from television
+Desiring.Experiencer pos ?_t
+the children     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-the children     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in meeting someone from television
 
 ----------------------------------------------------------------------------------------------------
 
@@ -113,13 +113,13 @@ Your aunt     -- positive ->     in selling them
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in selling them
+Desiring.Experiencer pos ?_t
+Your aunt     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Your aunt     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in selling them
 
 ----------------------------------------------------------------------------------------------------
 
@@ -138,13 +138,13 @@ a large part of the movement     -- positive ->     in dismantling Northern Irel
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in dismantling Northern Ireland
+Desiring.Experiencer pos ?_t
+a large part of the movement     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-a large part of the movement     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in dismantling Northern Ireland
 
 ----------------------------------------------------------------------------------------------------
 
@@ -163,13 +163,13 @@ I     -- positive ->     in a bit of peace and quiet
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in a bit of peace and quiet
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in a bit of peace and quiet
 
 ----------------------------------------------------------------------------------------------------
 
@@ -188,13 +188,13 @@ Cody     -- positive ->     in kite flying
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in kite flying
+Desiring.Experiencer pos ?_t
+Cody     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Cody     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in kite flying
 
 ----------------------------------------------------------------------------------------------------
 
@@ -213,13 +213,13 @@ I     -- positive ->     in doing the heads
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in doing the heads
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in doing the heads
 
 ----------------------------------------------------------------------------------------------------
 
@@ -238,13 +238,13 @@ We     -- positive ->     in tracing the history of collisions a given atom has 
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in tracing the history of collisions a given atom has with other atoms
+Desiring.Experiencer pos ?_t
+We     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-We     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in tracing the history of collisions a given atom has with other atoms
 
 ----------------------------------------------------------------------------------------------------
 
@@ -263,13 +263,13 @@ He     -- positive ->     in pinpointing areas where he could find the most new 
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in pinpointing areas where he could find the most new species
+Desiring.Experiencer pos ?_t
+He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-He     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in pinpointing areas where he could find the most new species
 
 ----------------------------------------------------------------------------------------------------
 
@@ -288,13 +288,13 @@ it     -- positive ->     in obtaining such weapons
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in obtaining such weapons
+Desiring.Experiencer pos ?_t
+it     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-it     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in obtaining such weapons
 
 ----------------------------------------------------------------------------------------------------
 
@@ -328,13 +328,13 @@ I     -- positive ->     to have a few words with
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to have a few words with
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to have a few words with
 
 ----------------------------------------------------------------------------------------------------
 
@@ -353,13 +353,13 @@ you     -- positive ->     to take
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to take
+Desiring.Experiencer pos ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-you     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to take
 
 ----------------------------------------------------------------------------------------------------
 
@@ -378,13 +378,13 @@ I     -- positive ->     making excuses for me
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     making excuses for me
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     making excuses for me
 
 ----------------------------------------------------------------------------------------------------
 
@@ -403,13 +403,13 @@ I     -- positive ->     waiting by this corner
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     waiting by this corner
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     waiting by this corner
 
 ----------------------------------------------------------------------------------------------------
 
@@ -428,13 +428,13 @@ We     -- positive ->     associating with us
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     associating with us
+Desiring.Experiencer pos ?_t
+We     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-We     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     associating with us
 
 ----------------------------------------------------------------------------------------------------
 
@@ -453,13 +453,13 @@ I     -- positive ->     noticing me even a little
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     noticing me even a little
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     noticing me even a little
 
 ----------------------------------------------------------------------------------------------------
 
@@ -478,13 +478,13 @@ We     -- positive ->     to get qualifications that count
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to get qualifications that count
+Desiring.Experiencer pos ?_t
+We     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-We     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to get qualifications that count
 
 ----------------------------------------------------------------------------------------------------
 
@@ -503,13 +503,13 @@ I     -- positive ->     to see me
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to see me
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to see me
 
 ----------------------------------------------------------------------------------------------------
 
@@ -528,13 +528,13 @@ I     -- positive ->     to go out with me … to the park , or the movies
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to go out with me … to the park , or the movies
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to go out with me … to the park , or the movies
 
 ----------------------------------------------------------------------------------------------------
 
@@ -553,13 +553,13 @@ I     -- positive ->     to marry
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to marry
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to marry
 
 ----------------------------------------------------------------------------------------------------
 
@@ -593,13 +593,13 @@ we     -- positive ->     fresh
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     fresh
+Desiring.Experiencer pos ?_t
+we     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-we     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     fresh
 
 ----------------------------------------------------------------------------------------------------
 
@@ -618,13 +618,13 @@ I     -- positive ->     to move in with his wife
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to move in with his wife
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to move in with his wife
 
 ----------------------------------------------------------------------------------------------------
 
@@ -643,13 +643,13 @@ Ursula     -- positive ->     free
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     free
+Desiring.Experiencer pos ?_t
+Ursula     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Ursula     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     free
 
 ----------------------------------------------------------------------------------------------------
 
@@ -668,13 +668,13 @@ We     -- positive ->     something very specific
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     something very specific
+Desiring.Experiencer pos ?_t
+We     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-We     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     something very specific
 
 ----------------------------------------------------------------------------------------------------
 
@@ -768,13 +768,13 @@ I     -- positive ->     a light
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     a light
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     a light
 
 ----------------------------------------------------------------------------------------------------
 
@@ -898,13 +898,13 @@ de Raimes     -- positive ->     dead
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     dead
+Desiring.Experiencer pos ?_t
+de Raimes     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-de Raimes     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     dead
 
 ----------------------------------------------------------------------------------------------------
 
@@ -923,13 +923,13 @@ She     -- positive ->     to be used to fund poor preachers and scholars from h
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to be used to fund poor preachers and scholars from humble backgrounds
+Desiring.Experiencer pos ?_t
+She     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-She     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to be used to fund poor preachers and scholars from humble backgrounds
 
 ----------------------------------------------------------------------------------------------------
 
@@ -948,13 +948,13 @@ I     -- positive ->     in
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in
 
 ----------------------------------------------------------------------------------------------------
 
@@ -973,13 +973,13 @@ you     -- positive ->     What
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     What
+Desiring.Experiencer pos ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-you     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     What
 
 ----------------------------------------------------------------------------------------------------
 
@@ -998,13 +998,13 @@ I     -- positive ->     on the tape
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     on the tape
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     on the tape
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1023,13 +1023,13 @@ it     -- positive ->     the access
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     the access
+Desiring.Experiencer pos ?_t
+it     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-it     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     the access
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1048,13 +1048,13 @@ he     -- positive ->     to investigate reports from relief agencies that a qua
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to investigate reports from relief agencies that a quarter of Iraqi children may be suffering from chronic malnutrition
+Desiring.Experiencer pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-he     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to investigate reports from relief agencies that a quarter of Iraqi children may be suffering from chronic malnutrition
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1073,13 +1073,13 @@ he     -- positive ->     to find out whether the United Nations or relief agenc
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to find out whether the United Nations or relief agencies needed to handle things differently , or whether `` Iraq needs to get out of the way and let us do the job
+Desiring.Experiencer pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-he     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to find out whether the United Nations or relief agencies needed to handle things differently , or whether `` Iraq needs to get out of the way and let us do the job
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1098,13 +1098,13 @@ I     -- positive ->     to be the best place in the world for state-of-the-art 
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to be the best place in the world for state-of-the-art technology companies
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to be the best place in the world for state-of-the-art technology companies
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1123,13 +1123,13 @@ he     -- positive ->     to become the best place in the world for the advanced
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to become the best place in the world for the advanced ( hitech ) technological companies
+Desiring.Experiencer pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-he     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to become the best place in the world for the advanced ( hitech ) technological companies
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1148,13 +1148,13 @@ you     -- positive ->     to do
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to do
+Desiring.Experiencer pos ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-you     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to do
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1173,13 +1173,13 @@ you     -- positive ->     to ignore
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to ignore
+Desiring.Experiencer pos ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-you     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to ignore
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1198,13 +1198,13 @@ you     -- positive ->     to hold off until I finish July and August
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to hold off until I finish July and August
+Desiring.Experiencer pos ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-you     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to hold off until I finish July and August
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1223,13 +1223,13 @@ I     -- positive ->     to look at
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to look at
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to look at
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1248,13 +1248,13 @@ I     -- positive ->     to take a look at
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to take a look at
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to take a look at
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1273,13 +1273,13 @@ They     -- positive ->     to terrify the press and in particular El Espectador
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to terrify the press and in particular El Espectador
+Desiring.Experiencer pos ?_t
+They     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-They     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to terrify the press and in particular El Espectador
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1298,13 +1298,13 @@ who     -- positive ->     to leave AL-QAEDA without a legitimate excuse
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to leave AL-QAEDA without a legitimate excuse
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to leave AL-QAEDA without a legitimate excuse
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1323,13 +1323,13 @@ We     -- positive ->     to Know why your support of Goodwill is so important
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to Know why your support of Goodwill is so important
+Desiring.Experiencer pos ?_t
+We     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-We     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to Know why your support of Goodwill is so important
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1348,13 +1348,13 @@ who     -- positive ->     to tell their own stories of success
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to tell their own stories of success
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to tell their own stories of success
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1373,13 +1373,13 @@ I     -- positive ->     a job
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     a job
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     a job
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1398,13 +1398,13 @@ you     -- positive ->     to hold off until I finish July and August
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to hold off until I finish July and August
+Desiring.Experiencer pos ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-you     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to hold off until I finish July and August
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1423,13 +1423,13 @@ Some indefatigable climbers     -- positive ->     to go up to the top of the ni
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to go up to the top of the nine - story pink pagoda
+Desiring.Experiencer pos ?_t
+Some indefatigable climbers     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Some indefatigable climbers     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to go up to the top of the nine - story pink pagoda
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1448,13 +1448,13 @@ I     -- positive ->     to commit yourself too far
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to commit yourself too far
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to commit yourself too far
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1473,13 +1473,13 @@ I     -- positive ->     to put you in touch with the situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to put you in touch with the situation
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to put you in touch with the situation
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1498,13 +1498,13 @@ who     -- positive ->     fundamental change
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     fundamental change
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     fundamental change
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1553,13 +1553,13 @@ who     -- positive ->     a rational faith
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     a rational faith
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     a rational faith
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1578,13 +1578,13 @@ a politician might     -- positive ->     to avoid involvement in the collectors
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to avoid involvement in the collectorship contests
+Desiring.Experiencer pos ?_t
+a politician might     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-a politician might     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to avoid involvement in the collectorship contests
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1603,13 +1603,13 @@ who     -- positive ->     to work
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to work
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to work
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1628,13 +1628,13 @@ My teachers     -- positive ->     to address this letter to you relative to my 
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to address this letter to you relative to my education
+Desiring.Experiencer pos ?_t
+My teachers     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-My teachers     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to address this letter to you relative to my education
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1653,13 +1653,13 @@ he     -- positive ->     to say he would write but for his constant occupation
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to say he would write but for his constant occupation
+Desiring.Experiencer pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-he     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to say he would write but for his constant occupation
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1678,13 +1678,13 @@ all the councillors     -- positive ->     to succeed his father in all his glor
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to succeed his father in all his glory
+Desiring.Experiencer pos ?_t
+all the councillors     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-all the councillors     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to succeed his father in all his glory
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1703,13 +1703,13 @@ I     -- positive ->     to remember that I do not make use of the word people f
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to remember that I do not make use of the word people for the mere vulgar or mobile , but for the whole community , consisting of clergy , nobility and commons
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to remember that I do not make use of the word people for the mere vulgar or mobile , but for the whole community , consisting of clergy , nobility and commons
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1728,13 +1728,13 @@ he     -- positive ->     to convert people to Jesus 's form of Judaism
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to convert people to Jesus 's form of Judaism
+Desiring.Experiencer pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-he     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to convert people to Jesus 's form of Judaism
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1753,13 +1753,13 @@ I     -- positive ->     to ask your good father if he can procure me a joiner o
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to ask your good father if he can procure me a joiner or two and one or two masons
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to ask your good father if he can procure me a joiner or two and one or two masons
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1793,13 +1793,13 @@ by all Germans     -- positive ->     that
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     that
+Desiring.Experiencer pos ?_t
+by all Germans     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-by all Germans     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     that
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1818,13 +1818,13 @@ the Government 's     -- positive ->     to gain a better quantitative understan
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to gain a better quantitative understanding of the many environmental impacts of minerals activity through its research programme
+Desiring.Experiencer pos ?_t
+the Government 's     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-the Government 's     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to gain a better quantitative understanding of the many environmental impacts of minerals activity through its research programme
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1843,13 +1843,13 @@ most men     -- positive ->     to hunt and kill
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to hunt and kill
+Desiring.Experiencer pos ?_t
+most men     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-most men     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to hunt and kill
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1913,13 +1913,13 @@ of Croats and Muslims     -- positive ->     to break free of Belgrade
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to break free of Belgrade
+Desiring.Experiencer pos ?_t
+of Croats and Muslims     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-of Croats and Muslims     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to break free of Belgrade
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1968,13 +1968,13 @@ Nathaniell Reve     -- positive ->     to been tenant of this farme
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to been tenant of this farme
+Desiring.Experiencer pos ?_t
+Nathaniell Reve     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Nathaniell Reve     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to been tenant of this farme
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2008,13 +2008,13 @@ in a woman     -- positive ->     sexual
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     sexual
+Desiring.Experiencer pos ?_t
+in a woman     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-in a woman     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     sexual
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2033,13 +2033,13 @@ enterprise     -- positive ->     to establish an alibi .
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to establish an alibi .
+Desiring.Experiencer pos ?_t
+enterprise     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-enterprise     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to establish an alibi .
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2058,13 +2058,13 @@ who     -- positive ->     of learning Dutch
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     of learning Dutch
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     of learning Dutch
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2083,13 +2083,13 @@ who     -- positive ->     to meet you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to meet you
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to meet you
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2123,13 +2123,13 @@ who     -- positive ->     of talking business with John Taylor when he was next
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     of talking business with John Taylor when he was next up
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     of talking business with John Taylor when he was next up
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2328,13 +2328,13 @@ her     -- positive ->     for reading
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for reading
+Desiring.Experiencer pos ?_t
+her     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-her     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for reading
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2353,13 +2353,13 @@ who     -- positive ->     to see a showdown with Bruno
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to see a showdown with Bruno
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to see a showdown with Bruno
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2408,13 +2408,13 @@ I     -- positive ->     to be able to reveal to the world that in the picture I
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to be able to reveal to the world that in the picture I depicted … a lighthouse
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to be able to reveal to the world that in the picture I depicted … a lighthouse
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2433,13 +2433,13 @@ The poet     -- positive ->     but far from everybody
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     but far from everybody
+Desiring.Experiencer pos ?_t
+The poet     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-The poet     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     but far from everybody
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2458,13 +2458,13 @@ who     -- positive ->     for adventure
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for adventure
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for adventure
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2498,13 +2498,13 @@ she     -- positive ->     for the end of the shift
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for the end of the shift
+Desiring.Experiencer pos ?_t
+she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-she     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for the end of the shift
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2523,13 +2523,13 @@ I     -- positive ->     to return to his country
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to return to his country
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to return to his country
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2548,13 +2548,13 @@ they     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for
+Desiring.Experiencer pos ?_t
+they     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-they     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2573,13 +2573,13 @@ I     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2598,13 +2598,13 @@ he     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for
+Desiring.Experiencer pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-he     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2623,13 +2623,13 @@ Gwendolen McEwen     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for
+Desiring.Experiencer pos ?_t
+Gwendolen McEwen     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Gwendolen McEwen     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2648,13 +2648,13 @@ she     -- positive ->     for it to end
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for it to end
+Desiring.Experiencer pos ?_t
+she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-she     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for it to end
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2673,13 +2673,13 @@ she     -- positive ->     to be his son
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to be his son
+Desiring.Experiencer pos ?_t
+she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-she     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to be his son
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2713,13 +2713,13 @@ they     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for
+Desiring.Experiencer pos ?_t
+they     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-they     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2738,13 +2738,13 @@ he     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for
+Desiring.Experiencer pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-he     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2763,13 +2763,13 @@ she     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for
+Desiring.Experiencer pos ?_t
+she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-she     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2788,13 +2788,13 @@ she     -- positive ->     to
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to
+Desiring.Experiencer pos ?_t
+she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-she     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2873,13 +2873,13 @@ We     -- positive ->     to see the Good News of Christ 's love spreading throu
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to see the Good News of Christ 's love spreading throughout the world
+Desiring.Experiencer pos ?_t
+We     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-We     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to see the Good News of Christ 's love spreading throughout the world
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2913,13 +2913,13 @@ in a woman     -- positive ->     sexual
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     sexual
+Desiring.Experiencer pos ?_t
+in a woman     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-in a woman     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     sexual
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2938,13 +2938,13 @@ she     -- positive ->     to knock a wedge in his complacency
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to knock a wedge in his complacency
+Desiring.Experiencer pos ?_t
+she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-she     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to knock a wedge in his complacency
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2963,13 +2963,13 @@ I     -- positive ->     to stand behind her and put my arms round her and give 
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to stand behind her and put my arms round her and give her a hug
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to stand behind her and put my arms round her and give her a hug
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2988,13 +2988,13 @@ Brian     -- positive ->     to come home
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to come home
+Desiring.Experiencer pos ?_t
+Brian     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Brian     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to come home
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3013,13 +3013,13 @@ She     -- positive ->     to pee
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to pee
+Desiring.Experiencer pos ?_t
+She     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-She     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to pee
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3038,13 +3038,13 @@ I     -- positive ->     to kiss you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to kiss you
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to kiss you
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3063,13 +3063,13 @@ who     -- positive ->     to be the next Likud leader
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to be the next Likud leader
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to be the next Likud leader
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3088,13 +3088,13 @@ The Moonflowers     -- positive ->     to be weird
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to be weird
+Desiring.Experiencer pos ?_t
+The Moonflowers     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-The Moonflowers     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to be weird
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3113,13 +3113,13 @@ who     -- positive ->     to get on the main Tour
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to get on the main Tour
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to get on the main Tour
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3153,13 +3153,13 @@ The present UK Conservative government     -- positive ->     to remove controls
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to remove controls even in cases where many people consider them beneficial
+Desiring.Experiencer pos ?_t
+The present UK Conservative government     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-The present UK Conservative government     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to remove controls even in cases where many people consider them beneficial
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3178,13 +3178,13 @@ you     -- positive ->     to please me
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to please me
+Desiring.Experiencer pos ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-you     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to please me
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3203,13 +3203,13 @@ Both sides     -- positive ->     to come face to face
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to come face to face
+Desiring.Experiencer pos ?_t
+Both sides     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Both sides     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to come face to face
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3228,13 +3228,13 @@ I     -- positive ->     to start training an owl
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to start training an owl
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to start training an owl
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3253,13 +3253,13 @@ who     -- positive ->     to get home and be relieved of their milk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to get home and be relieved of their milk
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to get home and be relieved of their milk
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3278,13 +3278,13 @@ they     -- positive ->     to be deeply stirred
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to be deeply stirred
+Desiring.Experiencer pos ?_t
+they     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-they     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to be deeply stirred
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3303,13 +3303,13 @@ everyone     -- positive ->     to welcome her back into the family
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to welcome her back into the family
+Desiring.Experiencer pos ?_t
+everyone     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-everyone     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to welcome her back into the family
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3328,13 +3328,13 @@ those warriors     -- positive ->     to contact a foe face to face
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to contact a foe face to face
+Desiring.Experiencer pos ?_t
+those warriors     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-those warriors     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to contact a foe face to face
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3353,13 +3353,13 @@ she     -- positive ->     to be gone
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to be gone
+Desiring.Experiencer pos ?_t
+she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-she     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to be gone
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3378,13 +3378,13 @@ he     -- positive ->     to be rid of you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to be rid of you
+Desiring.Experiencer pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-he     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to be rid of you
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3403,13 +3403,13 @@ he     -- positive ->     to share his country knowledge with young people
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to share his country knowledge with young people
+Desiring.Experiencer pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-he     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to share his country knowledge with young people
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3428,13 +3428,13 @@ the scientific community     -- positive ->     to scrutinise Heber 's work
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to scrutinise Heber 's work
+Desiring.Experiencer pos ?_t
+the scientific community     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-the scientific community     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to scrutinise Heber 's work
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3468,13 +3468,13 @@ Many parents     -- positive ->     to hand their child over to a babysitter and
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to hand their child over to a babysitter and enjoy a well-earned night out
+Desiring.Experiencer pos ?_t
+Many parents     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Many parents     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to hand their child over to a babysitter and enjoy a well-earned night out
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3493,13 +3493,13 @@ the general reading public     -- positive ->     to listen
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to listen
+Desiring.Experiencer pos ?_t
+the general reading public     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-the general reading public     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to listen
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3518,13 +3518,13 @@ it     -- positive ->     to attack , bite and sting any moving object
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to attack , bite and sting any moving object
+Desiring.Experiencer pos ?_t
+it     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-it     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to attack , bite and sting any moving object
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3543,13 +3543,13 @@ Women     -- positive ->     to sign the note
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to sign the note
+Desiring.Experiencer pos ?_t
+Women     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Women     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to sign the note
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3568,13 +3568,13 @@ interviewees     -- positive ->     to air their views of the contemporary state
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to air their views of the contemporary state of Howdendyke
+Desiring.Experiencer pos ?_t
+interviewees     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-interviewees     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to air their views of the contemporary state of Howdendyke
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3593,13 +3593,13 @@ Miranda     -- positive ->     to be off
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to be off
+Desiring.Experiencer pos ?_t
+Miranda     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Miranda     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to be off
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3648,13 +3648,13 @@ I     -- positive ->     for the farm life
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for the farm life
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for the farm life
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3673,13 +3673,13 @@ she     -- positive ->     for a job in uniform
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for a job in uniform
+Desiring.Experiencer pos ?_t
+she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-she     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for a job in uniform
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3713,13 +3713,13 @@ I     -- positive ->     to come here , and be part of it
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to come here , and be part of it
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to come here , and be part of it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3738,13 +3738,13 @@ I     -- positive ->     of getting into TV
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     of getting into TV
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     of getting into TV
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3778,13 +3778,13 @@ I     -- positive ->     to be a goalkeeper
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to be a goalkeeper
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to be a goalkeeper
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3803,13 +3803,13 @@ The club     -- positive ->     to achieve national league status for the town
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to achieve national league status for the town
+Desiring.Experiencer pos ?_t
+The club     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-The club     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to achieve national league status for the town
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3828,13 +3828,13 @@ she and her brother Charles     -- positive ->     that
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     that
+Desiring.Experiencer pos ?_t
+she and her brother Charles     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-she and her brother Charles     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     that
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3853,13 +3853,13 @@ he     -- positive ->     the drink
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     the drink
+Desiring.Experiencer pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-he     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     the drink
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3878,13 +3878,13 @@ who     -- positive ->     to be a woman and who is just months away from radica
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to be a woman and who is just months away from radical surgery
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to be a woman and who is just months away from radical surgery
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3918,13 +3918,13 @@ you     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for
+Desiring.Experiencer pos ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-you     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3988,13 +3988,13 @@ he     -- positive ->     for which
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for which
+Desiring.Experiencer pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-he     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4013,13 +4013,13 @@ I     -- positive ->     for the old days
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for the old days
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for the old days
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4068,13 +4068,13 @@ you     -- positive ->     to give
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to give
+Desiring.Experiencer pos ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-you     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to give
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4108,13 +4108,13 @@ I     -- positive ->     to go back there
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to go back there
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to go back there
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4133,13 +4133,13 @@ that     -- positive ->     to adopt elements of the Spanish model
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to adopt elements of the Spanish model
+Desiring.Experiencer pos ?_t
+that     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-that     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to adopt elements of the Spanish model
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4158,13 +4158,13 @@ I     -- positive ->     I can communicate with you through the Messenger
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     I can communicate with you through the Messenger
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     I can communicate with you through the Messenger
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4213,13 +4213,13 @@ Fire-fighters     -- positive ->     of gaining control
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     of gaining control
+Desiring.Experiencer pos ?_t
+Fire-fighters     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Fire-fighters     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     of gaining control
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4253,13 +4253,13 @@ I     -- positive ->     that
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     that
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     that
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4278,13 +4278,13 @@ his     -- positive ->     to make a so-called citizen 's arrest
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to make a so-called citizen 's arrest
+Desiring.Experiencer pos ?_t
+his     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-his     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to make a so-called citizen 's arrest
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4303,13 +4303,13 @@ his     -- positive ->     of a daily Trotskyist newspaper , The Workers Press
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     of a daily Trotskyist newspaper , The Workers Press
+Desiring.Experiencer pos ?_t
+his     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-his     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     of a daily Trotskyist newspaper , The Workers Press
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4328,13 +4328,13 @@ he     -- positive ->     to own a coach
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to own a coach
+Desiring.Experiencer pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-he     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to own a coach
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4353,13 +4353,13 @@ For 70 year old Bob Wackett and his son , Steve     -- positive ->     it
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     it
+Desiring.Experiencer pos ?_t
+For 70 year old Bob Wackett and his son , Steve     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-For 70 year old Bob Wackett and his son , Steve     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4378,13 +4378,13 @@ She     -- positive ->     to be a marine biologist
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to be a marine biologist
+Desiring.Experiencer pos ?_t
+She     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-She     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to be a marine biologist
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4403,13 +4403,13 @@ his     -- positive ->     of becoming a real American police officer
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     of becoming a real American police officer
+Desiring.Experiencer pos ?_t
+his     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-his     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     of becoming a real American police officer
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4428,13 +4428,13 @@ his     -- positive ->     of playing for Aston Villa
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     of playing for Aston Villa
+Desiring.Experiencer pos ?_t
+his     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-his     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     of playing for Aston Villa
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4453,13 +4453,13 @@ my     -- positive ->     to be a full-time writer
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to be a full-time writer
+Desiring.Experiencer pos ?_t
+my     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-my     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to be a full-time writer
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4478,13 +4478,13 @@ his     -- positive ->     to travel around the world in it
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to travel around the world in it
+Desiring.Experiencer pos ?_t
+his     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-his     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to travel around the world in it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4503,13 +4503,13 @@ her     -- positive ->     to win a third time
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to win a third time
+Desiring.Experiencer pos ?_t
+her     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-her     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to win a third time
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4528,13 +4528,13 @@ The Prime Minister 's     -- positive ->     to close the ozone gap and save the
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     to close the ozone gap and save the world from the greenhouse effect
+Desiring.Experiencer pos ?_t
+The Prime Minister 's     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-The Prime Minister 's     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     to close the ozone gap and save the world from the greenhouse effect
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4568,13 +4568,13 @@ of Mrs Thatcher 's     -- positive ->     The abolition of rates
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     The abolition of rates
+Desiring.Experiencer pos ?_t
+of Mrs Thatcher 's     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-of Mrs Thatcher 's     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     The abolition of rates
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4653,13 +4653,13 @@ the children     -- positive ->     in meeting someone from television
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in meeting someone from television
+Desiring.Experiencer pos ?_t
+the children     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-the children     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in meeting someone from television
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4693,13 +4693,13 @@ Your aunt     -- positive ->     in selling them
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in selling them
+Desiring.Experiencer pos ?_t
+Your aunt     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Your aunt     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in selling them
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4718,13 +4718,13 @@ a large part of the movement     -- positive ->     in dismantling Northern Irel
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in dismantling Northern Ireland
+Desiring.Experiencer pos ?_t
+a large part of the movement     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-a large part of the movement     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in dismantling Northern Ireland
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4743,13 +4743,13 @@ I     -- positive ->     in a bit of peace and quiet
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in a bit of peace and quiet
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in a bit of peace and quiet
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4768,13 +4768,13 @@ Cody     -- positive ->     in kite flying
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in kite flying
+Desiring.Experiencer pos ?_t
+Cody     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Cody     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in kite flying
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4793,13 +4793,13 @@ I     -- positive ->     in doing the heads
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in doing the heads
+Desiring.Experiencer pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in doing the heads
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4818,13 +4818,13 @@ We     -- positive ->     in tracing the history of collisions a given atom has 
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in tracing the history of collisions a given atom has with other atoms
+Desiring.Experiencer pos ?_t
+We     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-We     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in tracing the history of collisions a given atom has with other atoms
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4843,13 +4843,13 @@ He     -- positive ->     in pinpointing areas where he could find the most new 
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in pinpointing areas where he could find the most new species
+Desiring.Experiencer pos ?_t
+He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-He     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in pinpointing areas where he could find the most new species
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4868,13 +4868,13 @@ it     -- positive ->     in obtaining such weapons
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     in obtaining such weapons
+Desiring.Experiencer pos ?_t
+it     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-it     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     in obtaining such weapons
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4893,13 +4893,13 @@ who     -- positive ->     writing a novel
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     writing a novel
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     writing a novel
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4918,13 +4918,13 @@ who     -- positive ->     the occasional day in the fresh air
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     the occasional day in the fresh air
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     the occasional day in the fresh air
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4943,13 +4943,13 @@ who     -- positive ->     on their menu
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     on their menu
+Desiring.Experiencer pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-who     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     on their menu
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4968,13 +4968,13 @@ you     -- positive ->     a bit of sailing
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     a bit of sailing
+Desiring.Experiencer pos ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-you     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     a bit of sailing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5053,13 +5053,13 @@ Morrissey     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Desiring.Event
-_SOMEONE     -- positive ->     for
+Desiring.Experiencer pos ?_t
+Morrissey     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Desiring.Experiencer pos ?_t
-Morrissey     -- positive ->     _SOMETHING
+?_s pos Desiring.Event
+_SOMEONE     -- positive ->     for
 
 ----------------------------------------------------------------------------------------------------
 

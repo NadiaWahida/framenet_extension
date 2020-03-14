@@ -18,13 +18,13 @@ I     -- positive ->     U.S. News and World Report 's endorsement
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- positive ->     U.S. News and World Report 's endorsement
+Regard.Cognizer ?_p ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Regard.Cognizer ?_p ?_t
-I     -- positive ->     _SOMETHING
+?_s ?_p Regard.Evaluee
+_SOMEONE     -- positive ->     U.S. News and World Report 's endorsement
 
 ----------------------------------------------------------------------------------------------------
 
@@ -48,13 +48,13 @@ We     -- positive ->     for Carpertright
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- positive ->     for Carpertright
+Regard.Cognizer ?_p ?_t
+We     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Regard.Cognizer ?_p ?_t
-We     -- positive ->     _SOMETHING
+?_s ?_p Regard.Evaluee
+_SOMEONE     -- positive ->     for Carpertright
 
 ----------------------------------------------------------------------------------------------------
 
@@ -98,13 +98,13 @@ their     -- negative ->    of themselves
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- negative ->    of themselves
+Regard.Cognizer ?_p ?_t
+their     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Regard.Cognizer ?_p ?_t
-their     -- negative ->    _SOMETHING
+?_s ?_p Regard.Evaluee
+_SOMEONE     -- negative ->    of themselves
 
 ----------------------------------------------------------------------------------------------------
 
@@ -128,13 +128,13 @@ I     -- positive ->     of the law
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- positive ->     of the law
+Regard.Cognizer ?_p ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Regard.Cognizer ?_p ?_t
-I     -- positive ->     _SOMETHING
+?_s ?_p Regard.Evaluee
+_SOMEONE     -- positive ->     of the law
 
 ----------------------------------------------------------------------------------------------------
 
@@ -158,13 +158,13 @@ I     -- positive ->     U.S. News and World Report 's endorsement
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- positive ->     U.S. News and World Report 's endorsement
+Regard.Cognizer ?_p ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Regard.Cognizer ?_p ?_t
-I     -- positive ->     _SOMETHING
+?_s ?_p Regard.Evaluee
+_SOMEONE     -- positive ->     U.S. News and World Report 's endorsement
 
 ----------------------------------------------------------------------------------------------------
 
@@ -188,13 +188,13 @@ they     -- positive ->     which
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- positive ->     which
+Regard.Cognizer ?_p ?_t
+they     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Regard.Cognizer ?_p ?_t
-they     -- positive ->     _SOMETHING
+?_s ?_p Regard.Evaluee
+_SOMEONE     -- positive ->     which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -218,13 +218,13 @@ anyone     -- positive ->     the above paragraph
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Regard.Evaluee
-_SOMEONE     -- positive ->     the above paragraph
+Regard.Cognizer ?_p ?_t
+anyone     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Regard.Cognizer ?_p ?_t
-anyone     -- positive ->     _SOMETHING
+?_s ?_p Regard.Evaluee
+_SOMEONE     -- positive ->     the above paragraph
 
 ----------------------------------------------------------------------------------------------------
 

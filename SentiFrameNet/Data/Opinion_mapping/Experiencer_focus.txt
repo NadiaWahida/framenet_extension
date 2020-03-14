@@ -78,13 +78,13 @@ Charles and I and your father     -- negative ->    about you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about you
+Experiencer_focus.Experiencer ?_p ?_t
+Charles and I and your father     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-Charles and I and your father     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about you
 
 ----------------------------------------------------------------------------------------------------
 
@@ -228,13 +228,13 @@ We     -- negative ->    about his right hind leg and left fore leg
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about his right hind leg and left fore leg
+Experiencer_focus.Experiencer ?_p ?_t
+We     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-We     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about his right hind leg and left fore leg
 
 ----------------------------------------------------------------------------------------------------
 
@@ -278,13 +278,13 @@ Maryon     -- negative ->    about him
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about him
+Experiencer_focus.Experiencer ?_p ?_t
+Maryon     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-Maryon     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about him
 
 ----------------------------------------------------------------------------------------------------
 
@@ -388,13 +388,13 @@ Insurers     -- negative ->    about Ariane
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about Ariane
+Experiencer_focus.Experiencer ?_p ?_t
+Insurers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-Insurers     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about Ariane
 
 ----------------------------------------------------------------------------------------------------
 
@@ -613,13 +613,13 @@ Mrs Snell     -- negative ->    about everything
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about everything
+Experiencer_focus.Experiencer ?_p ?_t
+Mrs Snell     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-Mrs Snell     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about everything
 
 ----------------------------------------------------------------------------------------------------
 
@@ -683,13 +683,13 @@ Insurers     -- negative ->    about Ariane
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about Ariane
+Experiencer_focus.Experiencer ?_p ?_t
+Insurers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-Insurers     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about Ariane
 
 ----------------------------------------------------------------------------------------------------
 
@@ -908,13 +908,13 @@ Mrs Snell     -- negative ->    about everything
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about everything
+Experiencer_focus.Experiencer ?_p ?_t
+Mrs Snell     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-Mrs Snell     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about everything
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3843,13 +3843,13 @@ I     -- positive ->     one of the things
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- positive ->     about you
+Experiencer_focus.Experiencer ?_p ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-I     -- positive ->     _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- positive ->     about you
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5043,13 +5043,13 @@ I     -- negative ->    what
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about it
+Experiencer_focus.Experiencer ?_p ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-I     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -6193,13 +6193,13 @@ He     -- positive ->     everything
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- positive ->     about his new uniform
+Experiencer_focus.Experiencer ?_p ?_t
+He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-He     -- positive ->     _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- positive ->     about his new uniform
 
 ----------------------------------------------------------------------------------------------------
 
@@ -6233,13 +6233,13 @@ I     -- positive ->     many things
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- positive ->     about it
+Experiencer_focus.Experiencer ?_p ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-I     -- positive ->     _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- positive ->     about it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -6273,13 +6273,13 @@ She     -- positive ->     everything
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- positive ->     about this man
+Experiencer_focus.Experiencer ?_p ?_t
+She     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-She     -- positive ->     _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- positive ->     about this man
 
 ----------------------------------------------------------------------------------------------------
 
@@ -6613,13 +6613,13 @@ he     -- positive ->     What
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- positive ->     about Sylvie
+Experiencer_focus.Experiencer ?_p ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-he     -- positive ->     _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- positive ->     about Sylvie
 
 ----------------------------------------------------------------------------------------------------
 
@@ -8588,13 +8588,13 @@ Jane     -- negative ->    about that
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about that
+Experiencer_focus.Experiencer ?_p ?_t
+Jane     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-Jane     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about that
 
 ----------------------------------------------------------------------------------------------------
 
@@ -8738,13 +8738,13 @@ he     -- negative ->    about the death
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about the death
+Experiencer_focus.Experiencer ?_p ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-he     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about the death
 
 ----------------------------------------------------------------------------------------------------
 
@@ -9298,13 +9298,13 @@ Charles and I and your father     -- negative ->    about you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about you
+Experiencer_focus.Experiencer ?_p ?_t
+Charles and I and your father     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-Charles and I and your father     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about you
 
 ----------------------------------------------------------------------------------------------------
 
@@ -9448,13 +9448,13 @@ We     -- negative ->    about his right hind leg and left fore leg
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about his right hind leg and left fore leg
+Experiencer_focus.Experiencer ?_p ?_t
+We     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-We     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about his right hind leg and left fore leg
 
 ----------------------------------------------------------------------------------------------------
 
@@ -9498,13 +9498,13 @@ Maryon     -- negative ->    about him
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about him
+Experiencer_focus.Experiencer ?_p ?_t
+Maryon     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-Maryon     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about him
 
 ----------------------------------------------------------------------------------------------------
 
@@ -9608,13 +9608,13 @@ Insurers     -- negative ->    about Ariane
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about Ariane
+Experiencer_focus.Experiencer ?_p ?_t
+Insurers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-Insurers     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about Ariane
 
 ----------------------------------------------------------------------------------------------------
 
@@ -9833,13 +9833,13 @@ Mrs Snell     -- negative ->    about everything
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Experiencer_focus.Topic
-_SOMEONE     -- negative ->    about everything
+Experiencer_focus.Experiencer ?_p ?_t
+Mrs Snell     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Experiencer_focus.Experiencer ?_p ?_t
-Mrs Snell     -- negative ->    _SOMETHING
+?_s ?_p Experiencer_focus.Topic
+_SOMEONE     -- negative ->    about everything
 
 ----------------------------------------------------------------------------------------------------
 

@@ -13,13 +13,13 @@ _GENERAL     -- negative ->    Morality_evaluation.improper.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Behavior
-_SOMEONE     -- negative ->    That
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    of me
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Evaluee
-_SOMEONE     -- negative ->    of me
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    That
 
 ----------------------------------------------------------------------------------------------------
 
@@ -38,13 +38,13 @@ _GENERAL     -- negative ->    Morality_evaluation.improper.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Behavior
-_SOMEONE     -- negative ->    in not ascending to see my father in his deceased condition just at this moment
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    me
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Evaluee
-_SOMEONE     -- negative ->    me
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    in not ascending to see my father in his deceased condition just at this moment
 
 ----------------------------------------------------------------------------------------------------
 
@@ -83,13 +83,13 @@ _GENERAL     -- negative ->    Morality_evaluation.immoral.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Behavior
-_SOMEONE     -- negative ->    in dis    -- positive ->    ing of the surplus , which they inherited from the days of nationalisation
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    they
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Evaluee
-_SOMEONE     -- negative ->    they
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    in dis    -- positive ->    ing of the surplus , which they inherited from the days of nationalisation
 
 ----------------------------------------------------------------------------------------------------
 
@@ -168,13 +168,13 @@ _GENERAL     -- negative ->    Morality_evaluation.sinful.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Behavior
-_SOMEONE     -- negative ->    when I used to think about men and women gettin' married
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    I
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Evaluee
-_SOMEONE     -- negative ->    I
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    when I used to think about men and women gettin' married
 
 ----------------------------------------------------------------------------------------------------
 
@@ -213,13 +213,13 @@ _GENERAL     -- negative ->    Morality_evaluation.sinful.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Behavior
-_SOMEONE     -- negative ->    Such behaviour
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    to my innocent mind
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Evaluee
-_SOMEONE     -- negative ->    to my innocent mind
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    Such behaviour
 
 ----------------------------------------------------------------------------------------------------
 
@@ -238,13 +238,13 @@ _GENERAL     -- negative ->    Morality_evaluation.wicked.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Behavior
-_SOMEONE     -- negative ->    it
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    of her
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Evaluee
-_SOMEONE     -- negative ->    of her
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -303,13 +303,13 @@ _GENERAL     -- negative ->    Morality_evaluation.wrong.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Behavior
-_SOMEONE     -- negative ->    to bring me away from the main road
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    of you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Evaluee
-_SOMEONE     -- negative ->    of you
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    to bring me away from the main road
 
 ----------------------------------------------------------------------------------------------------
 
@@ -448,13 +448,13 @@ _GENERAL     -- positive ->     Morality_evaluation.virtuous.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Behavior
-_SOMEONE     -- positive ->     in their endeavours
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     they
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Evaluee
-_SOMEONE     -- positive ->     they
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- positive ->     in their endeavours
 
 ----------------------------------------------------------------------------------------------------
 
@@ -513,13 +513,13 @@ _GENERAL     -- positive ->     Morality_evaluation.high-minded.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Behavior
-_SOMEONE     -- positive ->     in condemning a L regime which once served its anti- Soviet pur    -- positive ->    es so well
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- positive ->     the West
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Evaluee
-_SOMEONE     -- positive ->     the West
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- positive ->     in condemning a L regime which once served its anti- Soviet pur    -- positive ->    es so well
 
 ----------------------------------------------------------------------------------------------------
 
@@ -638,13 +638,13 @@ _GENERAL     -- negative ->    Morality_evaluation.unscrupulous.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Behavior
-_SOMEONE     -- negative ->    to take advantage of me
+?_s ?_p Morality_evaluation.Evaluee
+_SOMEONE     -- negative ->    you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Morality_evaluation.Evaluee
-_SOMEONE     -- negative ->    you
+?_s ?_p Morality_evaluation.Behavior
+_SOMEONE     -- negative ->    to take advantage of me
 
 ----------------------------------------------------------------------------------------------------
 

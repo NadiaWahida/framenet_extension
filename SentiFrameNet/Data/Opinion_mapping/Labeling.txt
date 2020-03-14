@@ -8,13 +8,13 @@ FE:    {'Entity': 'that', 'Speaker': 'people', 'Label': 'so'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-people     -- positive ->     that
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+people     -- positive ->     that
 
 ----------------------------------------------------------------------------------------------------
 
@@ -38,13 +38,13 @@ FE:    {'Speaker': 'he', 'Entity': 'himself', 'Label': 'an alcoholic'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-he     -- positive ->     himself
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+he     -- positive ->     himself
 
 ----------------------------------------------------------------------------------------------------
 
@@ -68,13 +68,13 @@ FE:    {'Speaker': 'our', 'Entity': 'ourselves', 'Label': '` low-status "'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-our     -- positive ->     ourselves
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+our     -- positive ->     ourselves
 
 ----------------------------------------------------------------------------------------------------
 
@@ -98,13 +98,13 @@ FE:    {'Speaker': 'respondents', 'Entity': 'themselves', 'Label': 'as being in 
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-respondents     -- positive ->     themselves
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+respondents     -- positive ->     themselves
 
 ----------------------------------------------------------------------------------------------------
 
@@ -128,13 +128,13 @@ FE:    {'Entity': 'whom', 'Speaker': 'critics', 'Label': 'a neo dadaist'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-critics     -- positive ->     whom
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+critics     -- positive ->     whom
 
 ----------------------------------------------------------------------------------------------------
 
@@ -158,13 +158,13 @@ FE:    {'Speaker': 'The critics', 'Entity': 'him', 'Label': 'a big spender'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-The critics     -- positive ->     him
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+The critics     -- positive ->     him
 
 ----------------------------------------------------------------------------------------------------
 
@@ -188,13 +188,13 @@ FE:    {'Speaker': 'Some critics', 'Entity': 'such shows', 'Label': 'a huge con'
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-Some critics     -- positive ->     such shows
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+Some critics     -- positive ->     such shows
 
 ----------------------------------------------------------------------------------------------------
 
@@ -218,13 +218,13 @@ FE:    {'Speaker': 'who', 'Entity': 'athletics', 'Label': "as Britain 's most dr
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-who     -- positive ->     athletics
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+who     -- positive ->     athletics
 
 ----------------------------------------------------------------------------------------------------
 
@@ -248,13 +248,13 @@ FE:    {'Label': 'which', 'Speaker': 'later historians', 'Entity': 'him'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-later historians     -- positive ->     him
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+later historians     -- positive ->     him
 
 ----------------------------------------------------------------------------------------------------
 
@@ -278,13 +278,13 @@ FE:    {'Speaker': 'Parents who do not detect an intermittent hearing loss', 'En
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-Parents who do not detect an intermittent hearing loss     -- positive ->     their child
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+Parents who do not detect an intermittent hearing loss     -- positive ->     their child
 
 ----------------------------------------------------------------------------------------------------
 
@@ -308,13 +308,13 @@ FE:    {'Speaker': 'you', 'Entity': 'it', 'Label': 'in a way that would sort of 
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-you     -- positive ->     it
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+you     -- positive ->     it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -338,13 +338,13 @@ FE:    {'Speaker': 'others', 'Entity': 'it', 'Label': 'soft porn'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-others     -- positive ->     it
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+others     -- positive ->     it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -368,13 +368,13 @@ FE:    {'Speaker': 'Mr Collins', 'Entity': 'Angkor', 'Label': 'the greatest tour
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-Mr Collins     -- positive ->     Angkor
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+Mr Collins     -- positive ->     Angkor
 
 ----------------------------------------------------------------------------------------------------
 
@@ -398,13 +398,13 @@ FE:    {'Speaker': 'they', 'Entity': 'me', 'Label': 'a skinhead'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-they     -- positive ->     me
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+they     -- positive ->     me
 
 ----------------------------------------------------------------------------------------------------
 
@@ -428,13 +428,13 @@ FE:    {'Speaker': 'Too many airchair critics who call themselves journalists', 
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-Too many airchair critics who call themselves journalists     -- positive ->     Oliver Stone
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+Too many airchair critics who call themselves journalists     -- positive ->     Oliver Stone
 
 ----------------------------------------------------------------------------------------------------
 
@@ -478,13 +478,13 @@ FE:    {'Speaker': 'two people', 'Entity': 'someone', 'Label': 'a murderer'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-two people     -- positive ->     someone
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+two people     -- positive ->     someone
 
 ----------------------------------------------------------------------------------------------------
 
@@ -508,13 +508,13 @@ FE:    {'Speaker': 'himself', 'Entity': 'them'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-himself     -- positive ->     them
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+himself     -- positive ->     them
 
 ----------------------------------------------------------------------------------------------------
 
@@ -538,13 +538,13 @@ FE:    {'Speaker': 'they', 'Entity': 'it', 'Label': 'persecution'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-they     -- positive ->     it
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+they     -- positive ->     it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -568,13 +568,13 @@ FE:    {'Speaker': 'The right wing', 'Entity': 'him', 'Label': 'a traitor'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-The right wing     -- positive ->     him
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+The right wing     -- positive ->     him
 
 ----------------------------------------------------------------------------------------------------
 
@@ -598,13 +598,13 @@ FE:    {'Speaker': 'Lewis', 'Entity': 'him', 'Label': 'the Red Admiral'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-Lewis     -- positive ->     him
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+Lewis     -- positive ->     him
 
 ----------------------------------------------------------------------------------------------------
 
@@ -628,13 +628,13 @@ FE:    {'Speaker': 'He', 'Entity': 'them', 'Label': 'the Unemployment Society , 
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-He     -- positive ->     them
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+He     -- positive ->     them
 
 ----------------------------------------------------------------------------------------------------
 
@@ -678,13 +678,13 @@ FE:    {'Speaker': 'we', 'Entity': 'them', 'Label': 'a Jacobite'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-we     -- positive ->     them
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+we     -- positive ->     them
 
 ----------------------------------------------------------------------------------------------------
 
@@ -708,13 +708,13 @@ FE:    {'Speaker': 'Mozart', 'Entity': 'it', 'Label': 'both Vivace and a minuet'
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-Mozart     -- positive ->     it
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+Mozart     -- positive ->     it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -738,13 +738,13 @@ FE:    {'Speaker': 'several sceptics', 'Entity': 'him', 'Label': 'a mudlark with
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-several sceptics     -- positive ->     him
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+several sceptics     -- positive ->     him
 
 ----------------------------------------------------------------------------------------------------
 
@@ -768,13 +768,13 @@ FE:    {'Speaker': 'him', 'Entity': 'it', 'Label': 'a hell-hole'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-him     -- positive ->     it
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+him     -- positive ->     it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -798,13 +798,13 @@ FE:    {'Speaker': 'Some', 'Entity': 'it', 'Label': 'an Australian Private Eye'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-Some     -- positive ->     it
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+Some     -- positive ->     it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -828,13 +828,13 @@ FE:    {'Speaker': 'The press', 'Entity': 'them all', 'Label': 'Brats'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-The press     -- positive ->     them all
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+The press     -- positive ->     them all
 
 ----------------------------------------------------------------------------------------------------
 
@@ -858,13 +858,13 @@ FE:    {'Speaker': 'a close friend , Anita', 'Entity': 'me', 'Label': 'one'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-a close friend , Anita     -- positive ->     me
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+a close friend , Anita     -- positive ->     me
 
 ----------------------------------------------------------------------------------------------------
 
@@ -888,13 +888,13 @@ FE:    {'Speaker': 'one of these commentators', 'Entity': 'him', 'Label': 'Raspu
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-one of these commentators     -- positive ->     him
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+one of these commentators     -- positive ->     him
 
 ----------------------------------------------------------------------------------------------------
 
@@ -918,13 +918,13 @@ FE:    {'Speaker': 'we', 'Entity': 'it', 'Label': 'DEVELOPMENT'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-we     -- positive ->     it
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+we     -- positive ->     it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -948,13 +948,13 @@ FE:    {'Speaker': 'The United States', 'Entity': '( such as the Palestinian Lib
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-The United States     -- positive ->     ( such as the Palestinian Liberation Organization )
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.label.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.label.v
+Labeling.Speaker ?_p Labeling.Entity
+The United States     -- positive ->     ( such as the Palestinian Liberation Organization )
 
 ----------------------------------------------------------------------------------------------------
 
@@ -978,13 +978,13 @@ FE:    {'Entity': 'what', 'Speaker': 'terrorism analyst Jerrold Post', 'Label': 
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-terrorism analyst Jerrold Post     -- positive ->     what
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.call.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.call.v
+Labeling.Speaker ?_p Labeling.Entity
+terrorism analyst Jerrold Post     -- positive ->     what
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1008,13 +1008,13 @@ FE:    {'Speaker': 'Settlers', 'Entity': 'the just concluded Israeli-American- P
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-Settlers     -- positive ->     the just concluded Israeli-American- Palestinian summit
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.call.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.call.v
+Labeling.Speaker ?_p Labeling.Entity
+Settlers     -- positive ->     the just concluded Israeli-American- Palestinian summit
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1038,13 +1038,13 @@ FE:    {'Speaker': "Dubai 's Crown Prince Sheikh Mohamed Bin Rashid Al Maktoum",
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-Dubai 's Crown Prince Sheikh Mohamed Bin Rashid Al Maktoum     -- positive ->     Dubai
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.call.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.call.v
+Labeling.Speaker ?_p Labeling.Entity
+Dubai 's Crown Prince Sheikh Mohamed Bin Rashid Al Maktoum     -- positive ->     Dubai
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1113,13 +1113,13 @@ FE:    {'Speaker': 'I', 'Entity': 'it', 'Label': 'luck'}
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-I     -- positive ->     it
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.call.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.call.v
+Labeling.Speaker ?_p Labeling.Entity
+I     -- positive ->     it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1143,13 +1143,13 @@ FE:    {'Speaker': 'Authorities', 'Entity': 'the fires', 'Label': 'criminal acts
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-Authorities     -- positive ->     the fires
+?_x ?_p Labeling.?_lu
+_GENERAL     -- positive ->     Labeling.call.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- positive ->     Labeling.call.v
+Labeling.Speaker ?_p Labeling.Entity
+Authorities     -- positive ->     the fires
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1173,13 +1173,13 @@ FE:    {'Speaker': 'who', 'Entity': 'them', 'Label': 'as troublemakers with no h
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-who     -- negative ->    them
+?_x ?_p Labeling.?_lu
+_GENERAL     -- negative ->    Labeling.brand.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- negative ->    Labeling.brand.v
+Labeling.Speaker ?_p Labeling.Entity
+who     -- negative ->    them
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1203,13 +1203,13 @@ FE:    {'Speaker': 'CHELSEA legend Ron Harris', 'Time': 'last night', 'Entity': 
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-CHELSEA legend Ron Harris     -- negative ->    Vinny Jones
+?_x ?_p Labeling.?_lu
+_GENERAL     -- negative ->    Labeling.brand.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- negative ->    Labeling.brand.v
+Labeling.Speaker ?_p Labeling.Entity
+CHELSEA legend Ron Harris     -- negative ->    Vinny Jones
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1233,13 +1233,13 @@ FE:    {'Speaker': 'POMPEY boss Jim Smith', 'Entity': 'striker Paul Walsh', 'Lab
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-POMPEY boss Jim Smith     -- negative ->    striker Paul Walsh
+?_x ?_p Labeling.?_lu
+_GENERAL     -- negative ->    Labeling.brand.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- negative ->    Labeling.brand.v
+Labeling.Speaker ?_p Labeling.Entity
+POMPEY boss Jim Smith     -- negative ->    striker Paul Walsh
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1283,13 +1283,13 @@ FE:    {'Speaker': 'enraged creditors', 'Entity': 'the disgraced coach chief', '
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-enraged creditors     -- negative ->    the disgraced coach chief
+?_x ?_p Labeling.?_lu
+_GENERAL     -- negative ->    Labeling.brand.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- negative ->    Labeling.brand.v
+Labeling.Speaker ?_p Labeling.Entity
+enraged creditors     -- negative ->    the disgraced coach chief
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1313,13 +1313,13 @@ FE:    {'Entity': 'SUNDAY trading laws', 'Label': 'a “ farce ”', 'Time': 'ye
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-by Darlington councillor Bill Dixon     -- negative ->    SUNDAY trading laws
+?_x ?_p Labeling.?_lu
+_GENERAL     -- negative ->    Labeling.brand.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- negative ->    Labeling.brand.v
+Labeling.Speaker ?_p Labeling.Entity
+by Darlington councillor Bill Dixon     -- negative ->    SUNDAY trading laws
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1343,13 +1343,13 @@ FE:    {'Entity': 'He', 'Label': 'a nosy parker', 'Speaker': 'by some of his Abi
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-by some of his Abingdon neighbours     -- negative ->    He
+?_x ?_p Labeling.?_lu
+_GENERAL     -- negative ->    Labeling.brand.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- negative ->    Labeling.brand.v
+Labeling.Speaker ?_p Labeling.Entity
+by some of his Abingdon neighbours     -- negative ->    He
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1373,13 +1373,13 @@ FE:    {'Entity': 'PLANNED cuts in overseas aid', 'Label': '` repugnant "', 'Spe
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-by Mr Smith , who accused the Government of making the starving pay for their economic blunders     -- negative ->    PLANNED cuts in overseas aid
+?_x ?_p Labeling.?_lu
+_GENERAL     -- negative ->    Labeling.brand.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- negative ->    Labeling.brand.v
+Labeling.Speaker ?_p Labeling.Entity
+by Mr Smith , who accused the Government of making the starving pay for their economic blunders     -- negative ->    PLANNED cuts in overseas aid
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1403,13 +1403,13 @@ FE:    {'Entity': 'THE most important revolution in education for decades', 'Lab
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-by school inspectors     -- negative ->    THE most important revolution in education for decades
+?_x ?_p Labeling.?_lu
+_GENERAL     -- negative ->    Labeling.brand.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- negative ->    Labeling.brand.v
+Labeling.Speaker ?_p Labeling.Entity
+by school inspectors     -- negative ->    THE most important revolution in education for decades
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1453,13 +1453,13 @@ FE:    {'Entity': 'MIKE Small', 'Label': '` stupid "', 'Speaker': 'by furious bo
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-by furious boss Billy Bonds     -- negative ->    MIKE Small
+?_x ?_p Labeling.?_lu
+_GENERAL     -- negative ->    Labeling.brand.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- negative ->    Labeling.brand.v
+Labeling.Speaker ?_p Labeling.Entity
+by furious boss Billy Bonds     -- negative ->    MIKE Small
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1483,13 +1483,13 @@ FE:    {'Speaker': "The vehicle owners ' pressure group Stichting Weg", 'Entity'
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-The vehicle owners ' pressure group Stichting Weg     -- negative ->    the plans
+?_x ?_p Labeling.?_lu
+_GENERAL     -- negative ->    Labeling.brand.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- negative ->    Labeling.brand.v
+Labeling.Speaker ?_p Labeling.Entity
+The vehicle owners ' pressure group Stichting Weg     -- negative ->    the plans
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1513,13 +1513,13 @@ FE:    {'Entity': 'THE terse official report into the cause of the Windsor Castl
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-by MPs     -- negative ->    THE terse official report into the cause of the Windsor Castle fire
+?_x ?_p Labeling.?_lu
+_GENERAL     -- negative ->    Labeling.brand.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- negative ->    Labeling.brand.v
+Labeling.Speaker ?_p Labeling.Entity
+by MPs     -- negative ->    THE terse official report into the cause of the Windsor Castle fire
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1543,13 +1543,13 @@ FE:    {'Entity': "BRITAIN 'S crowded classrooms", 'Label': 'a ` public disgrace
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-by the ex-head of the National Curriculum Council     -- negative ->    BRITAIN 'S crowded classrooms
+?_x ?_p Labeling.?_lu
+_GENERAL     -- negative ->    Labeling.brand.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- negative ->    Labeling.brand.v
+Labeling.Speaker ?_p Labeling.Entity
+by the ex-head of the National Curriculum Council     -- negative ->    BRITAIN 'S crowded classrooms
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1573,13 +1573,13 @@ FE:    {'Speaker': 'The conservative journal American Spectator', 'Entity': 'her
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-The conservative journal American Spectator     -- negative ->    her
+?_x ?_p Labeling.?_lu
+_GENERAL     -- negative ->    Labeling.brand.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- negative ->    Labeling.brand.v
+Labeling.Speaker ?_p Labeling.Entity
+The conservative journal American Spectator     -- negative ->    her
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1603,13 +1603,13 @@ FE:    {'Entity': 'DOUBLE beds', 'Label': 'passion killers', 'Speaker': 'by love
 
 ====================================================================================================
 
-Labeling.Speaker ?_p Labeling.Entity
-by lovers     -- negative ->    DOUBLE beds
+?_x ?_p Labeling.?_lu
+_GENERAL     -- negative ->    Labeling.brand.v
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Labeling.?_lu
-_GENERAL     -- negative ->    Labeling.brand.v
+Labeling.Speaker ?_p Labeling.Entity
+by lovers     -- negative ->    DOUBLE beds
 
 ----------------------------------------------------------------------------------------------------
 

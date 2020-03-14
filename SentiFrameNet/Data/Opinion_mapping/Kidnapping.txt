@@ -13,13 +13,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-of four youths     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    of four youths
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    of four youths
+Kidnapping.Victim neg ?_t
+of four youths     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -38,13 +38,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-of two German citizens     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    of two German citizens
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    of two German citizens
+Kidnapping.Victim neg ?_t
+of two German citizens     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -63,13 +63,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-the body of a Druze sergeant in the Israeli army , Samir Assad ,     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    the body of a Druze sergeant in the Israeli army , Samir Assad ,
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    the body of a Druze sergeant in the Israeli army , Samir Assad ,
+Kidnapping.Victim neg ?_t
+the body of a Druze sergeant in the Israeli army , Samir Assad ,     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -83,11 +83,6 @@ FE:    {'Victim': 'The two men , Emmanuel Christen and Elio Erriquez', 'Perpetra
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-The two men , Emmanuel Christen and Elio Erriquez     -- negative ->    by two masked gunmen
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -98,13 +93,13 @@ by two masked gunmen     -- negative ->    The two men , Emmanuel Christen and E
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-The two men , Emmanuel Christen and Elio Erriquez     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+The two men , Emmanuel Christen and Elio Erriquez     -- negative ->    by two masked gunmen
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    The two men , Emmanuel Christen and Elio Erriquez
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by two masked gunmen
 
 ----------------------------------------------------------------------------------------------------
 
@@ -113,8 +108,13 @@ by two masked gunmen     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by two masked gunmen
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    The two men , Emmanuel Christen and Elio Erriquez
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+The two men , Emmanuel Christen and Elio Erriquez     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -128,11 +128,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'Post Office security guards'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Post Office security guards     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -143,13 +138,13 @@ who     -- negative ->    Post Office security guards
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Post Office security guards     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Post Office security guards     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Post Office security guards
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -158,8 +153,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Post Office security guards
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Post Office security guards     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -173,11 +173,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'a woman', 'Time': 'after forcing his wa
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-a woman     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -188,13 +183,13 @@ who     -- negative ->    a woman
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-a woman     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+a woman     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    a woman
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -203,8 +198,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    a woman
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+a woman     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -218,11 +218,6 @@ FE:    {'Victim': 'three British UN officers', 'Perpetrator': 'by Khmer Rouge', 
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-three British UN officers     -- negative ->    by Khmer Rouge
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -233,13 +228,13 @@ by Khmer Rouge     -- negative ->    three British UN officers
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-three British UN officers     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+three British UN officers     -- negative ->    by Khmer Rouge
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    three British UN officers
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by Khmer Rouge
 
 ----------------------------------------------------------------------------------------------------
 
@@ -248,8 +243,13 @@ by Khmer Rouge     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by Khmer Rouge
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    three British UN officers
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+three British UN officers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -263,11 +263,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'the daughter of the Indian Home Ministe
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-the daughter of the Indian Home Minister , Mufti Mohammed Sayeed     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -278,13 +273,13 @@ who     -- negative ->    the daughter of the Indian Home Minister , Mufti Moham
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-the daughter of the Indian Home Minister , Mufti Mohammed Sayeed     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+the daughter of the Indian Home Minister , Mufti Mohammed Sayeed     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    the daughter of the Indian Home Minister , Mufti Mohammed Sayeed
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -293,8 +288,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    the daughter of the Indian Home Minister , Mufti Mohammed Sayeed
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+the daughter of the Indian Home Minister , Mufti Mohammed Sayeed     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -308,11 +308,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'a school bus', 'Purpose': 'to take him 
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-a school bus     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -323,13 +318,13 @@ who     -- negative ->    a school bus
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-a school bus     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+a school bus     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    a school bus
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -338,8 +333,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    a school bus
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+a school bus     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -358,13 +358,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-a Japanese woman     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    a Japanese woman
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    a Japanese woman
+Kidnapping.Victim neg ?_t
+a Japanese woman     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -378,11 +378,6 @@ FE:    {'Victim': 'Five foreigners', 'Perpetrator': 'by a Turkish Kurdish group'
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Five foreigners     -- negative ->    by a Turkish Kurdish group
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -393,13 +388,13 @@ by a Turkish Kurdish group     -- negative ->    Five foreigners
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Five foreigners     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Five foreigners     -- negative ->    by a Turkish Kurdish group
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Five foreigners
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by a Turkish Kurdish group
 
 ----------------------------------------------------------------------------------------------------
 
@@ -408,8 +403,13 @@ by a Turkish Kurdish group     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by a Turkish Kurdish group
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Five foreigners
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Five foreigners     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -423,11 +423,6 @@ FE:    {'Perpetrator': 'two escaped convicts', 'Victim': 'them', 'Manner': 'at g
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-them     -- negative ->    two escaped convicts
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -438,13 +433,13 @@ two escaped convicts     -- negative ->    them
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-them     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+them     -- negative ->    two escaped convicts
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    them
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    two escaped convicts
 
 ----------------------------------------------------------------------------------------------------
 
@@ -453,8 +448,13 @@ two escaped convicts     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    two escaped convicts
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    them
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+them     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -468,11 +468,6 @@ FE:    {'Perpetrator': 'A teenager', 'Victim': 'his former girlfriend and her st
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-his former girlfriend and her stepfather     -- negative ->    A teenager
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -483,13 +478,13 @@ A teenager     -- negative ->    his former girlfriend and her stepfather
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-his former girlfriend and her stepfather     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+his former girlfriend and her stepfather     -- negative ->    A teenager
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    his former girlfriend and her stepfather
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    A teenager
 
 ----------------------------------------------------------------------------------------------------
 
@@ -498,8 +493,13 @@ A teenager     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    A teenager
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    his former girlfriend and her stepfather
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+his former girlfriend and her stepfather     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -518,13 +518,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    who
+Kidnapping.Victim neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -543,13 +543,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-A number of foreign businessmen     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    A number of foreign businessmen
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    A number of foreign businessmen
+Kidnapping.Victim neg ?_t
+A number of foreign businessmen     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -563,11 +563,6 @@ FE:    {'Perpetrator': 'Slovenes', 'Victim': 'two of its soldiers', 'Time': 'on 
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-two of its soldiers     -- negative ->    Slovenes
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -578,13 +573,13 @@ Slovenes     -- negative ->    two of its soldiers
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-two of its soldiers     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+two of its soldiers     -- negative ->    Slovenes
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    two of its soldiers
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    Slovenes
 
 ----------------------------------------------------------------------------------------------------
 
@@ -593,8 +588,13 @@ Slovenes     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    Slovenes
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    two of its soldiers
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+two of its soldiers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -608,11 +608,6 @@ FE:    {'Perpetrator': 'Armed separatist guerrillas of the Jammu and Kashmir Lib
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-six Israeli tourists     -- negative ->    Armed separatist guerrillas of the Jammu and Kashmir Liberation Front ( JKLF
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -623,13 +618,13 @@ Armed separatist guerrillas of the Jammu and Kashmir Liberation Front ( JKLF    
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-six Israeli tourists     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+six Israeli tourists     -- negative ->    Armed separatist guerrillas of the Jammu and Kashmir Liberation Front ( JKLF
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    six Israeli tourists
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    Armed separatist guerrillas of the Jammu and Kashmir Liberation Front ( JKLF
 
 ----------------------------------------------------------------------------------------------------
 
@@ -638,8 +633,13 @@ Armed separatist guerrillas of the Jammu and Kashmir Liberation Front ( JKLF    
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    Armed separatist guerrillas of the Jammu and Kashmir Liberation Front ( JKLF
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    six Israeli tourists
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+six Israeli tourists     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -653,11 +653,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'a woman driver'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-a woman driver     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -668,13 +663,13 @@ who     -- negative ->    a woman driver
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-a woman driver     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+a woman driver     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    a woman driver
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -683,8 +678,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    a woman driver
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+a woman driver     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -698,11 +698,6 @@ FE:    {'Perpetrator': 'the FBI', 'Victim': 'a fugitive US financier , Robert Ve
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-a fugitive US financier , Robert Vesco     -- negative ->    the FBI
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -713,13 +708,13 @@ the FBI     -- negative ->    a fugitive US financier , Robert Vesco
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-a fugitive US financier , Robert Vesco     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+a fugitive US financier , Robert Vesco     -- negative ->    the FBI
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    a fugitive US financier , Robert Vesco
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    the FBI
 
 ----------------------------------------------------------------------------------------------------
 
@@ -728,8 +723,13 @@ the FBI     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    the FBI
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    a fugitive US financier , Robert Vesco
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+a fugitive US financier , Robert Vesco     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -743,11 +743,6 @@ FE:    {'Perpetrator': 'Separatist Muslim militants', 'Victim': 'the daughter of
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-the daughter of an Indian minister     -- negative ->    Separatist Muslim militants
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -758,13 +753,13 @@ Separatist Muslim militants     -- negative ->    the daughter of an Indian mini
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-the daughter of an Indian minister     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+the daughter of an Indian minister     -- negative ->    Separatist Muslim militants
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    the daughter of an Indian minister
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    Separatist Muslim militants
 
 ----------------------------------------------------------------------------------------------------
 
@@ -773,8 +768,13 @@ Separatist Muslim militants     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    Separatist Muslim militants
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    the daughter of an Indian minister
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+the daughter of an Indian minister     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -788,11 +788,6 @@ FE:    {'Time': 'On July 24th 1947', 'Perpetrator': 'Irgun', 'Victim': 'two Brit
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-two British Army sergeants , Clifford Martin and Mervyn Paice     -- negative ->    Irgun
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -803,13 +798,13 @@ Irgun     -- negative ->    two British Army sergeants , Clifford Martin and Mer
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-two British Army sergeants , Clifford Martin and Mervyn Paice     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+two British Army sergeants , Clifford Martin and Mervyn Paice     -- negative ->    Irgun
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    two British Army sergeants , Clifford Martin and Mervyn Paice
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    Irgun
 
 ----------------------------------------------------------------------------------------------------
 
@@ -818,8 +813,13 @@ Irgun     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    Irgun
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    two British Army sergeants , Clifford Martin and Mervyn Paice
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+two British Army sergeants , Clifford Martin and Mervyn Paice     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -833,11 +833,6 @@ FE:    {'Perpetrator': 'you', 'Victim': 'my son', 'Purpose': 'for insurance'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-my son     -- negative ->    you
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -848,13 +843,13 @@ you     -- negative ->    my son
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-my son     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+my son     -- negative ->    you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    my son
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    you
 
 ----------------------------------------------------------------------------------------------------
 
@@ -863,8 +858,13 @@ you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    you
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    my son
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+my son     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -878,11 +878,6 @@ FE:    {'Perpetrator': 'Sams', 'Victim': 'Julie Dart', 'Manner': 'by pretending 
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Julie Dart     -- negative ->    Sams
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -893,13 +888,13 @@ Sams     -- negative ->    Julie Dart
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Julie Dart     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Julie Dart     -- negative ->    Sams
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Julie Dart
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    Sams
 
 ----------------------------------------------------------------------------------------------------
 
@@ -908,8 +903,13 @@ Sams     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    Sams
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Julie Dart
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Julie Dart     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -923,11 +923,6 @@ FE:    {'Time': 'at 5 a.m. one morning', 'Perpetrator': 'the security forces', '
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-her     -- negative ->    the security forces
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -938,13 +933,13 @@ the security forces     -- negative ->    her
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-her     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+her     -- negative ->    the security forces
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    her
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    the security forces
 
 ----------------------------------------------------------------------------------------------------
 
@@ -953,8 +948,13 @@ the security forces     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    the security forces
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    her
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+her     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -968,11 +968,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'a six-year-old girl', 'Source': 'from a
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-a six-year-old girl     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -983,13 +978,13 @@ who     -- negative ->    a six-year-old girl
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-a six-year-old girl     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+a six-year-old girl     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    a six-year-old girl
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -998,8 +993,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    a six-year-old girl
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+a six-year-old girl     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1013,11 +1013,6 @@ FE:    {'Place': 'In Kashmir', 'Perpetrator': 'the militant Moslem Crusade Force
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-two Swedish engineers     -- negative ->    the militant Moslem Crusade Force ( MCF
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1028,13 +1023,13 @@ the militant Moslem Crusade Force ( MCF     -- negative ->    two Swedish engine
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-two Swedish engineers     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+two Swedish engineers     -- negative ->    the militant Moslem Crusade Force ( MCF
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    two Swedish engineers
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    the militant Moslem Crusade Force ( MCF
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1043,8 +1038,13 @@ the militant Moslem Crusade Force ( MCF     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    the militant Moslem Crusade Force ( MCF
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    two Swedish engineers
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+two Swedish engineers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1058,11 +1058,6 @@ FE:    {'Perpetrator': 'Federal Bureau of Investigation agents', 'Victim': 'fugi
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-fugitives     -- negative ->    Federal Bureau of Investigation agents
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1073,13 +1068,13 @@ Federal Bureau of Investigation agents     -- negative ->    fugitives
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-fugitives     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+fugitives     -- negative ->    Federal Bureau of Investigation agents
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    fugitives
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    Federal Bureau of Investigation agents
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1088,8 +1083,13 @@ Federal Bureau of Investigation agents     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    Federal Bureau of Investigation agents
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    fugitives
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+fugitives     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1103,11 +1103,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'Barbs'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Barbs     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1118,13 +1113,13 @@ who     -- negative ->    Barbs
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Barbs     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Barbs     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Barbs
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1133,8 +1128,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Barbs
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Barbs     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1148,11 +1148,6 @@ FE:    {'Time': 'In August', 'Victim': 'he', 'Perpetrator': 'by Russian officers
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-he     -- negative ->    by Russian officers
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1163,13 +1158,13 @@ by Russian officers     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-he     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+he     -- negative ->    by Russian officers
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    he
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by Russian officers
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1178,8 +1173,13 @@ by Russian officers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by Russian officers
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    he
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1198,13 +1198,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    who
+Kidnapping.Victim neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1218,11 +1218,6 @@ FE:    {'Victim': 'who', 'Perpetrator': 'by the Contras'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-who     -- negative ->    by the Contras
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1233,13 +1228,13 @@ by the Contras     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-who     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+who     -- negative ->    by the Contras
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by the Contras
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1248,8 +1243,13 @@ by the Contras     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by the Contras
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    who
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1263,11 +1263,6 @@ FE:    {'Victim': 'Two Swedish engineers', 'Perpetrator': 'by the Moslem Janbaz 
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Two Swedish engineers     -- negative ->    by the Moslem Janbaz " Crusader " Force ( MJF
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1278,13 +1273,13 @@ by the Moslem Janbaz " Crusader " Force ( MJF     -- negative ->    Two Swedish 
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Two Swedish engineers     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Two Swedish engineers     -- negative ->    by the Moslem Janbaz " Crusader " Force ( MJF
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Two Swedish engineers
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by the Moslem Janbaz " Crusader " Force ( MJF
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1293,8 +1288,13 @@ by the Moslem Janbaz " Crusader " Force ( MJF     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by the Moslem Janbaz " Crusader " Force ( MJF
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Two Swedish engineers
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Two Swedish engineers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1313,13 +1313,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Vera and Orton Chirwa     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Vera and Orton Chirwa
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Vera and Orton Chirwa
+Kidnapping.Victim neg ?_t
+Vera and Orton Chirwa     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1333,11 +1333,6 @@ FE:    {'Perpetrator': 'they', 'Victim': 'a young boy', 'Purpose': 'for kicks'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-a young boy     -- negative ->    they
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1348,13 +1343,13 @@ they     -- negative ->    a young boy
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-a young boy     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+a young boy     -- negative ->    they
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    a young boy
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    they
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1363,8 +1358,13 @@ they     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    they
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    a young boy
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+a young boy     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1378,11 +1378,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'four schoolgirls'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-four schoolgirls     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1393,13 +1388,13 @@ who     -- negative ->    four schoolgirls
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-four schoolgirls     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+four schoolgirls     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    four schoolgirls
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1408,8 +1403,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    four schoolgirls
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+four schoolgirls     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1423,11 +1423,6 @@ FE:    {'Victim': 'who', 'Perpetrator': 'by an Iranian man'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-who     -- negative ->    by an Iranian man
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1438,13 +1433,13 @@ by an Iranian man     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-who     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+who     -- negative ->    by an Iranian man
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by an Iranian man
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1453,8 +1448,13 @@ by an Iranian man     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by an Iranian man
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    who
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1468,11 +1468,6 @@ FE:    {'Perpetrator': 'Israeli forces', 'Victim': 'several people', 'Place': 'n
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-several people     -- negative ->    Israeli forces
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1483,13 +1478,13 @@ Israeli forces     -- negative ->    several people
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-several people     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+several people     -- negative ->    Israeli forces
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    several people
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    Israeli forces
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1498,8 +1493,13 @@ Israeli forces     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    Israeli forces
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    several people
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+several people     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1513,11 +1513,6 @@ FE:    {'Victim': 'All three men', 'Perpetrator': "by Mrs Mandela 's bodyguards"
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-All three men     -- negative ->    by Mrs Mandela 's bodyguards
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1528,13 +1523,13 @@ by Mrs Mandela 's bodyguards     -- negative ->    All three men
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-All three men     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+All three men     -- negative ->    by Mrs Mandela 's bodyguards
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    All three men
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by Mrs Mandela 's bodyguards
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1543,8 +1538,13 @@ by Mrs Mandela 's bodyguards     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by Mrs Mandela 's bodyguards
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    All three men
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+All three men     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1558,11 +1558,6 @@ FE:    {'Perpetrator': 'which', 'Victim': 'three people'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-three people     -- negative ->    which
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1573,13 +1568,13 @@ which     -- negative ->    three people
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-three people     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+three people     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    three people
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1588,8 +1583,13 @@ which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    which
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    three people
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+three people     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1603,11 +1603,6 @@ FE:    {'Victim': 'a Japanese woman', 'Perpetrator': 'by North Korean agents', '
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-a Japanese woman     -- negative ->    by North Korean agents
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1618,13 +1613,13 @@ by North Korean agents     -- negative ->    a Japanese woman
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-a Japanese woman     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+a Japanese woman     -- negative ->    by North Korean agents
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    a Japanese woman
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by North Korean agents
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1633,8 +1628,13 @@ by North Korean agents     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by North Korean agents
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    a Japanese woman
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+a Japanese woman     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1648,11 +1648,6 @@ FE:    {'Time': 'In the summer of 1976', 'Place': 'in Chow-Michiel Barnes chilla
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-a schoolbus driver and 26 children     -- negative ->    by masked men
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1663,13 +1658,13 @@ by masked men     -- negative ->    a schoolbus driver and 26 children
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-a schoolbus driver and 26 children     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+a schoolbus driver and 26 children     -- negative ->    by masked men
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    a schoolbus driver and 26 children
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by masked men
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1678,8 +1673,13 @@ by masked men     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by masked men
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    a schoolbus driver and 26 children
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+a schoolbus driver and 26 children     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1693,11 +1693,6 @@ FE:    {'Victim': 'they', 'Manner': 'forcibly', 'Perpetrator': 'by aliens'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-they     -- negative ->    by aliens
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1708,13 +1703,13 @@ by aliens     -- negative ->    they
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-they     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+they     -- negative ->    by aliens
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    they
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by aliens
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1723,8 +1718,13 @@ by aliens     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by aliens
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    they
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+they     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1738,11 +1738,6 @@ FE:    {'Victim': 'three Lebanese men', 'Perpetrator': 'by SLA militiamen', 'Tim
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-three Lebanese men     -- negative ->    by SLA militiamen
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1753,13 +1748,13 @@ by SLA militiamen     -- negative ->    three Lebanese men
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-three Lebanese men     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+three Lebanese men     -- negative ->    by SLA militiamen
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    three Lebanese men
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by SLA militiamen
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1768,8 +1763,13 @@ by SLA militiamen     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by SLA militiamen
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    three Lebanese men
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+three Lebanese men     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1783,11 +1783,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'a young woman', 'Place': 'in Musselburg
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-a young woman     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1798,13 +1793,13 @@ who     -- negative ->    a young woman
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-a young woman     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+a young woman     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    a young woman
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1813,8 +1808,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    a young woman
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+a young woman     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1828,11 +1828,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'a seven year old boy', 'Time': 'as he p
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-a seven year old boy     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1843,13 +1838,13 @@ who     -- negative ->    a seven year old boy
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-a seven year old boy     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+a seven year old boy     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    a seven year old boy
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1858,8 +1853,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    a seven year old boy
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+a seven year old boy     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1873,11 +1873,6 @@ FE:    {'Perpetrator': 'a man', 'Victim': 'him', 'Time': 'while he was doing his
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-him     -- negative ->    a man
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1888,13 +1883,13 @@ a man     -- negative ->    him
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-him     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+him     -- negative ->    a man
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    him
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    a man
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1903,8 +1898,13 @@ a man     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    a man
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    him
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+him     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1918,11 +1918,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'Stephanie'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Stephanie     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1933,13 +1928,13 @@ who     -- negative ->    Stephanie
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Stephanie     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Stephanie     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Stephanie
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1948,8 +1943,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Stephanie
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Stephanie     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1963,11 +1963,6 @@ FE:    {'Victim': 'The 20-year-old woman', 'Time': 'as she sat with her boyfrien
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-The 20-year-old woman     -- negative ->    by a masked man
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -1978,13 +1973,13 @@ by a masked man     -- negative ->    The 20-year-old woman
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-The 20-year-old woman     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+The 20-year-old woman     -- negative ->    by a masked man
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    The 20-year-old woman
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by a masked man
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1993,8 +1988,13 @@ by a masked man     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by a masked man
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    The 20-year-old woman
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+The 20-year-old woman     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2013,13 +2013,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-She     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    She
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    She
+Kidnapping.Victim neg ?_t
+She     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2033,11 +2033,6 @@ FE:    {'Time': 'In 1990', 'Victim': 'Alvarez', 'Source': 'from his home in Guad
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Alvarez     -- negative ->    by bounty hunters
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2048,13 +2043,13 @@ by bounty hunters     -- negative ->    Alvarez
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Alvarez     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Alvarez     -- negative ->    by bounty hunters
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Alvarez
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by bounty hunters
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2063,8 +2058,13 @@ by bounty hunters     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by bounty hunters
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Alvarez
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Alvarez     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2078,11 +2078,6 @@ FE:    {'Victim': 'Dr Alirio de Jesús Pedraza Becerra', 'Perpetrator': 'by eigh
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Dr Alirio de Jesús Pedraza Becerra     -- negative ->    by eight heavily armed men
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2093,13 +2088,13 @@ by eight heavily armed men     -- negative ->    Dr Alirio de Jesús Pedraza Bec
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Dr Alirio de Jesús Pedraza Becerra     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Dr Alirio de Jesús Pedraza Becerra     -- negative ->    by eight heavily armed men
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Dr Alirio de Jesús Pedraza Becerra
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by eight heavily armed men
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2108,8 +2103,13 @@ by eight heavily armed men     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by eight heavily armed men
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Dr Alirio de Jesús Pedraza Becerra
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Dr Alirio de Jesús Pedraza Becerra     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2123,11 +2123,6 @@ FE:    {'Victim': 'his wife and five-year-old son', 'Perpetrator': 'by three mas
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-his wife and five-year-old son     -- negative ->    by three masked men
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2138,13 +2133,13 @@ by three masked men     -- negative ->    his wife and five-year-old son
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-his wife and five-year-old son     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+his wife and five-year-old son     -- negative ->    by three masked men
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    his wife and five-year-old son
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by three masked men
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2153,8 +2148,13 @@ by three masked men     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by three masked men
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    his wife and five-year-old son
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+his wife and five-year-old son     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2168,11 +2168,6 @@ FE:    {'Victim': 'Three journalists who went to investigate the shooting', 'Mea
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Three journalists who went to investigate the shooting     -- negative ->    by people who said they were police officers
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2183,13 +2178,13 @@ by people who said they were police officers     -- negative ->    Three journal
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Three journalists who went to investigate the shooting     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Three journalists who went to investigate the shooting     -- negative ->    by people who said they were police officers
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Three journalists who went to investigate the shooting
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by people who said they were police officers
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2198,8 +2193,13 @@ by people who said they were police officers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by people who said they were police officers
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Three journalists who went to investigate the shooting
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Three journalists who went to investigate the shooting     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2213,11 +2213,6 @@ FE:    {'Perpetrator': 'the US government', 'Victim': 'people', 'Source': 'from 
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-people     -- negative ->    the US government
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2228,13 +2223,13 @@ the US government     -- negative ->    people
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-people     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+people     -- negative ->    the US government
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    people
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    the US government
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2243,8 +2238,13 @@ the US government     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    the US government
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    people
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+people     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2258,11 +2258,6 @@ FE:    {'Perpetrator': 'he', 'Victim': 'his pregnant ex-girlfriend Marita Brown 
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-his pregnant ex-girlfriend Marita Brown and her father in law Richard Loren     -- negative ->    he
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2273,13 +2268,13 @@ he     -- negative ->    his pregnant ex-girlfriend Marita Brown and her father 
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-his pregnant ex-girlfriend Marita Brown and her father in law Richard Loren     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+his pregnant ex-girlfriend Marita Brown and her father in law Richard Loren     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    his pregnant ex-girlfriend Marita Brown and her father in law Richard Loren
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2288,8 +2283,13 @@ he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    he
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    his pregnant ex-girlfriend Marita Brown and her father in law Richard Loren
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+his pregnant ex-girlfriend Marita Brown and her father in law Richard Loren     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2303,11 +2303,6 @@ FE:    {'Perpetrator': 'he', 'Victim': 'Barbara Coleman', 'Purpose': 'to keep he
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Barbara Coleman     -- negative ->    he
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2318,13 +2313,13 @@ he     -- negative ->    Barbara Coleman
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Barbara Coleman     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Barbara Coleman     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Barbara Coleman
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2333,8 +2328,13 @@ he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    he
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Barbara Coleman
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Barbara Coleman     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2348,11 +2348,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'James Bulger'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-James Bulger     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2363,13 +2358,13 @@ who     -- negative ->    James Bulger
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-James Bulger     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+James Bulger     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    James Bulger
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2378,8 +2373,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    James Bulger
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+James Bulger     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2393,11 +2393,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'James', 'Source': 'from the Strand shop
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-James     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2408,13 +2403,13 @@ who     -- negative ->    James
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-James     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+James     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    James
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2423,8 +2418,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    James
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+James     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2438,11 +2438,6 @@ FE:    {'Perpetrator': 'he', 'Victim': 'the girl', 'Purpose': 'with a view to ra
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-the girl     -- negative ->    he
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2453,13 +2448,13 @@ he     -- negative ->    the girl
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-the girl     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+the girl     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    the girl
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2468,8 +2463,13 @@ he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    he
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    the girl
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+the girl     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2483,11 +2483,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'her'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-her     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2498,13 +2493,13 @@ who     -- negative ->    her
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-her     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+her     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    her
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2513,8 +2508,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    her
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+her     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2528,11 +2528,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'two-year-old James'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-two-year-old James     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2543,13 +2538,13 @@ who     -- negative ->    two-year-old James
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-two-year-old James     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+two-year-old James     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    two-year-old James
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2558,8 +2553,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    two-year-old James
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+two-year-old James     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2573,11 +2573,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'Suzie'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Suzie     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2588,13 +2583,13 @@ who     -- negative ->    Suzie
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Suzie     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Suzie     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Suzie
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2603,8 +2598,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Suzie
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Suzie     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2618,11 +2618,6 @@ FE:    {'Perpetrator': 'which', 'Victim': 'them'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-them     -- negative ->    which
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2633,13 +2628,13 @@ which     -- negative ->    them
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-them     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+them     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    them
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2648,8 +2643,13 @@ which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    which
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    them
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+them     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2663,11 +2663,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'them'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-them     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2678,13 +2673,13 @@ who     -- negative ->    them
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-them     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+them     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    them
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2693,8 +2688,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    them
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+them     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2708,11 +2708,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'her'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-her     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2723,13 +2718,13 @@ who     -- negative ->    her
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-her     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+her     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    her
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2738,8 +2733,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    her
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+her     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2753,11 +2753,6 @@ FE:    {'Victim': 'Sheikh Obeid', 'Perpetrator': 'by Israeli commandos', 'Time':
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Sheikh Obeid     -- negative ->    by Israeli commandos
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2768,13 +2763,13 @@ by Israeli commandos     -- negative ->    Sheikh Obeid
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Sheikh Obeid     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Sheikh Obeid     -- negative ->    by Israeli commandos
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Sheikh Obeid
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by Israeli commandos
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2783,8 +2778,13 @@ by Israeli commandos     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by Israeli commandos
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Sheikh Obeid
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Sheikh Obeid     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2798,11 +2798,6 @@ FE:    {'Victim': 'Higgins', 'Perpetrator': 'by the Organization of the Oppresse
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Higgins     -- negative ->    by the Organization of the Oppressed of the Earth
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2813,13 +2808,13 @@ by the Organization of the Oppressed of the Earth     -- negative ->    Higgins
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Higgins     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Higgins     -- negative ->    by the Organization of the Oppressed of the Earth
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Higgins
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by the Organization of the Oppressed of the Earth
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2828,8 +2823,13 @@ by the Organization of the Oppressed of the Earth     -- negative ->    _SOMETHI
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by the Organization of the Oppressed of the Earth
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Higgins
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Higgins     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2843,11 +2843,6 @@ FE:    {'Victim': 'who', 'Perpetrator': 'by his father'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-who     -- negative ->    by his father
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2858,13 +2853,13 @@ by his father     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-who     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+who     -- negative ->    by his father
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by his father
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2873,8 +2868,13 @@ by his father     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by his father
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    who
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2893,13 +2893,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    who
+Kidnapping.Victim neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2913,11 +2913,6 @@ FE:    {'Victim': 'He', 'Place': 'in Europe', 'Perpetrator': 'by Israeli Governm
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-He     -- negative ->    by Israeli Government agents
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2928,13 +2923,13 @@ by Israeli Government agents     -- negative ->    He
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-He     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+He     -- negative ->    by Israeli Government agents
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    He
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by Israeli Government agents
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2943,8 +2938,13 @@ by Israeli Government agents     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by Israeli Government agents
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    He
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2963,13 +2963,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    who
+Kidnapping.Victim neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2983,11 +2983,6 @@ FE:    {'Perpetrator': 'which', 'Victim': 'small children and animals'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-small children and animals     -- negative ->    which
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -2998,13 +2993,13 @@ which     -- negative ->    small children and animals
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-small children and animals     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+small children and animals     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    small children and animals
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3013,8 +3008,13 @@ which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    which
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    small children and animals
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+small children and animals     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3028,11 +3028,6 @@ FE:    {'Perpetrator': 'militants', 'Victim': 'more Israelis', 'Purpose': "to wi
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-more Israelis     -- negative ->    militants
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3043,13 +3038,13 @@ militants     -- negative ->    more Israelis
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-more Israelis     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+more Israelis     -- negative ->    militants
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    more Israelis
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    militants
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3058,8 +3053,13 @@ militants     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    militants
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    more Israelis
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+more Israelis     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3073,11 +3073,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'James'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-James     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3088,13 +3083,13 @@ who     -- negative ->    James
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-James     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+James     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    James
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3103,8 +3098,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    James
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+James     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3118,11 +3118,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'a seven year old boy'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-a seven year old boy     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3133,13 +3128,13 @@ who     -- negative ->    a seven year old boy
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-a seven year old boy     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+a seven year old boy     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    a seven year old boy
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3148,8 +3143,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    a seven year old boy
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+a seven year old boy     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3163,11 +3163,6 @@ FE:    {'Victim': 'a former minister', 'Perpetrator': 'by the EPL', 'Time': 'on 
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-a former minister     -- negative ->    by the EPL
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3178,13 +3173,13 @@ by the EPL     -- negative ->    a former minister
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-a former minister     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+a former minister     -- negative ->    by the EPL
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    a former minister
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by the EPL
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3193,8 +3188,13 @@ by the EPL     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by the EPL
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    a former minister
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+a former minister     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3213,13 +3213,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Caroline Hogg     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Caroline Hogg
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Caroline Hogg
+Kidnapping.Victim neg ?_t
+Caroline Hogg     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3233,11 +3233,6 @@ FE:    {'Perpetrator': 'the US government', 'Victim': 'people', 'Source': 'from 
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-people     -- negative ->    the US government
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3248,13 +3243,13 @@ the US government     -- negative ->    people
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-people     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+people     -- negative ->    the US government
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    people
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    the US government
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3263,8 +3258,13 @@ the US government     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    the US government
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    people
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+people     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3278,11 +3278,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'James', 'Source': 'from the Strand shop
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-James     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3293,13 +3288,13 @@ who     -- negative ->    James
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-James     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+James     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    James
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3308,8 +3303,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    James
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+James     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3323,11 +3323,6 @@ FE:    {'Perpetrator': 'which', 'Victim': 'three people'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-three people     -- negative ->    which
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3338,13 +3333,13 @@ which     -- negative ->    three people
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-three people     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+three people     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    three people
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3353,8 +3348,13 @@ which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    which
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    three people
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+three people     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3368,11 +3368,6 @@ FE:    {'Perpetrator': 'Karen and I', 'Victim': 'the shrinking Dennis', 'Goal': 
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-the shrinking Dennis     -- negative ->    Karen and I
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3383,13 +3378,13 @@ Karen and I     -- negative ->    the shrinking Dennis
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-the shrinking Dennis     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+the shrinking Dennis     -- negative ->    Karen and I
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    the shrinking Dennis
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    Karen and I
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3398,8 +3393,13 @@ Karen and I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    Karen and I
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    the shrinking Dennis
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+the shrinking Dennis     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3413,11 +3413,6 @@ FE:    {'Victim': 'they', 'Perpetrator': 'by the evil Captain Hook', 'Goal': 'to
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-they     -- negative ->    by the evil Captain Hook
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3428,13 +3423,13 @@ by the evil Captain Hook     -- negative ->    they
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-they     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+they     -- negative ->    by the evil Captain Hook
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    they
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by the evil Captain Hook
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3443,8 +3438,13 @@ by the evil Captain Hook     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by the evil Captain Hook
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    they
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+they     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3458,11 +3458,6 @@ FE:    {'Perpetrator': 'who', 'Victim': 'babies'}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-babies     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3473,13 +3468,13 @@ who     -- negative ->    babies
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-babies     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+babies     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    babies
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3488,8 +3483,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    babies
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+babies     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3503,11 +3503,6 @@ FE:    {'Perpetrator': 'Mr Kipper', 'Victim': 'Suzy Lamplugh', 'Time': 'six year
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Suzy Lamplugh     -- negative ->    Mr Kipper
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3518,13 +3513,13 @@ Mr Kipper     -- negative ->    Suzy Lamplugh
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Suzy Lamplugh     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Suzy Lamplugh     -- negative ->    Mr Kipper
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Suzy Lamplugh
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    Mr Kipper
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3533,8 +3528,13 @@ Mr Kipper     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    Mr Kipper
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Suzy Lamplugh
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Suzy Lamplugh     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3553,13 +3553,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-A NINE-week-old baby     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    A NINE-week-old baby
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    A NINE-week-old baby
+Kidnapping.Victim neg ?_t
+A NINE-week-old baby     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3578,13 +3578,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-The girl     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    The girl
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    The girl
+Kidnapping.Victim neg ?_t
+The girl     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3603,13 +3603,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-the baby     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    the baby
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    the baby
+Kidnapping.Victim neg ?_t
+the baby     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3623,11 +3623,6 @@ FE:    {'Victim': 'a small boy', 'Source': 'from his nursery school', 'Perpetrat
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-a small boy     -- negative ->    by his mother
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3638,13 +3633,13 @@ by his mother     -- negative ->    a small boy
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-a small boy     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+a small boy     -- negative ->    by his mother
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    a small boy
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by his mother
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3653,8 +3648,13 @@ by his mother     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by his mother
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    a small boy
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+a small boy     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3673,13 +3673,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-of four youths     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    of four youths
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    of four youths
+Kidnapping.Victim neg ?_t
+of four youths     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3698,13 +3698,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-of two German citizens     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    of two German citizens
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    of two German citizens
+Kidnapping.Victim neg ?_t
+of two German citizens     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3723,13 +3723,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Joanna 's     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Joanna 's
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Joanna 's
+Kidnapping.Victim neg ?_t
+Joanna 's     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3743,11 +3743,6 @@ FE:    {'Victim': 'his', 'Perpetrator': 'by NPA guerrillas', 'Time': 'in October
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-his     -- negative ->    by NPA guerrillas
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3758,13 +3753,13 @@ by NPA guerrillas     -- negative ->    his
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-his     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+his     -- negative ->    by NPA guerrillas
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    his
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    by NPA guerrillas
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3773,8 +3768,13 @@ by NPA guerrillas     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    by NPA guerrillas
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    his
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+his     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3793,13 +3793,13 @@ _GENERAL     -- negative ->    Kidnapping
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-her     -- negative ->    _SOMETHING
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    her
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    her
+Kidnapping.Victim neg ?_t
+her     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3813,11 +3813,6 @@ FE:    {'Perpetrator': 'who', 'Victim': "the doctor 's"}
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-the doctor 's     -- negative ->    who
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3828,13 +3823,13 @@ who     -- negative ->    the doctor 's
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-the doctor 's     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+the doctor 's     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    the doctor 's
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3843,8 +3838,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    who
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    the doctor 's
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+the doctor 's     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3858,11 +3858,6 @@ FE:    {'Perpetrator': 'kidnappers', 'Victim': 'an abducted Red Cross official',
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-an abducted Red Cross official     -- negative ->    kidnappers
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3873,13 +3868,13 @@ kidnappers     -- negative ->    an abducted Red Cross official
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-an abducted Red Cross official     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+an abducted Red Cross official     -- negative ->    kidnappers
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    an abducted Red Cross official
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    kidnappers
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3888,8 +3883,13 @@ kidnappers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    kidnappers
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    an abducted Red Cross official
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+an abducted Red Cross official     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3903,11 +3903,6 @@ FE:    {'Victim': 'Joseph Cicippio , Edward Tracy and Frank Reed', 'Time': 'in 1
 
 ====================================================================================================
 
-Kidnapping.Victim neg Kidnapping.Perpetrator
-Joseph Cicippio , Edward Tracy and Frank Reed     -- negative ->    kidnappers
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Kidnapping
 _GENERAL     -- negative ->    Kidnapping
 
@@ -3918,13 +3913,13 @@ kidnappers     -- negative ->    Joseph Cicippio , Edward Tracy and Frank Reed
 
 ----------------------------------------------------------------------------------------------------
 
-Kidnapping.Victim neg ?_t
-Joseph Cicippio , Edward Tracy and Frank Reed     -- negative ->    _SOMETHING
+Kidnapping.Victim neg Kidnapping.Perpetrator
+Joseph Cicippio , Edward Tracy and Frank Reed     -- negative ->    kidnappers
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Victim
-_SOMEONE     -- negative ->    Joseph Cicippio , Edward Tracy and Frank Reed
+?_s neg Kidnapping.Perpetrator
+_SOMEONE     -- negative ->    kidnappers
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3933,8 +3928,13 @@ kidnappers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Kidnapping.Perpetrator
-_SOMEONE     -- negative ->    kidnappers
+?_s neg Kidnapping.Victim
+_SOMEONE     -- negative ->    Joseph Cicippio , Edward Tracy and Frank Reed
+
+----------------------------------------------------------------------------------------------------
+
+Kidnapping.Victim neg ?_t
+Joseph Cicippio , Edward Tracy and Frank Reed     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 

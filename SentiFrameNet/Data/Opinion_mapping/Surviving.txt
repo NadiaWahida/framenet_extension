@@ -8,8 +8,8 @@ FE:    {'Survivor': 'Some groups', 'Dangerous_situation': 'the winter', 'Time': 
 
 ====================================================================================================
 
-Surviving.Survivor neg Surviving.Dangerous_situation
-Some groups     -- negative ->    the winter
+?_x pos Surviving
+_GENERAL     -- positive ->     Surviving
 
 ----------------------------------------------------------------------------------------------------
 
@@ -18,8 +18,8 @@ Some groups     -- negative ->    the winter
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Surviving
-_GENERAL     -- positive ->     Surviving
+Surviving.Survivor neg Surviving.Dangerous_situation
+Some groups     -- negative ->    the winter
 
 ----------------------------------------------------------------------------------------------------
 
@@ -43,8 +43,8 @@ FE:    {'Survivor': 'the only one', 'Dangerous_situation': 'the cruise', 'Depict
 
 ====================================================================================================
 
-Surviving.Survivor neg Surviving.Dangerous_situation
-the only one     -- negative ->    the cruise
+?_x pos Surviving
+_GENERAL     -- positive ->     Surviving
 
 ----------------------------------------------------------------------------------------------------
 
@@ -53,8 +53,8 @@ the only one     -- negative ->    the cruise
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Surviving
-_GENERAL     -- positive ->     Surviving
+Surviving.Survivor neg Surviving.Dangerous_situation
+the only one     -- negative ->    the cruise
 
 ----------------------------------------------------------------------------------------------------
 
@@ -78,8 +78,8 @@ FE:    {'Survivor': 'It', 'Dangerous_situation': 'the Great Fire', 'Depictive': 
 
 ====================================================================================================
 
-Surviving.Survivor neg Surviving.Dangerous_situation
-It     -- negative ->    the Great Fire
+?_x pos Surviving
+_GENERAL     -- positive ->     Surviving
 
 ----------------------------------------------------------------------------------------------------
 
@@ -88,8 +88,8 @@ It     -- negative ->    the Great Fire
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Surviving
-_GENERAL     -- positive ->     Surviving
+Surviving.Survivor neg Surviving.Dangerous_situation
+It     -- negative ->    the Great Fire
 
 ----------------------------------------------------------------------------------------------------
 
@@ -113,8 +113,8 @@ FE:    {'Survivor': 'which', 'Dangerous_situation': 'the war'}
 
 ====================================================================================================
 
-Surviving.Survivor neg Surviving.Dangerous_situation
-which     -- negative ->    the war
+?_x pos Surviving
+_GENERAL     -- positive ->     Surviving
 
 ----------------------------------------------------------------------------------------------------
 
@@ -123,8 +123,8 @@ which     -- negative ->    the war
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Surviving
-_GENERAL     -- positive ->     Surviving
+Surviving.Survivor neg Surviving.Dangerous_situation
+which     -- negative ->    the war
 
 ----------------------------------------------------------------------------------------------------
 
@@ -148,8 +148,8 @@ FE:    {'Survivor': 'three of whom ( two sons and one daughter', 'Dangerous_situ
 
 ====================================================================================================
 
-Surviving.Survivor neg Surviving.Dangerous_situation
-three of whom ( two sons and one daughter     -- negative ->    infancy
+?_x pos Surviving
+_GENERAL     -- positive ->     Surviving
 
 ----------------------------------------------------------------------------------------------------
 
@@ -158,8 +158,8 @@ three of whom ( two sons and one daughter     -- negative ->    infancy
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Surviving
-_GENERAL     -- positive ->     Surviving
+Surviving.Survivor neg Surviving.Dangerous_situation
+three of whom ( two sons and one daughter     -- negative ->    infancy
 
 ----------------------------------------------------------------------------------------------------
 

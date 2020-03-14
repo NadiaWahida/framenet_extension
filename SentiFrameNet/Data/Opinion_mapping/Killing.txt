@@ -8,13 +8,13 @@ FE:    {'Victim': 'her only daughter', 'Time': 'three years ago', 'Killer': 'by 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her only daughter     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her only daughter     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -33,13 +33,13 @@ FE:    {'Killer': 'he', 'Victim': 'his own grandmother', 'Explanation': 'for a c
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-his own grandmother     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+his own grandmother     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -58,13 +58,13 @@ FE:    {'Killer': 'she', 'Victim': 'a rooster', 'Beneficiary': 'for him'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a rooster     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a rooster     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -83,13 +83,13 @@ FE:    {'Killer': 'Tepilit', 'Victim': 'a lion', 'Explanation': 'for the film th
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a lion     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a lion     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -108,13 +108,13 @@ FE:    {'Killer': 'Alaskan Indians', 'Victim': 'walruses', 'Explanation': 'for t
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-walruses     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+walruses     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -133,13 +133,13 @@ FE:    {'Killer': 'someone', 'Victim': 'him', 'Instrument': 'with a parcel bomb'
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -158,13 +158,13 @@ FE:    {'Killer': 'She', 'Victim': 'him', 'Instrument': 'with a very convenient 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -183,13 +183,13 @@ FE:    {'Killer': 'She', 'Victim': 'her mother', 'Instrument': 'with an axe'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her mother     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her mother     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -208,13 +208,13 @@ FE:    {'Killer': 'Mac', 'Victim': 'her', 'Instrument': 'with his own kitchen kn
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -233,13 +233,13 @@ FE:    {'Killer': 'I', 'Victim': 'two warders', 'Place': 'in this place'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-two warders     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+two warders     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -258,13 +258,13 @@ FE:    {'Time': 'Finally', 'Killer': 'Beverly', 'Victim': 'Elliot', 'Containing_
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Elliot     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Elliot     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -283,13 +283,13 @@ FE:    {'Killer': 'who', 'Victim': 'a baby', 'Manner': 'in cold blood'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a baby     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a baby     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -308,13 +308,13 @@ FE:    {'Cause': 'The fiery blast', 'Victim': 'everyone on deck', 'Manner': 'ins
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-everyone on deck     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+everyone on deck     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -333,13 +333,13 @@ FE:    {'Killer': 'he', 'Victim': 'the girl', 'Time': 'after taking part in sex 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the girl     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the girl     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -358,13 +358,13 @@ FE:    {'Killer': 'who', 'Victim': 'two patients', 'Means': 'by applying corrosi
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-two patients     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+two patients     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -383,13 +383,13 @@ FE:    {'Killer': 'he', 'Victim': 'his brother-in-law', 'Explanation': 'for oppo
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-his brother-in-law     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+his brother-in-law     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -408,13 +408,13 @@ FE:    {'Killer': 'He', 'Victim': 'four people , including an eighty-seven-year-
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-four people , including an eighty-seven-year-old woman     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+four people , including an eighty-seven-year-old woman     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -433,13 +433,13 @@ FE:    {'Time': 'By the time Britain withdrew her forces', 'Victim': 'some 200 B
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-some 200 British soldiers and 90 policemen     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+some 200 British soldiers and 90 policemen     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -458,13 +458,13 @@ FE:    {'Victim': 'Some 1,200 Jumma', 'Killer': 'by the army', 'Place': 'in Bang
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Some 1,200 Jumma     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Some 1,200 Jumma     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -483,13 +483,13 @@ FE:    {'Victim': 'Tanya', 'Killer': 'by Probyn', 'Time': 'the day before a cour
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Tanya     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Tanya     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -508,13 +508,13 @@ FE:    {'Killer': 'fisherman from Iki island', 'Victim': '1,000 dolphins', 'Purp
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-1,000 dolphins     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+1,000 dolphins     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -533,13 +533,13 @@ FE:    {'Killer': 'She', 'Victim': 'him', 'Time': 'later'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -558,13 +558,13 @@ FE:    {'Victim': 'which', 'Killer': 'they', 'Instrument': 'with poisoned arrows
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-which     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+which     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -583,13 +583,13 @@ FE:    {'Killer': 'Two adolescent girls', 'Instrument': 'with a brick', 'Victim'
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the mother of one of them     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the mother of one of them     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -608,13 +608,13 @@ FE:    {'Killer': 'The Zairian security forces', 'Victim': 'more than 50 unarmed
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-more than 50 unarmed op    -- positive ->    ition party supporters     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+more than 50 unarmed op    -- positive ->    ition party supporters     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -633,13 +633,13 @@ FE:    {'Killer': 'Marc Vaughn', 'Victim': 'the four hostages', 'Instrument': 'w
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the four hostages     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the four hostages     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -658,13 +658,13 @@ FE:    {'Place': 'Outside the northern Iraqi city of Kirkuk', 'Victim': 'at leas
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-at least nine police officers     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+at least nine police officers     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -683,13 +683,13 @@ FE:    {'Cause': 'which', 'Victim': 'only five people'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-only five people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+only five people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -708,13 +708,13 @@ FE:    {'Killer': 'the terrorists', 'Victim': 'as many Americans as possible', '
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-as many Americans as     -- positive ->    sible     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+as many Americans as     -- positive ->    sible     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -733,13 +733,13 @@ FE:    {'Cause': 'bird flu', 'Period_of_iterations': 'in the past two years', 'V
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-at least sixty-two people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+at least sixty-two people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -758,13 +758,13 @@ FE:    {'Time': 'Around the same period', 'Killer': 'our brothers on the other s
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Jasim al-`Awwad     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Jasim al-`Awwad     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -783,13 +783,13 @@ FE:    {'Time': 'After the cleaning in AlbuFahd', 'Killer': 'the brothers', 'Vic
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-three of the spies in his tribe     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+three of the spies in his tribe     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -808,13 +808,13 @@ FE:    {'Killer': 'the brothers', 'Victim': 'him', 'Containing_event': 'while he
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -833,13 +833,13 @@ FE:    {'Killer': 'who', 'Victim': 'his mother and father'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-his mother and father     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+his mother and father     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -858,13 +858,13 @@ FE:    {'Victim': 'people', 'Place': 'as in parts of India', 'Explanation': 'bec
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -883,13 +883,13 @@ FE:    {'Killer': 'me', 'Victim': 'that last girl', 'Place': 'in the park'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-that last girl     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+that last girl     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -908,13 +908,13 @@ FE:    {'Killer': 'that', 'Victim': 'her'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -933,13 +933,13 @@ FE:    {'Time': 'One day', 'Cause': 'the irony', 'Victim': 'you'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-you     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+you     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -958,13 +958,13 @@ FE:    {'Killer': 'who', 'Victim': 'a police officer and an investigator', 'Inst
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a police officer and an investigator     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a police officer and an investigator     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -983,13 +983,13 @@ FE:    {'Killer': 'he', 'Victim': 'two pizza deliverymen', 'Containing_event': '
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-two pizza deliverymen     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+two pizza deliverymen     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1008,13 +1008,13 @@ FE:    {'Time': 'During a 14-hour standoff', 'Killer': 'she', 'Victim': "a patro
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a patrolman and an investigator from the Camden County prosecutor 's office     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a patrolman and an investigator from the Camden County prosecutor 's office     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1033,13 +1033,13 @@ FE:    {'Killer': 'a man', 'Victim': 'his wife', 'Time': 'while the couple were 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-his wife     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+his wife     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1058,13 +1058,13 @@ FE:    {'Killer': 'you', 'Victim': 'others', 'Time': 'now'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-others     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+others     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1083,13 +1083,13 @@ FE:    {'Cause': 'which', 'Victim': '800,000 people'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-800,000 people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+800,000 people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1108,13 +1108,13 @@ FE:    {'Killer': 'many more moderate Muslims', 'Victim': 'innocent civilians', 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-innocent civilians     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+innocent civilians     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1133,13 +1133,13 @@ FE:    {'Victim': 'About 5,000 Arabs and several hundred Jews', 'Containing_even
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-About 5,000 Arabs and several hundred Jews     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+About 5,000 Arabs and several hundred Jews     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1158,13 +1158,13 @@ FE:    {'Killer': 'I', 'Victim': 'myself', 'Time': 'that night'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-myself     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+myself     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1183,13 +1183,13 @@ FE:    {'Period_of_iterations': 'over the years', 'Victim': "thousands of Alaska
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-thousands of Alaska 's wolves     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+thousands of Alaska 's wolves     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1208,13 +1208,13 @@ FE:    {'Victim': 'as many as 400 wolves', 'Place': 'in Alaska', 'Period_of_iter
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-as many as 400 wolves     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+as many as 400 wolves     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1233,13 +1233,13 @@ FE:    {'Victim': 'the lion on our calendar cover', 'Manner': 'cruelly', 'Purpos
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the lion on our calendar cover     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the lion on our calendar cover     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1258,13 +1258,13 @@ FE:    {'Circumstances': 'If I sell it', 'Killer': 'my wife', 'Victim': 'me'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-me     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+me     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1283,13 +1283,13 @@ FE:    {'Killer': 'He', 'Victim': 'a vampire', 'Means': 'by driving a pork chop 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a vampire     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a vampire     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1308,13 +1308,13 @@ FE:    {'Killer': 'that', 'Degree': 'nearly', 'Victim': 'him'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1333,13 +1333,13 @@ FE:    {'Victim': 'one of them', 'Killer': 'by the Spinosaur', 'Time': 'while I 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-one of them     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+one of them     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1358,13 +1358,13 @@ FE:    {'Victim': 'dolphins', 'Manner': 'cruelly and often illegally', 'Instrume
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-dolphins     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+dolphins     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1383,13 +1383,13 @@ FE:    {'Cause': 'that', 'Victim': '70,000', 'Place': 'in Nagasaki', 'Time': 'th
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-70,000     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+70,000     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1408,13 +1408,13 @@ FE:    {'Cause': 'superfluous body kilograms', 'Victim': 'a lot of people', 'Pla
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a lot of people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a lot of people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1433,13 +1433,13 @@ FE:    {'Cause': 'that', 'Victim': 'you'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-you     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+you     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1458,13 +1458,13 @@ FE:    {'Cause': 'it', 'Manner': 'slowly', 'Victim': 'her brother'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her brother     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her brother     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1483,13 +1483,13 @@ FE:    {'Killer': 'you', 'Victim': 'others', 'Time': 'now'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-others     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+others     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1508,13 +1508,13 @@ FE:    {'Killer': 'the Spinosaur', 'Victim': 'the other two', 'Time': 'in the in
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the other two     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the other two     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1533,13 +1533,13 @@ FE:    {'Killer': 'they', 'Victim': 'him', 'Explanation': 'as a detected burglar
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1558,13 +1558,13 @@ FE:    {'Victim': 'Two firefighters', 'Containing_event': 'in the blaze', 'Time'
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Two firefighters     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Two firefighters     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1583,13 +1583,13 @@ FE:    {'Victim': 'who', 'Killer': 'by the Russians'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-who     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+who     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1608,13 +1608,13 @@ FE:    {'Killer': 'who', 'Victim': 'all who get in his way'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-all who get in his way     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+all who get in his way     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1633,13 +1633,13 @@ FE:    {'Victim': 'her only daughter', 'Time': 'three years ago', 'Killer': 'by 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her only daughter     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her only daughter     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1658,13 +1658,13 @@ FE:    {'Killer': 'he', 'Victim': 'his own grandmother', 'Explanation': 'for a c
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-his own grandmother     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+his own grandmother     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1683,13 +1683,13 @@ FE:    {'Killer': 'she', 'Victim': 'a rooster', 'Beneficiary': 'for him'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a rooster     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a rooster     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1708,13 +1708,13 @@ FE:    {'Killer': 'Tepilit', 'Victim': 'a lion', 'Explanation': 'for the film th
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a lion     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a lion     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1733,13 +1733,13 @@ FE:    {'Killer': 'Alaskan Indians', 'Victim': 'walruses', 'Explanation': 'for t
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-walruses     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+walruses     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1758,13 +1758,13 @@ FE:    {'Killer': 'someone', 'Victim': 'him', 'Instrument': 'with a parcel bomb'
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1783,13 +1783,13 @@ FE:    {'Killer': 'She', 'Victim': 'him', 'Instrument': 'with a very convenient 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1808,13 +1808,13 @@ FE:    {'Killer': 'She', 'Victim': 'her mother', 'Instrument': 'with an axe'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her mother     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her mother     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1833,13 +1833,13 @@ FE:    {'Killer': 'Mac', 'Victim': 'her', 'Instrument': 'with his own kitchen kn
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1858,13 +1858,13 @@ FE:    {'Killer': 'I', 'Victim': 'two warders', 'Place': 'in this place'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-two warders     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+two warders     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1883,13 +1883,13 @@ FE:    {'Time': 'Finally', 'Killer': 'Beverly', 'Victim': 'Elliot', 'Containing_
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Elliot     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Elliot     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1908,13 +1908,13 @@ FE:    {'Killer': 'who', 'Victim': 'a baby', 'Manner': 'in cold blood'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a baby     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a baby     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1933,13 +1933,13 @@ FE:    {'Cause': 'The fiery blast', 'Victim': 'everyone on deck', 'Manner': 'ins
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-everyone on deck     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+everyone on deck     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1958,13 +1958,13 @@ FE:    {'Killer': 'he', 'Victim': 'the girl', 'Time': 'after taking part in sex 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the girl     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the girl     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1983,13 +1983,13 @@ FE:    {'Killer': 'who', 'Victim': 'two patients', 'Means': 'by applying corrosi
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-two patients     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+two patients     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2008,13 +2008,13 @@ FE:    {'Killer': 'he', 'Victim': 'his brother-in-law', 'Explanation': 'for oppo
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-his brother-in-law     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+his brother-in-law     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2033,13 +2033,13 @@ FE:    {'Killer': 'He', 'Victim': 'four people , including an eighty-seven-year-
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-four people , including an eighty-seven-year-old woman     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+four people , including an eighty-seven-year-old woman     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2058,13 +2058,13 @@ FE:    {'Time': 'By the time Britain withdrew her forces', 'Victim': 'some 200 B
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-some 200 British soldiers and 90 policemen     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+some 200 British soldiers and 90 policemen     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2083,13 +2083,13 @@ FE:    {'Victim': 'Some 1,200 Jumma', 'Killer': 'by the army', 'Place': 'in Bang
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Some 1,200 Jumma     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Some 1,200 Jumma     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2108,13 +2108,13 @@ FE:    {'Victim': 'Tanya', 'Killer': 'by Probyn', 'Time': 'the day before a cour
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Tanya     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Tanya     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2133,13 +2133,13 @@ FE:    {'Killer': 'fisherman from Iki island', 'Victim': '1,000 dolphins', 'Purp
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-1,000 dolphins     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+1,000 dolphins     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2158,13 +2158,13 @@ FE:    {'Killer': 'She', 'Victim': 'him', 'Time': 'later'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2183,13 +2183,13 @@ FE:    {'Victim': 'which', 'Killer': 'they', 'Instrument': 'with poisoned arrows
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-which     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+which     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2208,13 +2208,13 @@ FE:    {'Killer': 'Two adolescent girls', 'Instrument': 'with a brick', 'Victim'
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the mother of one of them     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the mother of one of them     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2233,13 +2233,13 @@ FE:    {'Killer': 'The Zairian security forces', 'Victim': 'more than 50 unarmed
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-more than 50 unarmed op    -- positive ->    ition party supporters     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+more than 50 unarmed op    -- positive ->    ition party supporters     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2258,13 +2258,13 @@ FE:    {'Killer': 'Marc Vaughn', 'Victim': 'the four hostages', 'Instrument': 'w
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the four hostages     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the four hostages     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2283,13 +2283,13 @@ FE:    {'Place': 'Outside the northern Iraqi city of Kirkuk', 'Victim': 'at leas
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-at least nine police officers     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+at least nine police officers     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2308,13 +2308,13 @@ FE:    {'Cause': 'which', 'Victim': 'only five people'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-only five people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+only five people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2333,13 +2333,13 @@ FE:    {'Killer': 'the terrorists', 'Victim': 'as many Americans as possible', '
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-as many Americans as     -- positive ->    sible     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+as many Americans as     -- positive ->    sible     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2358,13 +2358,13 @@ FE:    {'Cause': 'bird flu', 'Period_of_iterations': 'in the past two years', 'V
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-at least sixty-two people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+at least sixty-two people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2383,13 +2383,13 @@ FE:    {'Time': 'Around the same period', 'Killer': 'our brothers on the other s
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Jasim al-`Awwad     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Jasim al-`Awwad     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2408,13 +2408,13 @@ FE:    {'Time': 'After the cleaning in AlbuFahd', 'Killer': 'the brothers', 'Vic
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-three of the spies in his tribe     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+three of the spies in his tribe     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2433,13 +2433,13 @@ FE:    {'Killer': 'the brothers', 'Victim': 'him', 'Containing_event': 'while he
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2458,13 +2458,13 @@ FE:    {'Killer': 'who', 'Victim': 'his mother and father'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-his mother and father     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+his mother and father     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2483,13 +2483,13 @@ FE:    {'Victim': 'people', 'Place': 'as in parts of India', 'Explanation': 'bec
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2508,13 +2508,13 @@ FE:    {'Killer': 'me', 'Victim': 'that last girl', 'Place': 'in the park'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-that last girl     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+that last girl     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2533,13 +2533,13 @@ FE:    {'Killer': 'that', 'Victim': 'her'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2558,13 +2558,13 @@ FE:    {'Time': 'One day', 'Cause': 'the irony', 'Victim': 'you'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-you     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+you     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2583,13 +2583,13 @@ FE:    {'Killer': 'who', 'Victim': 'a police officer and an investigator', 'Inst
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a police officer and an investigator     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a police officer and an investigator     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2608,13 +2608,13 @@ FE:    {'Killer': 'he', 'Victim': 'two pizza deliverymen', 'Containing_event': '
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-two pizza deliverymen     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+two pizza deliverymen     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2633,13 +2633,13 @@ FE:    {'Time': 'During a 14-hour standoff', 'Killer': 'she', 'Victim': "a patro
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a patrolman and an investigator from the Camden County prosecutor 's office     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a patrolman and an investigator from the Camden County prosecutor 's office     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2658,13 +2658,13 @@ FE:    {'Killer': 'a man', 'Victim': 'his wife', 'Time': 'while the couple were 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-his wife     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+his wife     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2683,13 +2683,13 @@ FE:    {'Killer': 'you', 'Victim': 'others', 'Time': 'now'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-others     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+others     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2708,13 +2708,13 @@ FE:    {'Cause': 'which', 'Victim': '800,000 people'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-800,000 people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+800,000 people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2733,13 +2733,13 @@ FE:    {'Killer': 'many more moderate Muslims', 'Victim': 'innocent civilians', 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-innocent civilians     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+innocent civilians     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2758,13 +2758,13 @@ FE:    {'Victim': 'About 5,000 Arabs and several hundred Jews', 'Containing_even
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-About 5,000 Arabs and several hundred Jews     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+About 5,000 Arabs and several hundred Jews     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2783,13 +2783,13 @@ FE:    {'Killer': 'I', 'Victim': 'myself', 'Time': 'that night'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-myself     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+myself     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2808,13 +2808,13 @@ FE:    {'Period_of_iterations': 'over the years', 'Victim': "thousands of Alaska
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-thousands of Alaska 's wolves     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+thousands of Alaska 's wolves     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2833,13 +2833,13 @@ FE:    {'Victim': 'as many as 400 wolves', 'Place': 'in Alaska', 'Period_of_iter
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-as many as 400 wolves     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+as many as 400 wolves     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2858,13 +2858,13 @@ FE:    {'Victim': 'the lion on our calendar cover', 'Manner': 'cruelly', 'Purpos
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the lion on our calendar cover     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the lion on our calendar cover     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2883,13 +2883,13 @@ FE:    {'Circumstances': 'If I sell it', 'Killer': 'my wife', 'Victim': 'me'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-me     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+me     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2908,13 +2908,13 @@ FE:    {'Killer': 'He', 'Victim': 'a vampire', 'Means': 'by driving a pork chop 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a vampire     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a vampire     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2933,13 +2933,13 @@ FE:    {'Killer': 'that', 'Degree': 'nearly', 'Victim': 'him'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2958,13 +2958,13 @@ FE:    {'Victim': 'one of them', 'Killer': 'by the Spinosaur', 'Time': 'while I 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-one of them     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+one of them     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2983,13 +2983,13 @@ FE:    {'Victim': 'dolphins', 'Manner': 'cruelly and often illegally', 'Instrume
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-dolphins     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+dolphins     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3008,13 +3008,13 @@ FE:    {'Cause': 'that', 'Victim': '70,000', 'Place': 'in Nagasaki', 'Time': 'th
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-70,000     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+70,000     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3033,13 +3033,13 @@ FE:    {'Cause': 'superfluous body kilograms', 'Victim': 'a lot of people', 'Pla
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a lot of people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a lot of people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3058,13 +3058,13 @@ FE:    {'Cause': 'that', 'Victim': 'you'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-you     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+you     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3083,13 +3083,13 @@ FE:    {'Cause': 'it', 'Manner': 'slowly', 'Victim': 'her brother'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her brother     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her brother     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3108,13 +3108,13 @@ FE:    {'Killer': 'you', 'Victim': 'others', 'Time': 'now'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-others     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+others     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3133,13 +3133,13 @@ FE:    {'Killer': 'the Spinosaur', 'Victim': 'the other two', 'Time': 'in the in
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the other two     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the other two     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3158,13 +3158,13 @@ FE:    {'Killer': 'they', 'Victim': 'him', 'Explanation': 'as a detected burglar
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3183,13 +3183,13 @@ FE:    {'Victim': 'Two firefighters', 'Containing_event': 'in the blaze', 'Time'
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Two firefighters     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Two firefighters     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3208,13 +3208,13 @@ FE:    {'Victim': 'who', 'Killer': 'by the Russians'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-who     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+who     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3233,13 +3233,13 @@ FE:    {'Killer': 'who', 'Victim': 'all who get in his way'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-all who get in his way     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+all who get in his way     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3258,13 +3258,13 @@ FE:    {'Killer': 'Bobbie and Marie', 'Victim': 'somebody', 'Explanation': 'for 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-somebody     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+somebody     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3283,13 +3283,13 @@ FE:    {'Killer': 'The Executive Committee', 'Victim': 'Alexander', 'Place': 'on
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Alexander     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Alexander     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3308,13 +3308,13 @@ FE:    {'Time': 'on 21 June 1208', 'Victim': 'Philip of Swabia', 'Explanation': 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Philip of Swabia     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Philip of Swabia     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3333,13 +3333,13 @@ FE:    {'Killer': 'who', 'Victim': 'Sadat', 'Time': 'during a 1981 military para
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Sadat     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Sadat     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3358,13 +3358,13 @@ FE:    {'Killer': 'that', 'Victim': 'doctors who perform abortions'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-doctors who perform abortions     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+doctors who perform abortions     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3383,13 +3383,13 @@ FE:    {'Killer': 'Islambouli , an Egyptian military officer and member of Al-Ji
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-President Anwar Sadat     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+President Anwar Sadat     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3408,13 +3408,13 @@ FE:    {'Killer': 'who', 'Victim': 'Egyptian President Anwar Sadat', 'Place': 'i
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Egyptian President Anwar Sadat     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Egyptian President Anwar Sadat     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3433,13 +3433,13 @@ FE:    {'Killer': 'who', 'Victim': 'Egyptian President Anwar Sadat', 'Time': 'in
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Egyptian President Anwar Sadat     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Egyptian President Anwar Sadat     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3458,13 +3458,13 @@ FE:    {'Killer': 'he', 'Victim': 'two criminals', 'Means': 'with one blow'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-two criminals     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+two criminals     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3483,13 +3483,13 @@ FE:    {'Killer': 'he', 'Victim': 'his victims', 'Manner': 'with unhurried exper
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-his victims     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+his victims     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3508,13 +3508,13 @@ FE:    {'Victim': 'The rebel lord', 'Time': 'two months later', 'Place': 'at Yor
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-The rebel lord     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+The rebel lord     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3533,13 +3533,13 @@ FE:    {'Killer': 'They', 'Victim': 'him', 'Place': 'in front of his son'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3558,13 +3558,13 @@ FE:    {'Victim': 'Agnes Rossnerin , who smothered and throttled her companion i
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Agnes Rossnerin , who smothered and throttled her companion in order to steal some money ,     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Agnes Rossnerin , who smothered and throttled her companion in order to steal some money ,     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3583,13 +3583,13 @@ FE:    {'Victim': 'King Charles I', 'Place': 'at Westminster', 'Time': 'on 30th 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-King Charles I     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+King Charles I     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3608,13 +3608,13 @@ FE:    {'Victim': 'Two Pakistani drug traffickers', 'Time': 'yesterday', 'Place'
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Two Pakistani drug traffickers     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Two Pakistani drug traffickers     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3633,13 +3633,13 @@ FE:    {'Victim': 'Margaret , Countess of Salisbury ,', 'Manner': 'brutally', 'P
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Margaret , Countess of Salisbury ,     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Margaret , Countess of Salisbury ,     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3658,13 +3658,13 @@ FE:    {'Victim': 'whom', 'Killer': 'Scapula'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-whom     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+whom     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3683,13 +3683,13 @@ FE:    {'Killer': 'us', 'Victim': 'his children', 'Purpose': "so they ca n't emb
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-his children     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+his children     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3708,13 +3708,13 @@ FE:    {'Killer': "FARMER 'S wife Mary Watson", 'Victim': 'herself', 'Time': 'wh
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-herself     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+herself     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3733,13 +3733,13 @@ FE:    {'Killer': 'the creature', 'Victim': 'itself', 'Time': 'shortly after his
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-itself     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+itself     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3758,13 +3758,13 @@ FE:    {'Killer': 'she', 'Victim': 'him', 'Place': 'in the bath'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3783,13 +3783,13 @@ FE:    {'Killer': 'him', 'Victim': 'her', 'Place': 'in the deep water'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3808,13 +3808,13 @@ FE:    {'Killer': 'who', 'Victim': 'himself', 'Explanation': 'because of the poo
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-himself     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+himself     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3833,13 +3833,13 @@ FE:    {'Cause': 'which', 'Victim': '000 people'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-000 people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+000 people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3858,13 +3858,13 @@ FE:    {'Victim': 'who', 'Time': 'at birth'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-who     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+who     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3883,13 +3883,13 @@ FE:    {'Killer': 'who', 'Victim': 'his wife', 'Means': 'by pumping car exhaust 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-his wife     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+his wife     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3908,13 +3908,13 @@ FE:    {'Killer': 'Casabona', 'Victim': 'her', 'Means': 'by pumping exhaust fume
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3933,13 +3933,13 @@ FE:    {'Killer': 'Blackbeard', 'Victim': 'us', 'Explanation': 'for a wallet wit
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-us     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+us     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3958,13 +3958,13 @@ FE:    {'Killer': 'the travellers', 'Victim': 'Barbs', 'Explanation': 'for her m
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Barbs     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Barbs     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3983,13 +3983,13 @@ FE:    {'Killer': 'they', 'Victim': 'a young boy', 'Explanation': 'for kicks'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a young boy     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a young boy     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4008,13 +4008,13 @@ FE:    {'Killer': 'who', 'Victim': 'his master', 'Explanation': 'for money'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-his master     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+his master     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4033,13 +4033,13 @@ FE:    {'Killer': 'I', 'Victim': 'my husband', 'Means': 'with the pressure-cooke
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-my husband     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+my husband     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4058,13 +4058,13 @@ FE:    {'Killer': 'who', 'Victim': 'the woman'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the woman     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the woman     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4083,13 +4083,13 @@ FE:    {'Means': 'I do not know', 'Killer': 'they', 'Victim': 'him'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4108,13 +4108,13 @@ FE:    {'Time': 'Some six months afterwards', 'Victim': 'the Marquess of Montalv
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the Marquess of Montalva and Signor Rulli , his secretary ,     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the Marquess of Montalva and Signor Rulli , his secretary ,     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4133,13 +4133,13 @@ FE:    {'Killer': 'Samson', 'Victim': 'all those Philippinos', 'Instrument': 'wi
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-all those Philippinos     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+all those Philippinos     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4158,13 +4158,13 @@ FE:    {'Killer': 'a single Russian with a musket', 'Victim': 'him', 'Manner': '
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4183,13 +4183,13 @@ FE:    {'Victim': 'whom', 'Killer': 'he'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-whom     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+whom     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4208,13 +4208,13 @@ FE:    {'Killer': 'a teenage mum', 'Victim': 'her baby', 'Place': 'in hospital'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her baby     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her baby     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4233,13 +4233,13 @@ FE:    {'Killer': 'two men', 'Victim': 'her', 'Result': 'to death'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4258,13 +4258,13 @@ FE:    {'Killer': 'they', 'Victim': 'me', 'Instrument': 'with a pillow'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-me     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+me     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4283,13 +4283,13 @@ FE:    {'Killer': 'the poltergeist', 'Victim': 'her boyfriend', 'Place': 'in the
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her boyfriend     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her boyfriend     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4308,13 +4308,13 @@ FE:    {'Killer': 'I', 'Victim': 'her', 'Instrument': 'with my jacket'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4333,13 +4333,13 @@ FE:    {'Killer': 'They', 'Victim': 'us all', 'Result': 'to death'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-us all     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+us all     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4358,13 +4358,13 @@ FE:    {'Victim': 'who', 'Killer': 'by her father'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-who     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+who     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4383,13 +4383,13 @@ FE:    {'Killer': 'I', 'Victim': 'ourselves', 'Place': 'up at the sulphur spring
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-ourselves     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+ourselves     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4408,13 +4408,13 @@ FE:    {'Frequency': 'Every so often', 'Cause': 'the fumes from an unpredictable
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a luckless sewer worker     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a luckless sewer worker     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4433,13 +4433,13 @@ FE:    {'Killer': 'she', 'Victim': 'him', 'Instrument': 'with carbon monoxide fu
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-him     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+him     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4458,13 +4458,13 @@ FE:    {'Cause': 'The relentless , time-consuming nature of his work', 'Manner':
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the self-reflective side of his personality     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the self-reflective side of his personality     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4483,13 +4483,13 @@ FE:    {'Killer': 'Urquhart', 'Victim': 'the animal', 'Instrument': 'with a sing
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the animal     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the animal     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4508,13 +4508,13 @@ FE:    {'Killer': 'who', 'Victim': 'over thirty criminals'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-over thirty criminals     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+over thirty criminals     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4533,13 +4533,13 @@ FE:    {'Killer': 'France', 'Victim': 'its upper class offenders', 'Means': 'by 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-its upper class offenders     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+its upper class offenders     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4558,13 +4558,13 @@ FE:    {'Cause': 'that', 'Manner': 'potentially', 'Victim': 'to our fish'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-to our fish     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+to our fish     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4583,13 +4583,13 @@ FE:    {'Cause': 'the virus', 'Manner': 'particularly', 'Victim': 'to the cells 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-to the cells it infects     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+to the cells it infects     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4608,13 +4608,13 @@ FE:    {'Cause': 'A forced devaluation', 'Manner': 'potentially', 'Victim': 'for
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-for the EMS     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+for the EMS     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4648,13 +4648,13 @@ FE:    {'Cause': 'which', 'Victim': 'to hookworm larvae'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-to hookworm larvae     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+to hookworm larvae     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4673,13 +4673,13 @@ FE:    {'Killer': 'Crow', 'Victim': 'a frog', 'Place': 'under a microscope'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a frog     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a frog     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4698,13 +4698,13 @@ FE:    {'Time': 'By A.D. 48-9', 'Killer': 'the Roman Governor of Judaea', 'Victi
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-both Zealots and Nazareans     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+both Zealots and Nazareans     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4723,13 +4723,13 @@ FE:    {'Killer': 'who', 'Victim': 'Jesus', 'Explanation': 'because they hated t
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Jesus     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Jesus     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4748,13 +4748,13 @@ FE:    {'Killer': 'who', 'Victim': 'Christ'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Christ     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Christ     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4773,13 +4773,13 @@ FE:    {'Killer': 'who', 'Victim': 'the Lord Jesus'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the Lord Jesus     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the Lord Jesus     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4798,13 +4798,13 @@ FE:    {'Killer': 'who', 'Victim': 'Jesus'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Jesus     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Jesus     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4823,13 +4823,13 @@ FE:    {'Killer': 'who', 'Victim': 'Christ'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Christ     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Christ     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4848,13 +4848,13 @@ FE:    {'Killer': 'he', 'Victim': 'her', 'Instrument': 'with a spade', 'Place': 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4873,13 +4873,13 @@ FE:    {'Killer': 'Christie', 'Victim': 'her victim', 'Time': 'in the attack'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her victim     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her victim     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4898,13 +4898,13 @@ FE:    {'Victim': 'Another erring headsman , Meister Hans', 'Killer': 'by his ow
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Another erring headsman , Meister Hans     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Another erring headsman , Meister Hans     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4923,13 +4923,13 @@ FE:    {'Killer': 'Richard Carew', 'Victim': 'them', 'Manner': 'one by one'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-them     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+them     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4948,13 +4948,13 @@ FE:    {'Victim': 'He', 'Instrument': 'by two blows of the axe', 'Place': 'on To
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-He     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+He     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4973,13 +4973,13 @@ FE:    {'Killer': 'A low-flying German plane', 'Victim': 'a squad', 'Means': 'wi
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-a squad     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+a squad     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4998,13 +4998,13 @@ FE:    {'Victim': 'hundreds of civilians', 'Place': 'in Beijing', 'Time': 'on 4 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-hundreds of civilians     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+hundreds of civilians     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5023,13 +5023,13 @@ FE:    {'Victim': 'At least 27 people', 'Place': 'on a squatter site at Swaniesv
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-At least 27 people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+At least 27 people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5048,13 +5048,13 @@ FE:    {'Killer': 'they', 'Victim': 'the Persians', 'Means': 'with their swords'
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-the Persians     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+the Persians     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5073,13 +5073,13 @@ FE:    {'Killer': 'A GUNMAN', 'Victim': 'six people', 'Manner': 'in cold blood'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-six people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+six people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5098,13 +5098,13 @@ FE:    {'Killer': 'Soapy Finnegan', 'Manner': 'mercilessly', 'Victim': 'her'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5123,13 +5123,13 @@ FE:    {'Killer': 'of whom', 'Victim': 'each other'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-each other     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+each other     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5148,13 +5148,13 @@ FE:    {'Victim': 'He', 'Means': 'verbally', 'Killer': 'by English fans and Engl
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-He     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+He     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5173,13 +5173,13 @@ FE:    {'Killer': 'who', 'Victim': 'an animal'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-an animal     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+an animal     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5198,13 +5198,13 @@ FE:    {'Killer': 'who', 'Victim': 'thirty sheeps'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-thirty sheeps     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+thirty sheeps     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5223,13 +5223,13 @@ FE:    {'Killer': 'who', 'Victim': 'them'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-them     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+them     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5248,13 +5248,13 @@ FE:    {'Killer': 'Nazi', 'Victim': 'against the Jews', 'Time': 'in November 193
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-against the Jews     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+against the Jews     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5273,13 +5273,13 @@ FE:    {'Killer': 'by British soldiers', 'Time': 'in an undercover operation on 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-of IRA activists Desmond Grew and Martin McCaughey     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+of IRA activists Desmond Grew and Martin McCaughey     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5298,13 +5298,13 @@ FE:    {'Time': 'in May', 'Victim': 'of six people', 'Place': 'in Bamenda'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-of six people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+of six people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5323,13 +5323,13 @@ FE:    {'Place': 'in Býers', 'Time': 'in the course of his arrest for stealing 
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-of a Moroccan teenager     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+of a Moroccan teenager     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5348,13 +5348,13 @@ FE:    {'Killer': 'other political/military regimes', 'Degree': 'partial', 'Vict
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-against a subjugated people     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+against a subjugated people     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5373,13 +5373,13 @@ FE:    {'Killer': 'who', 'Victim': 'them'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-them     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+them     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5398,13 +5398,13 @@ FE:    {'Victim': 'She', 'Place': 'at the wheel of the vehicle', 'Killer': 'by h
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-She     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+She     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5423,13 +5423,13 @@ FE:    {'Killer': 'who', 'Victim': 'her'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-her     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+her     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5448,13 +5448,13 @@ FE:    {'Victim': 'Some', 'Killer': 'by angry crowds', 'Place': 'in the street'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-Some     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+Some     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5473,13 +5473,13 @@ FE:    {'Manner': 'that the world has ever known', 'Killer': 'slaughterers', 'Vi
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-of innocent lives     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+of innocent lives     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5498,13 +5498,13 @@ FE:    {'Victim': 'They', 'Killer': 'by men', 'Instrument': 'with sharp knives'}
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-They     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+They     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5523,13 +5523,13 @@ FE:    {'Killer': 'death squads', 'Victim': 'their opposition', 'Manner': 'viole
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-their op    -- positive ->    ition     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+their op    -- positive ->    ition     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5548,13 +5548,13 @@ FE:    {'Cause': 'The effects of large fortnightly/monthly water changes', 'Vict
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-to angel and butterfly fish     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+to angel and butterfly fish     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5573,13 +5573,13 @@ FE:    {'Cause': 'the infection', 'Degree': 'particularly', 'Victim': 'to rabbit
 
 ====================================================================================================
 
-Killing.Victim neg Killing
-to rabbits     -- negative ->    Killing
+?_x neg Killing
+_GENERAL     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Killing
-_GENERAL     -- negative ->    Killing
+Killing.Victim neg Killing
+to rabbits     -- negative ->    Killing
 
 ----------------------------------------------------------------------------------------------------
 

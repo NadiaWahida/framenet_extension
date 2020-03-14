@@ -33,13 +33,13 @@ _GENERAL     -- positive ->     Frugality.thrifty.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Frugality.Resource_controller
-_SOMEONE     -- positive ->     he
+?_s ?_p Frugality.Behavior
+_SOMEONE     -- positive ->     was wives
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Frugality.Behavior
-_SOMEONE     -- positive ->     was wives
+?_s ?_p Frugality.Resource_controller
+_SOMEONE     -- positive ->     he
 
 ----------------------------------------------------------------------------------------------------
 

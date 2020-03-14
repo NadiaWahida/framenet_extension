@@ -8,18 +8,13 @@ FE:    {'Speaker': 'who', 'Message': '` that he would get an estate by the law o
 
 ====================================================================================================
 
-Bragging.Speaker pos Bragging.Message
-who     -- positive ->     ` that he would get an estate by the law one way or the other .
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Bragging
 _GENERAL     -- negative ->    Bragging
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Bragging.Speaker
-_SOMEONE     -- negative ->    who
+Bragging.Speaker pos Bragging.Message
+who     -- positive ->     ` that he would get an estate by the law one way or the other .
 
 ----------------------------------------------------------------------------------------------------
 
@@ -33,6 +28,11 @@ who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    who
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    brag.v
@@ -43,13 +43,18 @@ FE:    {'Speaker': 'who', 'Topic': 'about his off-the-job exploits at the meat f
 
 ====================================================================================================
 
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+
+----------------------------------------------------------------------------------------------------
+
 Bragging.Speaker pos Bragging.Topic
 who     -- positive ->     about his off-the-job exploits at the meat factory where he works
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Bragging
-_GENERAL     -- negative ->    Bragging
+Bragging.Speaker pos ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -63,11 +68,6 @@ _SOMEONE     -- positive ->     about his off-the-job exploits at the meat facto
 
 ----------------------------------------------------------------------------------------------------
 
-Bragging.Speaker pos ?_t
-who     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 ########################################################################################################################
 
 lu:    brag.v
@@ -78,6 +78,11 @@ FE:    {'Speaker': 'He', 'Addressee': 'to friends', 'Message': '` All I want is 
 
 ====================================================================================================
 
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+
+----------------------------------------------------------------------------------------------------
+
 Bragging.Speaker pos Bragging.Message
 He     -- positive ->     ` All I want is to kill a copper .
 
@@ -85,16 +90,6 @@ He     -- positive ->     ` All I want is to kill a copper .
 
 Bragging.Addressee neg Bragging.Speaker
 to friends     -- negative ->    He
-
-----------------------------------------------------------------------------------------------------
-
-?_x neg Bragging
-_GENERAL     -- negative ->    Bragging
-
-----------------------------------------------------------------------------------------------------
-
-?_s neg Bragging.Speaker
-_SOMEONE     -- negative ->    He
 
 ----------------------------------------------------------------------------------------------------
 
@@ -108,6 +103,11 @@ He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    He
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    brag.v
@@ -118,8 +118,8 @@ FE:    {'Message': 'as', 'Speaker': 'Gould', 'Addressee': 'to Jardine'}
 
 ====================================================================================================
 
-Bragging.Addressee neg Bragging.Speaker
-to Jardine     -- negative ->    Gould
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
 
 ----------------------------------------------------------------------------------------------------
 
@@ -128,13 +128,8 @@ Gould     -- positive ->     as
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Bragging
-_GENERAL     -- negative ->    Bragging
-
-----------------------------------------------------------------------------------------------------
-
-?_s neg Bragging.Speaker
-_SOMEONE     -- negative ->    Gould
+Bragging.Addressee neg Bragging.Speaker
+to Jardine     -- negative ->    Gould
 
 ----------------------------------------------------------------------------------------------------
 
@@ -148,6 +143,11 @@ Gould     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Gould
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    brag.v
@@ -157,6 +157,11 @@ Target:    brag
 FE:    {'Speaker': 'her', 'Addressee': 'to the other members of the delegation', 'Topic': 'about his suggestions'}
 
 ====================================================================================================
+
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+
+----------------------------------------------------------------------------------------------------
 
 Bragging.Speaker pos Bragging.Topic
 her     -- positive ->     about his suggestions
@@ -168,8 +173,8 @@ to the other members of the delegation     -- negative ->    her
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Bragging
-_GENERAL     -- negative ->    Bragging
+Bragging.Speaker pos ?_t
+her     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -183,11 +188,6 @@ _SOMEONE     -- positive ->     about his suggestions
 
 ----------------------------------------------------------------------------------------------------
 
-Bragging.Speaker pos ?_t
-her     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 ########################################################################################################################
 
 lu:    brag.v
@@ -198,18 +198,13 @@ FE:    {'Message': '` in a b-b-b-brothel . "', 'Speaker': 'Killion'}
 
 ====================================================================================================
 
-Bragging.Speaker pos Bragging.Message
-Killion     -- positive ->     ` in a b-b-b-brothel . "
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Bragging
 _GENERAL     -- negative ->    Bragging
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Bragging.Speaker
-_SOMEONE     -- negative ->    Killion
+Bragging.Speaker pos Bragging.Message
+Killion     -- positive ->     ` in a b-b-b-brothel . "
 
 ----------------------------------------------------------------------------------------------------
 
@@ -220,6 +215,11 @@ _SOMEONE     -- positive ->     ` in a b-b-b-brothel . "
 
 Bragging.Speaker pos ?_t
 Killion     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Killion
 
 ----------------------------------------------------------------------------------------------------
 
@@ -253,18 +253,13 @@ FE:    {'Speaker': 'which', 'Medium': 'in its publicity', 'Message': 'that it wa
 
 ====================================================================================================
 
-Bragging.Speaker pos Bragging.Message
-which     -- positive ->     that it was ` Britain 's biggest "
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Bragging
 _GENERAL     -- negative ->    Bragging
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Bragging.Speaker
-_SOMEONE     -- negative ->    which
+Bragging.Speaker pos Bragging.Message
+which     -- positive ->     that it was ` Britain 's biggest "
 
 ----------------------------------------------------------------------------------------------------
 
@@ -278,6 +273,11 @@ which     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    which
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    boast.v
@@ -288,18 +288,13 @@ FE:    {'Speaker': 'He', 'Medium': 'in the Tory-backing Daily Mail', 'Message': 
 
 ====================================================================================================
 
-Bragging.Speaker pos Bragging.Message
-He     -- positive ->     that she has been proved right in her warnings against the European exchange rate mechanism
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Bragging
 _GENERAL     -- negative ->    Bragging
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Bragging.Speaker
-_SOMEONE     -- negative ->    He
+Bragging.Speaker pos Bragging.Message
+He     -- positive ->     that she has been proved right in her warnings against the European exchange rate mechanism
 
 ----------------------------------------------------------------------------------------------------
 
@@ -313,6 +308,11 @@ He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    He
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    boast.v
@@ -323,18 +323,13 @@ FE:    {'Speaker': 'Marshall', 'Medium': 'on his trade card', 'Message': 'that h
 
 ====================================================================================================
 
-Bragging.Speaker pos Bragging.Message
-Marshall     -- positive ->     that he was ‘ the inventor of true Spectacle Grinding & the only person that has , or ever has had , the Approbation of the Royal Society
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Bragging
 _GENERAL     -- negative ->    Bragging
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Bragging.Speaker
-_SOMEONE     -- negative ->    Marshall
+Bragging.Speaker pos Bragging.Message
+Marshall     -- positive ->     that he was ‘ the inventor of true Spectacle Grinding & the only person that has , or ever has had , the Approbation of the Royal Society
 
 ----------------------------------------------------------------------------------------------------
 
@@ -348,6 +343,11 @@ Marshall     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    Marshall
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    boast.v
@@ -357,6 +357,11 @@ Target:    boasted
 FE:    {'Speaker': 'Paul', 'Addressee': 'to Edwin', 'Topic': 'of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire'}
 
 ====================================================================================================
+
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+
+----------------------------------------------------------------------------------------------------
 
 Bragging.Speaker pos Bragging.Topic
 Paul     -- positive ->     of his engagement to a lady whose grandfather was the Earl of Holden in Warwickshire
@@ -368,8 +373,8 @@ to Edwin     -- negative ->    Paul
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Bragging
-_GENERAL     -- negative ->    Bragging
+Bragging.Speaker pos ?_t
+Paul     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -383,11 +388,6 @@ _SOMEONE     -- positive ->     of his engagement to a lady whose grandfather wa
 
 ----------------------------------------------------------------------------------------------------
 
-Bragging.Speaker pos ?_t
-Paul     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 ########################################################################################################################
 
 lu:    boast.v
@@ -397,6 +397,11 @@ Target:    boast
 FE:    {'Speaker': "Many licensed dealers ' clients", 'Addressee': 'to friends', 'Topic': 'of their broker or their " man in the City " , who gives them tips'}
 
 ====================================================================================================
+
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+
+----------------------------------------------------------------------------------------------------
 
 Bragging.Speaker pos Bragging.Topic
 Many licensed dealers ' clients     -- positive ->     of their broker or their " man in the City " , who gives them tips
@@ -408,8 +413,8 @@ to friends     -- negative ->    Many licensed dealers ' clients
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Bragging
-_GENERAL     -- negative ->    Bragging
+Bragging.Speaker pos ?_t
+Many licensed dealers ' clients     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -423,11 +428,6 @@ _SOMEONE     -- positive ->     of their broker or their " man in the City " , w
 
 ----------------------------------------------------------------------------------------------------
 
-Bragging.Speaker pos ?_t
-Many licensed dealers ' clients     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 ########################################################################################################################
 
 lu:    boast.v
@@ -438,6 +438,11 @@ FE:    {'Speaker': 'He', 'Addressee': 'to Irina', 'Message': 'that politicians c
 
 ====================================================================================================
 
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+
+----------------------------------------------------------------------------------------------------
+
 Bragging.Speaker pos Bragging.Message
 He     -- positive ->     that politicians come and go , but spies go on forever
 
@@ -445,16 +450,6 @@ He     -- positive ->     that politicians come and go , but spies go on forever
 
 Bragging.Addressee neg Bragging.Speaker
 to Irina     -- negative ->    He
-
-----------------------------------------------------------------------------------------------------
-
-?_x neg Bragging
-_GENERAL     -- negative ->    Bragging
-
-----------------------------------------------------------------------------------------------------
-
-?_s neg Bragging.Speaker
-_SOMEONE     -- negative ->    He
 
 ----------------------------------------------------------------------------------------------------
 
@@ -468,6 +463,11 @@ He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    He
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    boast.v
@@ -477,6 +477,11 @@ Target:    boasted
 FE:    {'Topic': 'about which', 'Speaker': 'he', 'Addressee': 'to foreign journalists'}
 
 ====================================================================================================
+
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+
+----------------------------------------------------------------------------------------------------
 
 Bragging.Speaker pos Bragging.Topic
 he     -- positive ->     about which
@@ -488,8 +493,8 @@ to foreign journalists     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Bragging
-_GENERAL     -- negative ->    Bragging
+Bragging.Speaker pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -503,11 +508,6 @@ _SOMEONE     -- positive ->     about which
 
 ----------------------------------------------------------------------------------------------------
 
-Bragging.Speaker pos ?_t
-he     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 ########################################################################################################################
 
 lu:    boast.v
@@ -518,6 +518,11 @@ FE:    {'Speaker': 'he', 'Addressee': 'to his mates', 'Message': '` If I do n\'t
 
 ====================================================================================================
 
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+
+----------------------------------------------------------------------------------------------------
+
 Bragging.Speaker pos Bragging.Message
 he     -- positive ->     ` If I do n't sink this , I 'll marry my girlfriend . "
 
@@ -525,16 +530,6 @@ he     -- positive ->     ` If I do n't sink this , I 'll marry my girlfriend . 
 
 Bragging.Addressee neg Bragging.Speaker
 to his mates     -- negative ->    he
-
-----------------------------------------------------------------------------------------------------
-
-?_x neg Bragging
-_GENERAL     -- negative ->    Bragging
-
-----------------------------------------------------------------------------------------------------
-
-?_s neg Bragging.Speaker
-_SOMEONE     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
@@ -548,6 +543,11 @@ he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    he
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    boast.v
@@ -558,6 +558,11 @@ FE:    {'Speaker': 'One of their men', 'Addressee': 'to me', 'Message': 'that th
 
 ====================================================================================================
 
+?_x neg Bragging
+_GENERAL     -- negative ->    Bragging
+
+----------------------------------------------------------------------------------------------------
+
 Bragging.Speaker pos Bragging.Message
 One of their men     -- positive ->     that they intend killing the ministers
 
@@ -565,16 +570,6 @@ One of their men     -- positive ->     that they intend killing the ministers
 
 Bragging.Addressee neg Bragging.Speaker
 to me     -- negative ->    One of their men
-
-----------------------------------------------------------------------------------------------------
-
-?_x neg Bragging
-_GENERAL     -- negative ->    Bragging
-
-----------------------------------------------------------------------------------------------------
-
-?_s neg Bragging.Speaker
-_SOMEONE     -- negative ->    One of their men
 
 ----------------------------------------------------------------------------------------------------
 
@@ -588,6 +583,11 @@ One of their men     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    One of their men
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    boast.v
@@ -598,18 +598,13 @@ FE:    {'Speaker': 'who', 'Message': 'she had been wearing the same pair of stoc
 
 ====================================================================================================
 
-Bragging.Speaker pos Bragging.Message
-who     -- positive ->     she had been wearing the same pair of stockings for twenty years
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Bragging
 _GENERAL     -- negative ->    Bragging
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Bragging.Speaker
-_SOMEONE     -- negative ->    who
+Bragging.Speaker pos Bragging.Message
+who     -- positive ->     she had been wearing the same pair of stockings for twenty years
 
 ----------------------------------------------------------------------------------------------------
 
@@ -620,6 +615,11 @@ _SOMEONE     -- positive ->     she had been wearing the same pair of stockings 
 
 Bragging.Speaker pos ?_t
 who     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Bragging.Speaker
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 

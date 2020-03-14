@@ -18,6 +18,11 @@ by my hon. Friend the Member for Harrow , West ( Mr. Hughes )     -- negative ->
 
 ----------------------------------------------------------------------------------------------------
 
+Disgraceful_situation.Protagonist neg ?_t
+by my hon. Friend the Member for Harrow , West ( Mr. Hughes )     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Disgraceful_situation.Protagonist
 _SOMEONE     -- negative ->    by my hon. Friend the Member for Harrow , West ( Mr. Hughes )
 
@@ -25,11 +30,6 @@ _SOMEONE     -- negative ->    by my hon. Friend the Member for Harrow , West ( 
 
 ?_s neg Disgraceful_situation.State_of_affairs
 _SOMEONE     -- negative ->    comment
-
-----------------------------------------------------------------------------------------------------
-
-Disgraceful_situation.Protagonist neg ?_t
-by my hon. Friend the Member for Harrow , West ( Mr. Hughes )     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -53,6 +53,11 @@ Man     -- negative ->    species
 
 ----------------------------------------------------------------------------------------------------
 
+Disgraceful_situation.Protagonist neg ?_t
+Man     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Disgraceful_situation.Protagonist
 _SOMEONE     -- negative ->    Man
 
@@ -60,11 +65,6 @@ _SOMEONE     -- negative ->    Man
 
 ?_s neg Disgraceful_situation.State_of_affairs
 _SOMEONE     -- negative ->    species
-
-----------------------------------------------------------------------------------------------------
-
-Disgraceful_situation.Protagonist neg ?_t
-Man     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 

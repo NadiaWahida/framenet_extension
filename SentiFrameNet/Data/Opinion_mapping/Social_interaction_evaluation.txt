@@ -8,6 +8,11 @@ FE:    {'Degree': 'how', 'Evaluee': 'he', 'Affected_party': 'toward Alexander Ha
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.warm.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 he     -- positive ->     toward Alexander Hamilton
 
@@ -18,18 +23,8 @@ toward Alexander Hamilton     -- positive ->     he
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.warm.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 toward Alexander Hamilton     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -43,6 +38,11 @@ _SOMEONE     -- positive ->     toward Alexander Hamilton
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+he     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    kind.a
@@ -52,6 +52,11 @@ Target:    kind
 FE:    {'Evaluee': 'he and his wife Rosemary', 'Degree': 'extremely', 'Affected_party': 'to me'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 he and his wife Rosemary     -- positive ->     to me
@@ -63,18 +68,8 @@ to me     -- positive ->     he and his wife Rosemary
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to me     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-he and his wife Rosemary     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -88,6 +83,11 @@ _SOMEONE     -- positive ->     to me
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+he and his wife Rosemary     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    kind.a
@@ -97,6 +97,11 @@ Target:    kind
 FE:    {'Evaluee': 'He', 'Degree': 'extremely', 'Affected_party': 'to me'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 He     -- positive ->     to me
@@ -108,18 +113,8 @@ to me     -- positive ->     He
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to me     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -133,6 +128,11 @@ _SOMEONE     -- positive ->     to me
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+He     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    kind.a
@@ -142,6 +142,11 @@ Target:    kind
 FE:    {'Evaluee': 'who', 'Degree': 'so', 'Affected_party': 'to her'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 who     -- positive ->     to her
@@ -153,18 +158,8 @@ to her     -- positive ->     who
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to her     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -175,6 +170,11 @@ _SOMEONE     -- positive ->     who
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     to her
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -193,13 +193,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-you     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     you
+Social_interaction_evaluation.Evaluee ?_p ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -218,13 +218,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-you     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     you
+Social_interaction_evaluation.Evaluee ?_p ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -243,13 +243,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-man     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     man
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     man
+Social_interaction_evaluation.Evaluee ?_p ?_t
+man     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -268,13 +268,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-person     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     person
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     person
+Social_interaction_evaluation.Evaluee ?_p ?_t
+person     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -293,13 +293,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Lawrence     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     Lawrence
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     Lawrence
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Lawrence     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -318,6 +318,11 @@ FE:    {'Evaluee': 'who', 'Affected_party': 'to me'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 who     -- positive ->     to me
 
@@ -328,18 +333,8 @@ to me     -- positive ->     who
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to me     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -350,6 +345,11 @@ _SOMEONE     -- positive ->     who
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     to me
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -368,13 +368,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-you     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     you
+Social_interaction_evaluation.Evaluee ?_p ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -393,13 +393,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.kind.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Mrs Johnson     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     Mrs Johnson
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     Mrs Johnson
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Mrs Johnson     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -413,6 +413,11 @@ FE:    {'Evaluee': 'she', 'Degree': 'more', 'Affected_party': 'of her mother'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.considerate.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 she     -- positive ->     of her mother
 
@@ -423,18 +428,8 @@ of her mother     -- positive ->     she
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.considerate.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 of her mother     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -448,6 +443,11 @@ _SOMEONE     -- positive ->     of her mother
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+she     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    considerate.a
@@ -457,6 +457,11 @@ Target:    considerate
 FE:    {'Evaluee': 'peasants', 'Degree': 'more', 'Affected_party': 'of their womenfolk'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.considerate.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 peasants     -- positive ->     of their womenfolk
@@ -468,18 +473,8 @@ of their womenfolk     -- positive ->     peasants
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.considerate.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 of their womenfolk     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-peasants     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -490,6 +485,11 @@ _SOMEONE     -- positive ->     peasants
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     of their womenfolk
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+peasants     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -508,13 +508,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.considerate.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-some gypsies     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     some gypsies
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     some gypsies
+Social_interaction_evaluation.Evaluee ?_p ?_t
+some gypsies     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -533,11 +533,6 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.considerate.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of you     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 ?_s ?_p Social_interaction_evaluation.Behavior
 _SOMEONE     -- positive ->     That
 
@@ -545,6 +540,11 @@ _SOMEONE     -- positive ->     That
 
 ?_s ?_p Social_interaction_evaluation.Evaluee
 _SOMEONE     -- positive ->     of you
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -558,6 +558,11 @@ FE:    {'Degree': 'how', 'Evaluee': 'people', 'Affected_party': 'of a woman in t
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.considerate.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 people     -- positive ->     of a woman in these circumstances
 
@@ -568,18 +573,8 @@ of a woman in these circumstances     -- positive ->     people
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.considerate.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 of a woman in these circumstances     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-people     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -590,6 +585,11 @@ _SOMEONE     -- positive ->     people
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     of a woman in these circumstances
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+people     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -608,11 +608,6 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.considerate.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of her     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 ?_s ?_p Social_interaction_evaluation.Behavior
 _SOMEONE     -- positive ->     That
 
@@ -620,6 +615,11 @@ _SOMEONE     -- positive ->     That
 
 ?_s ?_p Social_interaction_evaluation.Evaluee
 _SOMEONE     -- positive ->     of her
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of her     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -633,6 +633,11 @@ FE:    {'Evaluee': 'you', 'Degree': 'so', 'Affected_party': 'to your housekeeper
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.considerate.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 you     -- positive ->     to your housekeepers
 
@@ -643,18 +648,8 @@ to your housekeepers     -- positive ->     you
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.considerate.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to your housekeepers     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -668,6 +663,11 @@ _SOMEONE     -- positive ->     to your housekeepers
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+you     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    considerate.a
@@ -677,6 +677,11 @@ Target:    considerate
 FE:    {'Evaluee': 'Mark Elder', 'Degree': 'as he usually is', 'Affected_party': 'towards the singers'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.considerate.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 Mark Elder     -- positive ->     towards the singers
@@ -688,18 +693,8 @@ towards the singers     -- positive ->     Mark Elder
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.considerate.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 towards the singers     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Mark Elder     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -710,6 +705,11 @@ _SOMEONE     -- positive ->     Mark Elder
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     towards the singers
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Mark Elder     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -728,11 +728,6 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.mean.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of me     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 ?_s ?_p Social_interaction_evaluation.Behavior
 _SOMEONE     -- negative ->    It
 
@@ -740,6 +735,11 @@ _SOMEONE     -- negative ->    It
 
 ?_s ?_p Social_interaction_evaluation.Evaluee
 _SOMEONE     -- negative ->    of me
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of me     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -758,13 +758,13 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.mean.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-you     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- negative ->    you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- negative ->    you
+Social_interaction_evaluation.Evaluee ?_p ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -783,13 +783,13 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.mean.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-who     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- negative ->    who
+Social_interaction_evaluation.Evaluee ?_p ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -808,8 +808,8 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.mean.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of me     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- negative ->    to be very angry at the end
 
 ----------------------------------------------------------------------------------------------------
 
@@ -818,8 +818,8 @@ _SOMEONE     -- negative ->    of me
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- negative ->    to be very angry at the end
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of me     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -838,8 +838,8 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.mean.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-his mother     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- negative ->    to talk about him
 
 ----------------------------------------------------------------------------------------------------
 
@@ -848,8 +848,8 @@ _SOMEONE     -- negative ->    his mother
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- negative ->    to talk about him
+Social_interaction_evaluation.Evaluee ?_p ?_t
+his mother     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -868,13 +868,13 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.insensitive.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-the directors of the museum at that time     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- negative ->    the directors of the museum at that time
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- negative ->    the directors of the museum at that time
+Social_interaction_evaluation.Evaluee ?_p ?_t
+the directors of the museum at that time     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -893,8 +893,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.thoughtless.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of me     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     to allow my scalpel to flash and flicker quite so close to Rory O'Hagan 's fly buttons
 
 ----------------------------------------------------------------------------------------------------
 
@@ -903,8 +903,8 @@ _SOMEONE     -- positive ->     of me
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     to allow my scalpel to flash and flicker quite so close to Rory O'Hagan 's fly buttons
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of me     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -923,8 +923,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.thoughtless.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-I     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     in what I said earlier
 
 ----------------------------------------------------------------------------------------------------
 
@@ -933,8 +933,8 @@ _SOMEONE     -- positive ->     I
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     in what I said earlier
+Social_interaction_evaluation.Evaluee ?_p ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -953,8 +953,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.thoughtful.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of Mrs Winters     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     to buy us a wheelchair
 
 ----------------------------------------------------------------------------------------------------
 
@@ -963,8 +963,8 @@ _SOMEONE     -- positive ->     of Mrs Winters
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     to buy us a wheelchair
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of Mrs Winters     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -983,13 +983,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.thoughtful.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-that splendid bank nurse     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     that splendid bank nurse
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     that splendid bank nurse
+Social_interaction_evaluation.Evaluee ?_p ?_t
+that splendid bank nurse     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1008,11 +1008,6 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.thoughtful.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of her     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 ?_s ?_p Social_interaction_evaluation.Behavior
 _SOMEONE     -- positive ->     That
 
@@ -1020,6 +1015,11 @@ _SOMEONE     -- positive ->     That
 
 ?_s ?_p Social_interaction_evaluation.Evaluee
 _SOMEONE     -- positive ->     of her
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of her     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1038,13 +1038,13 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.cruel.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-all men     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- negative ->    all men
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- negative ->    all men
+Social_interaction_evaluation.Evaluee ?_p ?_t
+all men     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1063,8 +1063,8 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.cruel.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-you     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- negative ->    in speaking thus
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1073,8 +1073,8 @@ _SOMEONE     -- negative ->    you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- negative ->    in speaking thus
+Social_interaction_evaluation.Evaluee ?_p ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1088,6 +1088,11 @@ FE:    {'Degree': 'how', 'Evaluee': 'children', 'Affected_party': 'to small anim
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.cruel.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 children     -- negative ->    to small animals
 
@@ -1098,18 +1103,8 @@ to small animals     -- negative ->    children
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.cruel.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to small animals     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-children     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1120,6 +1115,11 @@ _SOMEONE     -- negative ->    children
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- negative ->    to small animals
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+children     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1138,8 +1138,8 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.cruel.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of me     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- negative ->    to take advantage of your amiable nature
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1148,8 +1148,8 @@ _SOMEONE     -- negative ->    of me
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- negative ->    to take advantage of your amiable nature
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of me     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1163,6 +1163,11 @@ FE:    {'Evaluee': 'He', 'Degree': 'too', 'Affected_party': 'to her'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.cruel.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 He     -- negative ->    to her
 
@@ -1173,18 +1178,8 @@ to her     -- negative ->    He
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.cruel.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to her     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1198,6 +1193,11 @@ _SOMEONE     -- negative ->    to her
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+He     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    cruel.a
@@ -1207,6 +1207,11 @@ Target:    cruel
 FE:    {'Evaluee': 'who', 'Affected_party': 'to animals'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.cruel.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 who     -- negative ->    to animals
@@ -1218,18 +1223,8 @@ to animals     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.cruel.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to animals     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1243,6 +1238,11 @@ _SOMEONE     -- negative ->    to animals
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+who     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    cruel.a
@@ -1252,6 +1252,11 @@ Target:    cruel
 FE:    {'Evaluee': 'Some of our friends and neighbours', 'Degree': 'very', 'Affected_party': 'to me'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.cruel.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 Some of our friends and neighbours     -- negative ->    to me
@@ -1263,18 +1268,8 @@ to me     -- negative ->    Some of our friends and neighbours
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.cruel.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to me     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Some of our friends and neighbours     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1285,6 +1280,11 @@ _SOMEONE     -- negative ->    Some of our friends and neighbours
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- negative ->    to me
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Some of our friends and neighbours     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1318,13 +1318,13 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.cruel.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-no one     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- negative ->    no one
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- negative ->    no one
+Social_interaction_evaluation.Evaluee ?_p ?_t
+no one     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1338,6 +1338,11 @@ FE:    {'Evaluee': 'who', 'Affected_party': 'to you'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.cruel.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 who     -- negative ->    to you
 
@@ -1348,18 +1353,8 @@ to you     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.cruel.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to you     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1373,6 +1368,11 @@ _SOMEONE     -- negative ->    to you
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+who     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    sweet.a
@@ -1382,6 +1382,11 @@ Target:    sweet
 FE:    {'Evaluee': 'they', 'Manner': 'coyly', 'Affected_party': 'to us'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 they     -- positive ->     to us
@@ -1393,18 +1398,8 @@ to us     -- positive ->     they
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to us     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-they     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1415,6 +1410,11 @@ _SOMEONE     -- positive ->     they
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     to us
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+they     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1433,13 +1433,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-gentleman     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     gentleman
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     gentleman
+Social_interaction_evaluation.Evaluee ?_p ?_t
+gentleman     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1453,6 +1453,11 @@ FE:    {'Evaluee': 'He', 'Degree': 'so', 'Affected_party': 'to her'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 He     -- positive ->     to her
 
@@ -1463,18 +1468,8 @@ to her     -- positive ->     He
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to her     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1488,6 +1483,11 @@ _SOMEONE     -- positive ->     to her
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+He     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    sweet.a
@@ -1497,6 +1497,11 @@ Target:    sweet
 FE:    {'Evaluee': 'You', 'Degree': 'so', 'Affected_party': 'with your little sister'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 You     -- positive ->     with your little sister
@@ -1508,18 +1513,8 @@ with your little sister     -- positive ->     You
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 with your little sister     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-You     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1530,6 +1525,11 @@ _SOMEONE     -- positive ->     You
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     with your little sister
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+You     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1548,8 +1548,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of you     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     to ask
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1558,8 +1558,8 @@ _SOMEONE     -- positive ->     of you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     to ask
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1578,13 +1578,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-She     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     She
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     She
+Social_interaction_evaluation.Evaluee ?_p ?_t
+She     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1603,13 +1603,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-her     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     her
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     her
+Social_interaction_evaluation.Evaluee ?_p ?_t
+her     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1628,13 +1628,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-she     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     she
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     she
+Social_interaction_evaluation.Evaluee ?_p ?_t
+she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1653,13 +1653,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-thing     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     thing
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     thing
+Social_interaction_evaluation.Evaluee ?_p ?_t
+thing     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1678,13 +1678,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Mum     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     Mum
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     Mum
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Mum     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1703,6 +1703,11 @@ FE:    {'Evaluee': 'she', 'Degree': 'exceptionally', 'Affected_party': 'to Emmie
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 she     -- positive ->     to Emmie
 
@@ -1713,18 +1718,8 @@ to Emmie     -- positive ->     she
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.sweet.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to Emmie     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1735,6 +1730,11 @@ _SOMEONE     -- positive ->     she
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     to Emmie
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1768,6 +1768,11 @@ FE:    {'Evaluee': 'you', 'Degree': 'too', 'Affected_party': 'to that insurance 
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 you     -- negative ->    to that insurance investigator
 
@@ -1778,18 +1783,8 @@ to that insurance investigator     -- negative ->    you
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to that insurance investigator     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1803,6 +1798,11 @@ _SOMEONE     -- negative ->    to that insurance investigator
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+you     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    rude.a
@@ -1812,6 +1812,11 @@ Target:    rude
 FE:    {'Evaluee': 'he', 'Degree': 'too', 'Affected_party': 'to you'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 he     -- negative ->    to you
@@ -1823,18 +1828,8 @@ to you     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to you     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1848,6 +1843,11 @@ _SOMEONE     -- negative ->    to you
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+he     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    rude.a
@@ -1857,6 +1857,11 @@ Target:    rude
 FE:    {'Evaluee': 'he', 'Degree': 'very', 'Affected_party': 'to me'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 he     -- negative ->    to me
@@ -1868,18 +1873,8 @@ to me     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to me     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1890,6 +1885,11 @@ _SOMEONE     -- negative ->    he
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- negative ->    to me
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1908,13 +1908,13 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-he     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- negative ->    he
+Social_interaction_evaluation.Evaluee ?_p ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1933,6 +1933,11 @@ FE:    {'Evaluee': 'I', 'Degree': 'very', 'Affected_party': 'with your grandmoth
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 I     -- negative ->    with your grandmother
 
@@ -1943,18 +1948,8 @@ with your grandmother     -- negative ->    I
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 with your grandmother     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1965,6 +1960,11 @@ _SOMEONE     -- negative ->    I
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- negative ->    with your grandmother
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2003,8 +2003,8 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of us     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- negative ->    to argue in front of you
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2013,8 +2013,8 @@ _SOMEONE     -- negative ->    of us
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- negative ->    to argue in front of you
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of us     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2033,13 +2033,13 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-politicians from other countries     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- negative ->    politicians from other countries
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- negative ->    politicians from other countries
+Social_interaction_evaluation.Evaluee ?_p ?_t
+politicians from other countries     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2063,13 +2063,13 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-you     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- negative ->    you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- negative ->    you
+Social_interaction_evaluation.Evaluee ?_p ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2093,11 +2093,6 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of you     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 ?_s ?_p Social_interaction_evaluation.Behavior
 _SOMEONE     -- negative ->    that
 
@@ -2105,6 +2100,11 @@ _SOMEONE     -- negative ->    that
 
 ?_s ?_p Social_interaction_evaluation.Evaluee
 _SOMEONE     -- negative ->    of you
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2123,13 +2123,13 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-to Matthew     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- negative ->    to Matthew
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- negative ->    to Matthew
+Social_interaction_evaluation.Evaluee ?_p ?_t
+to Matthew     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2148,13 +2148,13 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.rude.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-women     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- negative ->    women
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- negative ->    women
+Social_interaction_evaluation.Evaluee ?_p ?_t
+women     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2173,6 +2173,11 @@ FE:    {'Evaluee': 'men', 'Degree': 'very', 'Affected_party': 'to others'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.discourteous.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 men     -- positive ->     to others
 
@@ -2183,18 +2188,8 @@ to others     -- positive ->     men
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.discourteous.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to others     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-men     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2208,6 +2203,11 @@ _SOMEONE     -- positive ->     to others
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+men     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    discourteous.a
@@ -2218,13 +2218,13 @@ FE:    {'Behavior': 'which', 'Affected_party': 'to the House'}
 
 ====================================================================================================
 
-Social_interaction_evaluation.Affected_party ?_p Social_interaction_evaluation.Behavior
-to the House     -- positive ->     which
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.discourteous.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.discourteous.a
+Social_interaction_evaluation.Affected_party ?_p Social_interaction_evaluation.Behavior
+to the House     -- positive ->     which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2258,8 +2258,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.discourteous.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of a senior officer in an allied NATO service     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     to enter the country unannounced
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2268,8 +2268,8 @@ _SOMEONE     -- positive ->     of a senior officer in an allied NATO service
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     to enter the country unannounced
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of a senior officer in an allied NATO service     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2283,13 +2283,13 @@ FE:    {'Behavior': 'that', 'Degree': 'in the extreme', 'Affected_party': 'to Wi
 
 ====================================================================================================
 
-Social_interaction_evaluation.Affected_party ?_p Social_interaction_evaluation.Behavior
-to Wilson , for whom I then had enormous respect ,     -- positive ->     that
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.discourteous.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.discourteous.a
+Social_interaction_evaluation.Affected_party ?_p Social_interaction_evaluation.Behavior
+to Wilson , for whom I then had enormous respect ,     -- positive ->     that
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2323,13 +2323,13 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.unkind.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-he     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- negative ->    he
+Social_interaction_evaluation.Evaluee ?_p ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2348,11 +2348,6 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.unkind.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of you     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 ?_s ?_p Social_interaction_evaluation.Behavior
 _SOMEONE     -- negative ->    That
 
@@ -2360,6 +2355,11 @@ _SOMEONE     -- negative ->    That
 
 ?_s ?_p Social_interaction_evaluation.Evaluee
 _SOMEONE     -- negative ->    of you
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2373,6 +2373,11 @@ FE:    {'Evaluee': 'You', 'Degree': 'very', 'Affected_party': 'to Sarella'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.unkind.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 You     -- negative ->    to Sarella
 
@@ -2383,18 +2388,8 @@ to Sarella     -- negative ->    You
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.unkind.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to Sarella     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-You     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2405,6 +2400,11 @@ _SOMEONE     -- negative ->    You
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- negative ->    to Sarella
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+You     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2423,13 +2423,13 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.unkind.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-You     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- negative ->    You
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- negative ->    You
+Social_interaction_evaluation.Evaluee ?_p ?_t
+You     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2453,11 +2453,6 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.unkind.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of me     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 ?_s ?_p Social_interaction_evaluation.Behavior
 _SOMEONE     -- negative ->    that
 
@@ -2465,6 +2460,11 @@ _SOMEONE     -- negative ->    that
 
 ?_s ?_p Social_interaction_evaluation.Evaluee
 _SOMEONE     -- negative ->    of me
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of me     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2483,8 +2483,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.courteous.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-The House of Lords     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     in the conduct of its proceedings
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2493,8 +2493,8 @@ _SOMEONE     -- positive ->     The House of Lords
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     in the conduct of its proceedings
+Social_interaction_evaluation.Evaluee ?_p ?_t
+The House of Lords     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2513,13 +2513,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.courteous.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-He     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     He
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     He
+Social_interaction_evaluation.Evaluee ?_p ?_t
+He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2533,6 +2533,11 @@ FE:    {'Evaluee': 'they', 'Manner': 'elaborately', 'Affected_party': 'towards t
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.courteous.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 they     -- positive ->     towards their colleagues
 
@@ -2543,18 +2548,8 @@ towards their colleagues     -- positive ->     they
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.courteous.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 towards their colleagues     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-they     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2565,6 +2560,11 @@ _SOMEONE     -- positive ->     they
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     towards their colleagues
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+they     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2583,13 +2583,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.courteous.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-He     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     He
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     He
+Social_interaction_evaluation.Evaluee ?_p ?_t
+He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2608,13 +2608,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.polite.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-people     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     people
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     people
+Social_interaction_evaluation.Evaluee ?_p ?_t
+people     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2633,13 +2633,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.polite.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-The French     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     The French
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     The French
+Social_interaction_evaluation.Evaluee ?_p ?_t
+The French     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2658,13 +2658,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.polite.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-the ministers     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     the ministers
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     the ministers
+Social_interaction_evaluation.Evaluee ?_p ?_t
+the ministers     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2683,13 +2683,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.polite.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-She     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     She
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     She
+Social_interaction_evaluation.Evaluee ?_p ?_t
+She     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2708,13 +2708,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.polite.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-She     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     She
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     She
+Social_interaction_evaluation.Evaluee ?_p ?_t
+She     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2728,6 +2728,11 @@ FE:    {'Evaluee': 'She', 'Degree': 'very', 'Affected_party': 'to me'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.polite.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 She     -- positive ->     to me
 
@@ -2738,18 +2743,8 @@ to me     -- positive ->     She
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.polite.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to me     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-She     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2763,6 +2758,11 @@ _SOMEONE     -- positive ->     to me
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+She     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    polite.a
@@ -2772,6 +2772,11 @@ Target:    polite
 FE:    {'Evaluee': 'He', 'Degree': 'very', 'Affected_party': 'to people'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.polite.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 He     -- positive ->     to people
@@ -2783,18 +2788,8 @@ to people     -- positive ->     He
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.polite.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to people     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2808,6 +2803,11 @@ _SOMEONE     -- positive ->     to people
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+He     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    impudent.a
@@ -2817,6 +2817,11 @@ Target:    impudent
 FE:    {'Evaluee': 'who', 'Affected_party': 'to Frith'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.impudent.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 who     -- negative ->    to Frith
@@ -2828,18 +2833,8 @@ to Frith     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.impudent.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to Frith     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2853,6 +2848,11 @@ _SOMEONE     -- negative ->    to Frith
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+who     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    impudent.a
@@ -2862,6 +2862,11 @@ Target:    impudent
 FE:    {'Evaluee': 'the servant', 'Degree': 'as not to allow him to win', 'Affected_party': 'to the Master'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.impudent.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 the servant     -- negative ->    to the Master
@@ -2873,18 +2878,8 @@ to the Master     -- negative ->    the servant
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.impudent.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to the Master     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-the servant     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2898,6 +2893,11 @@ _SOMEONE     -- negative ->    to the Master
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+the servant     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    respectful.a
@@ -2907,6 +2907,11 @@ Target:    respectful
 FE:    {'Evaluee': 'Robert', 'Degree': 'more', 'Affected_party': 'to Hasan'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.respectful.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 Robert     -- positive ->     to Hasan
@@ -2918,18 +2923,8 @@ to Hasan     -- positive ->     Robert
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.respectful.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to Hasan     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Robert     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2943,6 +2938,11 @@ _SOMEONE     -- positive ->     to Hasan
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Robert     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    respectful.a
@@ -2952,6 +2952,11 @@ Target:    respectful
 FE:    {'Evaluee': 'Men', 'Degree': 'very', 'Affected_party': 'of Enya'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.respectful.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 Men     -- positive ->     of Enya
@@ -2963,18 +2968,8 @@ of Enya     -- positive ->     Men
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.respectful.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 of Enya     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Men     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2988,6 +2983,11 @@ _SOMEONE     -- positive ->     of Enya
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Men     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    respectful.a
@@ -2997,6 +2997,11 @@ Target:    respectful
 FE:    {'Evaluee': 'Ramsay', 'Degree': 'than a young knight ought to have been', 'Affected_party': 'towards this lofty assemblage'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.respectful.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 Ramsay     -- positive ->     towards this lofty assemblage
@@ -3008,18 +3013,8 @@ towards this lofty assemblage     -- positive ->     Ramsay
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.respectful.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 towards this lofty assemblage     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Ramsay     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3030,6 +3025,11 @@ _SOMEONE     -- positive ->     Ramsay
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     towards this lofty assemblage
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Ramsay     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3048,13 +3048,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.disrespectful.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Chid     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     Chid
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     Chid
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Chid     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3068,6 +3068,11 @@ FE:    {'Evaluee': 'Balboa', 'Manner': 'generally', 'Affected_party': 'to the In
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.compassionate.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 Balboa     -- positive ->     to the Indians
 
@@ -3078,18 +3083,8 @@ to the Indians     -- positive ->     Balboa
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.compassionate.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to the Indians     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Balboa     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3100,6 +3095,11 @@ _SOMEONE     -- positive ->     Balboa
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     to the Indians
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Balboa     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3118,13 +3118,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.compassionate.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-a man     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     a man
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     a man
+Social_interaction_evaluation.Evaluee ?_p ?_t
+a man     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3138,6 +3138,11 @@ FE:    {'Evaluee': 'who', 'Affected_party': 'to him'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.nice.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 who     -- positive ->     to him
 
@@ -3148,18 +3153,8 @@ to him     -- positive ->     who
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.nice.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to him     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3173,6 +3168,11 @@ _SOMEONE     -- positive ->     to him
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+who     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    nice.a
@@ -3182,6 +3182,11 @@ Target:    nice
 FE:    {'Degree': 'how', 'Evaluee': 'everybody', 'Affected_party': 'to us'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.nice.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 everybody     -- positive ->     to us
@@ -3193,18 +3198,8 @@ to us     -- positive ->     everybody
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.nice.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to us     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-everybody     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3218,6 +3213,11 @@ _SOMEONE     -- positive ->     to us
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+everybody     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    nice.a
@@ -3227,6 +3227,11 @@ Target:    nice
 FE:    {'Evaluee': 'She', 'Degree': 'quite', 'Affected_party': 'to me'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.nice.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 She     -- positive ->     to me
@@ -3238,18 +3243,8 @@ to me     -- positive ->     She
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.nice.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to me     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-She     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3260,6 +3255,11 @@ _SOMEONE     -- positive ->     She
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     to me
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+She     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3278,13 +3278,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.nice.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-guys     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     guys
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     guys
+Social_interaction_evaluation.Evaluee ?_p ?_t
+guys     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3303,13 +3303,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.nice.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Most people     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     Most people
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     Most people
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Most people     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3328,13 +3328,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.nice.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-you     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     you
+Social_interaction_evaluation.Evaluee ?_p ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3348,6 +3348,11 @@ FE:    {'Evaluee': 'you', 'Degree': 'extra', 'Affected_party': 'to him'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.nice.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 you     -- positive ->     to him
 
@@ -3358,18 +3363,8 @@ to him     -- positive ->     you
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.nice.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to him     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3380,6 +3375,11 @@ _SOMEONE     -- positive ->     you
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     to him
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3398,13 +3398,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-She     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     She
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     She
+Social_interaction_evaluation.Evaluee ?_p ?_t
+She     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3423,13 +3423,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-He     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     He
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     He
+Social_interaction_evaluation.Evaluee ?_p ?_t
+He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3448,13 +3448,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-She     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     She
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     She
+Social_interaction_evaluation.Evaluee ?_p ?_t
+She     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3473,13 +3473,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-who     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     who
+Social_interaction_evaluation.Evaluee ?_p ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3498,13 +3498,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-creatures     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     creatures
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     creatures
+Social_interaction_evaluation.Evaluee ?_p ?_t
+creatures     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3523,13 +3523,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-the company     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     the company
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     the company
+Social_interaction_evaluation.Evaluee ?_p ?_t
+the company     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3548,8 +3548,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-we     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     by coming to get me
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3558,8 +3558,8 @@ _SOMEONE     -- positive ->     we
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     by coming to get me
+Social_interaction_evaluation.Evaluee ?_p ?_t
+we     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3578,13 +3578,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Guards     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     Guards
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     Guards
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Guards     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3608,13 +3608,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-people     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     people
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     people
+Social_interaction_evaluation.Evaluee ?_p ?_t
+people     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3633,13 +3633,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Merseyside 's pubs     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     Merseyside 's pubs
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     Merseyside 's pubs
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Merseyside 's pubs     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3658,8 +3658,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of you     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     to visit us
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3668,8 +3668,8 @@ _SOMEONE     -- positive ->     of you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     to visit us
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3682,6 +3682,11 @@ Target:    friendly
 FE:    {'Evaluee': 'Dr Neil', 'Affected_party': 'to her', 'Topic': 'when she had served him breakfast'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 Dr Neil     -- positive ->     to her
@@ -3698,18 +3703,8 @@ to her     -- positive ->     Dr Neil
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to her     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Dr Neil     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3720,6 +3715,11 @@ _SOMEONE     -- positive ->     Dr Neil
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     to her
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Dr Neil     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3738,6 +3738,11 @@ FE:    {'Evaluee': 'Thomas', 'Degree': 'than he is towards me', 'Affected_party'
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 Thomas     -- positive ->     towards him
 
@@ -3748,18 +3753,8 @@ towards him     -- positive ->     Thomas
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 towards him     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Thomas     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3770,6 +3765,11 @@ _SOMEONE     -- positive ->     Thomas
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     towards him
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Thomas     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3788,13 +3788,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.friendly.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-You     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     You
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     You
+Social_interaction_evaluation.Evaluee ?_p ?_t
+You     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3808,6 +3808,11 @@ FE:    {'Evaluee': 'who', 'Affected_party': 'towards one another'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.unfriendly.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 who     -- negative ->    towards one another
 
@@ -3818,18 +3823,8 @@ towards one another     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.unfriendly.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 towards one another     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3843,6 +3838,11 @@ _SOMEONE     -- negative ->    towards one another
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+who     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    unfriendly.a
@@ -3852,6 +3852,11 @@ Target:    unfriendly
 FE:    {'Evaluee': 'Matthew', 'Manner': 'actively', 'Affected_party': 'towards her'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.unfriendly.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 Matthew     -- negative ->    towards her
@@ -3863,18 +3868,8 @@ towards her     -- negative ->    Matthew
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.unfriendly.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 towards her     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Matthew     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3885,6 +3880,11 @@ _SOMEONE     -- negative ->    Matthew
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- negative ->    towards her
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Matthew     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3903,13 +3903,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.amiable.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-He     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     He
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     He
+Social_interaction_evaluation.Evaluee ?_p ?_t
+He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3923,6 +3923,11 @@ FE:    {'Evaluee': 'He', 'Manner': 'perfectly', 'Affected_party': 'to her'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.amiable.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 He     -- positive ->     to her
 
@@ -3933,18 +3938,8 @@ to her     -- positive ->     He
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.amiable.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to her     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3955,6 +3950,11 @@ _SOMEONE     -- positive ->     He
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     to her
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3973,13 +3973,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.amiable.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Richard     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     Richard
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     Richard
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Richard     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3998,13 +3998,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.amiable.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-He     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     He
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     He
+Social_interaction_evaluation.Evaluee ?_p ?_t
+He     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4028,13 +4028,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.amiable.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-who     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     who
+Social_interaction_evaluation.Evaluee ?_p ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4053,13 +4053,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.amiable.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-a sportsman     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     a sportsman
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     a sportsman
+Social_interaction_evaluation.Evaluee ?_p ?_t
+a sportsman     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4078,13 +4078,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.sociable.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-being     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     being
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     being
+Social_interaction_evaluation.Evaluee ?_p ?_t
+being     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4103,8 +4103,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.cordial.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-The Nawab     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     he said thank you very much for keeping him
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4113,8 +4113,8 @@ _SOMEONE     -- positive ->     The Nawab
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     he said thank you very much for keeping him
+Social_interaction_evaluation.Evaluee ?_p ?_t
+The Nawab     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4128,13 +4128,13 @@ FE:    {'Behavior': 'talks', 'Affected_party': 'with Premier Li Peng'}
 
 ====================================================================================================
 
-Social_interaction_evaluation.Affected_party ?_p Social_interaction_evaluation.Behavior
-with Premier Li Peng     -- positive ->     talks
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.cordial.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.cordial.a
+Social_interaction_evaluation.Affected_party ?_p Social_interaction_evaluation.Behavior
+with Premier Li Peng     -- positive ->     talks
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4188,13 +4188,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.genial.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-he     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     he
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     he
+Social_interaction_evaluation.Evaluee ?_p ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4213,13 +4213,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.genial.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-he     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     he
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     he
+Social_interaction_evaluation.Evaluee ?_p ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4238,13 +4238,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.gracious.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-who     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     who
+Social_interaction_evaluation.Evaluee ?_p ?_t
+who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4263,8 +4263,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.gracious.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of him     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     to pay tribute to the work of my right hon. Friend the Prime Minister in getting this universal and non-discriminatory register of arms transfers recom-mended to the Assembly
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4273,8 +4273,8 @@ _SOMEONE     -- positive ->     of him
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     to pay tribute to the work of my right hon. Friend the Prime Minister in getting this universal and non-discriminatory register of arms transfers recom-mended to the Assembly
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of him     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4288,6 +4288,11 @@ FE:    {'Evaluee': 'Her Majesty the Empress', 'Degree': 'very', 'Affected_party'
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.gracious.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 Her Majesty the Empress     -- positive ->     to us
 
@@ -4298,18 +4303,8 @@ to us     -- positive ->     Her Majesty the Empress
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.gracious.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to us     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Her Majesty the Empress     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4323,6 +4318,11 @@ _SOMEONE     -- positive ->     to us
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Her Majesty the Empress     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    gracious.a
@@ -4332,6 +4332,11 @@ Target:    gracious
 FE:    {'Evaluee': 'You', 'Degree': 'very', 'Affected_party': 'with me'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.gracious.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 You     -- positive ->     with me
@@ -4343,18 +4348,8 @@ with me     -- positive ->     You
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.gracious.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 with me     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-You     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4365,6 +4360,11 @@ _SOMEONE     -- positive ->     You
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     with me
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+You     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4383,13 +4383,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.gracious.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-she     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     she
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     she
+Social_interaction_evaluation.Evaluee ?_p ?_t
+she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4413,11 +4413,6 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.ungracious.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of me     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 ?_s ?_p Social_interaction_evaluation.Behavior
 _SOMEONE     -- positive ->     It
 
@@ -4425,6 +4420,11 @@ _SOMEONE     -- positive ->     It
 
 ?_s ?_p Social_interaction_evaluation.Evaluee
 _SOMEONE     -- positive ->     of me
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of me     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4443,13 +4443,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.ungracious.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Neither Boswell nor Johnson     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     Neither Boswell nor Johnson
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     Neither Boswell nor Johnson
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Neither Boswell nor Johnson     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4468,8 +4468,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.civil.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of them     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     to put on such a welcome for him
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4478,8 +4478,8 @@ _SOMEONE     -- positive ->     of them
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     to put on such a welcome for him
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of them     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4498,8 +4498,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.civil.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-the police     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     in their questioning
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4508,8 +4508,8 @@ _SOMEONE     -- positive ->     the police
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     in their questioning
+Social_interaction_evaluation.Evaluee ?_p ?_t
+the police     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4528,8 +4528,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.civil.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of him     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     to make such a co-operative and hospitable offer
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4538,8 +4538,8 @@ _SOMEONE     -- positive ->     of him
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     to make such a co-operative and hospitable offer
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of him     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4558,13 +4558,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.civil.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of you     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     of you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     of you
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4583,13 +4583,13 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.impertinent.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-He     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- negative ->    He
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- negative ->    He
+Social_interaction_evaluation.Evaluee ?_p ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4613,11 +4613,6 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.impertinent.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of you     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 ?_s ?_p Social_interaction_evaluation.Behavior
 _SOMEONE     -- negative ->    That
 
@@ -4625,6 +4620,11 @@ _SOMEONE     -- negative ->    That
 
 ?_s ?_p Social_interaction_evaluation.Evaluee
 _SOMEONE     -- negative ->    of you
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4643,13 +4643,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.tactful.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Donna     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     Donna
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     Donna
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Donna     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4668,8 +4668,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.tactful.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-Paul     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     in the way that he has corrected them
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4678,8 +4678,8 @@ _SOMEONE     -- positive ->     Paul
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     in the way that he has corrected them
+Social_interaction_evaluation.Evaluee ?_p ?_t
+Paul     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4698,13 +4698,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.tactful.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-She     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     She
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     She
+Social_interaction_evaluation.Evaluee ?_p ?_t
+She     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4723,13 +4723,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.tactful.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-She     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     She
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     She
+Social_interaction_evaluation.Evaluee ?_p ?_t
+She     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4753,13 +4753,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.tactful.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-You     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     You
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     You
+Social_interaction_evaluation.Evaluee ?_p ?_t
+You     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4778,13 +4778,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.tactful.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-most of the girls     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     most of the girls
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     most of the girls
+Social_interaction_evaluation.Evaluee ?_p ?_t
+most of the girls     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4798,6 +4798,11 @@ FE:    {'Evaluee': 'her own mother', 'Manner': 'similarly', 'Affected_party': 'w
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.tactful.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 her own mother     -- positive ->     with Sebastian
 
@@ -4808,18 +4813,8 @@ with Sebastian     -- positive ->     her own mother
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.tactful.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 with Sebastian     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-her own mother     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4830,6 +4825,11 @@ _SOMEONE     -- positive ->     her own mother
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     with Sebastian
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+her own mother     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4858,6 +4858,11 @@ FE:    {'Evaluee': 'she', 'Degree': 'reasonably', 'Affected_party': 'to him'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.pleasant.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 she     -- positive ->     to him
 
@@ -4868,18 +4873,8 @@ to him     -- positive ->     she
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.pleasant.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to him     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4890,6 +4885,11 @@ _SOMEONE     -- positive ->     she
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     to him
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4943,6 +4943,11 @@ FE:    {'Evaluee': 'he', 'Degree': 'so', 'Affected_party': 'to them'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.horrible.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 he     -- negative ->    to them
 
@@ -4953,18 +4958,8 @@ to them     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.horrible.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to them     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4978,6 +4973,11 @@ _SOMEONE     -- negative ->    to them
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+he     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    horrible.a
@@ -4987,6 +4987,11 @@ Target:    horrible
 FE:    {'Evaluee': 'you', 'Degree': 'so', 'Affected_party': 'to me'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.horrible.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 you     -- negative ->    to me
@@ -4998,18 +5003,8 @@ to me     -- negative ->    you
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.horrible.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to me     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5020,6 +5015,11 @@ _SOMEONE     -- negative ->    you
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- negative ->    to me
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5058,13 +5058,13 @@ _GENERAL     -- negative ->    Social_interaction_evaluation.horrible.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-most politicians     -- negative ->    _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- negative ->    most politicians
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- negative ->    most politicians
+Social_interaction_evaluation.Evaluee ?_p ?_t
+most politicians     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5083,13 +5083,13 @@ FE:    {'Behavior': 'What is best for father and child', 'Manner': 'perfectly', 
 
 ====================================================================================================
 
-Social_interaction_evaluation.Affected_party ?_p Social_interaction_evaluation.Behavior
-for the mother     -- negative ->    What is best for father and child
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- negative ->    Social_interaction_evaluation.horrible.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- negative ->    Social_interaction_evaluation.horrible.a
+Social_interaction_evaluation.Affected_party ?_p Social_interaction_evaluation.Behavior
+for the mother     -- negative ->    What is best for father and child
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5123,8 +5123,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.good.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of you     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     to do it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5133,8 +5133,8 @@ _SOMEONE     -- positive ->     of you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     to do it
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5153,13 +5153,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.good.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-she     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     she
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     she
+Social_interaction_evaluation.Evaluee ?_p ?_t
+she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5173,6 +5173,11 @@ FE:    {'Evaluee': 'my ` bonne "', 'Degree': 'very', 'Affected_party': 'to me'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.good.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 my ` bonne "     -- positive ->     to me
 
@@ -5183,18 +5188,8 @@ to me     -- positive ->     my ` bonne "
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.good.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to me     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-my ` bonne "     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5208,6 +5203,11 @@ _SOMEONE     -- positive ->     to me
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+my ` bonne "     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    good.a
@@ -5217,6 +5217,11 @@ Target:    good
 FE:    {'Evaluee': 'My Uncle Stan and Aunt Alice', 'Degree': 'more than', 'Affected_party': 'to Carrie'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.good.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 My Uncle Stan and Aunt Alice     -- positive ->     to Carrie
@@ -5228,18 +5233,8 @@ to Carrie     -- positive ->     My Uncle Stan and Aunt Alice
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.good.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to Carrie     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-My Uncle Stan and Aunt Alice     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5253,6 +5248,11 @@ _SOMEONE     -- positive ->     to Carrie
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+My Uncle Stan and Aunt Alice     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    warm.a
@@ -5262,6 +5262,11 @@ Target:    warm
 FE:    {'Degree': 'how', 'Evaluee': 'he', 'Affected_party': 'toward Alexander Hamilton'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.warm.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 he     -- positive ->     toward Alexander Hamilton
@@ -5273,18 +5278,8 @@ toward Alexander Hamilton     -- positive ->     he
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.warm.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 toward Alexander Hamilton     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5295,6 +5290,11 @@ _SOMEONE     -- positive ->     he
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     toward Alexander Hamilton
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5313,8 +5313,8 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.good.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-of you     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Behavior
+_SOMEONE     -- positive ->     to do it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5323,8 +5323,8 @@ _SOMEONE     -- positive ->     of you
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Behavior
-_SOMEONE     -- positive ->     to do it
+Social_interaction_evaluation.Evaluee ?_p ?_t
+of you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5343,13 +5343,13 @@ _GENERAL     -- positive ->     Social_interaction_evaluation.good.a
 
 ----------------------------------------------------------------------------------------------------
 
-Social_interaction_evaluation.Evaluee ?_p ?_t
-she     -- positive ->     _SOMETHING
+?_s ?_p Social_interaction_evaluation.Evaluee
+_SOMEONE     -- positive ->     she
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Social_interaction_evaluation.Evaluee
-_SOMEONE     -- positive ->     she
+Social_interaction_evaluation.Evaluee ?_p ?_t
+she     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5363,6 +5363,11 @@ FE:    {'Evaluee': 'my ` bonne "', 'Degree': 'very', 'Affected_party': 'to me'}
 
 ====================================================================================================
 
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.good.a
+
+----------------------------------------------------------------------------------------------------
+
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 my ` bonne "     -- positive ->     to me
 
@@ -5373,18 +5378,8 @@ to me     -- positive ->     my ` bonne "
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.good.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to me     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-my ` bonne "     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5398,6 +5393,11 @@ _SOMEONE     -- positive ->     to me
 
 ----------------------------------------------------------------------------------------------------
 
+Social_interaction_evaluation.Evaluee ?_p ?_t
+my ` bonne "     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    good.a
@@ -5407,6 +5407,11 @@ Target:    good
 FE:    {'Evaluee': 'My Uncle Stan and Aunt Alice', 'Degree': 'more than', 'Affected_party': 'to Carrie'}
 
 ====================================================================================================
+
+?_x ?_p Social_interaction_evaluation.?_lu
+_GENERAL     -- positive ->     Social_interaction_evaluation.good.a
+
+----------------------------------------------------------------------------------------------------
 
 Social_interaction_evaluation.Evaluee ?_p Social_interaction_evaluation.Affected_party
 My Uncle Stan and Aunt Alice     -- positive ->     to Carrie
@@ -5418,18 +5423,8 @@ to Carrie     -- positive ->     My Uncle Stan and Aunt Alice
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Social_interaction_evaluation.?_lu
-_GENERAL     -- positive ->     Social_interaction_evaluation.good.a
-
-----------------------------------------------------------------------------------------------------
-
 Social_interaction_evaluation.Affected_party ?_p ?_t
 to Carrie     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Social_interaction_evaluation.Evaluee ?_p ?_t
-My Uncle Stan and Aunt Alice     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5440,6 +5435,11 @@ _SOMEONE     -- positive ->     My Uncle Stan and Aunt Alice
 
 ?_s ?_p Social_interaction_evaluation.Affected_party
 _SOMEONE     -- positive ->     to Carrie
+
+----------------------------------------------------------------------------------------------------
+
+Social_interaction_evaluation.Evaluee ?_p ?_t
+My Uncle Stan and Aunt Alice     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 

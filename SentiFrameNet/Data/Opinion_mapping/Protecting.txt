@@ -8,13 +8,13 @@ FE:    {'Asset': 'the walls', 'Danger': 'from collapse', 'Means': 'by building a
 
 ====================================================================================================
 
-Protecting.Asset neg Protecting.Danger
-the walls     -- negative ->    from collapse
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
+Protecting.Asset neg Protecting.Danger
+the walls     -- negative ->    from collapse
 
 ----------------------------------------------------------------------------------------------------
 
@@ -23,13 +23,13 @@ the walls     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Protecting.Danger
-_SOMEONE     -- negative ->    from collapse
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the walls
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     the walls
+?_s neg Protecting.Danger
+_SOMEONE     -- negative ->    from collapse
 
 ----------------------------------------------------------------------------------------------------
 
@@ -43,13 +43,13 @@ FE:    {'Asset': 'an old graveyard', 'Protection': 'by the high walls', 'Danger'
 
 ====================================================================================================
 
-Protecting.Protection pos Protecting.Asset
-by the high walls     -- positive ->     an old graveyard
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Asset neg Protecting.Danger
-an old graveyard     -- negative ->    from the bustle and intrusion of the outside world
+Protecting.Protection pos Protecting.Asset
+by the high walls     -- positive ->     an old graveyard
 
 ----------------------------------------------------------------------------------------------------
 
@@ -58,8 +58,8 @@ by the high walls     -- negative ->    from the bustle and intrusion of the out
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
+Protecting.Asset neg Protecting.Danger
+an old graveyard     -- negative ->    from the bustle and intrusion of the outside world
 
 ----------------------------------------------------------------------------------------------------
 
@@ -73,8 +73,8 @@ an old graveyard     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-by the high walls     -- negative ->    _SOMETHING
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     an old graveyard
 
 ----------------------------------------------------------------------------------------------------
 
@@ -83,8 +83,8 @@ _SOMEONE     -- negative ->    from the bustle and intrusion of the outside worl
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     an old graveyard
+Protecting.Protection neg ?_t
+by the high walls     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -97,6 +97,11 @@ Target:    protect
 FE:    {'Protection': 'These regulations', 'Asset': 'people', 'Danger': 'against immediate or delayed health risks from substances which may have an adverse effect on their health ; for instance , disinfectants such as glutaraldehyde'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 These regulations     -- positive ->     people
@@ -113,18 +118,8 @@ people     -- negative ->    against immediate or delayed health risks from subs
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 These regulations     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-These regulations     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -133,13 +128,18 @@ people     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     people
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    against immediate or delayed health risks from substances which may have an adverse effect on their health ; for instance , disinfectants such as glutaraldehyde
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     people
+Protecting.Protection neg ?_t
+These regulations     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -152,6 +152,11 @@ Target:    protects
 FE:    {'Protection': 'Paint', 'Asset': 'your car', 'Danger': 'from rust'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 Paint     -- positive ->     your car
@@ -168,18 +173,8 @@ your car     -- negative ->    from rust
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 Paint     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-Paint     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -188,13 +183,18 @@ your car     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     your car
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from rust
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     your car
+Protecting.Protection neg ?_t
+Paint     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -207,6 +207,11 @@ Target:    protects
 FE:    {'Protection': 'Tod Richardson', 'Asset': 'himself', 'Danger': 'from burglars'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 Tod Richardson     -- positive ->     himself
@@ -223,18 +228,8 @@ himself     -- negative ->    from burglars
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 Tod Richardson     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-Tod Richardson     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -243,13 +238,18 @@ himself     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     himself
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from burglars
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     himself
+Protecting.Protection neg ?_t
+Tod Richardson     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -262,6 +262,11 @@ Target:    protecting
 FE:    {'Protection': 'China', 'Asset': 'North Korea', 'Danger': 'from the wrath of the United Nations'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 China     -- positive ->     North Korea
@@ -278,18 +283,8 @@ North Korea     -- negative ->    from the wrath of the United Nations
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 China     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-China     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -298,13 +293,18 @@ North Korea     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     North Korea
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from the wrath of the United Nations
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     North Korea
+Protecting.Protection neg ?_t
+China     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -317,6 +317,11 @@ Target:    protect
 FE:    {'Protection': 'one in three parents', 'Asset': 'their children', 'Danger': 'from its harmful rays'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 one in three parents     -- positive ->     their children
@@ -333,18 +338,8 @@ their children     -- negative ->    from its harmful rays
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 one in three parents     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-one in three parents     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -353,13 +348,18 @@ their children     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     their children
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from its harmful rays
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     their children
+Protecting.Protection neg ?_t
+one in three parents     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -372,6 +372,11 @@ Target:    protect
 FE:    {'Protection': 'The high walls of the tower', 'Asset': 'the crew', 'Danger': 'from arrows and attack from the ground'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 The high walls of the tower     -- positive ->     the crew
@@ -388,18 +393,8 @@ the crew     -- negative ->    from arrows and attack from the ground
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 The high walls of the tower     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-The high walls of the tower     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -408,13 +403,18 @@ the crew     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the crew
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from arrows and attack from the ground
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     the crew
+Protecting.Protection neg ?_t
+The high walls of the tower     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -427,6 +427,11 @@ Target:    protected
 FE:    {'Protection': 'prison', 'Asset': 'Surere', 'Danger': 'from the truth'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 prison     -- positive ->     Surere
@@ -443,18 +448,8 @@ Surere     -- negative ->    from the truth
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 prison     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-prison     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -463,13 +458,18 @@ Surere     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Surere
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from the truth
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     Surere
+Protecting.Protection neg ?_t
+prison     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -482,6 +482,11 @@ Target:    protect
 FE:    {'Protection': 'It', 'Asset': 'the grant of a licence', 'Danger': 'against recall', 'Explanation': 'on the ground of one or other of the disqualifications mentioned in note C below'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 It     -- positive ->     the grant of a licence
@@ -498,18 +503,8 @@ the grant of a licence     -- negative ->    against recall
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 It     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-It     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -518,13 +513,18 @@ the grant of a licence     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the grant of a licence
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    against recall
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     the grant of a licence
+Protecting.Protection neg ?_t
+It     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -537,6 +537,11 @@ Target:    protect
 FE:    {'Means': 'Through the valuable option of the NatWest Home Improvement Loan Protector', 'Protection': 'you', 'Asset': 'yourself and your dependents', 'Danger': 'against unforeseen circumstances'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 you     -- positive ->     yourself and your dependents
@@ -553,18 +558,8 @@ yourself and your dependents     -- negative ->    against unforeseen circumstan
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 you     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -573,13 +568,18 @@ yourself and your dependents     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     yourself and your dependents
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    against unforeseen circumstances
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     yourself and your dependents
+Protecting.Protection neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -592,6 +592,11 @@ Target:    protect
 FE:    {'Protection': 'you', 'Asset': 'the baby', 'Danger': 'from a toddler who pinches or slaps or tries to tip her out of the pram when your back is turned'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 you     -- positive ->     the baby
@@ -608,18 +613,8 @@ the baby     -- negative ->    from a toddler who pinches or slaps or tries to t
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 you     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -628,13 +623,18 @@ the baby     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the baby
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from a toddler who pinches or slaps or tries to tip her out of the pram when your back is turned
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     the baby
+Protecting.Protection neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -648,13 +648,13 @@ FE:    {'Time': 'At the moment', 'Asset': 'only scheduled archaeological sites',
 
 ====================================================================================================
 
-Protecting.Protection pos Protecting.Asset
-by law     -- positive ->     only scheduled archaeological sites
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
+Protecting.Protection pos Protecting.Asset
+by law     -- positive ->     only scheduled archaeological sites
 
 ----------------------------------------------------------------------------------------------------
 
@@ -668,13 +668,13 @@ only scheduled archaeological sites     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-by law     -- negative ->    _SOMETHING
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     only scheduled archaeological sites
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     only scheduled archaeological sites
+Protecting.Protection neg ?_t
+by law     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -688,23 +688,18 @@ FE:    {'Protection': 'he', 'Asset': 'the feeding territory', 'Explanation': 'fo
 
 ====================================================================================================
 
-Protecting.Protection pos Protecting.Asset
-he     -- positive ->     the feeding territory
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Protecting
 _GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection pos ?_t
-he     -- positive ->     _SOMETHING
+Protecting.Protection pos Protecting.Asset
+he     -- positive ->     the feeding territory
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-he     -- negative ->    _SOMETHING
+Protecting.Protection pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -718,6 +713,11 @@ _SOMEONE     -- positive ->     the feeding territory
 
 ----------------------------------------------------------------------------------------------------
 
+Protecting.Protection neg ?_t
+he     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    protect.v
@@ -727,6 +727,11 @@ Target:    protecting
 FE:    {'Protection': 'a no-fly zone', 'Asset': "Shi 'ite Muslims", 'Danger': 'from possible attacks by Iraqi government'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 a no-fly zone     -- positive ->     Shi 'ite Muslims
@@ -743,18 +748,8 @@ Shi 'ite Muslims     -- negative ->    from     -- positive ->    sible attacks 
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 a no-fly zone     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-a no-fly zone     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -763,13 +758,18 @@ Shi 'ite Muslims     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Shi 'ite Muslims
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from     -- positive ->    sible attacks by Iraqi government
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     Shi 'ite Muslims
+Protecting.Protection neg ?_t
+a no-fly zone     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -782,6 +782,11 @@ Target:    protect
 FE:    {'Protection': 'Sand bags around the buses', 'Asset': 'them', 'Danger': 'from gun fire'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 Sand bags around the buses     -- positive ->     them
@@ -798,18 +803,8 @@ them     -- negative ->    from gun fire
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 Sand bags around the buses     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-Sand bags around the buses     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -818,13 +813,18 @@ them     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     them
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from gun fire
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     them
+Protecting.Protection neg ?_t
+Sand bags around the buses     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -837,6 +837,11 @@ Target:    shielded
 FE:    {'Protection': 'The devil-man', 'Asset': 'them', 'Danger': 'against the brightness of the sky'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 The devil-man     -- positive ->     them
@@ -853,18 +858,8 @@ them     -- negative ->    against the brightness of the sky
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 The devil-man     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-The devil-man     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -873,13 +868,18 @@ them     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     them
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    against the brightness of the sky
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     them
+Protecting.Protection neg ?_t
+The devil-man     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -892,6 +892,11 @@ Target:    shielded
 FE:    {'Protection': 'I', 'Asset': 'myself', 'Danger': 'from the rest of his blows'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 I     -- positive ->     myself
@@ -908,18 +913,8 @@ myself     -- negative ->    from the rest of his blows
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 I     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -928,13 +923,18 @@ myself     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     myself
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from the rest of his blows
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     myself
+Protecting.Protection neg ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -947,6 +947,11 @@ Target:    shield
 FE:    {'Protection': 'an alumina implant', 'Asset': 'the surrounding bone', 'Danger': 'from the stresses generated by normal activity'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 an alumina implant     -- positive ->     the surrounding bone
@@ -963,18 +968,8 @@ the surrounding bone     -- negative ->    from the stresses generated by normal
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 an alumina implant     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-an alumina implant     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -983,13 +978,18 @@ the surrounding bone     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the surrounding bone
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from the stresses generated by normal activity
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     the surrounding bone
+Protecting.Protection neg ?_t
+an alumina implant     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1002,6 +1002,11 @@ Target:    shield
 FE:    {'Protection': 'He', 'Asset': 'his past', 'Danger': 'from its probing'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 He     -- positive ->     his past
@@ -1018,18 +1023,8 @@ his past     -- negative ->    from its probing
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 He     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1038,13 +1033,18 @@ his past     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     his past
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from its probing
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     his past
+Protecting.Protection neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1057,6 +1057,11 @@ Target:    shielded
 FE:    {'Protection': 'the government', 'Asset': 'consumers', 'Danger': 'from the worst excesses of inflation', 'Means': 'by reducing the community charge burden'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 the government     -- positive ->     consumers
@@ -1073,18 +1078,8 @@ consumers     -- negative ->    from the worst excesses of inflation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 the government     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-the government     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1093,13 +1088,18 @@ consumers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     consumers
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from the worst excesses of inflation
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     consumers
+Protecting.Protection neg ?_t
+the government     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1112,6 +1112,11 @@ Target:    shielding
 FE:    {'Protection': "John 's hands", 'Asset': 'the spark', 'Danger': 'from the tinder'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 John 's hands     -- positive ->     the spark
@@ -1128,18 +1133,8 @@ the spark     -- negative ->    from the tinder
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 John 's hands     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-John 's hands     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1148,13 +1143,18 @@ the spark     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the spark
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from the tinder
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     the spark
+Protecting.Protection neg ?_t
+John 's hands     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1167,6 +1167,11 @@ Target:    shielded
 FE:    {'Protection': 'that', 'Asset': 'it', 'Danger': 'from parasites or diseases'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 that     -- positive ->     it
@@ -1183,18 +1188,8 @@ it     -- negative ->    from parasites or diseases
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 that     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-that     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1203,13 +1198,18 @@ it     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     it
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from parasites or diseases
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     it
+Protecting.Protection neg ?_t
+that     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1222,6 +1222,11 @@ Target:    shielded
 FE:    {'Manner': 'With theatrical exaggeration', 'Protection': 'he', 'Asset': 'his eyes', 'Danger': 'from the bright lights'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 he     -- positive ->     his eyes
@@ -1238,18 +1243,8 @@ his eyes     -- negative ->    from the bright lights
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 he     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1258,13 +1253,18 @@ his eyes     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     his eyes
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from the bright lights
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     his eyes
+Protecting.Protection neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1277,6 +1277,11 @@ Target:    shield
 FE:    {'Protection': 'me', 'Asset': 'you', 'Danger': 'from the wind'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 me     -- positive ->     you
@@ -1293,18 +1298,8 @@ you     -- negative ->    from the wind
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 me     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-me     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1313,13 +1308,18 @@ you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     you
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from the wind
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     you
+Protecting.Protection neg ?_t
+me     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1333,13 +1333,13 @@ FE:    {'Asset': 'an isolated valley', 'Danger': 'from the sea', 'Protection': '
 
 ====================================================================================================
 
-Protecting.Protection pos Protecting.Asset
-by the massive bulk of Wears Hill     -- positive ->     an isolated valley
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Asset neg Protecting.Danger
-an isolated valley     -- negative ->    from the sea
+Protecting.Protection pos Protecting.Asset
+by the massive bulk of Wears Hill     -- positive ->     an isolated valley
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1348,8 +1348,8 @@ by the massive bulk of Wears Hill     -- negative ->    from the sea
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
+Protecting.Asset neg Protecting.Danger
+an isolated valley     -- negative ->    from the sea
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1363,8 +1363,8 @@ an isolated valley     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-by the massive bulk of Wears Hill     -- negative ->    _SOMETHING
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     an isolated valley
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1373,8 +1373,8 @@ _SOMEONE     -- negative ->    from the sea
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     an isolated valley
+Protecting.Protection neg ?_t
+by the massive bulk of Wears Hill     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1387,6 +1387,11 @@ Target:    shielded
 FE:    {'Protection': 'The buoy', 'Asset': 'her', 'Danger': 'from the view of the guards'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 The buoy     -- positive ->     her
@@ -1403,18 +1408,8 @@ her     -- negative ->    from the view of the guards
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 The buoy     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-The buoy     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1423,13 +1418,18 @@ her     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     her
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from the view of the guards
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     her
+Protecting.Protection neg ?_t
+The buoy     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1442,6 +1442,11 @@ Target:    shielded
 FE:    {'Protection': 'the palms', 'Asset': 'plants', 'Danger': 'from the sun'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 the palms     -- positive ->     plants
@@ -1458,18 +1463,8 @@ plants     -- negative ->    from the sun
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 the palms     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-the palms     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1478,13 +1473,18 @@ plants     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     plants
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from the sun
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     plants
+Protecting.Protection neg ?_t
+the palms     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1498,13 +1498,13 @@ FE:    {'Asset': 'who', 'Danger': 'from outsiders and the press'}
 
 ====================================================================================================
 
-Protecting.Asset neg Protecting.Danger
-who     -- negative ->    from outsiders and the press
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
+Protecting.Asset neg Protecting.Danger
+who     -- negative ->    from outsiders and the press
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1513,13 +1513,13 @@ who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Protecting.Danger
-_SOMEONE     -- negative ->    from outsiders and the press
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     who
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     who
+?_s neg Protecting.Danger
+_SOMEONE     -- negative ->    from outsiders and the press
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1533,23 +1533,18 @@ FE:    {'Protection': 'Miriam', 'Asset': 'the candle-flame', 'Instrument': 'with
 
 ====================================================================================================
 
-Protecting.Protection pos Protecting.Asset
-Miriam     -- positive ->     the candle-flame
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Protecting
 _GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection pos ?_t
-Miriam     -- positive ->     _SOMETHING
+Protecting.Protection pos Protecting.Asset
+Miriam     -- positive ->     the candle-flame
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-Miriam     -- negative ->    _SOMETHING
+Protecting.Protection pos ?_t
+Miriam     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1563,6 +1558,11 @@ _SOMEONE     -- positive ->     the candle-flame
 
 ----------------------------------------------------------------------------------------------------
 
+Protecting.Protection neg ?_t
+Miriam     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    shield.v
@@ -1573,13 +1573,13 @@ FE:    {'Time': 'Before the first shots rang out', 'Asset': 'Adam', 'Protection'
 
 ====================================================================================================
 
-Protecting.Protection pos Protecting.Asset
-by the safety of the trees     -- positive ->     Adam
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
+Protecting.Protection pos Protecting.Asset
+by the safety of the trees     -- positive ->     Adam
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1593,13 +1593,13 @@ Adam     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-by the safety of the trees     -- negative ->    _SOMETHING
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     Adam
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     Adam
+Protecting.Protection neg ?_t
+by the safety of the trees     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1612,6 +1612,11 @@ Target:    shielded
 FE:    {'Protection': 'The rocks she sat behind', 'Asset': 'her', 'Danger': 'from the lodge and the staff-cabins'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 The rocks she sat behind     -- positive ->     her
@@ -1628,18 +1633,8 @@ her     -- negative ->    from the lodge and the staff-cabins
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 The rocks she sat behind     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-The rocks she sat behind     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1648,13 +1643,18 @@ her     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     her
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from the lodge and the staff-cabins
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     her
+Protecting.Protection neg ?_t
+The rocks she sat behind     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1667,6 +1667,11 @@ Target:    shielded
 FE:    {'Protection': 'A thick hedge', 'Asset': 'her', 'Danger': 'from the field which swept down towards the foot of the embankment'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 A thick hedge     -- positive ->     her
@@ -1683,18 +1688,8 @@ her     -- negative ->    from the field which swept down towards the foot of th
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 A thick hedge     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-A thick hedge     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1703,13 +1698,18 @@ her     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     her
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from the field which swept down towards the foot of the embankment
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     her
+Protecting.Protection neg ?_t
+A thick hedge     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1723,13 +1723,13 @@ FE:    {'Asset': 'the investor', 'Degree': 'partially', 'Danger': 'from the full
 
 ====================================================================================================
 
-Protecting.Asset neg Protecting.Danger
-the investor     -- negative ->    from the full force of any general market decline
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
+Protecting.Asset neg Protecting.Danger
+the investor     -- negative ->    from the full force of any general market decline
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1738,13 +1738,13 @@ the investor     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Protecting.Danger
-_SOMEONE     -- negative ->    from the full force of any general market decline
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the investor
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     the investor
+?_s neg Protecting.Danger
+_SOMEONE     -- negative ->    from the full force of any general market decline
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1758,13 +1758,13 @@ FE:    {'Protection': 'The Comecon countries of Europe other than the USSR -- Bu
 
 ====================================================================================================
 
-Protecting.Protection neg Protecting.Danger
-The Comecon countries of Europe other than the USSR -- Bulgaria , Czechoslovakia , the GDR , Hungary , Poland and Romania     -- negative ->    against the capitalist West
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
+Protecting.Protection neg Protecting.Danger
+The Comecon countries of Europe other than the USSR -- Bulgaria , Czechoslovakia , the GDR , Hungary , Poland and Romania     -- negative ->    against the capitalist West
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1773,13 +1773,13 @@ The Comecon countries of Europe other than the USSR -- Bulgaria , Czechoslovakia
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-The Comecon countries of Europe other than the USSR -- Bulgaria , Czechoslovakia , the GDR , Hungary , Poland and Romania     -- negative ->    _SOMETHING
+?_s neg Protecting.Danger
+_SOMEONE     -- negative ->    against the capitalist West
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Protecting.Danger
-_SOMEONE     -- negative ->    against the capitalist West
+Protecting.Protection neg ?_t
+The Comecon countries of Europe other than the USSR -- Bulgaria , Czechoslovakia , the GDR , Hungary , Poland and Romania     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1793,13 +1793,13 @@ FE:    {'Protection': 'We', 'Beneficiary': 'your', 'Danger': 'against the unders
 
 ====================================================================================================
 
-Protecting.Protection neg Protecting.Danger
-We     -- negative ->    against the underscum
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
+Protecting.Protection neg Protecting.Danger
+We     -- negative ->    against the underscum
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1808,13 +1808,13 @@ We     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-We     -- negative ->    _SOMETHING
+?_s neg Protecting.Danger
+_SOMEONE     -- negative ->    against the underscum
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Protecting.Danger
-_SOMEONE     -- negative ->    against the underscum
+Protecting.Protection neg ?_t
+We     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1828,23 +1828,18 @@ FE:    {'Protection': 'these colossal constructions', 'Asset': 'the desert borde
 
 ====================================================================================================
 
-Protecting.Protection pos Protecting.Asset
-these colossal constructions     -- positive ->     the desert border
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Protecting
 _GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection pos ?_t
-these colossal constructions     -- positive ->     _SOMETHING
+Protecting.Protection pos Protecting.Asset
+these colossal constructions     -- positive ->     the desert border
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-these colossal constructions     -- negative ->    _SOMETHING
+Protecting.Protection pos ?_t
+these colossal constructions     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1858,6 +1853,11 @@ _SOMEONE     -- positive ->     the desert border
 
 ----------------------------------------------------------------------------------------------------
 
+Protecting.Protection neg ?_t
+these colossal constructions     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    guard.v
@@ -1867,6 +1867,11 @@ Target:    guard
 FE:    {'Protection': 'Trees', 'Asset': 'the house', 'Danger': 'from the east winds'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 Trees     -- positive ->     the house
@@ -1883,18 +1888,8 @@ the house     -- negative ->    from the east winds
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 Trees     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-Trees     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1903,13 +1898,18 @@ the house     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the house
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from the east winds
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     the house
+Protecting.Protection neg ?_t
+Trees     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1922,6 +1922,11 @@ Target:    guard
 FE:    {'Protection': 'a male', 'Asset': 'a female', 'Danger': 'from other males'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 a male     -- positive ->     a female
@@ -1938,18 +1943,8 @@ a female     -- negative ->    from other males
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 a male     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-a male     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1958,13 +1953,18 @@ a female     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     a female
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from other males
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     a female
+Protecting.Protection neg ?_t
+a male     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1977,6 +1977,11 @@ Target:    guard
 FE:    {'Protection': 'you', 'Asset': 'your wizard', 'Danger': 'from attack', 'Depictive': 'whilst attempting to destroy other wizards on the board'}
 
 ====================================================================================================
+
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
+
+----------------------------------------------------------------------------------------------------
 
 Protecting.Protection pos Protecting.Asset
 you     -- positive ->     your wizard
@@ -1993,18 +1998,8 @@ your wizard     -- negative ->    from attack
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
-
-----------------------------------------------------------------------------------------------------
-
 Protecting.Protection pos ?_t
 you     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Protecting.Protection neg ?_t
-you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2013,13 +2008,18 @@ your wizard     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     your wizard
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Protecting.Danger
 _SOMEONE     -- negative ->    from attack
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     your wizard
+Protecting.Protection neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2033,23 +2033,18 @@ FE:    {'Time': 'Every evening throughout 1922', 'Protection': 'a band of youths
 
 ====================================================================================================
 
-Protecting.Protection pos Protecting.Asset
-a band of youths from the colony     -- positive ->     the local stretch of the main road into Poltava
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Protecting
 _GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection pos ?_t
-a band of youths from the colony     -- positive ->     _SOMETHING
+Protecting.Protection pos Protecting.Asset
+a band of youths from the colony     -- positive ->     the local stretch of the main road into Poltava
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-a band of youths from the colony     -- negative ->    _SOMETHING
+Protecting.Protection pos ?_t
+a band of youths from the colony     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2063,6 +2058,11 @@ _SOMEONE     -- positive ->     the local stretch of the main road into Poltava
 
 ----------------------------------------------------------------------------------------------------
 
+Protecting.Protection neg ?_t
+a band of youths from the colony     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    guard.v
@@ -2073,13 +2073,13 @@ FE:    {'Time': 'In those days', 'Asset': 'the names of intelligence chiefs', 'P
 
 ====================================================================================================
 
-Protecting.Protection pos Protecting.Asset
-by the D-Notice system     -- positive ->     the names of intelligence chiefs
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
+Protecting.Protection pos Protecting.Asset
+by the D-Notice system     -- positive ->     the names of intelligence chiefs
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2093,13 +2093,13 @@ the names of intelligence chiefs     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-by the D-Notice system     -- negative ->    _SOMETHING
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     the names of intelligence chiefs
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     the names of intelligence chiefs
+Protecting.Protection neg ?_t
+by the D-Notice system     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2113,23 +2113,18 @@ FE:    {'Protection': 'Roman Legions', 'Asset': "Hadrian 's Wall", 'Place': 'in 
 
 ====================================================================================================
 
-Protecting.Protection pos Protecting.Asset
-Roman Legions     -- positive ->     Hadrian 's Wall
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Protecting
 _GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection pos ?_t
-Roman Legions     -- positive ->     _SOMETHING
+Protecting.Protection pos Protecting.Asset
+Roman Legions     -- positive ->     Hadrian 's Wall
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-Roman Legions     -- negative ->    _SOMETHING
+Protecting.Protection pos ?_t
+Roman Legions     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2143,6 +2138,11 @@ _SOMEONE     -- positive ->     Hadrian 's Wall
 
 ----------------------------------------------------------------------------------------------------
 
+Protecting.Protection neg ?_t
+Roman Legions     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    guard.v
@@ -2153,13 +2153,13 @@ FE:    {'Asset': 'passes', 'Time': 'previously', 'Protection': 'by the Dwarfs'}
 
 ====================================================================================================
 
-Protecting.Protection pos Protecting.Asset
-by the Dwarfs     -- positive ->     passes
+?_x pos Protecting
+_GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Protecting
-_GENERAL     -- positive ->     Protecting
+Protecting.Protection pos Protecting.Asset
+by the Dwarfs     -- positive ->     passes
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2173,13 +2173,13 @@ passes     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-by the Dwarfs     -- negative ->    _SOMETHING
+?_s pos Protecting.Asset
+_SOMEONE     -- positive ->     passes
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Protecting.Asset
-_SOMEONE     -- positive ->     passes
+Protecting.Protection neg ?_t
+by the Dwarfs     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2193,23 +2193,18 @@ FE:    {'Protection': 'he', 'Asset': 'the house', 'Beneficiary': 'for Mummy and 
 
 ====================================================================================================
 
-Protecting.Protection pos Protecting.Asset
-he     -- positive ->     the house
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Protecting
 _GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection pos ?_t
-he     -- positive ->     _SOMETHING
+Protecting.Protection pos Protecting.Asset
+he     -- positive ->     the house
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-he     -- negative ->    _SOMETHING
+Protecting.Protection pos ?_t
+he     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2223,6 +2218,11 @@ _SOMEONE     -- positive ->     the house
 
 ----------------------------------------------------------------------------------------------------
 
+Protecting.Protection neg ?_t
+he     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    guard.v
@@ -2233,23 +2233,18 @@ FE:    {'Protection': 'They', 'Asset': 'it', 'Manner': 'superstitiously'}
 
 ====================================================================================================
 
-Protecting.Protection pos Protecting.Asset
-They     -- positive ->     it
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Protecting
 _GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection pos ?_t
-They     -- positive ->     _SOMETHING
+Protecting.Protection pos Protecting.Asset
+They     -- positive ->     it
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-They     -- negative ->    _SOMETHING
+Protecting.Protection pos ?_t
+They     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2263,6 +2258,11 @@ _SOMEONE     -- positive ->     it
 
 ----------------------------------------------------------------------------------------------------
 
+Protecting.Protection neg ?_t
+They     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ########################################################################################################################
 
 lu:    guard.v
@@ -2273,23 +2273,18 @@ FE:    {'Protection': 'Four hundred troops', 'Asset': 'power stations'}
 
 ====================================================================================================
 
-Protecting.Protection pos Protecting.Asset
-Four hundred troops     -- positive ->     power stations
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Protecting
 _GENERAL     -- positive ->     Protecting
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection pos ?_t
-Four hundred troops     -- positive ->     _SOMETHING
+Protecting.Protection pos Protecting.Asset
+Four hundred troops     -- positive ->     power stations
 
 ----------------------------------------------------------------------------------------------------
 
-Protecting.Protection neg ?_t
-Four hundred troops     -- negative ->    _SOMETHING
+Protecting.Protection pos ?_t
+Four hundred troops     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2300,6 +2295,11 @@ power stations     -- negative ->    _SOMETHING
 
 ?_s pos Protecting.Asset
 _SOMEONE     -- positive ->     power stations
+
+----------------------------------------------------------------------------------------------------
+
+Protecting.Protection neg ?_t
+Four hundred troops     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 

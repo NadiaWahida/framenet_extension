@@ -8,18 +8,8 @@ FE:    {'Perpetrator': 'French', 'Offense': 'sabotage', 'Victim': 'of the Greenp
 
 ====================================================================================================
 
-Offenses.Victim neg Offenses.Perpetrator
-of the Greenpeace ship     -- negative ->    French
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Offenses.Offense
 _GENERAL     -- negative ->    sabotage
-
-----------------------------------------------------------------------------------------------------
-
-Offenses.Victim neg Offenses.Offense
-of the Greenpeace ship     -- negative ->    sabotage
 
 ----------------------------------------------------------------------------------------------------
 
@@ -28,18 +18,28 @@ _GENERAL     -- negative ->    Offenses
 
 ----------------------------------------------------------------------------------------------------
 
+Offenses.Victim neg Offenses.Offense
+of the Greenpeace ship     -- negative ->    sabotage
+
+----------------------------------------------------------------------------------------------------
+
 Offenses.Perpetrator neg Offenses.Victim
 French     -- negative ->    of the Greenpeace ship
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of the Greenpeace ship
+Offenses.Victim neg Offenses.Perpetrator
+of the Greenpeace ship     -- negative ->    French
 
 ----------------------------------------------------------------------------------------------------
 
 ?_s neg Offenses.Offense
 _SOMEONE     -- negative ->    sabotage
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    of the Greenpeace ship
 
 ----------------------------------------------------------------------------------------------------
 
@@ -103,18 +103,8 @@ FE:    {'Perpetrator': 'MI5', 'Offense': 'sabotage', 'Victim': 'in Britain and t
 
 ====================================================================================================
 
-Offenses.Victim neg Offenses.Perpetrator
-in Britain and the empire     -- negative ->    MI5
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Offenses.Offense
 _GENERAL     -- negative ->    sabotage
-
-----------------------------------------------------------------------------------------------------
-
-Offenses.Victim neg Offenses.Offense
-in Britain and the empire     -- negative ->    sabotage
 
 ----------------------------------------------------------------------------------------------------
 
@@ -123,18 +113,28 @@ _GENERAL     -- negative ->    Offenses
 
 ----------------------------------------------------------------------------------------------------
 
+Offenses.Victim neg Offenses.Offense
+in Britain and the empire     -- negative ->    sabotage
+
+----------------------------------------------------------------------------------------------------
+
 Offenses.Perpetrator neg Offenses.Victim
 MI5     -- negative ->    in Britain and the empire
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    in Britain and the empire
+Offenses.Victim neg Offenses.Perpetrator
+in Britain and the empire     -- negative ->    MI5
 
 ----------------------------------------------------------------------------------------------------
 
 ?_s neg Offenses.Offense
 _SOMEONE     -- negative ->    sabotage
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    in Britain and the empire
 
 ----------------------------------------------------------------------------------------------------
 
@@ -173,6 +173,11 @@ _GENERAL     -- negative ->    Offenses
 
 ----------------------------------------------------------------------------------------------------
 
+Offenses.Perpetrator neg ?_t
+by an offender who had only one distant previous conviction     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
 ?_s neg Offenses.Offense
 _SOMEONE     -- negative ->    burglary
 
@@ -180,11 +185,6 @@ _SOMEONE     -- negative ->    burglary
 
 ?_s neg Offenses.Perpetrator
 _SOMEONE     -- negative ->    by an offender who had only one distant previous conviction
-
-----------------------------------------------------------------------------------------------------
-
-Offenses.Perpetrator neg ?_t
-by an offender who had only one distant previous conviction     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -228,23 +228,23 @@ _GENERAL     -- negative ->    sexual harassment
 
 ----------------------------------------------------------------------------------------------------
 
-Offenses.Victim neg Offenses.Offense
-who     -- negative ->    sexual harassment
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    who
+Offenses.Victim neg Offenses.Offense
+who     -- negative ->    sexual harassment
 
 ----------------------------------------------------------------------------------------------------
 
 ?_s neg Offenses.Offense
 _SOMEONE     -- negative ->    sexual harassment
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -268,23 +268,23 @@ _GENERAL     -- negative ->    sexual harassment
 
 ----------------------------------------------------------------------------------------------------
 
-Offenses.Victim neg Offenses.Offense
-who     -- negative ->    sexual harassment
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    who
+Offenses.Victim neg Offenses.Offense
+who     -- negative ->    sexual harassment
 
 ----------------------------------------------------------------------------------------------------
 
 ?_s neg Offenses.Offense
 _SOMEONE     -- negative ->    sexual harassment
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -308,23 +308,23 @@ _GENERAL     -- negative ->    battery
 
 ----------------------------------------------------------------------------------------------------
 
-Offenses.Victim neg Offenses.Offense
-against his ex-girlfriend     -- negative ->    battery
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    against his ex-girlfriend
+Offenses.Victim neg Offenses.Offense
+against his ex-girlfriend     -- negative ->    battery
 
 ----------------------------------------------------------------------------------------------------
 
 ?_s neg Offenses.Offense
 _SOMEONE     -- negative ->    battery
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    against his ex-girlfriend
 
 ----------------------------------------------------------------------------------------------------
 
@@ -348,23 +348,23 @@ _GENERAL     -- negative ->    homicide
 
 ----------------------------------------------------------------------------------------------------
 
-Offenses.Victim neg Offenses.Offense
-of Mr Buckley     -- negative ->    homicide
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of Mr Buckley
+Offenses.Victim neg Offenses.Offense
+of Mr Buckley     -- negative ->    homicide
 
 ----------------------------------------------------------------------------------------------------
 
 ?_s neg Offenses.Offense
 _SOMEONE     -- negative ->    homicide
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    of Mr Buckley
 
 ----------------------------------------------------------------------------------------------------
 
@@ -413,23 +413,23 @@ _GENERAL     -- negative ->    rape
 
 ----------------------------------------------------------------------------------------------------
 
-Offenses.Victim neg Offenses.Offense
-of a 92-year-old woman     -- negative ->    rape
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of a 92-year-old woman
+Offenses.Victim neg Offenses.Offense
+of a 92-year-old woman     -- negative ->    rape
 
 ----------------------------------------------------------------------------------------------------
 
 ?_s neg Offenses.Offense
 _SOMEONE     -- negative ->    rape
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    of a 92-year-old woman
 
 ----------------------------------------------------------------------------------------------------
 
@@ -453,23 +453,23 @@ _GENERAL     -- negative ->    homicide
 
 ----------------------------------------------------------------------------------------------------
 
-Offenses.Victim neg Offenses.Offense
-of Mr Buckley     -- negative ->    homicide
-
-----------------------------------------------------------------------------------------------------
-
 ?_x neg Offenses
 _GENERAL     -- negative ->    Offenses
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Offenses.Victim
-_SOMEONE     -- negative ->    of Mr Buckley
+Offenses.Victim neg Offenses.Offense
+of Mr Buckley     -- negative ->    homicide
 
 ----------------------------------------------------------------------------------------------------
 
 ?_s neg Offenses.Offense
 _SOMEONE     -- negative ->    homicide
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Offenses.Victim
+_SOMEONE     -- negative ->    of Mr Buckley
 
 ----------------------------------------------------------------------------------------------------
 

@@ -18,13 +18,13 @@ the ` honest broker "     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-the ` honest broker "     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    a Balkan conflict
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    a Balkan conflict
+Avoiding.Agent neg ?_t
+the ` honest broker "     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -48,13 +48,13 @@ a poor swimmer     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-a poor swimmer     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    that
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    that
+Avoiding.Agent neg ?_t
+a poor swimmer     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -78,13 +78,13 @@ the West     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-the West     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the dangers of the nuclear age
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the dangers of the nuclear age
+Avoiding.Agent neg ?_t
+the West     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -108,13 +108,13 @@ The Russians     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-The Russians     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the danger of encirclement
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the danger of encirclement
+Avoiding.Agent neg ?_t
+The Russians     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -138,13 +138,13 @@ he     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    any danger
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    any danger
+Avoiding.Agent neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -168,13 +168,13 @@ most professional carvers     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-most professional carvers     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    it
+Avoiding.Agent neg ?_t
+most professional carvers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -198,13 +198,13 @@ the best commercial travel pictures     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-the best commercial travel pictures     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    people
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    people
+Avoiding.Agent neg ?_t
+the best commercial travel pictures     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -228,13 +228,13 @@ Victoria     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Victoria     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    weekend work
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    weekend work
+Avoiding.Agent neg ?_t
+Victoria     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -258,13 +258,13 @@ The Profitboss     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-The Profitboss     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    committees
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    committees
+Avoiding.Agent neg ?_t
+The Profitboss     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -288,13 +288,13 @@ we     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-we     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    this
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    this
+Avoiding.Agent neg ?_t
+we     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -318,13 +318,13 @@ the Association of Police Surgeons , the RSM , and several constabularies     --
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-the Association of Police Surgeons , the RSM , and several constabularies     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    those situations
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    those situations
+Avoiding.Agent neg ?_t
+the Association of Police Surgeons , the RSM , and several constabularies     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -348,13 +348,13 @@ who     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    temptation
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    temptation
+Avoiding.Agent neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -378,13 +378,13 @@ He     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-He     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    giving her a direct answer
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    giving her a direct answer
+Avoiding.Agent neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -408,13 +408,13 @@ She     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-She     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    publicity
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    publicity
+Avoiding.Agent neg ?_t
+She     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -438,13 +438,13 @@ They     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-They     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    trouble
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    trouble
+Avoiding.Agent neg ?_t
+They     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -468,13 +468,13 @@ Franco     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Franco     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the immediate capture of Madrid
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the immediate capture of Madrid
+Avoiding.Agent neg ?_t
+Franco     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -498,13 +498,13 @@ He     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-He     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    arrest
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    arrest
+Avoiding.Agent neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -528,13 +528,13 @@ patrons     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-patrons     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    queues
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    queues
+Avoiding.Agent neg ?_t
+patrons     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -558,13 +558,13 @@ We must     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-We must     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    any confusion
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    any confusion
+Avoiding.Agent neg ?_t
+We must     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -588,13 +588,13 @@ the youngest of babies     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-the youngest of babies     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    precipitous drops in floor-level
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    precipitous drops in floor-level
+Avoiding.Agent neg ?_t
+the youngest of babies     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -618,13 +618,13 @@ He     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-He     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    certain responsibilities in his life , and certain involvements
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    certain responsibilities in his life , and certain involvements
+Avoiding.Agent neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -648,13 +648,13 @@ Jonathan Speelman     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Jonathan Speelman     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    defeat in his seventh game against Jan Timman
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    defeat in his seventh game against Jan Timman
+Avoiding.Agent neg ?_t
+Jonathan Speelman     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -678,13 +678,13 @@ you     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-you     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    mishaps
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    mishaps
+Avoiding.Agent neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -708,13 +708,13 @@ Their inner self     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Their inner self     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    ex    -- positive ->    ure
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    ex    -- positive ->    ure
+Avoiding.Agent neg ?_t
+Their inner self     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -738,13 +738,13 @@ Isaac     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Isaac     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    execution
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    execution
+Avoiding.Agent neg ?_t
+Isaac     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -768,13 +768,13 @@ he     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the damage
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the damage
+Avoiding.Agent neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -798,13 +798,13 @@ Judges     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Judges     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the issue of standing
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the issue of standing
+Avoiding.Agent neg ?_t
+Judges     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -828,13 +828,13 @@ He     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-He     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    a further decline
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    a further decline
+Avoiding.Agent neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -858,13 +858,13 @@ who     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    apprehension for a burglary
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    apprehension for a burglary
+Avoiding.Agent neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -888,13 +888,13 @@ which     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-which     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    any probing into the subject
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    any probing into the subject
+Avoiding.Agent neg ?_t
+which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -918,13 +918,13 @@ who     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the need for re-keying financial information once captured at source
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the need for re-keying financial information once captured at source
+Avoiding.Agent neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -948,13 +948,13 @@ the courts     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-the courts     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    rigid classifications in deciding on the applicability of natural justice
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    rigid classifications in deciding on the applicability of natural justice
+Avoiding.Agent neg ?_t
+the courts     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -978,13 +978,13 @@ they     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-they     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the shop
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the shop
+Avoiding.Agent neg ?_t
+they     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1008,13 +1008,13 @@ you     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-you     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    it
+Avoiding.Agent neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1038,13 +1038,13 @@ She     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-She     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    confrontation
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    confrontation
+Avoiding.Agent neg ?_t
+She     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1068,13 +1068,13 @@ a doctor     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-a doctor     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    litigation
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    litigation
+Avoiding.Agent neg ?_t
+a doctor     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1098,13 +1098,13 @@ you     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-you     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the town
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the town
+Avoiding.Agent neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1143,13 +1143,13 @@ Avoiding.Agent pos Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-, you     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    appearing naive
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    appearing naive
+Avoiding.Agent neg ?_t
+, you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1173,13 +1173,13 @@ the CEGB     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-the CEGB     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    which
+Avoiding.Agent neg ?_t
+the CEGB     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1203,13 +1203,13 @@ Brunel     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Brunel     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the features
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the features
+Avoiding.Agent neg ?_t
+Brunel     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1233,13 +1233,13 @@ He     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-He     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    things
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    things
+Avoiding.Agent neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1263,13 +1263,13 @@ I     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-I     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the conclusion
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the conclusion
+Avoiding.Agent neg ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1308,13 +1308,13 @@ Roddick     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Roddick     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    a fate
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    a fate
+Avoiding.Agent neg ?_t
+Roddick     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1338,13 +1338,13 @@ you     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-you     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    one
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    one
+Avoiding.Agent neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1368,13 +1368,13 @@ I     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-I     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the people
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the people
+Avoiding.Agent neg ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1398,13 +1398,13 @@ he     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    them
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    them
+Avoiding.Agent neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1428,13 +1428,13 @@ he     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    Just the sort of thing
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    Just the sort of thing
+Avoiding.Agent neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1458,13 +1458,13 @@ he     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    faces
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    faces
+Avoiding.Agent neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1488,13 +1488,13 @@ Mr Fallon     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Mr Fallon     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    which
+Avoiding.Agent neg ?_t
+Mr Fallon     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1518,13 +1518,13 @@ Simon     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Simon     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    clashes with ministers over contentious issues of policy and principle
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    clashes with ministers over contentious issues of policy and principle
+Avoiding.Agent neg ?_t
+Simon     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1548,13 +1548,13 @@ I     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-I     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    that
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    that
+Avoiding.Agent neg ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1578,13 +1578,13 @@ we     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-we     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    something
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    something
+Avoiding.Agent neg ?_t
+we     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1608,13 +1608,13 @@ Gloucester     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Gloucester     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    which
+Avoiding.Agent neg ?_t
+Gloucester     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1638,13 +1638,13 @@ Students     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Students     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    which behaviours
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    which behaviours
+Avoiding.Agent neg ?_t
+Students     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1683,13 +1683,13 @@ they     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-they     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    This
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    This
+Avoiding.Agent neg ?_t
+they     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1713,13 +1713,13 @@ you     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-you     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    that
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    that
+Avoiding.Agent neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1743,13 +1743,13 @@ you     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-you     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    that road
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    that road
+Avoiding.Agent neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1773,13 +1773,13 @@ commercial traders     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-commercial traders     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    duty
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    duty
+Avoiding.Agent neg ?_t
+commercial traders     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1803,13 +1803,13 @@ The poorwill     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-The poorwill     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    this risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    this risk
+Avoiding.Agent neg ?_t
+The poorwill     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1833,13 +1833,13 @@ they     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-they     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    taxes
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    taxes
+Avoiding.Agent neg ?_t
+they     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1863,13 +1863,13 @@ she     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-she     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    such duties
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    such duties
+Avoiding.Agent neg ?_t
+she     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1893,13 +1893,13 @@ commercial customers     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-commercial customers     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    such controls
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    such controls
+Avoiding.Agent neg ?_t
+commercial customers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1923,13 +1923,13 @@ he     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the issue
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the issue
+Avoiding.Agent neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1953,13 +1953,13 @@ Britain     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Britain     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the question
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the question
+Avoiding.Agent neg ?_t
+Britain     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1983,13 +1983,13 @@ John     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-John     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    death
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    death
+Avoiding.Agent neg ?_t
+John     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2013,13 +2013,13 @@ You     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-You     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    death
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    death
+Avoiding.Agent neg ?_t
+You     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2043,13 +2043,13 @@ Their prey     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Their prey     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    detection
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    detection
+Avoiding.Agent neg ?_t
+Their prey     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2073,13 +2073,13 @@ who     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    detection
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    detection
+Avoiding.Agent neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2103,13 +2103,13 @@ Foreign nationals found guilty of serious crimes     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Foreign nationals found guilty of serious crimes     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    deportation
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    deportation
+Avoiding.Agent neg ?_t
+Foreign nationals found guilty of serious crimes     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2133,13 +2133,13 @@ some firms     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-some firms     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    from the average of national industry economics
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    from the average of national industry economics
+Avoiding.Agent neg ?_t
+some firms     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2163,13 +2163,13 @@ the city     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-the city     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    destruction
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    destruction
+Avoiding.Agent neg ?_t
+the city     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2193,13 +2193,13 @@ Joseph and Mary     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Joseph and Mary     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    Herod 's paranoia
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    Herod 's paranoia
+Avoiding.Agent neg ?_t
+Joseph and Mary     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2223,13 +2223,13 @@ his wealth     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-his wealth     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    them
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    them
+Avoiding.Agent neg ?_t
+his wealth     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2253,13 +2253,13 @@ I     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-I     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    my responsibilities
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    my responsibilities
+Avoiding.Agent neg ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2283,13 +2283,13 @@ anorexics     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-anorexics     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    that
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    that
+Avoiding.Agent neg ?_t
+anorexics     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2313,13 +2313,13 @@ Anaximander     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Anaximander     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the issue of how the op    -- positive ->    ites emerge from ` the indefinite "
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the issue of how the op    -- positive ->    ites emerge from ` the indefinite "
+Avoiding.Agent neg ?_t
+Anaximander     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2343,13 +2343,13 @@ he     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the rules
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the rules
+Avoiding.Agent neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2373,13 +2373,13 @@ by the Secretary of State     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-by the Secretary of State     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    that
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    that
+Avoiding.Agent neg ?_t
+by the Secretary of State     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2403,13 +2403,13 @@ he     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the questions about riots , crime and gang warfare
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the questions about riots , crime and gang warfare
+Avoiding.Agent neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2433,13 +2433,13 @@ Intel     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Intel     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the issues of Pentium 's price and delivery
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the issues of Pentium 's price and delivery
+Avoiding.Agent neg ?_t
+Intel     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2463,13 +2463,13 @@ Dame Una     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Dame Una     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    round the subject
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    round the subject
+Avoiding.Agent neg ?_t
+Dame Una     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2493,13 +2493,13 @@ he     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    round the subject of Elise
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    round the subject of Elise
+Avoiding.Agent neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2523,13 +2523,13 @@ Many freight forwarders     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Many freight forwarders     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    this prohibition
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    this prohibition
+Avoiding.Agent neg ?_t
+Many freight forwarders     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2553,13 +2553,13 @@ He     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-He     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the problem
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the problem
+Avoiding.Agent neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2583,13 +2583,13 @@ Sutton     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Sutton     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    both the Equal Opportunities and the Pilger problem
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    both the Equal Opportunities and the Pilger problem
+Avoiding.Agent neg ?_t
+Sutton     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2613,13 +2613,13 @@ She     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-She     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    round the problem
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    round the problem
+Avoiding.Agent neg ?_t
+She     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2658,13 +2658,13 @@ Most parents     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Most parents     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    diplomacy
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    diplomacy
+Avoiding.Agent neg ?_t
+Most parents     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2688,13 +2688,13 @@ who     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the delights of the children 's address
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the delights of the children 's address
+Avoiding.Agent neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2718,13 +2718,13 @@ Fêted Amer-indie faces SMASHING PUMPKINS     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-Fêted Amer-indie faces SMASHING PUMPKINS     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    the indulgent side of the rock'n'roll lifestyle
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    the indulgent side of the rock'n'roll lifestyle
+Avoiding.Agent neg ?_t
+Fêted Amer-indie faces SMASHING PUMPKINS     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2748,13 +2748,13 @@ who     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    bottled oxygen
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    bottled oxygen
+Avoiding.Agent neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2778,13 +2778,13 @@ the couple     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-the couple     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    modern medical methods
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    modern medical methods
+Avoiding.Agent neg ?_t
+the couple     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2808,13 +2808,13 @@ I     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-I     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    your interest
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    your interest
+Avoiding.Agent neg ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2838,13 +2838,13 @@ I     -- positive ->     Avoiding
 
 ----------------------------------------------------------------------------------------------------
 
-Avoiding.Agent neg ?_t
-I     -- negative ->    _SOMETHING
+?_s neg Avoiding.Undesirable_situation
+_SOMEONE     -- negative ->    a very attractive acquisition
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Avoiding.Undesirable_situation
-_SOMEONE     -- negative ->    a very attractive acquisition
+Avoiding.Agent neg ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 

@@ -248,13 +248,13 @@ FE:    {'Entity': 'it', 'Degree': 'extremely', 'Viewpoint': 'to many cat enthusi
 
 ====================================================================================================
 
-Aesthetics.Viewpoint ?_p Aesthetics.Entity
-to many cat enthusiasts     -- negative ->    it
+?_x ?_p Aesthetics.?_lu
+_GENERAL     -- negative ->    Aesthetics.ugly.a
 
 ----------------------------------------------------------------------------------------------------
 
-?_x ?_p Aesthetics.?_lu
-_GENERAL     -- negative ->    Aesthetics.ugly.a
+Aesthetics.Viewpoint ?_p Aesthetics.Entity
+to many cat enthusiasts     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 

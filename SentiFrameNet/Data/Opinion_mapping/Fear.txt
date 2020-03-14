@@ -48,13 +48,13 @@ people ( men in particular )     -- negative ->    of emotionalism
 
 ----------------------------------------------------------------------------------------------------
 
-Fear.Experiencer neg ?_t
-people ( men in particular )     -- negative ->    _SOMETHING
+?_s neg Fear.Stimulus
+_SOMEONE     -- negative ->    of emotionalism
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Fear.Stimulus
-_SOMEONE     -- negative ->    of emotionalism
+Fear.Experiencer neg ?_t
+people ( men in particular )     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 

@@ -8,18 +8,18 @@ FE:    {'Behavior': 'That', 'Degree': 'very', 'Evaluee': 'of you'}
 
 ====================================================================================================
 
-Praiseworthiness.Evaluee ?_p Praiseworthiness.Behavior
-of you     -- positive ->     That
-
-----------------------------------------------------------------------------------------------------
-
 ?_x ?_p Praiseworthiness.?_lu
 _GENERAL     -- positive ->     Praiseworthiness.commendable.a
 
 ----------------------------------------------------------------------------------------------------
 
-Praiseworthiness.Evaluee ?_p ?_t
-of you     -- positive ->     _SOMETHING
+Praiseworthiness.Evaluee ?_p Praiseworthiness.Behavior
+of you     -- positive ->     That
+
+----------------------------------------------------------------------------------------------------
+
+?_s ?_p Praiseworthiness.Evaluee
+_SOMEONE     -- positive ->     of you
 
 ----------------------------------------------------------------------------------------------------
 
@@ -28,8 +28,8 @@ _SOMEONE     -- positive ->     That
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Praiseworthiness.Evaluee
-_SOMEONE     -- positive ->     of you
+Praiseworthiness.Evaluee ?_p ?_t
+of you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -63,18 +63,18 @@ FE:    {'Behavior': 'That', 'Degree': 'very', 'Evaluee': 'of you'}
 
 ====================================================================================================
 
-Praiseworthiness.Evaluee ?_p Praiseworthiness.Behavior
-of you     -- positive ->     That
-
-----------------------------------------------------------------------------------------------------
-
 ?_x ?_p Praiseworthiness.?_lu
 _GENERAL     -- positive ->     Praiseworthiness.commendable.a
 
 ----------------------------------------------------------------------------------------------------
 
-Praiseworthiness.Evaluee ?_p ?_t
-of you     -- positive ->     _SOMETHING
+Praiseworthiness.Evaluee ?_p Praiseworthiness.Behavior
+of you     -- positive ->     That
+
+----------------------------------------------------------------------------------------------------
+
+?_s ?_p Praiseworthiness.Evaluee
+_SOMEONE     -- positive ->     of you
 
 ----------------------------------------------------------------------------------------------------
 
@@ -83,8 +83,8 @@ _SOMEONE     -- positive ->     That
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Praiseworthiness.Evaluee
-_SOMEONE     -- positive ->     of you
+Praiseworthiness.Evaluee ?_p ?_t
+of you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -103,13 +103,13 @@ _GENERAL     -- negative ->    Praiseworthiness.blameworthy.a
 
 ----------------------------------------------------------------------------------------------------
 
-Praiseworthiness.Evaluee ?_p ?_t
-persons who inflict physical or sexual assault in the domestic context     -- negative ->    _SOMETHING
+?_s ?_p Praiseworthiness.Evaluee
+_SOMEONE     -- negative ->    persons who inflict physical or sexual assault in the domestic context
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Praiseworthiness.Evaluee
-_SOMEONE     -- negative ->    persons who inflict physical or sexual assault in the domestic context
+Praiseworthiness.Evaluee ?_p ?_t
+persons who inflict physical or sexual assault in the domestic context     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -168,13 +168,13 @@ _GENERAL     -- negative ->    Praiseworthiness.pitiable.a
 
 ----------------------------------------------------------------------------------------------------
 
-Praiseworthiness.Evaluee ?_p ?_t
-the insane     -- negative ->    _SOMETHING
+?_s ?_p Praiseworthiness.Evaluee
+_SOMEONE     -- negative ->    the insane
 
 ----------------------------------------------------------------------------------------------------
 
-?_s ?_p Praiseworthiness.Evaluee
-_SOMEONE     -- negative ->    the insane
+Praiseworthiness.Evaluee ?_p ?_t
+the insane     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 

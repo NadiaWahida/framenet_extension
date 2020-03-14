@@ -53,13 +53,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     The Rokermen
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from relegation
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Harmful_event
-_SOMEONE     -- negative ->    from relegation
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     The Rokermen
 
 ----------------------------------------------------------------------------------------------------
 
@@ -78,13 +78,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Dangerous_entity
-_SOMEONE     -- negative ->    You
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from prying fingers
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Harmful_event
-_SOMEONE     -- negative ->    from prying fingers
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    You
 
 ----------------------------------------------------------------------------------------------------
 
@@ -123,13 +123,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     the groups
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from developing secondary complications
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Harmful_event
-_SOMEONE     -- negative ->    from developing secondary complications
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the groups
 
 ----------------------------------------------------------------------------------------------------
 
@@ -168,13 +168,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     women receiving long term treatment
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    of osteoporotic fracture
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Harmful_event
-_SOMEONE     -- negative ->    of osteoporotic fracture
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     women receiving long term treatment
 
 ----------------------------------------------------------------------------------------------------
 
@@ -193,13 +193,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     Soft flabby growth in plants
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to disease attack and structural collapse
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Harmful_event
-_SOMEONE     -- negative ->    to disease attack and structural collapse
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Soft flabby growth in plants
 
 ----------------------------------------------------------------------------------------------------
 
@@ -238,13 +238,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     a boy scout camp
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    by the blaze
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Dangerous_entity
-_SOMEONE     -- negative ->    by the blaze
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     a boy scout camp
 
 ----------------------------------------------------------------------------------------------------
 
@@ -443,13 +443,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     The Rokermen
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from relegation
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Harmful_event
-_SOMEONE     -- negative ->    from relegation
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     The Rokermen
 
 ----------------------------------------------------------------------------------------------------
 
@@ -468,13 +468,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Dangerous_entity
-_SOMEONE     -- negative ->    You
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from prying fingers
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Harmful_event
-_SOMEONE     -- negative ->    from prying fingers
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    You
 
 ----------------------------------------------------------------------------------------------------
 
@@ -513,13 +513,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     the groups
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from developing secondary complications
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Harmful_event
-_SOMEONE     -- negative ->    from developing secondary complications
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the groups
 
 ----------------------------------------------------------------------------------------------------
 
@@ -558,13 +558,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     women receiving long term treatment
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    of osteoporotic fracture
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Harmful_event
-_SOMEONE     -- negative ->    of osteoporotic fracture
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     women receiving long term treatment
 
 ----------------------------------------------------------------------------------------------------
 
@@ -583,13 +583,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     Soft flabby growth in plants
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to disease attack and structural collapse
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Harmful_event
-_SOMEONE     -- negative ->    to disease attack and structural collapse
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Soft flabby growth in plants
 
 ----------------------------------------------------------------------------------------------------
 
@@ -648,13 +648,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     they
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to defeat
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Harmful_event
-_SOMEONE     -- negative ->    to defeat
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     they
 
 ----------------------------------------------------------------------------------------------------
 
@@ -673,13 +673,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     the United States
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    to BW terrorism
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Dangerous_entity
-_SOMEONE     -- negative ->    to BW terrorism
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the United States
 
 ----------------------------------------------------------------------------------------------------
 
@@ -698,13 +698,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     a boy scout camp
+?_s neg Being_at_risk.Dangerous_entity
+_SOMEONE     -- negative ->    by the blaze
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Dangerous_entity
-_SOMEONE     -- negative ->    by the blaze
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     a boy scout camp
 
 ----------------------------------------------------------------------------------------------------
 
@@ -723,13 +723,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     the groups
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    from developing secondary complications
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Harmful_event
-_SOMEONE     -- negative ->    from developing secondary complications
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     the groups
 
 ----------------------------------------------------------------------------------------------------
 
@@ -768,13 +768,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     women receiving long term treatment
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    of osteoporotic fracture
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Harmful_event
-_SOMEONE     -- negative ->    of osteoporotic fracture
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     women receiving long term treatment
 
 ----------------------------------------------------------------------------------------------------
 
@@ -793,13 +793,13 @@ _GENERAL     -- negative ->    Being_at_risk
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Being_at_risk.Asset
-_SOMEONE     -- positive ->     Soft flabby growth in plants
+?_s neg Being_at_risk.Harmful_event
+_SOMEONE     -- negative ->    to disease attack and structural collapse
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Being_at_risk.Harmful_event
-_SOMEONE     -- negative ->    to disease attack and structural collapse
+?_s pos Being_at_risk.Asset
+_SOMEONE     -- positive ->     Soft flabby growth in plants
 
 ----------------------------------------------------------------------------------------------------
 

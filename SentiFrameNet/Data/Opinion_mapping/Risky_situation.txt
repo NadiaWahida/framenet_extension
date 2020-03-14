@@ -8,8 +8,8 @@ FE:    {'Situation': 'the southern city of Quetta', 'Degree': 'increasingly', 'A
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    the southern city of Quetta
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
@@ -18,8 +18,8 @@ _GENERAL     -- positive ->     for Afghan Taliban leaders
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    the southern city of Quetta
 
 ----------------------------------------------------------------------------------------------------
 
@@ -38,13 +38,13 @@ _GENERAL     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Risky_situation.Asset
-_GENERAL     -- positive ->     to their operators
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x pos Risky_situation.Asset
+_GENERAL     -- positive ->     to their operators
 
 ----------------------------------------------------------------------------------------------------
 
@@ -63,13 +63,13 @@ _GENERAL     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Risky_situation.Asset
-_GENERAL     -- positive ->     for Shaaban
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x pos Risky_situation.Asset
+_GENERAL     -- positive ->     for Shaaban
 
 ----------------------------------------------------------------------------------------------------
 
@@ -103,13 +103,13 @@ FE:    {'Situation': 'daily consumption of ETU , a component of the fungicides',
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    daily consumption of ETU , a component of the fungicides
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    daily consumption of ETU , a component of the fungicides
 
 ----------------------------------------------------------------------------------------------------
 
@@ -123,8 +123,8 @@ FE:    {'Situation': 'Unexploded bomblets', 'Degree': 'special', 'Asset': 'to ch
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    Unexploded bomblets
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
@@ -133,8 +133,8 @@ _GENERAL     -- positive ->     to children , who often believe that they are to
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    Unexploded bomblets
 
 ----------------------------------------------------------------------------------------------------
 
@@ -153,13 +153,13 @@ _GENERAL     -- negative ->    they
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Risky_situation.Asset
-_GENERAL     -- positive ->     security
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x pos Risky_situation.Asset
+_GENERAL     -- positive ->     security
 
 ----------------------------------------------------------------------------------------------------
 
@@ -173,13 +173,13 @@ FE:    {'Situation': 'inadequate governance', 'Degree': 'major', 'Domain': 'stra
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    inadequate governance
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    inadequate governance
 
 ----------------------------------------------------------------------------------------------------
 
@@ -193,8 +193,8 @@ FE:    {'Situation': 'a significant threat', 'Asset': 'to heavily populated Seou
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    a significant threat
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
@@ -203,8 +203,8 @@ _GENERAL     -- positive ->     to heavily populated Seoul , as well as to the e
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    a significant threat
 
 ----------------------------------------------------------------------------------------------------
 
@@ -218,8 +218,8 @@ FE:    {'Degree': 'as', 'Situation': 'it', 'Asset': 'to the survival of victimiz
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    it
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
@@ -228,8 +228,8 @@ _GENERAL     -- positive ->     to the survival of victimized U.S. firms
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -243,8 +243,8 @@ FE:    {'Situation': 'Rough terrain and often-turbulent weather', 'Degree': 'sub
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    Rough terrain and often-turbulent weather
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
@@ -253,8 +253,8 @@ _GENERAL     -- positive ->     to military aviation in Afghanistan
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    Rough terrain and often-turbulent weather
 
 ----------------------------------------------------------------------------------------------------
 
@@ -273,13 +273,13 @@ _GENERAL     -- negative ->    the three heaping , deep-fried daily portions of 
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Risky_situation.Asset
-_GENERAL     -- positive ->     to a fobbit 's health
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x pos Risky_situation.Asset
+_GENERAL     -- positive ->     to a fobbit 's health
 
 ----------------------------------------------------------------------------------------------------
 
@@ -293,8 +293,8 @@ FE:    {'Situation': 'which', 'Asset': 'to civilians'}
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    which
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
@@ -303,8 +303,8 @@ _GENERAL     -- positive ->     to civilians
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -323,13 +323,13 @@ _GENERAL     -- negative ->    Shiite militias , many with ties to the highest e
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Risky_situation.Asset
-_GENERAL     -- positive ->     to Iraqi security
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x pos Risky_situation.Asset
+_GENERAL     -- positive ->     to Iraqi security
 
 ----------------------------------------------------------------------------------------------------
 
@@ -343,8 +343,8 @@ FE:    {'Situation': 'the southern city of Quetta', 'Degree': 'increasingly', 'A
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    the southern city of Quetta
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
@@ -353,8 +353,8 @@ _GENERAL     -- positive ->     for Afghan Taliban leaders
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    the southern city of Quetta
 
 ----------------------------------------------------------------------------------------------------
 
@@ -368,13 +368,13 @@ FE:    {'Situation': 'daily consumption of ETU , a component of the fungicides',
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    daily consumption of ETU , a component of the fungicides
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    daily consumption of ETU , a component of the fungicides
 
 ----------------------------------------------------------------------------------------------------
 
@@ -388,8 +388,8 @@ FE:    {'Situation': 'Unexploded bomblets', 'Degree': 'special', 'Asset': 'to ch
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    Unexploded bomblets
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
@@ -398,8 +398,8 @@ _GENERAL     -- positive ->     to children , who often believe that they are to
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    Unexploded bomblets
 
 ----------------------------------------------------------------------------------------------------
 
@@ -418,13 +418,13 @@ _GENERAL     -- negative ->    they
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Risky_situation.Asset
-_GENERAL     -- positive ->     security
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x pos Risky_situation.Asset
+_GENERAL     -- positive ->     security
 
 ----------------------------------------------------------------------------------------------------
 
@@ -438,13 +438,13 @@ FE:    {'Situation': 'inadequate governance', 'Degree': 'major', 'Domain': 'stra
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    inadequate governance
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    inadequate governance
 
 ----------------------------------------------------------------------------------------------------
 
@@ -458,8 +458,8 @@ FE:    {'Situation': 'Rough terrain and often-turbulent weather', 'Degree': 'sub
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    Rough terrain and often-turbulent weather
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
@@ -468,8 +468,8 @@ _GENERAL     -- positive ->     to military aviation in Afghanistan
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    Rough terrain and often-turbulent weather
 
 ----------------------------------------------------------------------------------------------------
 
@@ -488,13 +488,13 @@ _GENERAL     -- negative ->    the three heaping , deep-fried daily portions of 
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Risky_situation.Asset
-_GENERAL     -- positive ->     to a fobbit 's health
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x pos Risky_situation.Asset
+_GENERAL     -- positive ->     to a fobbit 's health
 
 ----------------------------------------------------------------------------------------------------
 
@@ -508,8 +508,8 @@ FE:    {'Situation': 'which', 'Asset': 'to civilians'}
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    which
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
@@ -518,8 +518,8 @@ _GENERAL     -- positive ->     to civilians
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -538,13 +538,13 @@ _GENERAL     -- negative ->    Shiite militias , many with ties to the highest e
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Risky_situation.Asset
-_GENERAL     -- positive ->     to Iraqi security
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x pos Risky_situation.Asset
+_GENERAL     -- positive ->     to Iraqi security
 
 ----------------------------------------------------------------------------------------------------
 
@@ -558,13 +558,13 @@ FE:    {'Situation': 'daily consumption of ETU , a component of the fungicides',
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    daily consumption of ETU , a component of the fungicides
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    daily consumption of ETU , a component of the fungicides
 
 ----------------------------------------------------------------------------------------------------
 
@@ -578,8 +578,8 @@ FE:    {'Situation': 'Unexploded bomblets', 'Degree': 'special', 'Asset': 'to ch
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    Unexploded bomblets
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
@@ -588,8 +588,8 @@ _GENERAL     -- positive ->     to children , who often believe that they are to
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    Unexploded bomblets
 
 ----------------------------------------------------------------------------------------------------
 
@@ -608,13 +608,13 @@ _GENERAL     -- negative ->    they
 
 ----------------------------------------------------------------------------------------------------
 
-?_x pos Risky_situation.Asset
-_GENERAL     -- positive ->     security
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x pos Risky_situation.Asset
+_GENERAL     -- positive ->     security
 
 ----------------------------------------------------------------------------------------------------
 
@@ -628,13 +628,13 @@ FE:    {'Situation': 'inadequate governance', 'Degree': 'major', 'Domain': 'stra
 
 ====================================================================================================
 
-?_x neg Risky_situation.Situation
-_GENERAL     -- negative ->    inadequate governance
+?_x neg Risky_situation
+_GENERAL     -- negative ->    Risky_situation
 
 ----------------------------------------------------------------------------------------------------
 
-?_x neg Risky_situation
-_GENERAL     -- negative ->    Risky_situation
+?_x neg Risky_situation.Situation
+_GENERAL     -- negative ->    inadequate governance
 
 ----------------------------------------------------------------------------------------------------
 

@@ -8,18 +8,28 @@ FE:    {'Defender': 'which', 'Victim': 'the body', 'Assailant': 'against infecti
 
 ====================================================================================================
 
-Defending.Assailant neg Defending.Victim
-against infection     -- negative ->    the body
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Defending
 _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
+Defending.Victim neg Defending.Assailant
+the body     -- negative ->    against infection
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg Defending.Victim
+against infection     -- negative ->    the body
+
+----------------------------------------------------------------------------------------------------
+
 Defending.Assailant neg Defending.Defender
 against infection     -- negative ->    which
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender pos Defending.Victim
+which     -- positive ->     the body
 
 ----------------------------------------------------------------------------------------------------
 
@@ -33,23 +43,8 @@ the body     -- positive ->     which
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos Defending.Victim
-which     -- positive ->     the body
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg Defending.Assailant
-the body     -- negative ->    against infection
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     which
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Assailant neg ?_t
-against infection     -- negative ->    _SOMETHING
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -58,28 +53,13 @@ the body     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim neg ?_t
-the body     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     the body
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender neg ?_t
 which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Assailant
-_SOMEONE     -- negative ->    against infection
-
-----------------------------------------------------------------------------------------------------
-
-?_s neg Defending.Defender
-_SOMEONE     -- negative ->    which
+Defending.Defender pos ?_t
+which     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -88,8 +68,28 @@ _SOMEONE     -- negative ->    the body
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos ?_t
-which     -- positive ->     _SOMETHING
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     which
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the body
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg ?_t
+against infection     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against infection
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+the body     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -103,18 +103,28 @@ FE:    {'Defender': 'Who', 'Victim': 'you', 'Assailant': 'against such slanders'
 
 ====================================================================================================
 
-Defending.Assailant neg Defending.Victim
-against such slanders     -- negative ->    you
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Defending
 _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
+Defending.Victim neg Defending.Assailant
+you     -- negative ->    against such slanders
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg Defending.Victim
+against such slanders     -- negative ->    you
+
+----------------------------------------------------------------------------------------------------
+
 Defending.Assailant neg Defending.Defender
 against such slanders     -- negative ->    Who
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender pos Defending.Victim
+Who     -- positive ->     you
 
 ----------------------------------------------------------------------------------------------------
 
@@ -128,23 +138,8 @@ you     -- positive ->     Who
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos Defending.Victim
-Who     -- positive ->     you
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg Defending.Assailant
-you     -- negative ->    against such slanders
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     Who
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Assailant neg ?_t
-against such slanders     -- negative ->    _SOMETHING
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Who
 
 ----------------------------------------------------------------------------------------------------
 
@@ -153,28 +148,13 @@ you     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim neg ?_t
-you     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     you
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender neg ?_t
 Who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Assailant
-_SOMEONE     -- negative ->    against such slanders
-
-----------------------------------------------------------------------------------------------------
-
-?_s neg Defending.Defender
-_SOMEONE     -- negative ->    Who
+Defending.Defender pos ?_t
+Who     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -183,8 +163,28 @@ _SOMEONE     -- negative ->    you
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos ?_t
-Who     -- positive ->     _SOMETHING
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Who
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     you
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg ?_t
+against such slanders     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against such slanders
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -198,18 +198,18 @@ FE:    {'Victim': 'which', 'Defender': 'they', 'Manner': 'vigorously', 'Assailan
 
 ====================================================================================================
 
-Defending.Assailant neg Defending.Victim
-against others of their own kind     -- negative ->    which
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Defending
 _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Assailant neg Defending.Defender
-against others of their own kind     -- negative ->    they
+Defending.Victim neg Defending.Assailant
+which     -- negative ->    against others of their own kind
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg Defending.Victim
+against others of their own kind     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -218,8 +218,8 @@ they     -- negative ->    against others of their own kind
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim neg Defending.Assailant
-which     -- negative ->    against others of their own kind
+Defending.Assailant neg Defending.Defender
+against others of their own kind     -- negative ->    they
 
 ----------------------------------------------------------------------------------------------------
 
@@ -238,28 +238,8 @@ _SOMEONE     -- negative ->    they
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Assailant
-_SOMEONE     -- negative ->    against others of their own kind
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     they
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Assailant neg ?_t
-against others of their own kind     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Victim pos ?_t
 which     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -273,13 +253,33 @@ they     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim neg ?_t
-which     -- negative ->    _SOMETHING
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     they
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     which
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg ?_t
+against others of their own kind     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
 ?_s neg Defending.Victim
 _SOMEONE     -- negative ->    which
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against others of their own kind
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -293,18 +293,28 @@ FE:    {'Defender': 'Sixty angry local pickers , who collect by hand', 'Victim':
 
 ====================================================================================================
 
-Defending.Assailant neg Defending.Victim
-from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges     -- negative ->    a 30-acre mudbank
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Defending
 _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
+Defending.Victim neg Defending.Assailant
+a 30-acre mudbank     -- negative ->    from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg Defending.Victim
+from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges     -- negative ->    a 30-acre mudbank
+
+----------------------------------------------------------------------------------------------------
+
 Defending.Assailant neg Defending.Defender
 from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges     -- negative ->    Sixty angry local pickers , who collect by hand
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender pos Defending.Victim
+Sixty angry local pickers , who collect by hand     -- positive ->     a 30-acre mudbank
 
 ----------------------------------------------------------------------------------------------------
 
@@ -318,23 +328,8 @@ a 30-acre mudbank     -- positive ->     Sixty angry local pickers , who collect
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos Defending.Victim
-Sixty angry local pickers , who collect by hand     -- positive ->     a 30-acre mudbank
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg Defending.Assailant
-a 30-acre mudbank     -- negative ->    from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     Sixty angry local pickers , who collect by hand
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Assailant neg ?_t
-from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges     -- negative ->    _SOMETHING
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Sixty angry local pickers , who collect by hand
 
 ----------------------------------------------------------------------------------------------------
 
@@ -343,28 +338,13 @@ a 30-acre mudbank     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim neg ?_t
-a 30-acre mudbank     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     a 30-acre mudbank
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender neg ?_t
 Sixty angry local pickers , who collect by hand     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Assailant
-_SOMEONE     -- negative ->    from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges
-
-----------------------------------------------------------------------------------------------------
-
-?_s neg Defending.Defender
-_SOMEONE     -- negative ->    Sixty angry local pickers , who collect by hand
+Defending.Defender pos ?_t
+Sixty angry local pickers , who collect by hand     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -373,8 +353,28 @@ _SOMEONE     -- negative ->    a 30-acre mudbank
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos ?_t
-Sixty angry local pickers , who collect by hand     -- positive ->     _SOMETHING
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Sixty angry local pickers , who collect by hand
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     a 30-acre mudbank
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg ?_t
+from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    from the outsiders who had arrived in convoy with lorries , Land Rovers and dredges
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+a 30-acre mudbank     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -393,38 +393,13 @@ _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim pos Defending.Defender
-it     -- positive ->     she
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender pos Defending.Victim
 she     -- positive ->     it
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     she
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim pos ?_t
-it     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg ?_t
-it     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     it
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Defender neg ?_t
-she     -- negative ->    _SOMETHING
+Defending.Victim pos Defending.Defender
+it     -- positive ->     she
 
 ----------------------------------------------------------------------------------------------------
 
@@ -433,13 +408,38 @@ _SOMEONE     -- negative ->    she
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Victim
-_SOMEONE     -- negative ->    it
+Defending.Victim pos ?_t
+it     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender neg ?_t
+she     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
 Defending.Defender pos ?_t
 she     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    it
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     she
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     it
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+it     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -458,38 +458,13 @@ _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim pos Defending.Defender
-the HSC     -- positive ->     Mrs Gyngell
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender pos Defending.Victim
 Mrs Gyngell     -- positive ->     the HSC
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     Mrs Gyngell
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim pos ?_t
-the HSC     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg ?_t
-the HSC     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     the HSC
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Defender neg ?_t
-Mrs Gyngell     -- negative ->    _SOMETHING
+Defending.Victim pos Defending.Defender
+the HSC     -- positive ->     Mrs Gyngell
 
 ----------------------------------------------------------------------------------------------------
 
@@ -498,13 +473,38 @@ _SOMEONE     -- negative ->    Mrs Gyngell
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Victim
-_SOMEONE     -- negative ->    the HSC
+Defending.Victim pos ?_t
+the HSC     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender neg ?_t
+Mrs Gyngell     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
 Defending.Defender pos ?_t
 Mrs Gyngell     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    the HSC
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Mrs Gyngell
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the HSC
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+the HSC     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -518,18 +518,28 @@ FE:    {'Depictive': 'Written in a lively and witty style', 'Defender': 'the pam
 
 ====================================================================================================
 
-Defending.Assailant neg Defending.Victim
-against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them     -- negative ->    women
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Defending
 _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
+Defending.Victim neg Defending.Assailant
+women     -- negative ->    against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg Defending.Victim
+against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them     -- negative ->    women
+
+----------------------------------------------------------------------------------------------------
+
 Defending.Assailant neg Defending.Defender
 against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them     -- negative ->    the pamphlet
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender pos Defending.Victim
+the pamphlet     -- positive ->     women
 
 ----------------------------------------------------------------------------------------------------
 
@@ -543,23 +553,8 @@ women     -- positive ->     the pamphlet
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos Defending.Victim
-the pamphlet     -- positive ->     women
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg Defending.Assailant
-women     -- negative ->    against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     the pamphlet
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Assailant neg ?_t
-against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them     -- negative ->    _SOMETHING
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    the pamphlet
 
 ----------------------------------------------------------------------------------------------------
 
@@ -568,28 +563,13 @@ women     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim neg ?_t
-women     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     women
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender neg ?_t
 the pamphlet     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Assailant
-_SOMEONE     -- negative ->    against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them
-
-----------------------------------------------------------------------------------------------------
-
-?_s neg Defending.Defender
-_SOMEONE     -- negative ->    the pamphlet
+Defending.Defender pos ?_t
+the pamphlet     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -598,8 +578,28 @@ _SOMEONE     -- negative ->    women
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos ?_t
-the pamphlet     -- positive ->     _SOMETHING
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     the pamphlet
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     women
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg ?_t
+against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against the accusations of vanity , impertinence , enviousness , dissimulation , and inconstancy which men make against them
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+women     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -613,18 +613,28 @@ FE:    {'Defender': 'Locke', 'Victim': 'his political philosophy', 'Assailant': 
 
 ====================================================================================================
 
-Defending.Assailant neg Defending.Victim
-against the accusation that it encourages rebellion     -- negative ->    his political philosophy
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Defending
 _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
+Defending.Victim neg Defending.Assailant
+his political philosophy     -- negative ->    against the accusation that it encourages rebellion
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg Defending.Victim
+against the accusation that it encourages rebellion     -- negative ->    his political philosophy
+
+----------------------------------------------------------------------------------------------------
+
 Defending.Assailant neg Defending.Defender
 against the accusation that it encourages rebellion     -- negative ->    Locke
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender pos Defending.Victim
+Locke     -- positive ->     his political philosophy
 
 ----------------------------------------------------------------------------------------------------
 
@@ -638,23 +648,8 @@ his political philosophy     -- positive ->     Locke
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos Defending.Victim
-Locke     -- positive ->     his political philosophy
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg Defending.Assailant
-his political philosophy     -- negative ->    against the accusation that it encourages rebellion
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     Locke
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Assailant neg ?_t
-against the accusation that it encourages rebellion     -- negative ->    _SOMETHING
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Locke
 
 ----------------------------------------------------------------------------------------------------
 
@@ -663,28 +658,13 @@ his political philosophy     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim neg ?_t
-his political philosophy     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     his political philosophy
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender neg ?_t
 Locke     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Assailant
-_SOMEONE     -- negative ->    against the accusation that it encourages rebellion
-
-----------------------------------------------------------------------------------------------------
-
-?_s neg Defending.Defender
-_SOMEONE     -- negative ->    Locke
+Defending.Defender pos ?_t
+Locke     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -693,8 +673,28 @@ _SOMEONE     -- negative ->    his political philosophy
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos ?_t
-Locke     -- positive ->     _SOMETHING
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Locke
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     his political philosophy
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg ?_t
+against the accusation that it encourages rebellion     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against the accusation that it encourages rebellion
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+his political philosophy     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -708,18 +708,28 @@ FE:    {'Defender': 'women', 'Victim': 'themselves', 'Assailant': 'from potentia
 
 ====================================================================================================
 
-Defending.Assailant neg Defending.Victim
-from potential rapists and sex attackers     -- negative ->    themselves
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Defending
 _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
+Defending.Victim neg Defending.Assailant
+themselves     -- negative ->    from potential rapists and sex attackers
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg Defending.Victim
+from potential rapists and sex attackers     -- negative ->    themselves
+
+----------------------------------------------------------------------------------------------------
+
 Defending.Assailant neg Defending.Defender
 from potential rapists and sex attackers     -- negative ->    women
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender pos Defending.Victim
+women     -- positive ->     themselves
 
 ----------------------------------------------------------------------------------------------------
 
@@ -733,23 +743,8 @@ themselves     -- positive ->     women
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos Defending.Victim
-women     -- positive ->     themselves
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg Defending.Assailant
-themselves     -- negative ->    from potential rapists and sex attackers
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     women
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Assailant neg ?_t
-from potential rapists and sex attackers     -- negative ->    _SOMETHING
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    women
 
 ----------------------------------------------------------------------------------------------------
 
@@ -758,28 +753,13 @@ themselves     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim neg ?_t
-themselves     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     themselves
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender neg ?_t
 women     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Assailant
-_SOMEONE     -- negative ->    from potential rapists and sex attackers
-
-----------------------------------------------------------------------------------------------------
-
-?_s neg Defending.Defender
-_SOMEONE     -- negative ->    women
+Defending.Defender pos ?_t
+women     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -788,8 +768,28 @@ _SOMEONE     -- negative ->    themselves
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos ?_t
-women     -- positive ->     _SOMETHING
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     women
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     themselves
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg ?_t
+from potential rapists and sex attackers     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    from potential rapists and sex attackers
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+themselves     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -803,18 +803,28 @@ FE:    {'Defender': 'I', 'Victim': 'myself', 'Assailant': 'from the blows'}
 
 ====================================================================================================
 
-Defending.Assailant neg Defending.Victim
-from the blows     -- negative ->    myself
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Defending
 _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
+Defending.Victim neg Defending.Assailant
+myself     -- negative ->    from the blows
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg Defending.Victim
+from the blows     -- negative ->    myself
+
+----------------------------------------------------------------------------------------------------
+
 Defending.Assailant neg Defending.Defender
 from the blows     -- negative ->    I
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender pos Defending.Victim
+I     -- positive ->     myself
 
 ----------------------------------------------------------------------------------------------------
 
@@ -828,23 +838,8 @@ myself     -- positive ->     I
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos Defending.Victim
-I     -- positive ->     myself
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg Defending.Assailant
-myself     -- negative ->    from the blows
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     I
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Assailant neg ?_t
-from the blows     -- negative ->    _SOMETHING
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    I
 
 ----------------------------------------------------------------------------------------------------
 
@@ -853,28 +848,13 @@ myself     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim neg ?_t
-myself     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     myself
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender neg ?_t
 I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Assailant
-_SOMEONE     -- negative ->    from the blows
-
-----------------------------------------------------------------------------------------------------
-
-?_s neg Defending.Defender
-_SOMEONE     -- negative ->    I
+Defending.Defender pos ?_t
+I     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -883,8 +863,28 @@ _SOMEONE     -- negative ->    myself
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos ?_t
-I     -- positive ->     _SOMETHING
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     I
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     myself
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg ?_t
+from the blows     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    from the blows
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+myself     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -918,18 +918,8 @@ _SOMEONE     -- negative ->    by the Harvard professor , Louis Agassiz
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     by the Harvard professor , Louis Agassiz
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Victim pos ?_t
 It     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     It
 
 ----------------------------------------------------------------------------------------------------
 
@@ -943,13 +933,23 @@ by the Harvard professor , Louis Agassiz     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim neg ?_t
-It     -- negative ->    _SOMETHING
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     by the Harvard professor , Louis Agassiz
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     It
 
 ----------------------------------------------------------------------------------------------------
 
 ?_s neg Defending.Victim
 _SOMEONE     -- negative ->    It
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+It     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -968,38 +968,13 @@ _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim pos Defending.Defender
-yourself     -- positive ->     You
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender pos Defending.Victim
 You     -- positive ->     yourself
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     You
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim pos ?_t
-yourself     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg ?_t
-yourself     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     yourself
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Defender neg ?_t
-You     -- negative ->    _SOMETHING
+Defending.Victim pos Defending.Defender
+yourself     -- positive ->     You
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1008,13 +983,38 @@ _SOMEONE     -- negative ->    You
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Victim
-_SOMEONE     -- negative ->    yourself
+Defending.Victim pos ?_t
+yourself     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender neg ?_t
+You     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
 Defending.Defender pos ?_t
 You     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    yourself
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     You
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     yourself
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+yourself     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1033,38 +1033,13 @@ _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim pos Defending.Defender
-it     -- positive ->     Cunningham
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender pos Defending.Victim
 Cunningham     -- positive ->     it
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     Cunningham
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim pos ?_t
-it     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg ?_t
-it     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     it
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Defender neg ?_t
-Cunningham     -- negative ->    _SOMETHING
+Defending.Victim pos Defending.Defender
+it     -- positive ->     Cunningham
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1073,13 +1048,38 @@ _SOMEONE     -- negative ->    Cunningham
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Victim
-_SOMEONE     -- negative ->    it
+Defending.Victim pos ?_t
+it     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender neg ?_t
+Cunningham     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
 Defending.Defender pos ?_t
 Cunningham     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    it
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Cunningham
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     it
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+it     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1098,38 +1098,13 @@ _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim pos Defending.Defender
-their autonomy     -- positive ->     the chairmen
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender pos Defending.Victim
 the chairmen     -- positive ->     their autonomy
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     the chairmen
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim pos ?_t
-their autonomy     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg ?_t
-their autonomy     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     their autonomy
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Defender neg ?_t
-the chairmen     -- negative ->    _SOMETHING
+Defending.Victim pos Defending.Defender
+their autonomy     -- positive ->     the chairmen
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1138,13 +1113,38 @@ _SOMEONE     -- negative ->    the chairmen
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Victim
-_SOMEONE     -- negative ->    their autonomy
+Defending.Victim pos ?_t
+their autonomy     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender neg ?_t
+the chairmen     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
 Defending.Defender pos ?_t
 the chairmen     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    their autonomy
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     the chairmen
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     their autonomy
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+their autonomy     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1163,38 +1163,13 @@ _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim pos Defending.Defender
-himself     -- positive ->     he
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender pos Defending.Victim
 he     -- positive ->     himself
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     he
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim pos ?_t
-himself     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg ?_t
-himself     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     himself
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Defender neg ?_t
-he     -- negative ->    _SOMETHING
+Defending.Victim pos Defending.Defender
+himself     -- positive ->     he
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1203,13 +1178,38 @@ _SOMEONE     -- negative ->    he
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Victim
-_SOMEONE     -- negative ->    himself
+Defending.Victim pos ?_t
+himself     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
 Defending.Defender pos ?_t
 he     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    himself
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     he
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     himself
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+himself     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1223,18 +1223,28 @@ FE:    {'Defender': 'we', 'Victim': 'ourselves', 'Manner': 'too rigidly', 'Assai
 
 ====================================================================================================
 
-Defending.Assailant neg Defending.Victim
-against threatening aspects of change     -- negative ->    ourselves
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Defending
 _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
+Defending.Victim neg Defending.Assailant
+ourselves     -- negative ->    against threatening aspects of change
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg Defending.Victim
+against threatening aspects of change     -- negative ->    ourselves
+
+----------------------------------------------------------------------------------------------------
+
 Defending.Assailant neg Defending.Defender
 against threatening aspects of change     -- negative ->    we
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender pos Defending.Victim
+we     -- positive ->     ourselves
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1248,23 +1258,8 @@ ourselves     -- positive ->     we
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos Defending.Victim
-we     -- positive ->     ourselves
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg Defending.Assailant
-ourselves     -- negative ->    against threatening aspects of change
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     we
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Assailant neg ?_t
-against threatening aspects of change     -- negative ->    _SOMETHING
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    we
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1273,28 +1268,13 @@ ourselves     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim neg ?_t
-ourselves     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     ourselves
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender neg ?_t
 we     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Assailant
-_SOMEONE     -- negative ->    against threatening aspects of change
-
-----------------------------------------------------------------------------------------------------
-
-?_s neg Defending.Defender
-_SOMEONE     -- negative ->    we
+Defending.Defender pos ?_t
+we     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1303,8 +1283,28 @@ _SOMEONE     -- negative ->    ourselves
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos ?_t
-we     -- positive ->     _SOMETHING
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     we
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     ourselves
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg ?_t
+against threatening aspects of change     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against threatening aspects of change
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+ourselves     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1323,38 +1323,13 @@ _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim pos Defending.Defender
-myself     -- positive ->     I
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender pos Defending.Victim
 I     -- positive ->     myself
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     I
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim pos ?_t
-myself     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg ?_t
-myself     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     myself
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Defender neg ?_t
-I     -- negative ->    _SOMETHING
+Defending.Victim pos Defending.Defender
+myself     -- positive ->     I
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1363,13 +1338,38 @@ _SOMEONE     -- negative ->    I
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Victim
-_SOMEONE     -- negative ->    myself
+Defending.Victim pos ?_t
+myself     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender neg ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
 Defending.Defender pos ?_t
 I     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    myself
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     I
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     myself
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+myself     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1388,38 +1388,13 @@ _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim pos Defending.Defender
-a territory     -- positive ->     a bird
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender pos Defending.Victim
 a bird     -- positive ->     a territory
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     a bird
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim pos ?_t
-a territory     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg ?_t
-a territory     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     a territory
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Defender neg ?_t
-a bird     -- negative ->    _SOMETHING
+Defending.Victim pos Defending.Defender
+a territory     -- positive ->     a bird
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1428,13 +1403,38 @@ _SOMEONE     -- negative ->    a bird
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Victim
-_SOMEONE     -- negative ->    a territory
+Defending.Victim pos ?_t
+a territory     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender neg ?_t
+a bird     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
 Defending.Defender pos ?_t
 a bird     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    a territory
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     a bird
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     a territory
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+a territory     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1448,18 +1448,28 @@ FE:    {'Defender': 'the system', 'Victim': 'the USSR', 'Assailant': 'against bi
 
 ====================================================================================================
 
-Defending.Assailant neg Defending.Victim
-against biological attacks     -- negative ->    the USSR
-
-----------------------------------------------------------------------------------------------------
-
 ?_x pos Defending
 _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
+Defending.Victim neg Defending.Assailant
+the USSR     -- negative ->    against biological attacks
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg Defending.Victim
+against biological attacks     -- negative ->    the USSR
+
+----------------------------------------------------------------------------------------------------
+
 Defending.Assailant neg Defending.Defender
 against biological attacks     -- negative ->    the system
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender pos Defending.Victim
+the system     -- positive ->     the USSR
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1473,23 +1483,8 @@ the USSR     -- positive ->     the system
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos Defending.Victim
-the system     -- positive ->     the USSR
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg Defending.Assailant
-the USSR     -- negative ->    against biological attacks
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     the system
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Assailant neg ?_t
-against biological attacks     -- negative ->    _SOMETHING
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    the system
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1498,28 +1493,13 @@ the USSR     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim neg ?_t
-the USSR     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     the USSR
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender neg ?_t
 the system     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Assailant
-_SOMEONE     -- negative ->    against biological attacks
-
-----------------------------------------------------------------------------------------------------
-
-?_s neg Defending.Defender
-_SOMEONE     -- negative ->    the system
+Defending.Defender pos ?_t
+the system     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1528,8 +1508,28 @@ _SOMEONE     -- negative ->    the USSR
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos ?_t
-the system     -- positive ->     _SOMETHING
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     the system
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the USSR
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Assailant neg ?_t
+against biological attacks     -- negative ->    _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Assailant
+_SOMEONE     -- negative ->    against biological attacks
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+the USSR     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1548,38 +1548,13 @@ _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Victim pos Defending.Defender
-the southern tip of the peninsula     -- positive ->     which
-
-----------------------------------------------------------------------------------------------------
-
 Defending.Defender pos Defending.Victim
 which     -- positive ->     the southern tip of the peninsula
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     which
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim pos ?_t
-the southern tip of the peninsula     -- positive ->     _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Victim neg ?_t
-the southern tip of the peninsula     -- negative ->    _SOMETHING
-
-----------------------------------------------------------------------------------------------------
-
-?_s pos Defending.Victim
-_SOMEONE     -- positive ->     the southern tip of the peninsula
-
-----------------------------------------------------------------------------------------------------
-
-Defending.Defender neg ?_t
-which     -- negative ->    _SOMETHING
+Defending.Victim pos Defending.Defender
+the southern tip of the peninsula     -- positive ->     which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1588,13 +1563,38 @@ _SOMEONE     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Victim
-_SOMEONE     -- negative ->    the southern tip of the peninsula
+Defending.Victim pos ?_t
+the southern tip of the peninsula     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Defender neg ?_t
+which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
 Defending.Defender pos ?_t
 which     -- positive ->     _SOMETHING
+
+----------------------------------------------------------------------------------------------------
+
+?_s neg Defending.Victim
+_SOMEONE     -- negative ->    the southern tip of the peninsula
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     which
+
+----------------------------------------------------------------------------------------------------
+
+?_s pos Defending.Victim
+_SOMEONE     -- positive ->     the southern tip of the peninsula
+
+----------------------------------------------------------------------------------------------------
+
+Defending.Victim neg ?_t
+the southern tip of the peninsula     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1613,8 +1613,8 @@ _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     Libya 's
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Libya 's
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1623,13 +1623,13 @@ Libya 's     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Defender
-_SOMEONE     -- negative ->    Libya 's
+Defending.Defender pos ?_t
+Libya 's     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos ?_t
-Libya 's     -- positive ->     _SOMETHING
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Libya 's
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1648,8 +1648,8 @@ _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     rebel
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    rebel
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1658,13 +1658,13 @@ rebel     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Defender
-_SOMEONE     -- negative ->    rebel
+Defending.Defender pos ?_t
+rebel     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos ?_t
-rebel     -- positive ->     _SOMETHING
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     rebel
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1683,8 +1683,8 @@ _GENERAL     -- positive ->     Defending
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Defending.Defender
-_SOMEONE     -- positive ->     Libyan
+?_s neg Defending.Defender
+_SOMEONE     -- negative ->    Libyan
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1693,13 +1693,13 @@ Libyan     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Defending.Defender
-_SOMEONE     -- negative ->    Libyan
+Defending.Defender pos ?_t
+Libyan     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Defending.Defender pos ?_t
-Libyan     -- positive ->     _SOMETHING
+?_s pos Defending.Defender
+_SOMEONE     -- positive ->     Libyan
 
 ----------------------------------------------------------------------------------------------------
 

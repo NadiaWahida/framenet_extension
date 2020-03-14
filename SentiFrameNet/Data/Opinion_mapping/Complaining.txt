@@ -38,13 +38,13 @@ you     -- negative ->    about it
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-you     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about it
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about it
+Complaining.Complainer neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -68,13 +68,13 @@ I     -- negative ->    about a certain person at work
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-I     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about a certain person at work
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about a certain person at work
+Complaining.Complainer neg ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -98,13 +98,13 @@ they     -- negative ->    about the bones
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-they     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about the bones
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about the bones
+Complaining.Complainer neg ?_t
+they     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -128,13 +128,13 @@ she     -- negative ->    about sexism
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-she     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about sexism
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about sexism
+Complaining.Complainer neg ?_t
+she     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -158,13 +158,13 @@ who     -- negative ->    about forwards diving
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about forwards diving
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about forwards diving
+Complaining.Complainer neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -238,13 +238,13 @@ Lewis-Ann     -- negative ->    about being too hot
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-Lewis-Ann     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about being too hot
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about being too hot
+Complaining.Complainer neg ?_t
+Lewis-Ann     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -368,13 +368,13 @@ Pilots     -- negative ->    about being rushed through their cockpit drills
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-Pilots     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about being rushed through their cockpit drills
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about being rushed through their cockpit drills
+Complaining.Complainer neg ?_t
+Pilots     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -398,13 +398,13 @@ He     -- negative ->    about having to flog electric storage heaters anyway
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-He     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about having to flog electric storage heaters anyway
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about having to flog electric storage heaters anyway
+Complaining.Complainer neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -468,13 +468,13 @@ He     -- negative ->    about Tory colleagues
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-He     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about Tory colleagues
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about Tory colleagues
+Complaining.Complainer neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -538,13 +538,13 @@ she     -- negative ->    about the incident at Newcastle Crown Court
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-she     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about the incident at Newcastle Crown Court
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about the incident at Newcastle Crown Court
+Complaining.Complainer neg ?_t
+she     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -798,13 +798,13 @@ He     -- negative ->    about other members of the team , but of people we knew
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-He     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about other members of the team , but of people we knew
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about other members of the team , but of people we knew
+Complaining.Complainer neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -828,13 +828,13 @@ he     -- negative ->    about all matters technical
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about all matters technical
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about all matters technical
+Complaining.Complainer neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -918,13 +918,13 @@ American     -- negative ->    against Japan
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-American     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    against Japan
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    against Japan
+Complaining.Complainer neg ?_t
+American     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -978,13 +978,13 @@ of the British Party     -- negative ->    against the NUWM
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-of the British Party     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    against the NUWM
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    against the NUWM
+Complaining.Complainer neg ?_t
+of the British Party     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1008,13 +1008,13 @@ who     -- negative ->    with the quality of care offered
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    with the quality of care offered
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    with the quality of care offered
+Complaining.Complainer neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1078,13 +1078,13 @@ she     -- negative ->    about-the attack
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-she     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about-the attack
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about-the attack
+Complaining.Complainer neg ?_t
+she     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1128,13 +1128,13 @@ My     -- negative ->    about the game
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-My     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about the game
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about the game
+Complaining.Complainer neg ?_t
+My     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1158,13 +1158,13 @@ My     -- negative ->    about this book
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-My     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about this book
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about this book
+Complaining.Complainer neg ?_t
+My     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1188,13 +1188,13 @@ my     -- negative ->    about words not in my dictionary
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-my     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about words not in my dictionary
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about words not in my dictionary
+Complaining.Complainer neg ?_t
+my     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1218,13 +1218,13 @@ your     -- negative ->    against this girl
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-your     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    against this girl
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    against this girl
+Complaining.Complainer neg ?_t
+your     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1248,13 +1248,13 @@ My     -- negative ->    concerning students of modern sediments
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-My     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    concerning students of modern sediments
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    concerning students of modern sediments
+Complaining.Complainer neg ?_t
+My     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1358,13 +1358,13 @@ the newspaper SonntagsZeitung     -- negative ->    about the criticism raining 
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-the newspaper SonntagsZeitung     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about the criticism raining on Switzerland
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about the criticism raining on Switzerland
+Complaining.Complainer neg ?_t
+the newspaper SonntagsZeitung     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1508,13 +1508,13 @@ you     -- negative ->    about it
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-you     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about it
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about it
+Complaining.Complainer neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1538,13 +1538,13 @@ I     -- negative ->    about a certain person at work
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-I     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about a certain person at work
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about a certain person at work
+Complaining.Complainer neg ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1588,13 +1588,13 @@ Manuel Lujan     -- negative ->    about a Japanese firm taking over a company o
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-Manuel Lujan     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about a Japanese firm taking over a company operating under a government concession in Yosemite National Park
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about a Japanese firm taking over a company operating under a government concession in Yosemite National Park
+Complaining.Complainer neg ?_t
+Manuel Lujan     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1618,13 +1618,13 @@ they     -- negative ->    about scheduling or funding
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-they     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about scheduling or funding
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about scheduling or funding
+Complaining.Complainer neg ?_t
+they     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1648,13 +1648,13 @@ Tock     -- negative ->    about them being useful if you were lost
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-Tock     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about them being useful if you were lost
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about them being useful if you were lost
+Complaining.Complainer neg ?_t
+Tock     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1678,13 +1678,13 @@ He     -- negative ->    about the ` disgusting " provincial life we had to lead
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-He     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about the ` disgusting " provincial life we had to lead on the island
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about the ` disgusting " provincial life we had to lead on the island
+Complaining.Complainer neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1768,13 +1768,13 @@ him     -- negative ->    about lazy teachers with 6 weeks holiday
 
 ----------------------------------------------------------------------------------------------------
 
-Complaining.Complainer neg ?_t
-him     -- negative ->    _SOMETHING
+?_s neg Complaining.Topic
+_SOMEONE     -- negative ->    about lazy teachers with 6 weeks holiday
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Complaining.Topic
-_SOMEONE     -- negative ->    about lazy teachers with 6 weeks holiday
+Complaining.Complainer neg ?_t
+him     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 

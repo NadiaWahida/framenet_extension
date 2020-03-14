@@ -138,13 +138,13 @@ the terrorist group     -- negative ->    the City
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the City
+Destroying.Destroyer neg ?_t
+the terrorist group     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-the terrorist group     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the City
 
 ----------------------------------------------------------------------------------------------------
 
@@ -368,13 +368,13 @@ Gog     -- negative ->    Zadak 's forest
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    Zadak 's forest
+Destroying.Destroyer neg ?_t
+Gog     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Gog     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    Zadak 's forest
 
 ----------------------------------------------------------------------------------------------------
 
@@ -418,13 +418,13 @@ who     -- negative ->    the last threads of his Test confidence
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the last threads of his Test confidence
+Destroying.Destroyer neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the last threads of his Test confidence
 
 ----------------------------------------------------------------------------------------------------
 
@@ -508,13 +508,13 @@ who     -- negative ->    all that is best in our community
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    all that is best in our community
+Destroying.Destroyer neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    all that is best in our community
 
 ----------------------------------------------------------------------------------------------------
 
@@ -538,13 +538,13 @@ The bomb dis    -- positive ->    al unit     -- negative ->    the bomb
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the bomb
+Destroying.Destroyer neg ?_t
+The bomb dis    -- positive ->    al unit     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-The bomb dis    -- positive ->    al unit     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the bomb
 
 ----------------------------------------------------------------------------------------------------
 
@@ -588,13 +588,13 @@ you     -- negative ->    the beneficial bacteria that have built up the efficie
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the beneficial bacteria that have built up the efficiency of the filter unit
+Destroying.Destroyer neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-you     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the beneficial bacteria that have built up the efficiency of the filter unit
 
 ----------------------------------------------------------------------------------------------------
 
@@ -618,13 +618,13 @@ Government backbenchers     -- negative ->    the Devolution Bill
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the Devolution Bill
+Destroying.Destroyer neg ?_t
+Government backbenchers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Government backbenchers     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the Devolution Bill
 
 ----------------------------------------------------------------------------------------------------
 
@@ -768,13 +768,13 @@ its fighters     -- negative ->    the column
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the column
+Destroying.Destroyer neg ?_t
+its fighters     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-its fighters     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the column
 
 ----------------------------------------------------------------------------------------------------
 
@@ -818,13 +818,13 @@ he     -- negative ->    the most influential man in the country
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the most influential man in the country
+Destroying.Destroyer neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the most influential man in the country
 
 ----------------------------------------------------------------------------------------------------
 
@@ -848,13 +848,13 @@ who     -- negative ->    the women he lives with
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the women he lives with
+Destroying.Destroyer neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the women he lives with
 
 ----------------------------------------------------------------------------------------------------
 
@@ -878,13 +878,13 @@ Kazakhstan     -- negative ->    Soviet weapons systems and facilities left on i
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    Soviet weapons systems and facilities left on its territory
+Destroying.Destroyer neg ?_t
+Kazakhstan     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Kazakhstan     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    Soviet weapons systems and facilities left on its territory
 
 ----------------------------------------------------------------------------------------------------
 
@@ -908,13 +908,13 @@ Kazakhstan     -- negative ->    the nuclear testing infrastructure at Semipalat
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the nuclear testing infrastructure at Semipalatinsk
+Destroying.Destroyer neg ?_t
+Kazakhstan     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Kazakhstan     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the nuclear testing infrastructure at Semipalatinsk
 
 ----------------------------------------------------------------------------------------------------
 
@@ -958,13 +958,13 @@ it     -- negative ->    chemical weapons production equipment
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    chemical weapons production equipment
+Destroying.Destroyer neg ?_t
+it     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-it     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    chemical weapons production equipment
 
 ----------------------------------------------------------------------------------------------------
 
@@ -988,13 +988,13 @@ which     -- negative ->    350 tons of nerve agent
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    350 tons of nerve agent
+Destroying.Destroyer neg ?_t
+which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-which     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    350 tons of nerve agent
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1018,13 +1018,13 @@ They     -- negative ->    their enemies
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    their enemies
+Destroying.Destroyer neg ?_t
+They     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-They     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    their enemies
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1048,13 +1048,13 @@ they     -- negative ->    the chemical munitions that Anniston Chemical Activit
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the chemical munitions that Anniston Chemical Activity stores
+Destroying.Destroyer neg ?_t
+they     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-they     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the chemical munitions that Anniston Chemical Activity stores
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1078,13 +1078,13 @@ the Assyrian armies of Sennacherib     -- negative ->    Israel
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    Israel
+Destroying.Destroyer neg ?_t
+the Assyrian armies of Sennacherib     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-the Assyrian armies of Sennacherib     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    Israel
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1148,13 +1148,13 @@ which     -- negative ->    over 100 buildings
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    over 100 buildings
+Destroying.Destroyer neg ?_t
+which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-which     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    over 100 buildings
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1178,13 +1178,13 @@ Constance     -- negative ->    the majority of the old foundry buildings
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the majority of the old foundry buildings
+Destroying.Destroyer neg ?_t
+Constance     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Constance     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the majority of the old foundry buildings
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1208,13 +1208,13 @@ owners     -- negative ->    a building
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    a building
+Destroying.Destroyer neg ?_t
+owners     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-owners     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    a building
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1238,13 +1238,13 @@ Lord Chesterfield     -- negative ->    the original house
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the original house
+Destroying.Destroyer neg ?_t
+Lord Chesterfield     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Lord Chesterfield     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the original house
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1288,13 +1288,13 @@ WORKMEN     -- negative ->    a warehouse at Eastwood , Notts ,
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    a warehouse at Eastwood , Notts ,
+Destroying.Destroyer neg ?_t
+WORKMEN     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-WORKMEN     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    a warehouse at Eastwood , Notts ,
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1318,13 +1318,13 @@ Mr Anderson of Coatham Avenue     -- negative ->    a garage
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    a garage
+Destroying.Destroyer neg ?_t
+Mr Anderson of Coatham Avenue     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Mr Anderson of Coatham Avenue     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    a garage
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1348,13 +1348,13 @@ I     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    it
+Destroying.Destroyer neg ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-I     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1378,13 +1378,13 @@ by the property developer , Mr Peter Palumbo     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    which
+Destroying.Destroyer neg ?_t
+by the property developer , Mr Peter Palumbo     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by the property developer , Mr Peter Palumbo     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1408,13 +1408,13 @@ by Cromwell     -- negative ->    It
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    It
+Destroying.Destroyer neg ?_t
+by Cromwell     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by Cromwell     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    It
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1438,13 +1438,13 @@ by a Hindu mob     -- negative ->    a mosque
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    a mosque
+Destroying.Destroyer neg ?_t
+by a Hindu mob     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by a Hindu mob     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    a mosque
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1468,13 +1468,13 @@ He     -- negative ->    them
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    them
+Destroying.Destroyer neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-He     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    them
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1498,13 +1498,13 @@ by the Japanese     -- negative ->    the building
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the building
+Destroying.Destroyer neg ?_t
+by the Japanese     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by the Japanese     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the building
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1548,13 +1548,13 @@ the president     -- negative ->    a wall
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    a wall
+Destroying.Destroyer neg ?_t
+the president     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-the president     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    a wall
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1598,13 +1598,13 @@ Raimondi     -- negative ->    trailers that are left behind
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    trailers that are left behind
+Destroying.Destroyer neg ?_t
+Raimondi     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Raimondi     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    trailers that are left behind
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1628,13 +1628,13 @@ He     -- negative ->    them
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    them
+Destroying.Destroyer neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-He     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    them
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1658,13 +1658,13 @@ by the Japanese     -- negative ->    the building
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the building
+Destroying.Destroyer neg ?_t
+by the Japanese     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by the Japanese     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the building
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1748,13 +1748,13 @@ someone     -- negative ->    the myth of Carter 's alleged brilliance
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the myth of Carter 's alleged brilliance
+Destroying.Destroyer neg ?_t
+someone     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-someone     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the myth of Carter 's alleged brilliance
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1778,13 +1778,13 @@ Wieseltier     -- negative ->    West 's stature
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    West 's stature
+Destroying.Destroyer neg ?_t
+Wieseltier     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Wieseltier     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    West 's stature
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1808,13 +1808,13 @@ by the GAO 's actuaries and by a counterstudy by the Center on Budget and Policy
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    Its study
+Destroying.Destroyer neg ?_t
+by the GAO 's actuaries and by a counterstudy by the Center on Budget and Policy Priorities , a liberal think tank     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by the GAO 's actuaries and by a counterstudy by the Center on Budget and Policy Priorities , a liberal think tank     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    Its study
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1838,13 +1838,13 @@ he     -- negative ->    most of Bill Gates ' arguments
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    most of Bill Gates ' arguments
+Destroying.Destroyer neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    most of Bill Gates ' arguments
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1868,13 +1868,13 @@ he     -- negative ->    the anti-empathy argument
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the anti-empathy argument
+Destroying.Destroyer neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the anti-empathy argument
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1898,13 +1898,13 @@ Franklin and Wilkins     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    it
+Destroying.Destroyer neg ?_t
+Franklin and Wilkins     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Franklin and Wilkins     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1948,13 +1948,13 @@ Barbarossa     -- negative ->    Spoleto , which had paid him tribute earlier in
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    Spoleto , which had paid him tribute earlier in false money
+Destroying.Destroyer neg ?_t
+Barbarossa     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Barbarossa     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    Spoleto , which had paid him tribute earlier in false money
 
 ----------------------------------------------------------------------------------------------------
 
@@ -1978,13 +1978,13 @@ by imperial troops     -- negative ->    Milan
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    Milan
+Destroying.Destroyer neg ?_t
+by imperial troops     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by imperial troops     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    Milan
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2008,13 +2008,13 @@ I     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    it
+Destroying.Destroyer neg ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-I     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2038,13 +2038,13 @@ by Azerbaijani and Soviet troops     -- negative ->    the village of Voskepar ,
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the village of Voskepar , in the north-east corner of Armenia close to the border with Azerbaijan
+Destroying.Destroyer neg ?_t
+by Azerbaijani and Soviet troops     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by Azerbaijani and Soviet troops     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the village of Voskepar , in the north-east corner of Armenia close to the border with Azerbaijan
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2088,13 +2088,13 @@ they     -- negative ->    the settlements on Naxos
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the settlements on Naxos
+Destroying.Destroyer neg ?_t
+they     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-they     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the settlements on Naxos
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2118,13 +2118,13 @@ Gog     -- negative ->    Zadak 's forest
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    Zadak 's forest
+Destroying.Destroyer neg ?_t
+Gog     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Gog     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    Zadak 's forest
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2168,13 +2168,13 @@ who     -- negative ->    the last threads of his Test confidence
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the last threads of his Test confidence
+Destroying.Destroyer neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the last threads of his Test confidence
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2258,13 +2258,13 @@ who     -- negative ->    all that is best in our community
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    all that is best in our community
+Destroying.Destroyer neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    all that is best in our community
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2288,13 +2288,13 @@ The bomb dis    -- positive ->    al unit     -- negative ->    the bomb
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the bomb
+Destroying.Destroyer neg ?_t
+The bomb dis    -- positive ->    al unit     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-The bomb dis    -- positive ->    al unit     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the bomb
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2338,13 +2338,13 @@ you     -- negative ->    the beneficial bacteria that have built up the efficie
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the beneficial bacteria that have built up the efficiency of the filter unit
+Destroying.Destroyer neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-you     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the beneficial bacteria that have built up the efficiency of the filter unit
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2368,13 +2368,13 @@ Government backbenchers     -- negative ->    the Devolution Bill
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the Devolution Bill
+Destroying.Destroyer neg ?_t
+Government backbenchers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Government backbenchers     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the Devolution Bill
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2518,13 +2518,13 @@ its fighters     -- negative ->    the column
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the column
+Destroying.Destroyer neg ?_t
+its fighters     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-its fighters     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the column
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2568,13 +2568,13 @@ he     -- negative ->    the most influential man in the country
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the most influential man in the country
+Destroying.Destroyer neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the most influential man in the country
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2598,13 +2598,13 @@ who     -- negative ->    the women he lives with
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the women he lives with
+Destroying.Destroyer neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the women he lives with
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2628,13 +2628,13 @@ Kazakhstan     -- negative ->    Soviet weapons systems and facilities left on i
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    Soviet weapons systems and facilities left on its territory
+Destroying.Destroyer neg ?_t
+Kazakhstan     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Kazakhstan     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    Soviet weapons systems and facilities left on its territory
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2658,13 +2658,13 @@ Kazakhstan     -- negative ->    the nuclear testing infrastructure at Semipalat
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the nuclear testing infrastructure at Semipalatinsk
+Destroying.Destroyer neg ?_t
+Kazakhstan     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Kazakhstan     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the nuclear testing infrastructure at Semipalatinsk
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2708,13 +2708,13 @@ it     -- negative ->    chemical weapons production equipment
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    chemical weapons production equipment
+Destroying.Destroyer neg ?_t
+it     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-it     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    chemical weapons production equipment
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2738,13 +2738,13 @@ which     -- negative ->    350 tons of nerve agent
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    350 tons of nerve agent
+Destroying.Destroyer neg ?_t
+which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-which     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    350 tons of nerve agent
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2768,13 +2768,13 @@ They     -- negative ->    their enemies
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    their enemies
+Destroying.Destroyer neg ?_t
+They     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-They     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    their enemies
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2798,13 +2798,13 @@ they     -- negative ->    the chemical munitions that Anniston Chemical Activit
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the chemical munitions that Anniston Chemical Activity stores
+Destroying.Destroyer neg ?_t
+they     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-they     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the chemical munitions that Anniston Chemical Activity stores
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2828,13 +2828,13 @@ the Assyrian armies of Sennacherib     -- negative ->    Israel
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    Israel
+Destroying.Destroyer neg ?_t
+the Assyrian armies of Sennacherib     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-the Assyrian armies of Sennacherib     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    Israel
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2898,13 +2898,13 @@ which     -- negative ->    over 100 buildings
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    over 100 buildings
+Destroying.Destroyer neg ?_t
+which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-which     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    over 100 buildings
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2928,13 +2928,13 @@ Major groups     -- negative ->    other major groups
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    other major groups
+Destroying.Destroyer neg ?_t
+Major groups     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Major groups     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    other major groups
 
 ----------------------------------------------------------------------------------------------------
 
@@ -2958,13 +2958,13 @@ your husband     -- negative ->    these recordings
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    these recordings
+Destroying.Destroyer neg ?_t
+your husband     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-your husband     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    these recordings
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3108,13 +3108,13 @@ the terrorist group     -- negative ->    the City
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the City
+Destroying.Destroyer neg ?_t
+the terrorist group     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-the terrorist group     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the City
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3338,13 +3338,13 @@ who     -- negative ->    all who get in his way
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    all who get in his way
+Destroying.Destroyer neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    all who get in his way
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3368,13 +3368,13 @@ by the Scots under Robert Bruce     -- negative ->    the English army
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the English army
+Destroying.Destroyer neg ?_t
+by the Scots under Robert Bruce     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by the Scots under Robert Bruce     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the English army
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3398,13 +3398,13 @@ Constance     -- negative ->    the majority of the old foundry buildings
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the majority of the old foundry buildings
+Destroying.Destroyer neg ?_t
+Constance     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Constance     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the majority of the old foundry buildings
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3428,13 +3428,13 @@ owners     -- negative ->    a building
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    a building
+Destroying.Destroyer neg ?_t
+owners     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-owners     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    a building
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3458,13 +3458,13 @@ Lord Chesterfield     -- negative ->    the original house
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the original house
+Destroying.Destroyer neg ?_t
+Lord Chesterfield     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Lord Chesterfield     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the original house
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3508,13 +3508,13 @@ WORKMEN     -- negative ->    a warehouse at Eastwood , Notts ,
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    a warehouse at Eastwood , Notts ,
+Destroying.Destroyer neg ?_t
+WORKMEN     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-WORKMEN     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    a warehouse at Eastwood , Notts ,
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3538,13 +3538,13 @@ Mr Anderson of Coatham Avenue     -- negative ->    a garage
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    a garage
+Destroying.Destroyer neg ?_t
+Mr Anderson of Coatham Avenue     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Mr Anderson of Coatham Avenue     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    a garage
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3568,13 +3568,13 @@ I     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    it
+Destroying.Destroyer neg ?_t
+I     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-I     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3598,13 +3598,13 @@ by the property developer , Mr Peter Palumbo     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    which
+Destroying.Destroyer neg ?_t
+by the property developer , Mr Peter Palumbo     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by the property developer , Mr Peter Palumbo     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    which
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3628,13 +3628,13 @@ by Cromwell     -- negative ->    It
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    It
+Destroying.Destroyer neg ?_t
+by Cromwell     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by Cromwell     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    It
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3658,13 +3658,13 @@ by a Hindu mob     -- negative ->    a mosque
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    a mosque
+Destroying.Destroyer neg ?_t
+by a Hindu mob     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by a Hindu mob     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    a mosque
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3688,13 +3688,13 @@ He     -- negative ->    them
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    them
+Destroying.Destroyer neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-He     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    them
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3718,13 +3718,13 @@ by the Japanese     -- negative ->    the building
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the building
+Destroying.Destroyer neg ?_t
+by the Japanese     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by the Japanese     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the building
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3768,13 +3768,13 @@ the president     -- negative ->    a wall
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    a wall
+Destroying.Destroyer neg ?_t
+the president     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-the president     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    a wall
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3818,13 +3818,13 @@ Raimondi     -- negative ->    trailers that are left behind
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    trailers that are left behind
+Destroying.Destroyer neg ?_t
+Raimondi     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Raimondi     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    trailers that are left behind
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3848,13 +3848,13 @@ He     -- negative ->    them
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    them
+Destroying.Destroyer neg ?_t
+He     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-He     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    them
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3878,13 +3878,13 @@ by the Japanese     -- negative ->    the building
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the building
+Destroying.Destroyer neg ?_t
+by the Japanese     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by the Japanese     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the building
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3968,13 +3968,13 @@ someone     -- negative ->    the myth of Carter 's alleged brilliance
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the myth of Carter 's alleged brilliance
+Destroying.Destroyer neg ?_t
+someone     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-someone     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the myth of Carter 's alleged brilliance
 
 ----------------------------------------------------------------------------------------------------
 
@@ -3998,13 +3998,13 @@ Wieseltier     -- negative ->    West 's stature
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    West 's stature
+Destroying.Destroyer neg ?_t
+Wieseltier     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Wieseltier     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    West 's stature
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4028,13 +4028,13 @@ by the GAO 's actuaries and by a counterstudy by the Center on Budget and Policy
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    Its study
+Destroying.Destroyer neg ?_t
+by the GAO 's actuaries and by a counterstudy by the Center on Budget and Policy Priorities , a liberal think tank     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by the GAO 's actuaries and by a counterstudy by the Center on Budget and Policy Priorities , a liberal think tank     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    Its study
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4058,13 +4058,13 @@ he     -- negative ->    most of Bill Gates ' arguments
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    most of Bill Gates ' arguments
+Destroying.Destroyer neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    most of Bill Gates ' arguments
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4088,13 +4088,13 @@ he     -- negative ->    the anti-empathy argument
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the anti-empathy argument
+Destroying.Destroyer neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the anti-empathy argument
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4118,13 +4118,13 @@ Franklin and Wilkins     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    it
+Destroying.Destroyer neg ?_t
+Franklin and Wilkins     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Franklin and Wilkins     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    it
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4148,13 +4148,13 @@ Wynn 's     -- negative ->    of the existing properties
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    of the existing properties
+Destroying.Destroyer neg ?_t
+Wynn 's     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Wynn 's     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    of the existing properties
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4178,13 +4178,13 @@ Kazakhstan     -- negative ->    Soviet weapons systems and facilities left on i
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    Soviet weapons systems and facilities left on its territory
+Destroying.Destroyer neg ?_t
+Kazakhstan     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Kazakhstan     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    Soviet weapons systems and facilities left on its territory
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4208,13 +4208,13 @@ the first and , to date , only country     -- negative ->    its entire nuclear 
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    its entire nuclear weapons program
+Destroying.Destroyer neg ?_t
+the first and , to date , only country     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-the first and , to date , only country     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    its entire nuclear weapons program
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4293,13 +4293,13 @@ which     -- negative ->    well over ten thousand hectares of land
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    well over ten thousand hectares of land
+Destroying.Destroyer neg ?_t
+which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-which     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    well over ten thousand hectares of land
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4323,13 +4323,13 @@ who     -- negative ->    all who get in his way
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    all who get in his way
+Destroying.Destroyer neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    all who get in his way
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4353,13 +4353,13 @@ by the Scots under Robert Bruce     -- negative ->    the English army
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the English army
+Destroying.Destroyer neg ?_t
+by the Scots under Robert Bruce     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-by the Scots under Robert Bruce     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the English army
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4383,13 +4383,13 @@ Gog     -- negative ->    Zadak 's forest
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    Zadak 's forest
+Destroying.Destroyer neg ?_t
+Gog     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Gog     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    Zadak 's forest
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4433,13 +4433,13 @@ who     -- negative ->    the last threads of his Test confidence
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the last threads of his Test confidence
+Destroying.Destroyer neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the last threads of his Test confidence
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4523,13 +4523,13 @@ who     -- negative ->    all that is best in our community
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    all that is best in our community
+Destroying.Destroyer neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    all that is best in our community
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4553,13 +4553,13 @@ The bomb dis    -- positive ->    al unit     -- negative ->    the bomb
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the bomb
+Destroying.Destroyer neg ?_t
+The bomb dis    -- positive ->    al unit     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-The bomb dis    -- positive ->    al unit     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the bomb
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4603,13 +4603,13 @@ you     -- negative ->    the beneficial bacteria that have built up the efficie
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the beneficial bacteria that have built up the efficiency of the filter unit
+Destroying.Destroyer neg ?_t
+you     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-you     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the beneficial bacteria that have built up the efficiency of the filter unit
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4633,13 +4633,13 @@ Government backbenchers     -- negative ->    the Devolution Bill
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the Devolution Bill
+Destroying.Destroyer neg ?_t
+Government backbenchers     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Government backbenchers     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the Devolution Bill
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4783,13 +4783,13 @@ its fighters     -- negative ->    the column
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the column
+Destroying.Destroyer neg ?_t
+its fighters     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-its fighters     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the column
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4833,13 +4833,13 @@ he     -- negative ->    the most influential man in the country
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the most influential man in the country
+Destroying.Destroyer neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the most influential man in the country
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4863,13 +4863,13 @@ who     -- negative ->    the women he lives with
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the women he lives with
+Destroying.Destroyer neg ?_t
+who     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-who     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the women he lives with
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4893,13 +4893,13 @@ Kazakhstan     -- negative ->    Soviet weapons systems and facilities left on i
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    Soviet weapons systems and facilities left on its territory
+Destroying.Destroyer neg ?_t
+Kazakhstan     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Kazakhstan     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    Soviet weapons systems and facilities left on its territory
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4923,13 +4923,13 @@ Kazakhstan     -- negative ->    the nuclear testing infrastructure at Semipalat
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the nuclear testing infrastructure at Semipalatinsk
+Destroying.Destroyer neg ?_t
+Kazakhstan     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-Kazakhstan     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the nuclear testing infrastructure at Semipalatinsk
 
 ----------------------------------------------------------------------------------------------------
 
@@ -4973,13 +4973,13 @@ it     -- negative ->    chemical weapons production equipment
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    chemical weapons production equipment
+Destroying.Destroyer neg ?_t
+it     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-it     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    chemical weapons production equipment
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5003,13 +5003,13 @@ which     -- negative ->    350 tons of nerve agent
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    350 tons of nerve agent
+Destroying.Destroyer neg ?_t
+which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-which     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    350 tons of nerve agent
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5033,13 +5033,13 @@ They     -- negative ->    their enemies
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    their enemies
+Destroying.Destroyer neg ?_t
+They     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-They     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    their enemies
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5063,13 +5063,13 @@ they     -- negative ->    the chemical munitions that Anniston Chemical Activit
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    the chemical munitions that Anniston Chemical Activity stores
+Destroying.Destroyer neg ?_t
+they     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-they     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    the chemical munitions that Anniston Chemical Activity stores
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5093,13 +5093,13 @@ the Assyrian armies of Sennacherib     -- negative ->    Israel
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    Israel
+Destroying.Destroyer neg ?_t
+the Assyrian armies of Sennacherib     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-the Assyrian armies of Sennacherib     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    Israel
 
 ----------------------------------------------------------------------------------------------------
 
@@ -5163,13 +5163,13 @@ which     -- negative ->    over 100 buildings
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Destroying.Patient
-_SOMEONE     -- negative ->    over 100 buildings
+Destroying.Destroyer neg ?_t
+which     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-Destroying.Destroyer neg ?_t
-which     -- negative ->    _SOMETHING
+?_s neg Destroying.Patient
+_SOMEONE     -- negative ->    over 100 buildings
 
 ----------------------------------------------------------------------------------------------------
 

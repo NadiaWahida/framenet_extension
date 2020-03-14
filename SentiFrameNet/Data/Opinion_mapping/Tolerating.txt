@@ -13,13 +13,13 @@ he     -- negative ->    to part with ,
 
 ----------------------------------------------------------------------------------------------------
 
-Tolerating.Experiencer neg ?_t
-he     -- negative ->    _SOMETHING
+?_s neg Tolerating.Content
+_SOMEONE     -- negative ->    to part with ,
 
 ----------------------------------------------------------------------------------------------------
 
-?_s neg Tolerating.Content
-_SOMEONE     -- negative ->    to part with ,
+Tolerating.Experiencer neg ?_t
+he     -- negative ->    _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 

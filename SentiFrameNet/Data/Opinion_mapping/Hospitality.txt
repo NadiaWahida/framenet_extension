@@ -23,8 +23,8 @@ to Russian graduates     -- positive ->     the Board
 
 ----------------------------------------------------------------------------------------------------
 
-Hospitality.Guest pos ?_t
-to Russian graduates     -- positive ->     _SOMETHING
+?_s pos Hospitality.Guest
+_SOMEONE     -- positive ->     to Russian graduates
 
 ----------------------------------------------------------------------------------------------------
 
@@ -33,13 +33,13 @@ the Board     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Hospitality.Guest
-_SOMEONE     -- positive ->     to Russian graduates
+?_s pos Hospitality.Host
+_SOMEONE     -- positive ->     the Board
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Hospitality.Host
-_SOMEONE     -- positive ->     the Board
+Hospitality.Guest pos ?_t
+to Russian graduates     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
@@ -63,13 +63,13 @@ her     -- positive ->     _SOMETHING
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Hospitality.Behavior
-_SOMEONE     -- positive ->     manner
+?_s pos Hospitality.Host
+_SOMEONE     -- positive ->     her
 
 ----------------------------------------------------------------------------------------------------
 
-?_s pos Hospitality.Host
-_SOMEONE     -- positive ->     her
+?_s pos Hospitality.Behavior
+_SOMEONE     -- positive ->     manner
 
 ----------------------------------------------------------------------------------------------------
 
