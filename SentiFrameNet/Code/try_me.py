@@ -21,45 +21,45 @@ FE_TARGET = '../Data/target_elements.txt'
 HELP = '../Data/print_help.txt'
 
 def print_annotation_opinions(word, n=3):
-    correct = True
+    #correct = True
     if '.' in word:
-        try:
-            annotations = annotations_by_lu[word]
-        except:
-            correct = False
+        #try:
+        annotations = annotations_by_lu[word]
+        #except:
+            #correct = False
     else:
-        try:
-            annotations = annotations_by_frame[word]
-        except:
-            correct = False
-    if correct==False:
-        print('\n ------------------------------INVALID INPUT------------------------------\n')
-        ask_for_word()
+        #try:
+        annotations = annotations_by_frame[word]
+        #except:
+            #correct = False
+    #if correct==False:
+        #print('\n ------------------------------INVALID INPUT------------------------------\n')
+        #ask_for_word()
+    #else:
+    if len(annotations) < n:
+        print('\n Only ', len(annotations), ' annotation(s) for ', word, ' were found: \n')
     else:
-        if len(annotations) < n:
-            print('\n Only ', len(annotations), ' annotation(s) for ', word, ' were found: \n')
-        else:
-            annotations = random.choices(annotations, k=n)
-        print('\nOpinion Mapping for: ',word,'\n') 
+        annotations = random.choices(annotations, k=n)
+    print('\nOpinion Mapping for: ',word,'\n') 
+    print('#'*100)
+    for annotation in annotations:
+        mapping = c2a.map_constraints_to_annotation(annotation, constraints)
+        (solutions, solutions_with_vars) = mapping
+        for el in annotation.items():
+            print(el[0]+':  '+str(el[1]))
+        print('='*100)
+        i = 1
+        for el in solutions:
+            print(str(i)+'.)\t',el[0])
+            print('\t',el[1])
+            print('-'*100)
+            i+=1
+        for el in solutions_with_vars:
+            print(str(i)+'.)\t',el[0])
+            print('\t',el[1])
+            print('-'*100)
+            i+=1
         print('#'*100)
-        for annotation in annotations:
-            mapping = c2a.map_constraints_to_annotation(annotation, constraints)
-            (solutions, solutions_with_vars) = mapping
-            for el in annotation.items():
-                print(el[0]+':  '+str(el[1]))
-            print('='*100)
-            i = 1
-            for el in solutions:
-                print(str(i)+'.)\t',el[0])
-                print('\t',el[1])
-                print('-'*100)
-                i+=1
-            for el in solutions_with_vars:
-                print(str(i)+'.)\t',el[0])
-                print('\t',el[1])
-                print('-'*100)
-                i+=1
-            print('#'*100)
     ask_for_instruction()
             
 def welcome():

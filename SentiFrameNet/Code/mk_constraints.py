@@ -4,6 +4,9 @@
 Created on Thu Feb 27 13:32:23 2020
 
 @author: Nadia Arslan
+
+This module makes Constraints for SentiFrames.
+
 """
 from nltk.corpus import framenet as fn
 

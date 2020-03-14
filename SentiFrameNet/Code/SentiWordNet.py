@@ -3,7 +3,10 @@
 """
 Created on Thu Mar  5 14:22:22 2020
 
-@author: nadia
+@author: Nadia Arslan
+
+This function looks up a word (and optional it's POS-Tag) in SentiWordNet
+and returns the sentiment with the highest score
 """
 
 from nltk.corpus import sentiwordnet as swn
@@ -13,7 +16,8 @@ def get_sentiment(word, POS='no'):
     This function looks up a word (and optional it's POS-Tag) in SentiWordNet,
     adds up positive and negative Scores of the found synsets
     returns the sentiment with the highest score
-    returns neutral if both scores are zero
+    returns neutral if both scores are equal
+    returns no_entry if no entry was found
 
     Parameters
     ----------

@@ -11,7 +11,6 @@ one dictionary a line
 dict like: {'lu':lu, 'frame':frame, 'text':text, 'Target':target, 'FE':fes}
 """
 from nltk.corpus import framenet as fn
-FRAME_POLARITY = '../Data/Senti_Frames_mit_Framepolarity.txt'
 INPUT = '../Data/Senti_Frames.txt'
 OUTPUT = '../Data/annotated_sents_from_FrameNet.txt'
 
@@ -83,7 +82,7 @@ def get_annotations(lu):
     with open(OUTPUT,'w') as f:
         for line in data:
             f.writelines(str(line)+'\n')
-            
+      
 if __name__ == '__main__':
     
     with open(INPUT,'r') as f:

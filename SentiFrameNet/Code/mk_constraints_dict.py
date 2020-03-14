@@ -6,7 +6,7 @@ Created on Tue Mar  3 12:38:22 2020
 @author: Nadia Arslan
 
 This module reshapes constraints of SentiFrames and stores them to a dictionary,
-'../Data/Constraints/Frameconstraints_with_Polarity.json',
+'../Data/Constraints/Frameconstraints.json',
 like: {frame:['constraint1','constraint2',...],...}
 """
 import os

@@ -3,7 +3,12 @@
 """
 Created on Thu Mar  5 11:11:35 2020
 
-@author: nadia
+@author: Nadia Arslan
+
+This module mapps annotated sentences to their Opinion Constraints
+of the SentiFrame they evoke.
+Mappings are saved in: '../Data/Opinion_mapping/'
+
 """
 import json
 import re
@@ -114,17 +119,15 @@ if __name__ == '__main__':
         constraints = json.load(f)
     with open(ANNOTATIONS,'r') as f:
         annotations = [eval(line.strip()) for line in f.readlines()]
-    #annotation = annotations[0]
     for i, annotation in enumerate(annotations):
-        if i%1000==0:
+        if i%100==0:
             print(i,' of ',len(annotations),' processed')
-            #break
         if annotation['frame'] not in constraints.keys():
-            print(annotation['frame'])
+            #print(annotation['frame'])
             continue
         else:
             mapping = map_constraints_to_annotation(annotation, constraints)
             if len(mapping)!=0:
                 (solutions, solutions_with_vars) = mapping
-                print(solutions)
+                #print(solutions)
                 write_to_file(annotation, solutions, solutions_with_vars)
