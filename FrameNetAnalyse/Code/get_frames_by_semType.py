@@ -25,7 +25,7 @@ for frame in frames:
     for sem_type in frame.semTypes:
 		# if this semantic type in frame.sem_types 
         if sem_type.name in sem_types:
-			# print frame and frame ID  with semantic type from input into frame_dict  
+	    # print frame and frame ID  with semantic type from input into frame_dict  
             # print(frame.name, frame.ID)
             frame_dict[sem_type.name].append({'frame_name': frame.name, 'frame_id': frame.ID})
 # write to the OUTPUT
